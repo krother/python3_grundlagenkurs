@@ -29,8 +29,8 @@ Das Feld entwickelt sich seit einigen Jahren rasant. Schneller als ich irgend et
 
 ![Überblick Machine Learning-Verfahren](images/ML_overview.png)
 
-{% include "core_concepts.md" %}
-{% include "classification.md" %}
-{% include "regression.md" %}
-{% include "unsupervised.md" %}
-{% include "other.md" %}
+* [Grundlagen](core_concepts.md)
+* [Klassifikation](classification.md)
+* [Regression](regression.md)
+* [Unüberwachtes Lernen](unsupervised.md)
+* [Andere](other.md)

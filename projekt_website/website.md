@@ -81,7 +81,7 @@ Wir können aus den Python-Funktionen Daten an ein Template schicken, indem wir 
 
 In den HTML-Templates kannst Du diese Variablen folgendermassen ansprechen:
 
-    {{ !text }}
+    \{\{ !text \}\}
 
 ## 8. Dynamische URLs
 
@@ -153,13 +153,13 @@ Oft ist es nicht git, Dateien von einer zweiten Webseite einzubinden. Besser ist
 
 ## 14. Eine Karte mit Folium zeichnen
 
-Stelle die gefundenen Strassen als interaktive Karte dar. 
+Stelle die gefundenen Strassen als interaktive Karte dar.
 
 Dazu musst Du mit der Python-Bibliothek `folium` eine Karte zeichnen und im Verzeichnis `templates/` speichern, z.B. als `templates/karte.html`.
 
 Dies kannst Du in einem Template einbinden:
 
-    {% 'karte.html' %}
+    {\% 'karte.html' \%}
 
 
 
