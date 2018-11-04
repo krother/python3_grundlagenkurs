@@ -121,7 +121,7 @@ Welche Aussagen sind korrekt?
 
 * Die Funktion `sin()` arbeitet mit Winkeln im Bogenmaß
 * Das Ergebnis des Logarithmus ist `2`
-* Die <code>import</code>-Anweisung könnte man auch weglassen</answer>
-* Die math-Bibliothek enthält eine Funktion <code>sqrt()</code> zum Wurzeln ziehen.</answer>
+* Die <code>import</code>-Anweisung könnte man auch weglassen
+* Die math-Bibliothek enthält eine Funktion `sqrt()` zum Wurzeln ziehen.
 
 Mehr zum Modul math findest Du auf [docs.python.org/3/library/math.html](https://docs.python.org/3/library/math.html)
