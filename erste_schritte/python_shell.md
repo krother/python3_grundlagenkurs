@@ -39,16 +39,6 @@ Was ist der Unterschied zwischen folgenden Anweisungen?
     10.0 / 3.0
     10 // 3
 
-<!--
-    <question multiple>
-        <p>Markiere alle korrekten Aussagen:</p>
-        <answer correct>Alle Anweisungen sind Divisionen</answer>
-        <answer correct>Der Operator <code>/</code> ergibt immer eine Gleitkommazahl</answer>
-        <answer>Der Operator <code>//</code> rundet auf oder ab</answer>
-        <explanation>Die "Floor-Division" (<code>//</code>) rundet 
-        stets ab, unter Python 3 ist das Ergebnis der gewöhnlichen Division eine Kommazahl.</explanation>
-    </question>
-!-->
 
 ### Aufgabe 3
 
@@ -111,13 +101,11 @@ Probiere aus, ob folgende Variablennamen in Python erlaubt sind:
 ### Aufgabe 7
 
 Welche Zuweisungen an Variablen sind korrekt?
-        <answer correct><code>a = 1 * 2</code></answer>
-        <answer correct><code>2 = 1 + 1</code></answer>
-        <answer><code>5 + 6 = y</code></answer>
-        <answer correct><code>sieben = 3 * 4</code></answer>
-        <explanation>Der Zuweisungsoperator (=) arbeitet immer von rechts nach links.</explanation>
-    </question>
-</quiz>
+
+    a = 1 * 2
+    2 = 1 + 1
+    5 + 6 = y
+    sieben = 3 * 4
 
 
 ### Aufgabe 8
@@ -129,13 +117,11 @@ Führe folgende Befehle aus:
     math.log(16, 2)
     math.sin(math.pi / 2)
 
-<quiz name="">
-    <question multiple>
-        <p>Markiere alle korrekten Aussagen:</p>
-        <answer correct>Die Funktion <code>sin()</code> arbeitet mit Winkeln im Bogenmaß</answer>
-        <answer>Das Ergebnis des Logarithmus ist <code>2</code></answer>
-        <answer>Die <code>import</code>-Anweisung könnte man auch weglassen</answer>
-        <answer correct>Die math-Bibliothek enthält eine Funktion <code>sqrt()</code> zum Wurzeln ziehen.</answer>
-        <explanation>Mehr zum Modul math findest Du auf <a href="https://docs.python.org/3/library/math.html" target="_blank">docs.python.org/3/library/math.html</a></explanation>
-    </question>
-</quiz>
+Welche Aussagen sind korrekt?
+
+* Die Funktion `sin()` arbeitet mit Winkeln im Bogenmaß
+* Das Ergebnis des Logarithmus ist `2`
+* Die <code>import</code>-Anweisung könnte man auch weglassen</answer>
+* Die math-Bibliothek enthält eine Funktion <code>sqrt()</code> zum Wurzeln ziehen.</answer>
+
+Mehr zum Modul math findest Du auf [docs.python.org/3/library/math.html](https://docs.python.org/3/library/math.html)
