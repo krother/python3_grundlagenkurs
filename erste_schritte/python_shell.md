@@ -94,7 +94,7 @@ Probiere aus, ob folgende Variablennamen in Python erlaubt sind:
     darth vader
     luke99
     2000imperator
-    óbi_wan_kenobi
+    obi_wan_kenobi
     darth.maul
 
 
