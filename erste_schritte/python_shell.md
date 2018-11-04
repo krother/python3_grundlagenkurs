@@ -39,7 +39,7 @@ Was ist der Unterschied zwischen folgenden Anweisungen?
     10.0 / 3.0
     10 // 3
 
-<quiz name="">
+<!--
     <question multiple>
         <p>Markiere alle korrekten Aussagen:</p>
         <answer correct>Alle Anweisungen sind Divisionen</answer>
@@ -48,23 +48,18 @@ Was ist der Unterschied zwischen folgenden Anweisungen?
         <explanation>Die "Floor-Division" (<code>//</code>) rundet 
         stets ab, unter Python 3 ist das Ergebnis der gewöhnlichen Division eine Kommazahl.</explanation>
     </question>
-</quiz>
+!-->
 
 ### Aufgabe 3
 
-<quiz name="">
-    <question multiple>
-<p>Welche Operationen ergeben 8?</p>
-    <answer correct><code>0 + 8</code></answer>
-    <answer><code>4 4</code></answer>
-    <answer><code>8 /</code></answer>
-    <answer correct><code>65 // 8</code></answer>
-    <answer correct><code>17 % 9</code></answer>
-    <answer><code>2 * * 4</code></answer>
-    <answer correct><code>64 ** 0.5</code></answer>
-    <explanation>Leerzeichen haben keine Bedeutung, dürfen aber nicht mitten in Operatoren stehen. Der Operator <code>%</code> (Modulo) liefert den Rest einer Division.</explanation>
-    </question>
-</quiz>
+Welche Operationen ergeben 8?
+
+    0 + 8
+    4 4
+    65 // 8
+    17 % 9
+    2 * * 4
+    64 ** 0.5    
 
 ----
 
@@ -103,26 +98,19 @@ Setze die korrekten Werte und Variablennamen ein.
 
 ### Aufgabe 6
 
-<quiz name="">
-    <question multiple>
-        <p>Markiere alle in Python erlaubten Variablennamen. Probiere sie ggf. aus.</p>
-        <answer correct><code>YODA</code></answer>
-        <answer><code>darth vader</code></answer>
-        <answer correct><code>luke90</code></answer>
-        <answer><code>2000imperator</code></answer>
-        <answer correct><code>_obi_wan_kenobi</code></answer>
-        <answer><code>darth.maul</code></answer>
-        <explanation>Variablennamen dürfen Buchstaben, Ziffern und Unterstriche enthalten, dürfen jedoch nicht mit einer Ziffer beginnen.</explanation>
-    </question>
-</quiz>
+Probiere aus, ob folgende Variablennamen in Python erlaubt sind:
 
+    YODA
+    darth vader
+    luke99
+    2000imperator
+    óbi_wan_kenobi
+    darth.maul
 
 
 ### Aufgabe 7
 
-<quiz name="">
-    <question multiple>
-        <p>Welche Zuweisungen an Variablen sind korrekt?</p>
+Welche Zuweisungen an Variablen sind korrekt?
         <answer correct><code>a = 1 * 2</code></answer>
         <answer correct><code>2 = 1 + 1</code></answer>
         <answer><code>5 + 6 = y</code></answer>
