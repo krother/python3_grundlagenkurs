@@ -81,17 +81,13 @@ Zeichne konzentrische Quadrate. Du kannst mit `turtle.up()` und `turtle.down()` 
 
 ### Aufgabe 8
 
-<quiz name="">
-    <question multiple>
-        <p>Welche der folgenden Befehle sind korrekt?</p>
-        <answer correct><code>for char in "ABCD":</code></answer>
-        <answer correct><code>for i in range(10):</code></answer>
-        <answer><code>for k in 7.65:</code></answer>
-        <answer correct><code>for number in [4, 6, 8]:</code></answer>
-        <answer><code>for (i=0; i&lt;10; i++):</code></answer>
-        <explanation>for-Schleifen lassen sich auf aufzählbare Typen wie Strings, Listen, Generatoren (range) und Dateien anwenden. Floats und Integers funktionieren jedoch nicht.</explanation>
-    </question>
-</quiz>
+Welche der folgenden Befehle sind korrekt?
+
+* `for char in "ABCD":`
+* `for i in range(10):`
+* `for k in 7.65:`
+* `for number in [4, 6, 8]:`
+* `for (i=0; i&lt;10; i++):`
 
 
 ### Aufgabe 9

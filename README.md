@@ -13,7 +13,7 @@ Dies ist ein Python-Kurs für Einsteiger ohne Programmiererfahrung. Ich habe das
 * Du bereits ein wenig mit einer anderen Programmiersprache wie R, MATLAB oder C gearbeitet hast.
 * Du selbst einen Python-Kurs leiten möchtest.
 
-Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirst Du zum Bearbeiten entweder einen Trainer oder ein gutes Grundlagenbuch brauchen.
+Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirst Du zum Bearbeiten entweder einen Trainer oder ein gutes Grundlagenbuch brauchen. Ich empfehle als online-Begleitbuch [How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/thinkCSpy/html/).
 
 ----
 
@@ -126,8 +126,8 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
 
 ### Anhang
 
-* [Hintergrundinformationen zu Python 3](appendix/hintergrundinfos.md)
 * [Empfohlene Bücher und Webseiten](appendix/literatur.md)
+* [Hintergrundinformationen zu Python 3](appendix/hintergrundinfos.md)
 * [Datenquellen](projekt_gapminder/datenquellen.md)
 * [Links zu Pandas](projekt_gapminder/links.md)
 * [Machine Learning Verfahren](machine_learning/README.md)

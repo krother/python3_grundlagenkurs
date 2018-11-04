@@ -5,7 +5,9 @@
 
 ![Buchstabensalat](list.png)
 
-Mit den bisherigen Python-Befehlen lassen sich bereits eine ganze Menge unterschiedliche Programme schreiben. Es fehlt uns allerdings noch eine wichtige Möglichkeit: Im Programm *Entscheidungen zu treffen*. In Python gibt es für Entscheidungen (Verzweigungen) die `if`-Anweisung. Darum geht es in diesem Kursteil.
+Mit den bisherigen Python-Befehlen lassen sich bereits eine ganze Menge unterschiedliche Programme schreiben. Es fehlt uns allerdings noch eine wichtige Möglichkeit: Im Programm *Entscheidungen zu treffen*.
+
+In Python gibt es für Entscheidungen (Verzweigungen) die `if`-Anweisung. Darum geht es in diesem Abschnitt.
 
 ### Aufgabe 1
 
@@ -48,15 +50,11 @@ Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` an
 
 ### Aufgabe 4
 
-<quiz name="">
-    <question multiple>
-<p>Welche der folgenden <code>if</code>-Anweisungen sind syntaktisch korrekt?</p>
-    <answer correct><code>if a and b:</code></answer>
-    <answer correct><code>if len(s) == 23:</code></answer>
-    <answer><code>if a but not b &lt; 3:</code></answer>
-    <answer correct><code>if a ** 2 >= 49:</code></answer>
-    <answer><code>if a != 3</code></answer>
-    <answer correct><code>if (a and b) or (c and d):</code></answer>
-    <explanation>Es sind ein Wahrheitsausdruck und eine Doppelpunkt am Ende notwendig.</explanation>
-    </question>
-</quiz>
+Welche der folgenden `if`-Anweisungen sind syntaktisch korrekt?
+
+* `if a and b:`
+* `if len(s) == 23:`
+* `if a but not b < 3:`
+* `if a ** 2 >= 49:`
+* `if a != 3`
+* `if (a and b) or (c and d):`

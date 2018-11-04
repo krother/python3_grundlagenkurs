@@ -75,18 +75,15 @@ Was ergeben folgende Anweisungen?
 
 ### Aufgabe 4
 
-<quiz name="">
-    <question multiple>
-<p>Welche Anweisungen sind korrekt?</p>
-    <answer correct><code>daten = ["Tilda", "Swinton"]</code></answer>
-    <answer><code>daten = ["Darth Vader" "Yoda"]</code></answer>
-    <answer correct><code>daten = [1, 2 + 3, 4]</code></answer>
-    <answer correct><code>daten = [1, 2] + [3, 4]</code></answer>
-    <answer><code>daten = [1, 2] + 3, 4]</code></answer>
-    <answer correct><code>daten = [1, 2.0, "drei"]</code></answer>
-    <explanation></explanation>
-    </question>
-</quiz>
+Welche Anweisungen sind korrekt?
+
+* `daten = ["Tilda", "Swinton"]`
+* `daten = ["Darth Vader" "Yoda"]`
+* `daten = [1, 2 + 3, 4]`
+* `daten = [1, 2] + [3, 4]`
+* `daten = [1, 2] + 3, 4]`
+* `daten = [1, 2.0, "drei"]`
+
 
 ### Aufgabe 5
 

@@ -24,9 +24,6 @@
 * Es gibt keine strenge Kapselung
 * Läuft nicht problemlos auf mobilen Geräten
 
-## Was ist neu in Python 3?
+## Worauf sollte ich noch achten?
 
-* `print` ist eine Funktion
-* sämtliche Strings werden als Unicode abgespeichert (bessere Unterstützung von Umlauten und Sonderzeichen in allen Sprachen)
-* viele Funktionen wie `range()`, `zip()`, `map()` und `filter()` liefern Iteratoren anstelle von Listen.
-* die Standardbibliothek ist komplett aufgeräumt worden.
+* Unbedingt **Python 3** installieren.

@@ -85,16 +85,10 @@ Was tut das folgende Programm?
 
 Welche `input`-Befehle sind korrekt?
 
-<quiz name="">
-    <question multiple>
-        <p>Markiere alle korrekten Aussagen:</p>
-        <answer correct><code>a = input()</code></answer>
-        <answer correct><code>a = input("gib eine Zahl ein.")</code></answer>
-        <answer><code>a = input(gib Deinen Namen ein)</code></answer>
-        <answer correct><code>a = input(3)</code></answer>
-        <explanation>Die Funktion <code>input()</code> akzeptiert unterschiedliche Argumente, die alle ausgegeben werden. Text (Strings) muss jedoch in Anführungszeichen eingeschlossen sein.</explanation>
-    </question>
-</quiz>
+* `a = input()`
+* `a = input("gib eine Zahl ein.")` 
+* `a = input(gib Deinen Namen ein)`
+* `a = input(3)`
 
 
 ### Aufgabe 9
@@ -107,15 +101,10 @@ Schreibe ein Programm, bei dem der Nutzer die Größe des gezeichneten Quadrats 
 
 ### Aufgabe 10
 
-<quiz name="">
-    <question multiple>
-<p>Welche <code>print</code>-Anweisungen sind korrekt?</p>
+Welche `print`-Anweisungen sind korrekt?
 
-<answer correct><code>print("9" + "9")</code></answer>
-<answer><code>print "neun"</code></answer>
-<answer correct><code>print(str(9) + "neun")</code></answer>
-<answer correct><code>print(9 + 9)</code></answer>
-<answer correct><code>print(neun)</code></answer>
-<explanation>Die <code>print</code>-Funktion wandelt alles in Strings um. <code>print(neun)</code> ist syntaktisch korrekt, es muss aber eine Variable mit den Namen <code>neun</code> existieren.</explanation>
-</question>
-</quiz>
+* `print("9" + "9")`
+* `print "neun"`
+* `print(str(9) + "neun")`
+* `print(9 + 9)`
+* `print(neun)`

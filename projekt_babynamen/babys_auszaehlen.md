@@ -41,16 +41,13 @@ Finde heraus, was die Ausdrücke mit dem String in der Mitte tun.
 
 ### Aufgabe 3
 
-<quiz name="">
-    <question>
-        <p>Mit welcher der Methoden kannst du einen String wie die Variable <code>bigbang</code> in einzelne Zeilen zerlegen?</p>
-        <answer><code>bigbang.replace(x, y)</code></answer>
-        <answer correct><code>bigbang.split(x)</code></answer>
-        <answer><code>bigbang.strip()</code></answer>
-        <answer><code>bigbang.count(x)</code></answer>
-        <explanation>Die Methode <code>str.split()</code> zerlegt einen String in eine Liste von Teilstrings. Du kannst als Argument in den Klammern angeben, bei welchem Zeichen zerteilt werden soll. Voreingestellt sind Leerzeichen, Tabulator und Zeilenumbruch.</explanation>
-    </question>
-</quiz>
+Mit welcher der Methoden kannst du einen String wie die Variable `bigbang` in einzelne Zeilen zerlegen?
+
+* `bigbang.replace(x, y)`
+* `bigbang.split(x)`
+* `bigbang.strip()`
+* `bigbang.count(x)`
+
 
 ### Aufgabe 4
 
@@ -62,12 +59,10 @@ Probiere aus, ob das gleiche Programm auch für letzte Zeile funktioniert.
 
     zeile = "Raj,M,41"
 
-<!--sec data-title="Hinweis" data-id="hint-zeile-zerlegen"
-data-collapse=true ces-->
+#### Hinweis:
 
 Bei der Methode `bigbang.split()` kannst Du in den Klammern angeben, bei welchem Zeichen getrennt werden soll. Speichere das Ergebnis in einer Variablen. Mit eckigen Klammern (Index) kannst Du aus der Liste ein Element auswählen.
 
-<!--endsec-->
 
 ### Aufgabe 5
 
@@ -80,15 +75,12 @@ Da wir nicht eine, sondern *alle* Zeilen verarbeiten möchten, müssen wir Befeh
 
 Schreibe ein Programm, das alle Namen aus der Variable `bigbang` ausgibt.
 
-<!--sec data-title="Hinweis" data-id="hint-for-bigbang"
-data-collapse=true ces-->
+#### Hinweis:
 
 Du kannst das Ergebnis von `bigbang.split()` direkt an die `for`-Schleife anhängen:
 
     for zeile in bigbang.split():
         ...
-
-<!--endsec-->
 
 ### Aufgabe 7
 
