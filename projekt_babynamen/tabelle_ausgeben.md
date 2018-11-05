@@ -23,17 +23,13 @@ Führe das folende Programm aus. Erkläre was passiert.
         for name in namen:
             f.write(name + '\n')
 
-<quiz name="">
-    <question multiple>
-        <p>Markiere alle korrekten Aussagen</p>
-        <answer correct>Es werden drei Zeilen in die Datei geschrieben</answer>
-        <answer correct>Die Datei entsteht im aktuellen Arbeitsverzeichnis</answer>
-        <answer>Es werden zwei Dateien geschrieben: "jungs.txt" und "w"</answer>
-        <answer correct>Am Ende des <code>with</code>-Blocks wird die Datei automatisch geschlossen</answer>
-        <answer>An jeden Namen wird der Buchstabe 'n' angehängt</answer>
-        <explanation></explanation>
-    </question>
-</quiz>
+Welche Aussagen sind korrekt?
+
+* Es werden drei Zeilen in die Datei geschrieben
+* Die Datei entsteht im aktuellen Arbeitsverzeichnis
+* Es werden zwei Dateien geschrieben: "jungs.txt" und "w"
+* Am Ende des <code>with</code>-Blocks wird die Datei automatisch geschlossen
+* An jeden Namen wird der Buchstabe 'n' angehängt
 
 
 ### Aufgabe 3
@@ -43,7 +39,7 @@ Lösche das `+ '\n'` aus dem Programm und führe es noch einmal aus. Was passier
 
 ## Tabellen
 
-Daten treten häufig in Form von Tabellen auf. Da eine Liste andere Listen enthalten kann, können wir diese **verschachtelte Listen** als einfaches Tabellenformat nutzen: 
+Daten treten häufig in Form von Tabellen auf. Da eine Liste andere Listen enthalten kann, können wir diese **verschachtelte Listen** als einfaches Tabellenformat nutzen:
 
     # Name, Babys Kalifornien, Babys New York
     tab = [
@@ -62,12 +58,9 @@ Technisch ist an verschachtelten Listen nichts besonderes. Man muss allerdings d
 
 Gib alle Namen aus der obigen Tabelle mit einer `for`-Schleife aus.
 
-
-## Strings formatieren
+### Aufgabe 5
 
 Um Tabellen und andere Daten hübsch auszugeben, benötigen wir **String-Formatierung**.
-
-### Aufgabe 5
 
 Probiere folgende Ausdrücke in der Python Shell aus:
 
@@ -79,19 +72,15 @@ Probiere folgende Ausdrücke in der Python Shell aus:
     "{:4.1f}".format(3.14159)
     "Ergebnis: {:6.3f}".format(3.14159)
 
-<quiz name="">
-    <question multiple>
-        <p>Markiere alle korrekten Aussagen</p>
-        <answer correct>Die geschweiften Klammern dienen als Platzhalter</answer>
-        <answer correct>Die Argumente der Funktion <code>format()</code> werden in die Platzhalter eingesetzt</answer>
-        <answer>Außer den Platzhaltern darf der String keinen Text enthalten</answer>
-        <answer correct><code>{:xd}</code> ist ein Platzhalter für eine ganze Zahl mit x Stellen</answer>
-        <answer correct>Strings lassen sich rechts- und linksbündig ausgeben</answer>
-        <answer><code>{:4.1f}</code> ist ein Platzhalter für eine Fließkommazahl mit vier Stellen vor und einer nach dem Komma</answer>
-        <answer>Die geschweiften Klammern werden mit ausgegeben</answer>
-        <explanation></explanation>
-    </question>
-</quiz>
+Welche Aussagen sind korrekt?
+
+* Die geschweiften Klammern dienen als Platzhalter
+* Die Argumente der Funktion `format()` werden in die Platzhalter eingesetzt
+* Außer den Platzhaltern darf der String keinen Text enthalten
+* `{:xd}` ist ein Platzhalter für eine ganze Zahl mit x Stellen
+* correct>Strings lassen sich rechts- und linksbündig ausgeben
+* `{:4.1f}` ist ein Platzhalter für eine Fließkommazahl mit vier Stellen vor und einer nach dem Komma
+* Die geschweiften Klammern werden mit ausgegeben
 
 
 ### Aufgabe 6
@@ -114,10 +103,10 @@ In Python gibt es zahlreiche Funktionen, die eine die Arbeit mit Listen erleicht
 Das folgende Programm soll Namen und dazugehörige Anzahlen paarweise ausgeben.
 Leider enthält das Programm **drei Defekte**. Finde und behebe diese.
 
-    namen = ["Emma", "Olivia" "Sophia", "Isabella", 
+    namen = ["Emma", "Olivia" "Sophia", "Isabella",
              "Ava", "Mia", "Emily"]
 
-    anzahlen [20799, 19674, 18490, 16950, 
+    anzahlen [20799, 19674, 18490, 16950,
                15586, 13442, 12562]
 
     if len(namen) == len(anzahlen):
@@ -139,12 +128,8 @@ Vereinfache das folgende Programm:
         gesamt += anz
     print(gesamt)
 
-<!--sec data-title="Hinweis" data-id="hint-tab-sum"
-data-collapse=true ces-->
 
 Die Funktion `sum(x)` akzeptiert eine Liste mit Zahlen als Argument.
-
-<!--endsec-->
 
 
 ### Aufgabe 10
@@ -163,12 +148,7 @@ Vereinfache das folgende Programm:
     print(tabelle)
 
 
-<!--sec data-title="Hinweis" data-id="hint-tab-sum"
-data-collapse=true ces-->
-
 Die Funktion `zip(x, y)` führt zwei (oder mehr) Listen elementweise zusammen. Verwende eine `for`-Schleife oder `list()`, um das Ergebnis als Liste zu erhalten.
-
-<!--endsec-->
 
 
 ### Aufgabe 11
@@ -182,28 +162,10 @@ Vereinfache das folgende Programm:
         print(i, name)
         i += 1
 
-<!--sec data-title="Hinweis" data-id="hint-tab-sum"
-data-collapse=true ces-->
-
 Die Funktion `enumerate(x)` generiert einen Zähler zu einer Liste. Eine übliche Schreibweise ist `for i, elem in enumerate(x)`
-
-<!--endsec-->
-
-
-## Weitere Übungsaufgaben
 
 
 ### Aufgabe 12
-
-Erzeuge eine Tabelle mit 10x10 Zellen, die nur aus Nullen besteht.
-
-
-### Aufgabe 13
-
-Erzeuge eine Tabelle mit 10x10 Zellen und fülle sie mit den Zahlen von 1 bis 100.
-
-
-### Aufgabe 14
 
 Sortiere die Tabelle nach der zweiten Spalte. Verwende folgenden Codeschnipsel:
 
@@ -214,4 +176,4 @@ Sortiere die Tabelle nach der zweiten Spalte. Verwende folgenden Codeschnipsel:
 
 #### Anmerkung:
 
-An dieser Stelle werden verschachtelte Listen etwas schwerfällig. Mit den Bibliotheken `numpy` und `pandas` werden diese Sachen leichter.
+Spätestens an dieser Stelle werden verschachtelte Listen etwas schwerfällig. Mit den Bibliotheken `numpy` und `pandas` werden diese Sachen leichter.

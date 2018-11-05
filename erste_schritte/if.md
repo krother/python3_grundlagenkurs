@@ -1,7 +1,7 @@
 
 # Entscheidungen treffen
 
-**Wie oft kommte der Buchstabe 'C' vor?**
+**Wie oft kommt der Buchstabe 'C' vor?**
 
 ![Buchstabensalat](list.png)
 
@@ -40,9 +40,9 @@ Das folgende Programm soll die Positionen aller Buchstaben *"n"* im Namen ausgeb
 
 Gegeben ist eine Liste der 20 beliebtesten Mädchennamen aus dem Jahr 2000:
 
-    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah', 
-    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor', 
-    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna', 
+    ['Emily', 'Hannah', 'Madison', 'Ashley', 'Sarah',
+    'Alexis', 'Samantha', 'Jessica', 'Elizabeth', 'Taylor',
+    'Lauren', 'Alyssa', 'Kayla', 'Abigail', 'Brianna',
     'Olivia', 'Emma', 'Megan', 'Grace', 'Victoria']
 
 Schreibe ein Programm, das alle Namen ausgibt, die mit einem `'A'` oder `'M'` anfangen.
