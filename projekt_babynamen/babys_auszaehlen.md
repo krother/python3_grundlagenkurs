@@ -55,23 +55,25 @@ Nun wenden wir diese Methode an. Schreibe ein Programm, das *eine Zeile* aus uns
 
     zeile = "Emily,F,12562"
 
-Probiere aus, ob das gleiche Programm auch für letzte Zeile funktioniert.
+Die Ausgabe sollte so aussehen:
 
-    zeile = "Raj,M,41"
+    Emily
+    12562
 
-#### Hinweis:
+#### Hinweise:
 
-Bei der Methode `bigbang.split()` kannst Du in den Klammern angeben, bei welchem Zeichen getrennt werden soll. Speichere das Ergebnis in einer Variablen. Mit eckigen Klammern (Index) kannst Du aus der Liste ein Element auswählen.
+* Bei der Methode `bigbang.split()` kannst Du in den Klammern angeben, bei welchem Zeichen getrennt werden soll. 
+* Speichere das Ergebnis von `bigbang.split()` in einer Variablen. 
+* Mit eckigen Klammern (Index) kannst Du aus der Liste ein Element auswählen.
 
 
 ### Aufgabe 5
 
-Nun probiere, den gesamten String `bigbang` zu zerlegen. Zerlege dann die 5. Zeile und gib die Anzahl aus.
-
+Nun probiere, den gesamten String `bigbang` in Zeilen zu zerlegen. Speichere die Zeilen in einer Liste.
 
 ### Aufgabe 6
 
-Da wir nicht eine, sondern *alle* Zeilen verarbeiten möchten, müssen wir Befehle wiederholen. Du denkst Dir vielleicht schon, dass dazu eine `for`-Schleife nützlich sein kann.
+Nun müssen wir *alle* Zeilen wie die obige verarbeiten. Du denkst Dir vielleicht schon, dass dazu eine `for`-Schleife nützlich sein kann.
 
 Schreibe ein Programm, das alle Namen aus der Variable `bigbang` ausgibt.
 
@@ -84,7 +86,7 @@ Du kannst das Ergebnis von `bigbang.split()` direkt an die `for`-Schleife anhän
 
 ### Aufgabe 7
 
-Wie viele unterschiedliche Jungennamen mit `'S'` gab es 2015?
+Wie viele unterschiedliche Jungennamen mit `'S'` gibt es im bigbang-Datensatz?
 
 **Sortiere** die folgenden Programmzeilen und **rücke sie korrekt ein**:
 
