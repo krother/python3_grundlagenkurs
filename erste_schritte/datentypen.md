@@ -22,19 +22,24 @@ Was ergeben die folgenden Anweisungen?
     In [6]: name[3]
     In [7]: name[-1]
     In [8]: name[0] + name[6]
+    In [9]: name[5:]
+    In [10]: name[5:10]
+    In [11]: name[:10:2]
 
 ### Aufgabe 4
 
-Gib die beiden Initialien aus dem folgenden String aus. Verwende die Schreibweise mit eckigen Klammern:
+Gegeben ist ein chiffriertes Wort:
 
-    name = "Walter White"
+    name = "CSAIPRALKAINACZEYLVOST"
+
+Gib jeden zweiten Buchstaben des Wortes (beginnend beim 2.) aus.
 
 
 ### Aufgabe 5
 
 Erkläre die folgende Anweisung:
 
-    print("Emily\tSmith\n2000")
+    print("Emily\nSmith\n2000")
 
 
 # Listen
@@ -86,14 +91,6 @@ Welche Anweisungen sind korrekt?
 
 
 ### Aufgabe 5
-
-Gegeben ist ein chiffriertes Wort:
-
-    name = "CSAIPRALKAINACZEYLVOST"
-
-Gib jeden zweiten Buchstaben des Wortes (beginnend beim 2.) aus.
-
-### Aufgabe 6
 
 Bilde Paare von Datentypen und Werten.
 
