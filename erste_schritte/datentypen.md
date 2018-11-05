@@ -95,20 +95,6 @@ Gib jeden zweiten Buchstaben des Wortes (beginnend beim 2.) aus.
 
 ### Aufgabe 6
 
-Schreibe ein Programm, welches die Anzahl der Buchstaben im Namen `Stefani Joanne Angelina Germanotta` ermittelt. **Leerzeichen zählen mit!**
-
-### Aufgabe 7
-
-Was tut das folgende Programm?
-
-    text = ""
-    characters = "Hannah"
-    for char in characters:
-        text = char + text
-    print(text)
-
-### Aufgabe 8
-
 Bilde Paare von Datentypen und Werten.
 
 ![datatype exercise](../exercises/datatypes.png)
