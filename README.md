@@ -33,7 +33,6 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
 * [Dein erstes Programm](erste_schritte/programme.md)
 * [Anweisungen wiederholen](erste_schritte/for_schleifen.md)
 * [Entscheidungen treffen](erste_schritte/if.md)
-* [Bedingte Schleifen](erste_schritte/while.md)
 
 ----
 
