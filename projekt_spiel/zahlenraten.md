@@ -1,14 +1,22 @@
 
-# Bedingte Schleifen
+# Zahlenraten
 
-Wir haben in den vorigen Abschnitten bereits zwei Anweisungen kennen gelernt, mit denen wir den *Ablauf* eines Programms oder **Kontrolfluß** steuern können. Hier lernen wir eine dritte kennen: Die bedingte Schleife mit `while`.
+Schreibe ein Programm, das eine Zufallszahl zwischen 1 und 100 auswürfelt:
 
+    import random
+
+    zahl = random.randint(1, 100)
+
+Der Spieles soll diese Zahl raten. Das Programm gibt Hinweise, ob die geratene Zahl zu groß, zu klein oder ein Treffer ist. Der Spieler kann beliebig oft raten, bis die richtige Zahl getroffen wurde.
 
 ### Aufgabe 1
 
+Um das Ratespiel bei einem Treffer zu beenden, benötigen wir eine neue Möglichkeit, den *Ablauf* eines Programms (den **Kontrolfluß**) steuern zu können: Die bedingte Schleife mit `while`.
+
+
 Ordne die Ausdrücke so zu, daß die gezeigten `while`-Schleifen die angegebene Anzahl von Durchläufen vollführen.
 
-![while exercise](exercises/while.png)
+![while exercise](../exercises/while.png)
 
 
 ### Aufgabe 2
@@ -57,29 +65,27 @@ Die folgende `while`-Schleife zählt Werte größer 10. Ersetze sie durch eine `
         if data[i] > 10:
             j += 1
         i += 1
-    
+
     print("Anzahl Werte größer 10: {}".format(j))
 
 ### Aufgabe 6
 
-Wird die folgende `while`-Schleife von alleine enden?
+Welche der folgenden `while`-Schleifen endet von alleine?
+
+#### Beispiel 6.1
 
     count = 0
     while count > 0:
         print count
         count += 1
 
-### Aufgabe 6
-
-Wird die folgende `while`-Schleife von alleine enden?
+#### Beispiel 6.2
 
     text = "a"
     while "z" not in text:
         text += "a"
 
-### Aufgabe 7
-
-Wird die folgende `while`-Schleife von alleine enden?
+#### Beispiel 6.3
 
     a = 7
     b = 135
@@ -87,15 +93,13 @@ Wird die folgende `while`-Schleife von alleine enden?
         a += (a - b) / 10.0
         b -= (a - b) / 10.0
 
-### Aufgabe 8
-
-Wird die folgende `while`-Schleife von alleine enden?
+#### Beispiel 6.4
 
     n = 0
     while n * 5 != n ** 2:
         n += 2
 
-### Aufgabe 9
+### Aufgabe 6.5
 
 Wird die folgende `while`-Schleife von alleine enden?
 
@@ -103,10 +107,49 @@ Wird die folgende `while`-Schleife von alleine enden?
     while data[-1] > 2:
         data.pop()
 
-### Aufgabe 10
+### Aufgabe 6.6
 
 Wird die folgende `while`-Schleife von alleine enden?
 
     data = [2, 3, 15]
     while data[0] < 100:
         data = data[1:]
+
+
+### Aufgabe 7
+
+Würfle eine Zufallszahl aus:
+
+    import random
+
+Schlage in der Dokumentation des Moduls `random` nach, wie Du eine ganze Zufallszahl generieren kannst.
+
+### Aufgabe 8
+
+Schreibe das Zahlenratespiel.
+
+Beispielausgabe:
+
+    Ich habe mir eine Zahl ausgedacht.
+    Rate die Zahl.
+
+    Bitte gib eine Zahl ein (1-100): 33
+    Die Zahl ist zu gross.
+
+    Bitte gib eine Zahl ein (1-100): 22
+    Die Zahl ist zu gross.
+
+    Bitte gib eine Zahl ein (1-100): 11
+    Die Zahl ist zu klein.
+
+    Bitte gib eine Zahl ein (1-100): 17
+    Die Zahl ist zu gross.
+
+    Bitte gib eine Zahl ein (1-100): 14
+    Die Zahl ist zu gross.
+
+    Bitte gib eine Zahl ein (1-100): 12
+    Die Zahl ist zu klein.
+
+    Bitte gib eine Zahl ein (1-100): 13
+    Treffer!

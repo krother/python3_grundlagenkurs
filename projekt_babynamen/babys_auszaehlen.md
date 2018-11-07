@@ -48,51 +48,15 @@ Mit welcher der Methoden kannst du einen String wie die Variable `bigbang` in ei
 * `bigbang.strip()`
 * `bigbang.count(x)`
 
+Speichere den zerlegten String in einer Variablen.
 
 ### Aufgabe 4
-
-Nun wenden wir diese Methode an. Schreibe ein Programm, das *eine Zeile* aus unserem Datensatz zerlegt und den Namen und die korrekte Anzahl ausgibt:
-
-    zeile = "Emily,F,12562"
-
-Die Ausgabe sollte so aussehen:
-
-    Emily
-    12562
-
-#### Hinweise:
-
-* Bei der Methode `bigbang.split()` kannst Du in den Klammern angeben, bei welchem Zeichen getrennt werden soll. 
-* Speichere das Ergebnis von `bigbang.split()` in einer Variablen. 
-* Mit eckigen Klammern (Index) kannst Du aus der Liste ein Element auswählen.
-
-
-### Aufgabe 5
-
-Nun probiere, den gesamten String `bigbang` in Zeilen zu zerlegen. Speichere die Zeilen in einer Liste.
-
-### Aufgabe 6
-
-Nun müssen wir *alle* Zeilen wie die obige verarbeiten. Du denkst Dir vielleicht schon, dass dazu eine `for`-Schleife nützlich sein kann.
-
-Schreibe ein Programm, das alle Namen aus der Variable `bigbang` ausgibt.
-
-#### Hinweis:
-
-Du kannst das Ergebnis von `bigbang.split()` direkt an die `for`-Schleife anhängen:
-
-    for zeile in bigbang.split():
-        ...
-
-### Aufgabe 7
 
 Wie viele unterschiedliche Jungennamen mit `'S'` gibt es im bigbang-Datensatz?
 
 **Sortiere** die folgenden Programmzeilen und **rücke sie korrekt ein**:
 
     jungs = 0
-
-    if "B" in zeile:
 
     print(jungs)
 
@@ -103,7 +67,14 @@ Wie viele unterschiedliche Jungennamen mit `'S'` gibt es im bigbang-Datensatz?
     jungs += 1
 
 
-### Aufgabe 8 
+### Aufgabe 5
+
+Um an die Anzahl heranzukommen, müssen wir die Zeilen an den Kommata aufteilen. Verwende dazu widerum die Funktion `split()`. Diesmal mußt Du als Argument in den Klammern aber ein Komma angeben, damit eine Zeile in Spalten geteilt wird.
+
+Schreibe ein Programm, das alle Anzahlen aus dem String `bigbang` ausgibt.
+
+
+### Aufgabe 6
 
 Nun haben wir es fast geschafft. Ein Detail fehlt aber noch: **Typumwandlungen**.
 
@@ -121,7 +92,7 @@ Python enthält viele Funktionen zur **Umwandlung von Datentypen**. Setze die fo
     print(jahr)
 
 
-### Aufgabe 9
+### Aufgabe 7
 
 Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle funktionieren.
 
@@ -131,6 +102,6 @@ Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle 
     9 * '9'
 
 
-### Aufgabe 10
+### Aufgabe 8
 
-Schreibe ein Programm, das die Anzahl der Babys in der Variable `bigbang` zusammenzählt und die Summe ausgibt.
+Schreibe ein Programm, das die Anzahl Babys in der Variable `bigbang` zusammenzählt und die Summe ausgibt.

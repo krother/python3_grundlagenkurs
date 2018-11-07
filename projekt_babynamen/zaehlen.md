@@ -131,76 +131,45 @@ Normalisiere die Anahl, indem Du durch die Geburtenzahl teilst.
 
 Plotte einige Liniendiagramme, um zu sehen, ob einige Buchstaben mit der Zeit häufiger werden.
 
-
-## Quizfragen zu Dictionaries
-
 ### Aufgabe 13
 
-Was haben folgende Anweisungen zum Ergebnis?
+Bilde Paare von Datentypen und Werten.
 
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
-    print(d['fish'])
+![datatype exercise](../exercises/datatypes.png)
 
-<quiz name="">
-    <question>
-        <answer><code>True</code></answer>
-        <answer><code>fish</code></answer>
-        <answer correct><code>Fisch</code></answer>
-        <answer>eine Fehlermeldung</answer>
-        <explanation></explanation>
-    </question>
-</quiz>
+## Quizfragen zu Dictionaries
 
 ### Aufgabe 14
 
 Was haben folgende Anweisungen zum Ergebnis?
 
     d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
-    print('Hund' in d)
+    print(d['fish'])
 
-<quiz name="">
-    <question>
-        <answer><code>Hund</code></answer>
-        <answer correct><code>False</code></answer>
-        <answer><code>True</code></answer>
-        <answer><code>dog</code></answer>
-        <explanation></explanation>
-    </question>
-</quiz>
 
 ### Aufgabe 15
 
 Was haben folgende Anweisungen zum Ergebnis?
 
     d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
-    print(list(d.keys()))
+    print('Hund' in d)
 
-<quiz name="">
-    <question>
-        <answer correct>Englische Begriffe, aber die Reihenfolge ist nicht vorhersagbar.</answer>
-        <answer><code>['cat', 'dog', 'fish']</code></answer>
-        <answer>Deutsche Begriffe, aber die Reihenfolge ist nicht vorhersagbar.</answer>
-        <answer><code>['Katze', 'Hund', 'Fisch']</code></answer>
-        <explanation></explanation>
-    </question>
-</quiz>
 
 ### Aufgabe 16
 
 Was haben folgende Anweisungen zum Ergebnis?
 
     d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+    print(list(d.keys()))
+
+
+### Aufgabe 17
+
+Was haben folgende Anweisungen zum Ergebnis?
+
+    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
     print(d.get('Katze', 'unknown'))
 
-<quiz name="">
-    <question>
-        <answer><code>False</code></answer>
-        <answer><code>'cat'</code></answer>
-        <answer correct><code>'unknown'</code></answer>
-        <answer><code>True</code></answer>
-        <explanation></explanation>
-    </question>
-</quiz>
 
 ### Exercise 17
 
@@ -209,19 +178,3 @@ Was haben folgende Anweisungen zum Ergebnis?
     d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
     d.setdefault('cat', 'Stubentiger')
     print(d['cat'])
-
-<quiz name="">
-    <question>
-        <answer>eine Fehlermeldung</answer>
-        <answer><code>'Stubentiger'</code></answer>
-        <answer><code>'cat'</code></answer>
-        <answer correct><code>'Katze'</code></answer>
-        <explanation></explanation>
-    </question>
-</quiz>
-
-### Aufgabe 18
-
-Bilde Paare von Datentypen und Werten.
-
-![datatype exercise](../exercises/datatypes.png)

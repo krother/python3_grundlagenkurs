@@ -83,8 +83,9 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
 
 ----
 
-### Projekt 6: Spiel
+### Projekt 6: Spiele
 
+* [Zahlenraten](projekt_spiel/zahlenraten.md)
 * [Labyrinth-Spiel](projekt_spiel/README.md)
 
 ----
@@ -102,7 +103,6 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
   * [Babynamen](challenges/babynamen.md)
   * [Weihnachtsbaum](challenges/weihnachtsbaum.md)
   * [Fizz-Buzz-Test](challenges/fizzbuzz.md)
-  * [Zahlenraten](challenges/zahlenraten.md)
   * [Einkaufszettel](challenges/shopping_bill.md)
   * [Josephus](challenges/josephus.md)
   * [Alaeddin und die Wunderlampe](challenges/alaeddin.md)

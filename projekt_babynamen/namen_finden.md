@@ -47,13 +47,13 @@ Erweitere das Programm so, dass es die Anzahl der Babys wie im letzten Kapitel a
 
 ## Aufgabe 4
 
-Für die folgenden Übungen benötigst Du den offiziellen Babynamen-Datensatz von den US-Meldebehörden. Du kannst die Dateien von der Seite [http://www.ssa.gov/oact/babynames/limits.html](http://www.ssa.gov/oact/babynames/limits.html) herunterladen (es genügt die nicht nach Bundesstaaten aufgeschlüsselte Variante). 
+Für die folgenden Übungen benötigst Du den offiziellen Babynamen-Datensatz von den US-Meldebehörden. Du kannst die Dateien von der Seite [http://www.ssa.gov/oact/babynames/limits.html](http://www.ssa.gov/oact/babynames/limits.html) herunterladen (es genügt die nicht nach Bundesstaaten aufgeschlüsselte Variante).
 
 Entpacke die heruntergeladene Datei.
 
 ### Aufgabe 5
 
-Schreibe ein Programm, das die Datei `yob2015.txt` einliest. 
+Schreibe ein Programm, das die Datei `yob2015.txt` einliest.
 Berechne die Gesamtzahl der Babys für das Jahr 2015 berechnet und gebe sie aus. Vergleiche das Ergebnis mit dem für das Jahr 1915.
 
 
@@ -104,26 +104,23 @@ Sammle Namen, die mit `'M'` anfangen und auf `'m'` enden in einer Liste. Gib die
 
 Führe dieses Programm aus:
 
-    from pylab import figure, xticks, bar, savefig,\
-                      xlabel, ylabel, title
-    
-    figure()
-    
-    x = [1, 2, 3]
+    from matplotlib import pyplot as plt
+
+    plt.figure()
+
+    x = range(3)
     y = [115, 11, 259]
     labels = ["I", "IV", "VII"]
-    
-    xticks(x, labels)
-    bar(x, y)
-    
-    title('Kosten von Star-Wars-Filmen')
-    xlabel('Episode')
-    ylabel('Budget (Mio USD)')
-    
 
-Falls Du nicht in Anaconda arbeitest, füge am Ende folgenden Befehl hinzu:
+    plt.xticks(x, labels)
+    plt.bar(x, y)
 
-    savefig('starwars.png')
+    plt.title('Kosten von Star-Wars-Filmen')
+    plt.xlabel('Episode')
+    plt.ylabel('Budget (Mio USD)')
+
+    plt.savefig('starwars.png')
+
 
 
 ### Aufgabe 11
@@ -140,16 +137,15 @@ Plotte die ersten fünf Namen, die mit *'M'* beginnen und enden in einem Balkend
 Schreibe ein Programm, welches den prozentualen Anteil der 10 häufigsten Namen für das Jahr 2015 berechnet und ausgibt.
 
 
-### Aufgabe 14
+### Aufgabe 13
 
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
 ![list funcs exercise2](../exercises/list_funcs2.png)
 
 
-### Aufgabe 15
+### Aufgabe 14
 
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
 ![list funcs exercise1](../exercises/list_funcs1.png)
-
