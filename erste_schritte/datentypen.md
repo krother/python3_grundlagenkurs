@@ -88,11 +88,3 @@ Welche Anweisungen sind korrekt?
 * `daten = [1, 2] + [3, 4]`
 * `daten = [1, 2] + 3, 4]`
 * `daten = [1, 2.0, "drei"]`
-
-
-### Aufgabe 5
-
-Bilde Paare von Datentypen und Werten.
-
-![datatype exercise](../exercises/datatypes.png)
-

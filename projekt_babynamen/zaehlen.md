@@ -42,7 +42,7 @@ Beantworte folgende Fragen:
 
 Jetzt fangen wir an, das Programm zu *implementieren*.
 
-Schreibe zuerst den Code für die **erste** und die **letzte** Box im Flussdiagramm. 
+Schreibe zuerst den Code für die **erste** und die **letzte** Box im Flussdiagramm.
 
 Im leeren Dictionary kannst Du den Wert für alle Buchstaben auf `0` setzen:
 
@@ -174,7 +174,7 @@ Was haben folgende Anweisungen zum Ergebnis?
 
     d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
     print(list(d.keys()))
-    
+
 <quiz name="">
     <question>
         <answer correct>Englische Begriffe, aber die Reihenfolge ist nicht vorhersagbar.</answer>
@@ -219,3 +219,9 @@ Was haben folgende Anweisungen zum Ergebnis?
         <explanation></explanation>
     </question>
 </quiz>
+
+### Aufgabe 18
+
+Bilde Paare von Datentypen und Werten.
+
+![datatype exercise](../exercises/datatypes.png)
