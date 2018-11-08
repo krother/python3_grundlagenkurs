@@ -91,8 +91,8 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
 
 ### Python-Bibliotheken
 
-* [Reguläre Ausdrücke](regular_expressions/regex.md)
 * [Übersicht](machine_learning/python.md)
+* [Reguläre Ausdrücke](regular_expressions/regex.md)
 
 ----
 
