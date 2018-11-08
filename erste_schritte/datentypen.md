@@ -88,3 +88,11 @@ Welche Anweisungen sind korrekt?
 * `daten = [1, 2] + [3, 4]`
 * `daten = [1, 2] + 3, 4]`
 * `daten = [1, 2.0, "drei"]`
+
+### Aufgabe 5
+
+Was tut das folgende Programm?
+
+    filme = ["Star Wars", "Star Trek", "Ratatouille"]
+    for f in filme:
+        print(f)

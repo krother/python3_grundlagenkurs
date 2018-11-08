@@ -31,7 +31,7 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
 
 * [Python als Taschenrechner](erste_schritte/python_shell.md)
 * [Dein erstes Programm](erste_schritte/programme.md)
-* [Anweisungen wiederholen](erste_schritte/for_schleifen.md)
+* [Funktionen Plotten](erste_schritte/funktionen_plotten.md)
 * [Entscheidungen treffen](erste_schritte/if.md)
 
 ----
