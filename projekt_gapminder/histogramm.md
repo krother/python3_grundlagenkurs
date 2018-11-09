@@ -19,7 +19,7 @@ Wähle einige Jahrgänge aus. Beim Einlesen aus Excel haben die Daten jedoch *In
 
 Zeichne ein Histogramm für das Jahr 2015 mit den Standardeinstellungen.
 
-    import pylab as plt
+    from matplotlib import pyplot as plt
 
     lifeexp[2015].hist()
     plt.savefig('histo.png')
@@ -73,4 +73,3 @@ Lege die Auflösung beim Schreiben fest.
     plt.savefig('histo.png', dpi=150)
 
 Probiere auch, das Diagramm als SVG-Grafik abzuspeichern, indem Du die Endung `.svg` angibst. Welche Vor- und Nachteile haben die Formate PNG und SVG?
-

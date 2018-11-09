@@ -25,17 +25,11 @@ Wähle 4 Länder aus dem Index des `DataFrame`aus, z.B.:
 
 Zeichne ein Balkendiagramm mit den Jahren als Balkengruppen:
 
-    import pylab as plt
+    from matplotlib import pyplot as plt
+
     df.plot.bar()
     plt.savefig('balken.png')
 
 ### Schritt 5
 
 Ändere die Größe des Diagramms, indem Du zum Aufruf von `plot.bar` den Parameter `figsize=(5,7)` hinzufügst.
-
-### Schritt 6
-
-Zeichne ein weiteres Balkendiagramm. Wähle diesmal nur eine Spalte als Balkengruppe aus:
-
-    df.plot.bar(y='1950', width=0.7, color='orange')
-

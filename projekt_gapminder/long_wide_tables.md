@@ -1,9 +1,9 @@
 
-# Langes und breites Tabellenformat
+# Animierter Scatterplot
 
-![](long_vs_wide.png)
+In dieser Übung werden wir den Zusammenhang von Lebenserwartung und Fruchtbarkeit untersuchen.
+Dazu werden wir die berühmte Animation von **Hans Rosling** nachstellen (siehe [https://www.youtube.com/watch?v=jbkSRLYSojo](https://www.youtube.com/watch?v=jbkSRLYSojo)).
 
-In dieser Aufgabe werden wir den Zusammenhang von Lebenserwartung und Fruchtbarkeit untersuchen. Dazu werden wir einen Scatterplot für das Jahr 2015 anfertigen.
 
 ### Schritt 1
 
@@ -19,15 +19,13 @@ Verfahre genauso mit der Datei `gapminder_lifeexpectancy.xlsx`. Speichere es in 
 
 **Du benötigst dazu die Funktion `pd.read_excel`.**
 
-### Schritt 3
-
-Prüfe ob beide Tabellen die gleiche Größe haben
+Prüfe die Größe der beiden Tabellen mit:
 
     print(life.shape)
 
 **Wenn sie nicht die gleiche Größe haben, ist das nicht schlimm.**
 
-### Schritt 4
+### Schritt 3
 
 Betrachte die Spalten der beiden Tabellen:
 
@@ -43,22 +41,17 @@ Die eine Tabelle hat Strings als Spalten, die andere Integer-Zahlen. Um die Tabe
 
 und setzen diese Liste als neue Spaltennamen ein:
 
-    fert.set_axis(axis=1, labels=ncol)
+    fert.set_axis(axis=1, labels=ncol, inplace=True)
 
 Prüfe mit `fert.columns`, ob die Umwandlung erfolgreich war.
 
+## Langes und breites Tabellenformat
 
-### Schritt 5
+![](long_vs_wide.png)
 
-Verbinde beide Tabellen mit der Funktion `merge`. Durch die Einstellung `left_index=True, right_index=True` werden Zeilen mit gleichem Index zusammengeführt.
+### Schritt 3
 
-    df = life.merge(fert, left_index=True, right_index=True)
-
-Betrachte `df.columns`. Was ist passiert?
-
-### Schritt 6
-
-Um schönere Spaltennamen zu erhalten, kannst Du Dir auch einen **hierarchischen Index** basteln. Dazu wandeln wir beide Tabellen in ein *langes Tabellenformat* um:
+Um schönere Spaltennamen zu erhalten, kannst Du Dir einen **hierarchischen Index** basteln. Dazu wandeln wir beide Tabellen in ein *langes Tabellenformat* um:
 
     sfert = fert.stack()
     slife = life.stack()
@@ -80,17 +73,21 @@ Die Null steht für das jeweils erste Element des Index, mit 1 würden die Jahre
 
 Nun sollte `df4` eine Tabelle sein, in der links die Jahreszahlen stehen und oben die Lebenserwartung und Fruchtbarkeit für alle Länder.
 
-### Schritt 7
+### Schritt 4
 
 Nun kannst Du gezielt Spalten auswählen und plotten:
 
     import pylab as plt
     df4[['Germany', 'France', 'Sweden']].plot()
 
-Du kannst auch einen Scatterplot erzeugen, um Korrelationen zu suchen. Dazu ziehen wir uns die Spalten, nach denen wir plotten möchten aus `df3`:
+### Schritt 5
+
+Um ein Streudiagramm zu erzeugen, ziehen wir die zu plottenden Spalten aus `df3`:
 
     df5 = df3.unstack(2)
     df5.plot.scatter('fertility', 'lifeexp', s=0.1)
+
+### Schritt 6
 
 Wir können durch die Operationen `stack` und `unstack` auch einen Jahrgang auswählen. So wird die Graphik etwas übersichtlicher:
 
@@ -99,13 +96,68 @@ Wir können durch die Operationen `stack` und `unstack` auch einen Jahrgang ausw
     df6 = df6.unstack(1)  # Eigenschaften als Spalten
     df6.plot.scatter('fertility', 'lifeexp', s=0.1)
 
-### Schritt 8
+### Schritt 7
 
 Das Ganze bietet noch etwas Raum für Verschönerungen. Beispielsweise kannst Du jedem Land eine andere Farbe geben:
 
     cmap = plt.get_cmap('tab20').colors
     df6.plot.scatter('fertility', 'lifeexp', s=0.1, c=cmap)
 
-oder für die Größen der Punkte eine dritte Spalte verwenden, wenn Du eine hast:
+Oder Dir eine Funktion schreiben, die einzelnen Ländern bestimmte Farben zuweist:
 
-    df6.plot.scatter('fertility', 'lifeexp', s=df6['population'])
+    def farben_ermitteln(laendernamen):
+        farben = []
+        for land in laendernamen:
+            ...
+        return farben
+
+    farben = farben_ermitteln(df6.index)
+
+### Schritt 8
+
+Für die Größen der Punkte kannst Du die Spalte mit der Bevölkerung verwenden. Verändere die Anweisungen, so dass Du eine sinnvolle Größe für die Punkte erhälst:
+
+    groessen = df6['population']
+    df6.plot.scatter('fertility', 'lifeexp', s=groessen)
+
+
+## Animierter Scatterplot
+
+Abschließend erstellen wir eine Serie von Bildern, die wir zu einem animierten GIF verbinden.
+
+### Schritt 9
+
+Erstelle einen Scatterplot für die Korrelation zwischen Lebenserwartung und Fruchtbarkeit für *jedes* Jahr zwischen 1960 und 2015 (davor sind die Daten sehr lückenhaft).
+
+### Schritt 10
+
+Lege mit `plt.axis()` die Achsenbegrenzungen in x- und y-Richtung fest, damit die Animation nicht herumwackelt.
+
+### Schritt 11
+
+Bringe die Jahreszahl mit `plt.title()` oder `plt.text()` im Diagramm unter.
+
+### Schritt 12
+
+Speichere jeden Scatterplot als eigene Datei mit der Jahreszahl im Dateinamen ab, z.B. `lifeexp_..` .
+
+
+### Schritt 13
+
+Installiere das Python-Modul `imageio`, indem Du auf der Kommandozeile eingibst:
+
+    pip install imageio
+
+### Schritt 14
+
+Passe das folgende Skript an und führe es aus:
+
+    import imageio
+
+    images = []
+
+    for i in range(0, 100):
+        filename = 'lifeexp_{}.png'.format(i)
+        images.append(imageio.imread(filename))
+
+    imageio.mimsave('output.gif', images, fps=20)

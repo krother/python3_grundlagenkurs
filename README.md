@@ -31,7 +31,7 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
 
 * [Python als Taschenrechner](erste_schritte/python_shell.md)
 * [Dein erstes Programm](erste_schritte/programme.md)
-* [Funktionen Plotten](erste_schritte/funktionen_plotten.md)
+* [Funktionen plotten](erste_schritte/funktionen_plotten.md)
 * [Entscheidungen treffen](erste_schritte/if.md)
 
 ----
@@ -53,8 +53,7 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
 * [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md)
 * [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
 * [Histogramme plotten](projekt_gapminder/histogramm.md)
-* [Langes und breites Tabellenformat](projekt_gapminder/long_wide_tables.md)
-* [Animierter Scatterplot](projekt_gapminder/animation.md)
+* [Animierter Scatterplot](projekt_gapminder/long_wide_tables.md)
 * [pandas Kurzreferenz](projekt_gapminder/cheatsheet.md)
 
 ----
