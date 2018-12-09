@@ -54,6 +54,7 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
 * [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
 * [Histogramme plotten](projekt_gapminder/histogramm.md)
 * [Animierter Scatterplot](projekt_gapminder/long_wide_tables.md)
+* [Lineare Regression](projekt_gapminder/regression.md)
 * [pandas Kurzreferenz](projekt_gapminder/cheatsheet.md)
 
 ----
