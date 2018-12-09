@@ -35,6 +35,7 @@ If you have no idea where to start, try the following Python script:
 
 * the line width grows thicker from the inside to the outside
 * there is a color gradient along the spiral
+* draw the **Fibonacci spiral** instead
 
 ![Spiral with width and color](images/spiral2.svg)
 

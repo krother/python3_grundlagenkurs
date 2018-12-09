@@ -1,25 +1,21 @@
 
-# Coding Challenge: The Recursive Snowflake
+# Rekursive Grafiken
 
-### The Challenge
-
-Write a program, that for a parameter `n=1` creates a basic shape out of four straight lines:
+Schreibe ein Programm, das mit dem Parameter `n=1` eine Grundform aus vier Linien zeichnet:
 
 ![n=1](images/snowflake1.png)
 
-When you increase `n`, each line gets replaced by a smaller version of the basic shape. For, instance with `n=2` you get:
+Wenn Du `n` erhöhst, soll jede Linie durch eine kleinere Ausgabe der Grundform ersetzt werden. Mit `n=2` solltest Du beispielsweise erhalten:
 
 ![n=2](images/snowflake2.png)
 
-And with `n=5`:
+Und mit `n=5`:
 
 ![n=5](images/snowflake3.png)
 
-When your program is able to produce a picture for `0 < n < 6`, you have mastered this challenge.
 
-### What you can exercise in this coding challenge:
+### Hinweise
 
-* Recursive algorithms
-* The **Pillow** library in Python
-* The **turtle** module in Python
-
+* ohne **Rekursion** kommst Du nicht besonders weit
+* verwende zum Zeichnen `turtle` oder `pillow`
+* die *"Schneeflocke"* in der Grafik ist auch als *"Koch-Kurve"* bekannt
