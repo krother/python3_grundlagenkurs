@@ -7,8 +7,14 @@
 |-----------|---------------|
 | [Weihnachtsbaum](weihnachtsbaum.md) | sehr leicht |
 | [Pyramide](pyramide.md) | sehr leicht |
+| [Fakultät](fakultaet.md) | sehr leicht |
 | [Schachbrett](schachbrett.md) | sehr leicht |
+| [Querprodukt](leicht.md) | leicht |
+| [Palindrome](palindrome.md) | leicht |
+| [Fibonacci](fibonacci.md) | leicht |
+| [Anagramme](anagramme.md) | leicht |
 | [Fizz-Buzz-Test](fizzbuzz.md) | leicht |
+| [Römische Zahlen](roman.md) | mittel |
 | [Einkaufszettel](shopping_bill.md) | mittel |
 | [Geburtstagsproblem](geburtstage.md) | leicht |
 | [Problem des Josephus](josephus.md) | mittel |
@@ -38,17 +44,22 @@
 |-----------|---------------|
 | [Babynamengenerator](babynamengenerator.md) | | leicht |
 | [Zufallsdaten](random.md) | leicht |
+| [Benford-Analyse](benford.md) | mittel |
+| [Filmbewertungen](moviedb.md) | mittel |
+| [Letzte Buchstaben](letzte_buchstaben.md) | mittel |
 
 
 ## Algorithmen
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Größter gemeinsamer Teiler](ggt.md) | sehr leicht |
+| [größter gemeinsamer Teiler](ggt.md) | sehr leicht |
 | [Sortieren](sortieralgorithmen.md) | leicht |
+| [Graph abschreiten](graph_traversal.md) | mittel |
 | [Problem des Handlungsreisenden](tsp.md) | mittel |
 | [Magisches Quadrat](magisches_quadrat.md) | schwer |
 | [König (dynamische Programmierung)](kings.md) | schwer |
+| [Rucksack-Problem](backpack_problem/backpack_problem.md) | schwer |
 
 ## Webentwicklung
 
@@ -74,3 +85,5 @@
 | [Zahlenraten](zahlenraten.md) | leicht |
 | [Memory](memory.md) | mittel |
 
+
+[Links zu weiteren Aufgaben](katas.md)

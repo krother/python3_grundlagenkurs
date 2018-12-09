@@ -14,8 +14,12 @@ Und mit `n=5`:
 ![n=5](images/snowflake3.png)
 
 
-### Hinweise
+## Hinweise
 
 * ohne **Rekursion** kommst Du nicht besonders weit
 * verwende zum Zeichnen `turtle` oder `pillow`
 * die *"Schneeflocke"* in der Grafik ist auch als *"Koch-Kurve"* bekannt
+
+## Zusatzaufgabe
+
+* verändere die Grundform, so dass statt der Schneeflocke ein Busch oder Baum entsteht.
