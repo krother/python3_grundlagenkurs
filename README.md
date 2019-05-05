@@ -5,7 +5,7 @@
 
 mit Einzelbeiträgen von Allegra Via, Kaja Milanowska und Anna Philips
 
-## Für wen sind diese Kursmaterialien geeignet?
+## Für wen sind die Übungen geeignet?
 
 Dies ist ein Python-Kurs für Einsteiger ohne Programmiererfahrung. Ich habe das Material vor allem in Präsenzkursen an der FU Berlin verwendet. Du gehörst zur Zielgruppe, wenn:
 
@@ -13,28 +13,26 @@ Dies ist ein Python-Kurs für Einsteiger ohne Programmiererfahrung. Ich habe das
 * Du bereits ein wenig mit einer anderen Programmiersprache wie R, MATLAB oder C gearbeitet hast.
 * Du selbst einen Python-Kurs leiten möchtest.
 
-Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirst Du zum Bearbeiten entweder einen Trainer oder ein gutes Grundlagenbuch brauchen. Ich empfehle als online-Begleitbuch [How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/thinkCSpy/html/).
+Das Kursmaterial besteht vor allem aus praktischen Übungen. Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer, eine Lerngruppe oder zumindest ein gutes Grundlagenbuch brauchen. Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/thinkCSpy/html/).
 
 ----
 
-## Inhalt
+## Teil I: Erste Schritte in Python
 
-![5 Kursbereiche](bilder/python_roadmap5.png)
-
-### Vorbereitung
-
-* [Python installieren](erste_schritte/installation.md)
-
-----
-
-### Erste Schritte
-
-* [Python als Taschenrechner](erste_schritte/python_shell.md)
-* [Dein erstes Programm](erste_schritte/programme.md)
-* [Funktionen plotten](erste_schritte/funktionen_plotten.md)
-* [Entscheidungen treffen](erste_schritte/if.md)
+* [Kapitel 1: Dein erstes Programm](erste_schritte/hallo.md)
+* [Kapitel 2: Python als Taschenrechner](erste_schritte/python_shell.md)
+* [Kapitel 3: Funktionen plotten](erste_schritte/funktionen_plotten.md)
+* [Kapitel 4: Schildkrötengrafik](erste_schritte/programme.md)
+* [Kapitel 5: Babynamen](erste_schritte/if.md)
+* [Kapitel 6: Demographie](erste_schritte/if.md)
+* [Kapitel 7: Alaeddin und die Wunderlampe](challenges/alaeddin.md)
+* [Kapitel 8: Zahlenraten](projekt_spiel/zahlenraten.md)
+* [Kapitel 9: Füchse und Hasen](projekt_spiel/zahlenraten.md)
+* [Kapitel 10: Flucht aus dem Labyrinth](projekt_spiel/README.md)
 
 ----
+
+## Teil II: Projekte
 
 ### Projekt 1: Babynamen
 
@@ -81,13 +79,6 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
 
 ----
 
-### Projekt 6: Spiele
-
-* [Zahlenraten](projekt_spiel/zahlenraten.md)
-* [Labyrinth-Spiel](projekt_spiel/README.md)
-
-----
-
 ### Python-Bibliotheken
 
 * [Übersicht](machine_learning/python.md)
@@ -103,7 +94,6 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Als Einsteiger wirs
   * [Fizz-Buzz-Test](challenges/fizzbuzz.md)
   * [Einkaufszettel](challenges/shopping_bill.md)
   * [Josephus](challenges/josephus.md)
-  * [Alaeddin und die Wunderlampe](challenges/alaeddin.md)
   * [Gapminder](challenges/gapminder.md)
   * [Letzte Buchstaben](challenges/letzte_buchstaben.md)
   * [Weltkarte](challenges/weltkarte.md)
