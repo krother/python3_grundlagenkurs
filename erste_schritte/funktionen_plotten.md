@@ -1,6 +1,15 @@
 
 # Funktionen plotten
 
+In diesem Kapitel lernst Du:
+
+* Diagramme zu zeichnen
+* Daten in einer Liste abzulegen
+* Listen von Zahlen zu erzeugen
+* Die Dokumentation zu verwenden
+* Ein Flußdiagramm zu lesen
+
+
 In diesem Kapitel verwenden wir die Bibliothek `matplotlib`, um  einfache Diagramme zu erzeugen und Funktionen zu plotten.
 
 ### Aufgabe 1
