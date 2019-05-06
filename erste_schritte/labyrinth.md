@@ -1,7 +1,7 @@
 
 # Flucht aus dem Labyrinth
 
-![arcade](arcade.png)
+![arcade](labyrinth.png)
 
 Die Python-Bibliothek [`arcade`](http://arcade.academy/) ist eine Bibliothek zum Programmieren von 2D-Spielen. Arcade kümmert sich um einen Großteil der Grafik und Steuerung, so dass Du Dich auf das Spiel konzentieren kannst. In diesem Kapitel schreiben wir ein einfaches Labyrinth-Spiel.
 
@@ -187,11 +187,20 @@ Dieser Trick macht es übrigens **viel** einfacher, Interaktionen mit der Umgebu
 
 ----
 
+
+## Schreibe ein Spiel!
+
+Die Dokumentation von `arcade` ist noch ausbaufähig. Du kannst aber leicht mit unterschiedlichen Grafikelementen experimentieren.
+
+----
+
 ## Fragen
 
 ### Wie kann ich prüfen, welches Grafikelement an der Position der Spielfigur liegt?
 
     LEVEL[self.ypos][self.xpos]
+
+----
 
 ### Wie kann ich verhindern, dass die Spielfigur durch Wände läuft?
 
@@ -203,17 +212,25 @@ Prüfe in `on_key_press()` das jeweils nächste Feld, bevor Du `xpos` oder `ypos
 
 Bei den anderen Richtungen ist der Code ähnlich.
 
+----
+
 ### Wie kann ich etwas auf der Karte platzieren?
 
     LEVEL[self.ypos][self.xpos] = '#'
+
+----
 
 ### Was für Kacheln gibt es noch?
 
 ![](tiles.png)
 
+----
+
 ### Kann ich Text schreiben?
 
 Ja. Schaue in der Dokumentation von `arcade` nach wie es geht.
+
+----
 
 ### Ich möchte einen Geist programmieren, der sich von selbst bewegt. Wie?
 
@@ -223,15 +240,13 @@ Wie bei der Spielfigur, kannst Du Koordinaten in `__init__()` definieren. Da die
         # hier Geist bewegen
         ...
 
+----
+
 ### Ich möchte Grafik mit vielen beweglichen Elementen programmieren. Wie?
 
 Schaue Dir die Klassen `Sprite` und `SpriteList` an, mit denen sich viele bewegliche Elemente bequemer verwalten und sehr schnell zeichnen lassen.
 
 ----
-
-## Schreibe ein Spiel!
-
-Die Dokumentation von `arcade` ist noch ausbaufähig. Du kannst aber leicht mit unterschiedlichen Grafikelementen experimentieren.
 
 ## Links
 
