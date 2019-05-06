@@ -1,0 +1,8 @@
+laptop 2 600
+silver cutlery 2 400
+stereo 3 300
+jewellery 2 1100
+vase 5 700
+camera 2 500
+painting 4 900
+cash 1 800

@@ -3,7 +3,7 @@
 
 ### Aufgabe 1
 
-Lies alle 135 Jahrgänge in ein einzelnes `DataFrame` ein. Das `DataFrame` soll die Spalten **Anzahl**, **Geschlecht**, **Name** und **Jahr** haben. Folgende Codeschnipsel könnten dabei nützlich sein:
+Lies alle Jahrgänge aus dem Babynamen-Datensatz in ein einzelnes `DataFrame` ein. Das `DataFrame` soll die Spalten **Anzahl**, **Geschlecht**, **Name** und **Jahr** haben. Folgende Codeschnipsel könnten dabei nützlich sein:
 
     df['jahr'] = 2015
 
