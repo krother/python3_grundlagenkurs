@@ -27,8 +27,7 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Wenn Du noch nie pr
 * [Kapitel 6: Demographie](erste_schritte/if.md)
 * [Kapitel 7: Alaeddin und die Wunderlampe](challenges/alaeddin.md)
 * [Kapitel 8: Zahlenraten](erste_schritte/zahlenraten.md)
-* [Kapitel 9: Füchse und Hasen](erste_schritte/zahlenraten.md)
-* [Kapitel 10: Flucht aus dem Labyrinth](erste_schritte/labyrinth.md)
+* [Kapitel 9: Flucht aus dem Labyrinth](erste_schritte/labyrinth.md)
 
 ----
 
