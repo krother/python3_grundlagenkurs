@@ -15,6 +15,7 @@
 ## Bücher
 
 * [How to think like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - ein systematisches, wissenschaftliches Tutorial von **Allen B. Downey** (deutsche Übersetzung ist käuflich)
+* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - von Al Sweigart
 * [Datenanalyse mit Python](https://www.dpunkt.de/book_details.php?masterid=5497) - **Wes McKinney**, Übersetzung von Christian Tismer and Kristian Rother.
 * [Einführung in Data Science](http://www.oreilly.de/buecher/12447/9783960090212-einf%C3%BChrung-in-data-science.html) - **Joel Grus**, Übersetzung von Kristian Rother
-* [Dive into Python 3](http://www.diveintopython3.net/) - Besprechungen von einem fortgeschrittenen Beispielprogramm pro Kapitel - **von Mark Pilgrim**
+* [Dive into Python 3](https://diveinto.org/python3/table-of-contents.html) - Besprechungen von einem fortgeschrittenen Beispielprogramm pro Kapitel - **von Mark Pilgrim**
