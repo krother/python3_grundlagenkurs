@@ -1,19 +1,19 @@
 
 # Python 3 Grundlagenkurs
 
-(c) 2015 Dr. Kristian Rother (krother@academis.eu)
-
-mit Einzelbeiträgen von Allegra Via, Kaja Milanowska und Anna Philips
+Dies ist ein Python-Kurs für Einsteiger ohne Programmiererfahrung. Ich habe das Material vor allem in Präsenzkursen an der FU Berlin verwendet.
 
 ## Für wen sind die Übungen geeignet?
 
-Dies ist ein Python-Kurs für Einsteiger ohne Programmiererfahrung. Ich habe das Material vor allem in Präsenzkursen an der FU Berlin verwendet. Du gehörst zur Zielgruppe, wenn:
+Du gehörst zur Zielgruppe, wenn:
 
 * Du überhaupt noch nie programmiert hast.
 * Du bereits ein wenig mit einer anderen Programmiersprache wie R, MATLAB oder C gearbeitet hast.
 * Du selbst einen Python-Kurs leiten möchtest.
 
-Das Kursmaterial besteht vor allem aus praktischen Übungen. Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer, eine Lerngruppe oder zumindest ein gutes Grundlagenbuch brauchen. Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/thinkCSpy/html/).
+DasMaterial besteht vor allem aus praktischen Übungen. Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer, eine Lerngruppe oder zumindest ein gutes Grundlagenbuch brauchen.
+
+Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/thinkCSpy/html/).
 
 ----
 
@@ -23,8 +23,8 @@ Das Kursmaterial besteht vor allem aus praktischen Übungen. Wenn Du noch nie pr
 * [Kapitel 2: Python als Taschenrechner](erste_schritte/python_shell.md)
 * [Kapitel 3: Funktionen plotten](erste_schritte/funktionen_plotten.md)
 * [Kapitel 4: Schildkrötengrafik](erste_schritte/programme.md)
-* [Kapitel 5: Babynamen](erste_schritte/if.md)
-* [Kapitel 6: Demographie](erste_schritte/if.md)
+* [Kapitel 5: Strings und Listen](erste_schritte/datentypen.md)
+* [Kapitel 6: Entscheidungen Treffen](erste_schritte/if.md)
 * [Kapitel 7: Alaeddin und die Wunderlampe](challenges/alaeddin.md)
 * [Kapitel 8: Zahlenraten](erste_schritte/zahlenraten.md)
 * [Kapitel 9: Flucht aus dem Labyrinth](erste_schritte/labyrinth.md)
@@ -130,7 +130,7 @@ Die Quellen dieses Dokuments sind unter [https://github.com/krother/python3_grun
 
 ## Lizenz
 
-(c) 2015 Dr. Kristian Rother (krother@academis.eu)
+© 2015 Dr. Kristian Rother (krother@academis.eu)
 
 mit Einzelbeiträgen von Allegra Via, Kaja Milanowska und Anna Philips
 

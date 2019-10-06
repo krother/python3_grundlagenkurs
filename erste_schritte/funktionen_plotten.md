@@ -9,6 +9,7 @@ In diesem Kapitel lernst Du:
 * Die Dokumentation zu verwenden
 * Ein Flußdiagramm zu lesen
 
+![](../images/plot.png)
 
 In diesem Kapitel verwenden wir die Bibliothek `matplotlib`, um  einfache Diagramme zu erzeugen und Funktionen zu plotten.
 
@@ -41,11 +42,12 @@ Folgendes Programm enthält einen Fehler. Finde und behebe ihn.
 
 ## Anweisungen wiederholen
 
-### Aufgabe 4
 
 Bisher wurde in unseren Programmen jede Anweisung genau ein Mal ausgeführt. In diesem Abschnitt werden wir uns die `for`-Anweisung genauer anschauen, mit der wir einen oder mehrere Befehle wiederholt als **Schleife** ausführen können.
 
-![Schleife](schleife_python.png)
+![Schleife](../images/schleife_python.png)
+
+### Aufgabe 4
 
 Was tut das folgende Programm?
 
@@ -127,31 +129,11 @@ Um eine hohe Auflösung zu erhalten, kannst Du `range` bis 100 oder mehr laufen 
 
 ### Aufgabe 10
 
-Zeichne vier Quadrate:
+Welche der folgenden Befehle sind ausführbar?
 
-![](four_squares.svg)
-
-
-### Aufgabe 11
-
-Zeichne konzentrische Quadrate. Du kannst mit `turtle.up()` und `turtle.down()` das Zeichnen aus- und anschalten.
-
-![](concentric.svg)
-
-
-### Aufgabe 12
-
-Welche der folgenden Befehle sind korrekt?
-
-* `for char in "ABCD":`
-* `for i in range(10):`
-* `for k in 7.65:`
-* `for number in [4, 6, 8]:`
-* `for (i=0; i&lt;10; i++):`
-
-
-### Aufgabe 13
-
-Zeichne eine Spirale.
-
-![](square_spiral.svg)
+* `for char in "ABCD": print(char)`
+* `for i in range(10): print(i)`
+* `for k in 7.65: print(k)`
+* `for number in [4, 6, 8]: print(number)`
+* `for x, y in [(1,2), (3,4), (5,6)]: print(x, y)`
+* `for (i=0; i<10; i++): print(i)`

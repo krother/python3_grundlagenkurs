@@ -1,7 +1,7 @@
 
 # Flucht aus dem Labyrinth
 
-![arcade](labyrinth.png)
+![arcade](../images/labyrinth.png)
 
 Die Python-Bibliothek [`arcade`](http://arcade.academy/) ist eine Bibliothek zum Programmieren von 2D-Spielen. Arcade kümmert sich um einen Großteil der Grafik und Steuerung, so dass Du Dich auf das Spiel konzentieren kannst. In diesem Kapitel schreiben wir ein einfaches Labyrinth-Spiel.
 
@@ -222,7 +222,7 @@ Bei den anderen Richtungen ist der Code ähnlich.
 
 ### Was für Kacheln gibt es noch?
 
-![](tiles.png)
+![](../images/tiles.png)
 
 ----
 

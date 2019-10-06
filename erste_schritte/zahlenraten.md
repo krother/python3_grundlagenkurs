@@ -16,7 +16,7 @@ Um das Ratespiel bei einem Treffer zu beenden, benötigen wir eine neue Möglich
 
 Ordne die Ausdrücke so zu, daß die gezeigten `while`-Schleifen die angegebene Anzahl von Durchläufen vollführen.
 
-![while exercise](../exercises/while.png)
+![while exercise](../images/while.png)
 
 
 ### Aufgabe 2

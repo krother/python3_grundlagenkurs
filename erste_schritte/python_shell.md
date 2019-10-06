@@ -188,7 +188,7 @@ Eine Übersicht zum Modul `math` findest Du auf [docs.python.org/3/library/math.
 
 ## Typumwandlungen
 
-### Aufgabe 3
+### Aufgabe 10
 
 Welche `print`-Anweisungen sind korrekt?
 

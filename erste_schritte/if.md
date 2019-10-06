@@ -3,11 +3,11 @@
 
 **Wie oft kommt der Buchstabe 'C' vor?**
 
-![Buchstabensalat](list.png)
+![Buchstabensalat](../images/list.png)
 
-Mit den bisherigen Python-Befehlen lassen sich bereits eine ganze Menge unterschiedliche Programme schreiben. Es fehlt uns allerdings noch eine wichtige Möglichkeit: Im Programm *Entscheidungen zu treffen*.
+Mit den bisherigen Python-Befehlen kannst Du bereits eine Menge unterschiedliche Programme schreiben. Es fehlt uns allerdings noch eine wichtige Möglichkeit: Im Programm *Entscheidungen zu treffen*.
 
-In Python gibt es für Entscheidungen (Verzweigungen) die `if`-Anweisung. Darum geht es in diesem Abschnitt.
+In Python gibt es für Entscheidungen (Verzweigungen) die `if`-Anweisung. Darum geht es in diesem Kapitel.
 
 ### Aufgabe 1
 

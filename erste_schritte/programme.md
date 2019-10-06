@@ -30,14 +30,14 @@ Erkläre das folgende Programm:
 
 Zeichne ein Quadrat:
 
-![](square.svg)
+![](../images/square.svg)
 
 
 ### Aufgabe 4
 
 Zeichne ein Dreieck:
 
-![](triangle.svg)
+![](../images/triangle.svg)
 
 
 ### Aufgabe 5
@@ -48,7 +48,7 @@ Zeichne das Haus vom Nikolaus. Eine Wurzel kannst Du mit dem Modul `math` berech
 
     vier = math.sqrt(16)
 
-![](nikohaus.svg)
+![](../images/nikohaus.svg)
 
 ### Aufgabe 6
 
@@ -56,3 +56,26 @@ Schreibe ein Programm, bei dem der Nutzer die Größe des gezeichneten Quadrats 
 
     zahl = int(input("Gib eine Zahl ein: "))
     print(zahl)
+
+----
+
+## Wiederholung: for-Schleifen
+
+### Aufgabe 7
+
+Zeichne vier Quadrate:
+
+![](../images/four_squares.svg)
+
+
+### Aufgabe 8
+
+Zeichne konzentrische Quadrate. Du kannst mit `turtle.up()` und `turtle.down()` das Zeichnen aus- und anschalten.
+
+![](../images/concentric.svg)
+
+### Aufgabe 9
+
+Zeichne eine Spirale.
+
+![](../images/square_spiral.svg)
