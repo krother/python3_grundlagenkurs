@@ -122,7 +122,7 @@ Würfle eine Zufallszahl aus:
 
     import random
 
-Schlage in der Dokumentation des Moduls `random` nach, wie Du eine ganze Zufallszahl generieren kannst.
+Schlage in der Dokumentation des Moduls `random` nach, wie Du eine ganzzahlige Zufallszahl generieren kannst.
 
 ### Aufgabe 8
 
@@ -141,9 +141,6 @@ Beispielausgabe:
 
     Bitte gib eine Zahl ein (1-100): 11
     Die Zahl ist zu klein.
-
-    Bitte gib eine Zahl ein (1-100): 17
-    Die Zahl ist zu gross.
 
     Bitte gib eine Zahl ein (1-100): 14
     Die Zahl ist zu gross.

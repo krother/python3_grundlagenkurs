@@ -13,6 +13,8 @@ Zunächst installiere die Bibliothek mit:
 
     pip install arcade
 
+Auf manchen Systemen sind einige zusätzliche Schritte notwendig. Zur Sicherheit solltest Du das in der [Dokumentation zu `arcade`](http://arcade.academy/) überprüfen.
+
 ### Aufgabe 2
 
 Die Grundlage für Spiele ist die Klasse `arcade.Window`. Diese musst Du importieren:
@@ -31,13 +33,15 @@ Nun kannst Du ein `Labyrinth`-Objekt erstellen und laufen lassen:
     laby = Labyrinth()
     arcade.run()
 
-Beim Ausführen des Programms solltest du ein schwarzes Fenster sehen, das bei Programmabbruch verschwindet. Bei einigen Entwicklungsumgebungen (darunter Anaconda Spyder) kann das Fenster im Hintergrund erscheinen. Suche es mit `Alt+Tab`.
+Beim Ausführen des Programms solltest Du ein schwarzes Fenster sehen, das bei Programmabbruch verschwindet. Bei einigen Entwicklungsumgebungen (darunter Anaconda Spyder) kann das Fenster im Hintergrund erscheinen. Suche es mit `Alt+Tab`.
 
 ----
 
 ## Grafiken laden und anzeigen
 
-Nun müssen wir einige Grafikelemente laden und anzeigen. Du findest einige in der Datei [`tiles.png`](tiles.png).
+Nun müssen wir einige Grafikelemente laden und anzeigen. Du findest einige in der Datei `tiles.png`:
+
+![`arcade`](../images/tiles.png).
 
 ### Aufgabe 3
 
@@ -53,7 +57,7 @@ Wenn Du möchtest, kannst Du die Grafiken auch in einer intelligenteren Datenstr
 
 ### Aufgabe 4
 
-Nun fügen wir der Klasse `Labyrinth` eine Methode `on_draw()` hinzu, die Grafik zeichnet. Diese wird von `arcade` automatisch in regelmäßigen Intervallen aufgerufen. Wir müssen nur noch angeben, welches Grafikelement wo auf dem Bildschirm erscheinen soll:
+Nun fügen wir der Klasse `Labyrinth` eine Methode `on_draw()` hinzu, die Grafik zeichnet. Diese wird von `arcade` automatisch in regelmäßigen Zeitabständen aufgerufen. Wir müssen nur noch angeben, welches Grafikelement wo auf dem Bildschirm erscheinen soll:
 
     def on_draw(self):
         arcade.start_render()
@@ -82,13 +86,14 @@ Wir benötigen den Parameter `self`, um auf den Zustand der Klasse zuzugreifen. 
 
 ### Aufgabe 6
 
-Ändere `on_draw()` so, dass statt der voreingestellten `300` die Werte `self.xpos` und `self.ypos` verwendet werden.
+Ändere die Methode `on_draw()` so, dass statt der voreingestellten `300` die Werte `self.xpos` und `self.ypos` verwendet werden.
 
 ### Aufgabe 7
 
 Für die Tastaturabfrage benötigst Du die Pfeiltasten:
 
-    from arcade.key import MOTION_UP, MOTION_DOWN, MOTION_LEFT, MOTION_RIGHT
+    from arcade.key import MOTION_UP, MOTION_DOWN, \
+                           MOTION_LEFT, MOTION_RIGHT
 
 Die Methode `on_key_press()` wird ebenfalls automatisch aufgerufen, wenn eine Taste gedrückt wird. Je nach Taste kannst Du die Position der Spielfigur verändern:
 
@@ -174,7 +179,7 @@ Für den letzten Schliff setze die Spielfigur auf die Gitterkoordinaten des Spie
     self.xpos = 5
     self.ypos = 5
 
-Verwende zum Zeichnen der Spielfigur die gleiche Formel wir für das Spielfeld:
+Verwende zum Zeichnen der Spielfigur die gleiche Formel wie für das Spielfeld:
 
     pac.draw(self.xpos * 32 + ____, self.ypos * 32 + ____, 32, 32)
 
@@ -220,15 +225,9 @@ Bei den anderen Richtungen ist der Code ähnlich.
 
 ----
 
-### Was für Kacheln gibt es noch?
-
-![](../images/tiles.png)
-
-----
-
 ### Kann ich Text schreiben?
 
-Ja. Schaue in der Dokumentation von `arcade` nach wie es geht.
+Ja. Schaue bitte in der Dokumentation von `arcade` nach wie es geht.
 
 ----
 
