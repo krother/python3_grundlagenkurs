@@ -1,15 +1,15 @@
 
 # Songtexte
 
-![Eminem](eminem_word_cloud.jpg)
+![Eminem](../images/eminem_word_cloud.jpg)
 
 *häufige Wörter in Songtexten von Eminem*
 
 ## Ziel
 
-In diesem Projekt werden wir **aus Songtexten die Interpreten vorhersagen**. 
+In diesem Kapitel werden wir **aus Songtexten die Interpreten vorhersagen**.
 
-Unser Programm soll lernen, aus Sätzen wie 
+Unser Programm soll lernen, aus Sätzen wie
 
 * *"we will dance and have a good time"*
 * *"I want you to know, yeah, that I still love you so"*
@@ -17,20 +17,14 @@ Unser Programm soll lernen, aus Sätzen wie
 
 einen möglichen Interpreten zu nennen.
 
-Das Projekt besteht aus fünf Teilen:
+Das Projekt besteht aus drei Teilen:
 
-1. [Daten aus dem Internet herunterladen](teil1_songliste.md)
-2. [Songtitel auslesen](teil2_songs_extrahieren.md)
-3. [Songs herunterladen](teil3_songs_herunterladen.md)
-4. [Songs einlesen](teil4_songs_einlesen.md)
-5. [Klassifikation nach dem *Naive Bayes*-Verfahren](teil5_vorhersage.md)
-
-
-## Materialien
-
-* Dokumentation zu 25 Python-Modulen zum Nachschlagen.
-* Einführung in pandas
+| Teil | Aufgabe      | Technologien |
+|------|--------------|--------------|
+|  1.  | [Songs aus dem Internet herunterladen](songs_herunterladen.md) | web scraping, requests |
+|  2.  | [Texte aus HTML-Code extrahieren](text_extrahieren.md) | Reguläre Ausdrücke |
+|  3.  | [Klassifikation von Texten](vorhersage.md) | maschinelles Lernen, Naive Bayes |
 
 ## Links
 
-[https://pudding.cool/2017/05/song-repetition/index.html](https://pudding.cool/2017/05/song-repetition/index.html)
+[Are Pop Lyrics getting more repetitive?](https://pudding.cool/2017/05/song-repetition/index.html)

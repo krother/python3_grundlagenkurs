@@ -1,4 +1,88 @@
 
+# Teil 1: Songliste herunterladen
+
+## Aufgabe 1.1
+
+Besuche im Browser die Seite [azlyrics.com](http://www.azlyrics.com). Suche Dir einen beliebigen Interpreten aus (außer **Madonna**, **Eminem** und **Beatles**, die habe ich schon).
+
+Notiere Dir die URL.
+
+## Aufgabe 1.2
+
+Erstelle eine Python-Datei `download.py`.
+
+## Aufgabe 1.3
+
+Verwende das Modul `requests`, um die Seite mit der Songliste des gewählten Interpreten herunterzuladen.
+
+Damit das funktioniert, müssen wir so tun als wäre Python ein Browser. Das geht mit:
+
+    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1)
+    AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+    seite = requests.get(url, headers=headers)
+
+## Aufgabe 1.4
+
+Speichere die heruntergeladene Seite in einer HTML-Datei.
+
+#### Hinweis:
+
+Wenn in der Seite bestimmte Sonderzeichen vorkommen, mußt Du die Datei zum Schreiben öffnen mit:
+
+    f = open(dateiname, 'w', encoding='utf-8')
+
+# Teil 2: Songs auslesen
+
+## Aufgabe 2.1
+
+Erstelle eine neue Python-Datei `songs_auslesen.py`.
+
+## Aufgabe 2.2
+
+Lies die in Aufgabe 1.4 gespeicherte HTML-Datei ein.
+
+## Aufgabe 2.3
+
+Betrachte die HTML-Datei in einem Texteditor. Finde heraus, wo in der Datei die Songtitel und Links in der Seite sind und woran das Programm diese Stellen erkennen kann.
+
+## Aufgabe 2.4
+
+Schreibe ein Programm, das alle Links zu songs aus der Seite ausliest und in einer Liste sammelt, z.B.:
+
+    [
+     'madonna/frozen.html',
+     'madonna/burningup.html',
+     ..
+    ]
+
+Mögliche Ansätze:
+
+* `string.find`
+* `string.split`
+* Position im String (falls sie immer die gleiche ist)
+* Reguläre Ausdrücke
+
+#### Hinweis:
+
+Wenn in der Seite bestimmte Sonderzeichen vorkommen, mußt Du die Datei öffnen mit:
+
+    f = open(dateiname, 'r', encoding='utf-8')
+
+## Aufgabe 2.5
+
+Gib alle Links auf dem Bildschirm aus und prüfe nach, ob das Programm korrekt arbeitet.
+
+## Aufgabe 2.6
+
+Verpacke den bisher geschriebenen Code in eine Funktion:
+
+    def titel_auslesen(dateiname):
+        # Dein Code kommt hierhin
+        return songtitel
+
+Rufe die Funktion im Programm aus und stelle sicher, daß es immer noch funktioniert.
+
+
 # Teil 3: Songtexte herunterladen
 
 ## Aufgabe 3.1
@@ -13,7 +97,7 @@ Füge dem Dateinamen als Endung `.html` hinzu.
 
 ## Aufgabe 3.3
 
-Nimm **nur den ersten Song der Liste**. Erstelle aus dem Link zu diesem Song eine vollständige URL. 
+Nimm **nur den ersten Song der Liste**. Erstelle aus dem Link zu diesem Song eine vollständige URL.
 
 
 ## Aufgabe 3.4
