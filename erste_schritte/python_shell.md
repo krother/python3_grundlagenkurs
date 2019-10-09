@@ -1,14 +1,16 @@
 
 # Python als Taschenrechner
 
-In diesem Kapitel lernst Du:
+## In diesem Kapitel lernst Du:
 
-* Die Python-Shell zu  verwenden
-* Mit ganzen Zahlen und Kommazahlen zu rechnen
-* Ein Modul zu importieren
-* Mathematische Funktionen zu verwenden
-* Datentypen ineinander umzuwandeln
-* Laufzeitfehler zu erkennen
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Mit Zahlen rechnen |
+| ⚙ | Arithmetische Operatoren verwenden |
+| ⚙ | Datentypen unterscheiden |
+| 💡 | Die Datentypen `int` und `float` verwenden |
+| 💡 | Datentypen ineinander umwandeln |
+| 🐞 | Laufzeitfehler erkennen |
 
 ----
 

@@ -8,35 +8,54 @@ Dies ist ein Python-Kurs für Einsteiger ohne Programmiererfahrung. Ich habe das
 Du gehörst zur Zielgruppe, wenn:
 
 * Du überhaupt noch nie programmiert hast.
-* Du bereits ein wenig mit einer anderen Programmiersprache wie R, MATLAB oder C gearbeitet hast.
+* Du bereits mit einer anderen Programmiersprache wie R, MATLAB oder C gearbeitet hast.
 * Du selbst einen Python-Kurs leiten möchtest.
 
-DasMaterial besteht vor allem aus praktischen Übungen. Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer, eine Lerngruppe oder zumindest ein gutes Grundlagenbuch brauchen.
+Das Material besteht vor allem aus praktischen Übungen. Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer, eine Lerngruppe oder zumindest ein gutes Grundlagenbuch brauchen.
 
 Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/thinkCSpy/html/).
 
 ----
 
-## Teil I: Erste Schritte in Python
+## Teil 1: Erste Schritte in Python
 
-* [Kapitel 1: Dein erstes Programm](erste_schritte/hallo.md)
-* [Kapitel 2: Python als Taschenrechner](erste_schritte/python_shell.md)
-* [Kapitel 3: Funktionen plotten](erste_schritte/funktionen_plotten.md)
-* [Kapitel 4: Schildkrötengrafik](erste_schritte/programme.md)
-* [Kapitel 5: Strings und Listen](erste_schritte/datentypen.md)
-* [Kapitel 6: Entscheidungen Treffen](erste_schritte/if.md)
-* [Kapitel 7: Alaeddin und die Wunderlampe](challenges/alaeddin.md)
-* [Kapitel 8: Zahlenraten](erste_schritte/zahlenraten.md)
-* [Kapitel 9: Flucht aus dem Labyrinth](erste_schritte/labyrinth.md)
+* [Python Installieren](erste_schritte/installation.md)
+* [Dein erstes Programm](erste_schritte/hallo.md)
+* [Python als Taschenrechner](erste_schritte/python_shell.md)
+* [Pythagoras](erste_schritte/pythagoras.md)
+
+## Teil 2: Schildkrötengrafik
+
+* [Schildkrötengrafik](erste_schritte/programme.md)
+* [Blumenmuster](erste_schritte/if.md)
+* [Das Impostor Syndrome](impostor.md)
 
 ----
 
-## Teil II: Projekte
+## Teil 3: Diagramme
 
-### Projekt 1: Babynamen
+* [Daten plotten](erste_schritte/plotten1.md)
+* [Funktionen plotten](erste_schritte/funktionen_plotten.md)
+* [Ansehnliche Diagramme](erste_schritte/plotten3.md)
 
-* [Übersicht](projekt_babynamen/README.md)
-* [Datentypen](erste_schritte/datentypen.md)
+## Teil 4: Text
+
+* [Chiffre](chiffre.md)
+* [Wörter Zählen](challenges/alaeddin.md)
+* [Häufigste Wörter](haeufigste_woerter.md)
+
+----
+
+## Teil 5: Mini-Spiele
+
+* [Zahlenraten](erste_schritte/zahlenraten.md)
+* [Unendliche Weiten](erste_schritte/space.md)
+* [Zusammenfassung: Datentypen](erste_schritte/datentypen.md)
+
+----
+
+## Teil 5: Babynamen
+
 * [Babys auszählen](projekt_babynamen/babys_auszaehlen.md)
 * [Namen finden](projekt_babynamen/namen_finden.md)
 * [Eine Zeitreihe erstellen](projekt_babynamen/zeitreihe.md)
@@ -45,7 +64,7 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ----
 
-### Projekt 2: Gapminder
+## Kapitel 4: Gapminder
 
 * [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md)
 * [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
@@ -53,76 +72,48 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 * [Animierter Scatterplot](projekt_gapminder/long_wide_tables.md)
 * [Lineare Regression](projekt_gapminder/regression.md)
 * [pandas Kurzreferenz](projekt_gapminder/cheatsheet.md)
+* [Gapminder](challenges/gapminder.md)
+* [Weltkarte](challenges/weltkarte.md)
 
 ----
 
-### Projekt 3: Titanic
+## Kapitel 5: Titanic
 
 * [Panik auf der Titanic](projekt_titanic/README.md)
+* [Machine Learning Verfahren](machine_learning/README.md)
 
 ----
 
-### Projekt 4: Songtexte
+## Kapitel 6: Songtexte
 
 * [Das Songtexte-Projekt](projekt_lyrics/README.md)
-* [Daten aus dem Internet herunterladen](projekt_lyrics/teil1_songliste.md)
-* [Songtitel auslesen](projekt_lyrics/teil2_songs_extrahieren.md)
-* [Songs herunterladen](projekt_lyrics/teil3_songs_herunterladen.md)
-* [Songs einlesen](projekt_lyrics/teil4_songs_einlesen.md)
-* [Klassifikation nach dem *Naive Bayes*-Verfahren](projekt_lyrics/teil5_vorhersage.md)
+* [Songs herunterladen](projekt_lyrics/songs_herunterladen.md)
+* [Songtexte extrahieren](projekt_lyrics/text_extrahieren.md)
+* [Klassifikation nach dem *Naive Bayes*-Verfahren](projekt_lyrics/vorhersage.md)
 
 ----
 
-### Projekt 5: Strassenverzeichnis
+## Kapitel 7: Strassenverzeichnis
 
 * [Webseite mit Strassennamen](projekt_website/website.md)
 
 ----
 
-### Python-Bibliotheken
+## Kapitel 8: Spiele Programmieren
 
-* [Übersicht](machine_learning/python.md)
-* [Reguläre Ausdrücke](regular_expressions/regex.md)
-
-----
-
-### Challenges
-
-* [Challenges](challenges/README.md)
-  * [Babynamen](challenges/babynamen.md)
-  * [Weihnachtsbaum](challenges/weihnachtsbaum.md)
-  * [Fizz-Buzz-Test](challenges/fizzbuzz.md)
-  * [Einkaufszettel](challenges/shopping_bill.md)
-  * [Josephus](challenges/josephus.md)
-  * [Gapminder](challenges/gapminder.md)
-  * [Letzte Buchstaben](challenges/letzte_buchstaben.md)
-  * [Weltkarte](challenges/weltkarte.md)
-  * [Filmbewertungen](challenges/moviedb.md)
-  * [Schiffe](challenges/schiffe/README.md)
-  * [MNIST](challenges/mnist.md)
-  * [Spirale](challenges/spiral/spiral.md)
-  * [Postkarte](challenges/postcards/postcard.md)
-  * [Thumbnails](challenges/thumbnails/README.md)
-  * [Rekursive Grafik](challenges/recursive_graph/recursive_graph.md)
-  * [Film](challenges/movie/README.md)
-  * [Babynamengenerator](challenges/babynamengenerator.md)
-  * [Google](challenges/google.md)
-  * [Webrecherche](challenges/webrecherche.md)
-  * [Blog](challenges/blog.md)
+* [Flucht aus dem Labyrinth](erste_schritte/labyrinth.md)
 
 ----
 
 ### Anhang
 
 * [Empfohlene Bücher und Webseiten](appendix/literatur.md)
+* [Links](appendix/links.md)
+* [Hinweise für Lehrkräfte](appendix/teaching.md)
 * [Hintergrundinformationen zu Python 3](appendix/hintergrundinfos.md)
-* [Datenquellen](projekt_gapminder/datenquellen.md)
-* [Links zu Pandas](projekt_gapminder/links.md)
-* [Machine Learning Verfahren](machine_learning/README.md)
-* [Machine Learning Links](machine_learning/links.md)
 * [Danksagungen](appendix/danksagungen.md)
 
-
+----
 
 ## Quelltext
 
@@ -135,3 +126,8 @@ Die Quellen dieses Dokuments sind unter [https://github.com/krother/python3_grun
 mit Einzelbeiträgen von Allegra Via, Kaja Milanowska und Anna Philips
 
 Verteilt unter den Bedingungen der Creative Commons Attribution Share-alike License 4.0
+
+## Danksagungen
+
+Ich möchte den folgenden Leuten für den anregenden Austausch zu Python und Bildung danken: Jasmin Touati, Veit Schiele, Dinu Gherman, Pedro Fernandes, Tomasz Puton, Edward Jenkins, Bernard Szlachta, Robert Lehmann und Magdalena Rother.
+Ihr habt dazu beigetragen, dieses Tutorial zu verbessern.

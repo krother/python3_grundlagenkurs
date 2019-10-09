@@ -1,6 +1,17 @@
 
 # Zahlenraten
 
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Ein Ratespiel schreiben |
+| 🔀 | Eine Event-Schleife entwerfen |
+| 💡 | Das Modul `random` verwenden |
+| 💡 | Schleifen mit `while` schreiben |
+| 🔧 | Beispielausgabe als Programmierhilfe |
+| 🐞 | Endlosschleifen erkennen |
+
+----
+
 Schreibe ein Programm, das eine Zufallszahl zwischen 1 und 100 auswürfelt:
 
     import random

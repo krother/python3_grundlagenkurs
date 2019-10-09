@@ -1,5 +1,18 @@
 
-# Alaeddin und die Wunderlampe
+# Wörter zählen
+
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 🔀 | Eine Zählvariable verwenden |
+| 💡 | Textdateien auslesen |
+| 💡 | Strings zerlegen |
+| ⚙ | Vergleichsoperatoren verwenden |
+| 🔧 | Absolute und relative Pfade definieren |
+| 🐞 | Dateinamen prüfen |
+
+----
 
 ## Wörter zählen
 

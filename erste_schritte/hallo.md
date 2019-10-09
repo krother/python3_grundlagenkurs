@@ -1,13 +1,15 @@
 # Dein erstes Programm
 
-In diesem Kapitel lernst Du:
+## In diesem Kapitel lernst Du:
 
-* Ein Programm mit **Spyder** auszuführen
-* Text in einer String-Variablen zu speichern
-* Strings mit `input()` einzulesen
-* Strings mit `print()` auszugeben
-* Python-Befehle zu verändern
-* Tippfehler zu suchen
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Ein *"Hallo, Welt"*-Programm schreiben |
+| ⚙ | Text in einer Variablen speichern |
+| 💡 | Den Datentyp *String* verwenden |
+| 💡 | Die Funktionen `print()` und `input()` aufrufen |
+| 🔧 | Python-Befehle verändern |
+| 🐞 | Syntaxfehler erkennen |
 
 ----
 

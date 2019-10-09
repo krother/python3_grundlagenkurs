@@ -1,13 +1,18 @@
 
 # Funktionen plotten
 
-In diesem Kapitel lernst Du:
+## In diesem Kapitel lernst Du:
 
-* Diagramme zu zeichnen
-* Daten in einer Liste abzulegen
-* Listen von Zahlen zu erzeugen
-* Die Dokumentation zu verwenden
-* Ein Flußdiagramm zu lesen
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Funktionen plotten |
+| 🔀 | Eine Liste transformieren |
+| 💡 | Listen erstellen |
+| 💡 | Die Funktionen `range()` und `len()` verwenden |
+| 💡 | Achsen definieren und beschriften |
+| 🐞 | Die Länge von Listen prüfen |
+
+----
 
 ![](../images/plot.png)
 

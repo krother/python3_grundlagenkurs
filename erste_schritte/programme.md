@@ -1,6 +1,19 @@
 
 # Schildkrötengrafik
 
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Turtle-Grafiken zeichnen |
+| 🔀 | Ein Programm in Eingabe, Verarbeitung und Ausgabe aufteilen |
+| ⚙ | `for`-Schleifen schreiben |
+| ⚙ | Befehlsblöcke einrücken |
+| 💡 | Das Modul `turtle` verwenden |
+| 🐞 | Semantische Fehler erkennen |
+
+----
+
 ### Aufgabe 1
 
 Führe das folgende Programm aus:

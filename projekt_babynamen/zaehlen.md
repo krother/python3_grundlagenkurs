@@ -1,5 +1,18 @@
 
-# Buchstaben zählen
+# Anfangsbuchstaben zählen
+
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 🔀 | Gruppieren von Daten |
+| ⚙ | Funktionen definieren |
+| 💡 | Methoden von Dictionaries |
+| 💡 | Die Funktion `help()` |
+| 🔧 | Docstrings schreiben |
+| 🐞 | Funktionen einzeln testen |
+
+----
 
 In diesem Kapitel werden wir ein Programm schreiben, das **die häufigsten Anfangsbuchstaben** in Babynamen ermittelt. Dazu benötigen wir einen neuen, wichtigen Datentyp: **Dictionaries**
 

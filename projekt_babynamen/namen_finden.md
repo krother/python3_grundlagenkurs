@@ -1,6 +1,19 @@
 
 # Namen finden
 
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Daten durchsuchen |
+| 🔀 | Daten filtern |
+| 🔀 | Daten-Records sammeln |
+| ⚙ | Vergleichsoperatoren kombinieren |
+| 💡 | Methoden von Listen |
+| 💡 | Tabellarische Ausgabe |
+
+----
+
 In diesem Kapitel werden wir unsere Daten aus einer **Textdatei** einlesen und das für Strings gelernte darauf anwenden. Anschließend suchen wir nach Namen wie *'Miriam'* und *'Malcolm'*, die mit *'M'* beginnen und enden und sammeln diese in einer **Liste**.
 
 Am Ende des Kapitels werden wir ein Balkendiagramm zeichnen.
@@ -149,3 +162,13 @@ Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. V
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
 ![list funcs exercise1](../exercises/list_funcs1.png)
+
+## Texteditoren
+
+Für einige der Aufgaben ist ein **Texteditor** sinnvoll.
+
+* **Idle** - ein minimalistischer Editor für Python, der Teil der Standard-Distribution ist
+* **Sublime Text 2** - ein sehr mächtiger Texteditor mit konfigurierbaren Sonderfunktionen.
+* **PyCharm** - eine professionelle auf Python spezialisierte Entwicklungsumgebung, die zum Entwickeln großer Projekte sehr gut geeignet ist. Du wirst 90% der Funktionen eine lange Zeit lang nicht brauchen, aber es ist ein sehr schönes Programm.
+* **Notepad++** - ein sehr nützlicher Editor für Windows. *Bitte verwende auf keinen Fall Notepad, um Python zu programmieren. Du tust Dir keinen Gefallen damit. Du solltest stattdessen lieber versuchen, mit einer Nagelfeile aus dem Gefängnis auszubrechen.*
+* **vim** - ein konsolenbasierter Texteditor für Unix. Dies ist das Werkzeug der Wahl für Systemadministratoren und alle Entwickler, die sich oft auf anderen Rechnern einloggen müssen, um dort zu arbeiten.

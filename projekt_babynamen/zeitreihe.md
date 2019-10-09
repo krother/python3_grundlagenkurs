@@ -1,6 +1,19 @@
 
 # Eine Zeitreihe erstellen
 
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Eine Zeitreihe erstellen |
+| 🔀 | Mehrere Dateien einlesen |
+| 🔀 | Lücken füllen |
+| ⚙ | Die `break`-Anweisung |
+| 💡 | Das Modul `os` |
+| 🐞 | Programme teilweise ausführen |
+
+----
+
 In diesem Kapitel werden wir untersuchen, wie sich die Häufigkeit einiger Namen im Laufe der Zeit entwickelt. Dazu müssen wir nicht nur *eine*, sondern *alle* Dateien aus dem Datensatz nacheinander einlesen.
 
 ### Aufgabe 1

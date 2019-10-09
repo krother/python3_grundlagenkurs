@@ -1,6 +1,19 @@
 
 # Tabellen ausgeben
 
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Tabellen in CSV-Dateien schreiben |
+| 🔀 | Verschachtelte Schleifen |
+| 🔀 | Merge-Operationen |
+| 💡 | Dateien schreiben |
+| 🔧 | Refaktorisieren |
+| 🐞 | Das Arbeitsverzeichnis überprüfen |
+
+----
+
 In diesem Kapitel werden wir unsere Ergebnisse in eine **Datei schreiben**. Nicht nur das, wir möchten sie auch **als Tabelle formatieren**.
 
 

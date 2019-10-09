@@ -1,6 +1,26 @@
 
 # Babynamen auszählen
 
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Komma-separierte Daten parsen |
+| 🔀 | Daten aggregieren |
+| 💡 | Methoden von Strings |
+| 💡 | Die Funktionen `sum()`, `max()`  und `min()` |
+| 🔧 | Rohdaten im Texteditor inspizieren |
+| 🐞 | Zwischenergebnisse überprüfen |
+
+----
+
+## Babynamen in den USA
+
+![Babynamen](baby.png)
+
+Die US-Meldebehörden haben die Namen aller seit 1880 geborenen US-Staatsbürger registriert. Der Datensatz ist öffentlich unter [http://www.ssa.gov/oact/babynames/limits.html
+](http://www.ssa.gov/oact/babynames/limits.html) zugänglich. Aus Datenschutzgründen sind nur Namen, die mindestens 5 Mal verwendet wurden, im Datensatz aufgeführt.
+
 In diesem Kapitel werden wir einen größeren String auseinandernehmen. Dies kommt beim Analysieren von Daten immer wieder vor. Zum Üben verwenden wir folgenden mehrzeiligen String (die Daten sind ein Auszug aus dem US-Geburtenregister):
 
     bigbang = """Emily,F,12562

@@ -1,6 +1,19 @@
 
 # Flucht aus dem Labyrinth
 
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Ein Spiel mit Grafik programmieren |
+| 🔀 | Callbacks verwenden |
+| ⚙ | Klassen definieren |
+| 💡 | Die Bibliothek `arcade` verwenden |
+| 🔧 | Programme über die Kommandozeile ausführen |
+| 🐞 | Breakpoints setzen |
+
+----
+
 ![arcade](../images/labyrinth.png)
 
 Die Python-Bibliothek [`arcade`](http://arcade.academy/) ist eine Bibliothek zum Programmieren von 2D-Spielen. Arcade kümmert sich um einen Großteil der Grafik und Steuerung, so dass Du Dich auf das Spiel konzentieren kannst. In diesem Kapitel schreiben wir ein einfaches Labyrinth-Spiel.

@@ -1,5 +1,18 @@
 
-# Entscheidungen treffen
+# Blumenmuster
+
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 🔀 | Zustandsvariablen verwenden |
+| 💡 | Den Datentyp `bool` verwenden |
+| ⚙ | Verzeigungen mit `if` schreiben |
+| ⚙ | Vergleichsoperatoren verwenden |
+| 🔧 | Funktionen mit `[TAB]` vervollständigen |
+| 🐞 | Nach dem Code-Debug-Zyklus entwickeln |
+
+----
 
 **Wie oft kommt der Buchstabe 'C' vor?**
 
