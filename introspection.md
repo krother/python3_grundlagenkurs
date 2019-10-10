@@ -1,9 +1,6 @@
 
 # Introspektion
 
-![Introspektion](introspection.png)
-
-
 ### Aufgabe 1
 
 Probiere folgende Befehle in IPython aus:

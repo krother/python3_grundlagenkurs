@@ -50,7 +50,7 @@ Zeichne ein Quadrat:
 
 Zeichne ein Dreieck:
 
-![](../images/triangle.svg)
+![Dreieck](images/triangle.svg)
 
 
 ### Aufgabe 5
@@ -61,7 +61,7 @@ Zeichne das Haus vom Nikolaus. Eine Wurzel kannst Du mit dem Modul `math` berech
 
     vier = math.sqrt(16)
 
-![](../images/nikohaus.svg)
+![Das Haus vom Nikolaus](images/nikohaus.svg)
 
 ### Aufgabe 6
 
@@ -78,17 +78,17 @@ Schreibe ein Programm, bei dem der Nutzer die Größe des gezeichneten Quadrats 
 
 Zeichne vier Quadrate:
 
-![](../images/four_squares.svg)
+![](images/four_squares.svg)
 
 
 ### Aufgabe 8
 
 Zeichne konzentrische Quadrate. Du kannst mit `turtle.up()` und `turtle.down()` das Zeichnen aus- und anschalten.
 
-![](../images/concentric.svg)
+![](images/concentric.svg)
 
 ### Aufgabe 9
 
 Zeichne eine Spirale.
 
-![](../images/square_spiral.svg)
+![](images/square_spiral.svg)

@@ -1,7 +1,7 @@
 
 # Das Problem des Josephus
 
-![Sean Connery jagt den Mördermönch](moenche.jpg)
+![Sean Connery jagt den Mördermönch](images/moenche.jpg)
 
 In einem Kloster befinden sich 1 Meuchler und folgende 9 Mönche:
 

@@ -44,7 +44,7 @@ Finde Wörter mit `F` im Text. Führe dazu folgendes Beispiel aus:
 
 Was haben diese vier Bilder gemeinsam?
 
-![King Kong Flip Flop Hip Hop Ping Pong](regex.jpg)
+![King Kong Flip Flop Hip Hop Ping Pong](../images/regex.jpg)
 
 
 Führe folgendes Codebeispiel aus:

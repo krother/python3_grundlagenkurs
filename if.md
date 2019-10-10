@@ -16,7 +16,7 @@
 
 **Wie oft kommt der Buchstabe 'C' vor?**
 
-![Buchstabensalat](../images/list.png)
+![Buchstabensalat](images/list.png)
 
 Mit den bisherigen Python-Befehlen kannst Du bereits eine Menge unterschiedliche Programme schreiben. Es fehlt uns allerdings noch eine wichtige Möglichkeit: Im Programm *Entscheidungen zu treffen*.
 

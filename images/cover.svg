@@ -14,7 +14,7 @@
    height="297mm"
    id="svg3024"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="cover.svg">
   <defs
      id="defs3">
@@ -174,15 +174,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.482441"
-     inkscape:cx="596.31074"
+     inkscape:cx="281.11018"
      inkscape:cy="529.17778"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:object-paths="false"
-     inkscape:window-width="1301"
-     inkscape:window-height="744"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:window-width="1853"
+     inkscape:window-height="1025"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:object-nodes="true" />
   <metadata
@@ -193,7 +193,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -208,9 +208,9 @@
        height="570.01788"
        x="1015.6683"
        y="225.31805"
-       inkscape:export-filename="/home/krother/Desktop/two_pythons.png"
-       inkscape:export-xdpi="150.51715"
-       inkscape:export-ydpi="150.51715" />
+       inkscape:export-filename="/home/kristian/Desktop/two_pythons.png"
+       inkscape:export-xdpi="67.25"
+       inkscape:export-ydpi="67.25" />
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#ffffff"
        id="rect3140"
@@ -246,46 +246,51 @@
        inkscape:export-ydpi="96.440002" />
     <flowRoot
        transform="matrix(1.3229545,0,0,1.3229545,-361.62493,-454.07825)"
-       style="font-size:71.80896759px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot3135"
        xml:space="preserve"
        inkscape:export-filename="/home/krother/Desktop/Academis_ebooks/Python3_Grundlagen_Tutorial/cover.png"
        inkscape:export-xdpi="96.440002"
        inkscape:export-ydpi="96.440002"><flowRegion
-         id="flowRegion3137"><rect
+         id="flowRegion3137"
+         style="font-family:sans-serif"><rect
            y="496.77829"
            x="311.12698"
            height="406.07162"
            width="509.57675"
            id="rect3139"
-           style="font-size:71.80896759px" /></flowRegion><flowPara
-         style="font-size:60.47071075px;font-style:oblique;font-weight:bold;text-align:start;text-anchor:start;-inkscape-font-specification:Sans Bold Oblique"
+           style="font-size:71.80896759px;font-family:sans-serif" /></flowRegion><flowPara
+         style="font-style:oblique;font-weight:bold;font-size:60.47071075px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Bold Oblique';text-align:start;text-anchor:start"
          id="flowPara3019">Python 3 Grundlagen</flowPara></flowRoot>    <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        x="317.1879"
        y="264.44321"
-       id="text3147"
-       sodipodi:linespacing="125%"><tspan
+       id="text3147"><tspan
          sodipodi:role="line"
          id="tspan3149"
          x="317.1879"
-         y="264.44321" /><tspan
+         y="264.44321"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"> </tspan><tspan
          sodipodi:role="line"
          id="tspan3151"
          x="317.1879"
-         y="314.44321" /></text>
+         y="314.44321"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"> </tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3233"
-       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
-         id="flowRegion3235"><rect
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion3235"
+         style="font-family:sans-serif"><rect
            id="rect3237"
            width="444.28571"
            height="361.42856"
            x="351.42856"
-           y="562.36218" /></flowRegion><flowPara
-         id="flowPara3239" /></flowRoot>    <rect
+           y="562.36218"
+           style="font-family:sans-serif" /></flowRegion><flowPara
+         id="flowPara3239"
+         style="font-size:40px;line-height:1.25;font-family:sans-serif"> </flowPara></flowRoot>    <rect
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="rect3850"
        width="67.026588"
@@ -309,21 +314,22 @@
        inkscape:export-ydpi="96.440002" />
     <flowRoot
        transform="matrix(3.6044934,0,0,3.6044934,-1072.7004,-872.17799)"
-       style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        id="flowRoot3171"
        xml:space="preserve"
        inkscape:export-filename="/home/krother/Desktop/Academis_ebooks/Python3_Grundlagen_Tutorial/cover.png"
        inkscape:export-xdpi="96.440002"
        inkscape:export-ydpi="96.440002"><flowRegion
-         id="flowRegion3173"><rect
+         id="flowRegion3173"
+         style="font-family:sans-serif"><rect
            y="496.77829"
            x="311.12698"
            height="78.791893"
            width="143.44165"
            id="rect3175"
-           style="text-align:start;text-anchor:start" /></flowRegion><flowPara
+           style="font-family:sans-serif;text-align:start;text-anchor:start" /></flowRegion><flowPara
          id="flowPara3179"
-         style="font-size:26.35599136px;font-weight:bold;text-align:start;text-anchor:start;-inkscape-font-specification:Sans Bold">Tutorial</flowPara></flowRoot>    <g
+         style="font-weight:bold;font-size:26.35599136px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;text-anchor:start">Tutorial</flowPara></flowRoot>    <g
        id="g3142"
        transform="translate(6.2421735,125.20296)"
        inkscape:export-filename="/home/krother/Desktop/Academis_ebooks/Python3_Grundlagen_Tutorial/cover.png"
@@ -334,7 +340,7 @@
          inkscape:export-xdpi="96.440002"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          transform="matrix(0.4835161,0,0,0.4835161,236.24863,417.42158)"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          sodipodi:ry="95.964493"
          sodipodi:rx="95.964493"
          sodipodi:cy="338.18433"
@@ -347,7 +353,7 @@
          inkscape:export-xdpi="96.440002"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          transform="matrix(0.4835161,0,0,0.4835161,357.83846,276.49607)"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          sodipodi:ry="95.964493"
          sodipodi:rx="95.964493"
          sodipodi:cy="338.18433"
@@ -531,7 +537,7 @@
          inkscape:export-xdpi="96.440002"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          transform="matrix(0.4835161,0,0,0.4835161,116.29303,417.42158)"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          sodipodi:ry="95.964493"
          sodipodi:rx="95.964493"
          sodipodi:cy="338.18433"
@@ -555,7 +561,7 @@
          sodipodi:cy="338.18433"
          sodipodi:rx="95.964493"
          sodipodi:ry="95.964493"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          transform="matrix(0.4835161,0,0,0.4835161,356.20426,417.42158)"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          inkscape:export-xdpi="96.440002"
@@ -576,7 +582,7 @@
          sodipodi:cy="338.18433"
          sodipodi:rx="95.964493"
          sodipodi:ry="95.964493"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          transform="matrix(0.4835161,0,0,0.4835161,236.24863,370.19632)"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          inkscape:export-xdpi="96.440002"
@@ -589,7 +595,7 @@
          sodipodi:cy="338.18433"
          sodipodi:rx="95.964493"
          sodipodi:ry="95.964493"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          transform="matrix(0.4835161,0,0,0.4835161,236.24863,464.64632)"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          inkscape:export-xdpi="96.440002"
@@ -602,7 +608,7 @@
          sodipodi:cy="338.18433"
          sodipodi:rx="95.964493"
          sodipodi:ry="95.964493"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          transform="matrix(0.4835161,0,0,0.4835161,116.29303,276.49607)"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          inkscape:export-xdpi="96.440002"
@@ -620,7 +626,7 @@
          inkscape:export-xdpi="96.440002"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          transform="matrix(0.4835161,0,0,0.4835161,356.20426,276.50082)"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          sodipodi:ry="95.964493"
          sodipodi:rx="95.964493"
          sodipodi:cy="338.18433"
@@ -719,9 +725,9 @@
          inkscape:export-ydpi="96.440002" />
     </g>
     <g
-       inkscape:export-ydpi="150.51715"
-       inkscape:export-xdpi="150.51715"
-       inkscape:export-filename="/home/krother/Desktop/two_pythons.png"
+       inkscape:export-ydpi="67.25"
+       inkscape:export-xdpi="67.25"
+       inkscape:export-filename="/home/kristian/Desktop/two_pythons.png"
        transform="translate(946.22975,8.7633881)"
        id="g3062">
       <path
@@ -732,7 +738,7 @@
          sodipodi:cy="338.18433"
          sodipodi:rx="95.964493"
          sodipodi:ry="95.964493"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          transform="matrix(0.4835161,0,0,0.4835161,236.24863,417.42158)"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          inkscape:export-xdpi="96.440002"
@@ -745,7 +751,7 @@
          sodipodi:cy="338.18433"
          sodipodi:rx="95.964493"
          sodipodi:ry="95.964493"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          transform="matrix(0.4835161,0,0,0.4835161,357.83846,276.49607)"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          inkscape:export-xdpi="96.440002"
@@ -929,7 +935,7 @@
          sodipodi:cy="338.18433"
          sodipodi:rx="95.964493"
          sodipodi:ry="95.964493"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          transform="matrix(0.4835161,0,0,0.4835161,116.29303,417.42158)"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          inkscape:export-xdpi="96.440002"
@@ -947,7 +953,7 @@
          inkscape:export-xdpi="96.440002"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          transform="matrix(0.4835161,0,0,0.4835161,356.20426,417.42158)"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          sodipodi:ry="95.964493"
          sodipodi:rx="95.964493"
          sodipodi:cy="338.18433"
@@ -968,7 +974,7 @@
          inkscape:export-xdpi="96.440002"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          transform="matrix(0.4835161,0,0,0.4835161,236.24863,370.19632)"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          sodipodi:ry="95.964493"
          sodipodi:rx="95.964493"
          sodipodi:cy="338.18433"
@@ -981,7 +987,7 @@
          inkscape:export-xdpi="96.440002"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          transform="matrix(0.4835161,0,0,0.4835161,236.24863,464.64632)"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          sodipodi:ry="95.964493"
          sodipodi:rx="95.964493"
          sodipodi:cy="338.18433"
@@ -994,7 +1000,7 @@
          inkscape:export-xdpi="96.440002"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          transform="matrix(0.4835161,0,0,0.4835161,116.29303,276.49607)"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          sodipodi:ry="95.964493"
          sodipodi:rx="95.964493"
          sodipodi:cy="338.18433"
@@ -1018,7 +1024,7 @@
          sodipodi:cy="338.18433"
          sodipodi:rx="95.964493"
          sodipodi:ry="95.964493"
-         d="m 340.4214,338.18433 c 0,52.99972 -42.96476,95.96449 -95.96449,95.96449 -52.99973,0 -95.96449,-42.96477 -95.96449,-95.96449 0,-52.99973 42.96476,-95.9645 95.96449,-95.9645 52.99973,0 95.96449,42.96477 95.96449,95.9645 z"
+         d="m 340.4214,338.18433 a 95.964493,95.964493 0 0 1 -95.96449,95.96449 95.964493,95.964493 0 0 1 -95.96449,-95.96449 95.964493,95.964493 0 0 1 95.96449,-95.9645 95.964493,95.964493 0 0 1 95.96449,95.9645 z"
          transform="matrix(0.4835161,0,0,0.4835161,356.20426,276.50082)"
          inkscape:export-filename="/home/krother/Desktop/courses/python/handouts/Python3_Basics_Tutorial/cover.png"
          inkscape:export-xdpi="96.440002"

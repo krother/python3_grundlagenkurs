@@ -3,7 +3,7 @@
 
 Write a program that creates a postcard for the city of your choice.
 
-![Welcome to Poznan](poznan.png)
+![Welcome to Poznan](images/poznan.png)
 
 ## 1. Install Pillow
 
@@ -35,7 +35,7 @@ Add a broad horizontal bar to an image of your favourite city.
 
 **for fast students**
 
-Draw a 8-pointed star on an image of your favourite city. 
+Draw a 8-pointed star on an image of your favourite city.
 
 **Hint:** You can compose such a star from squares, triangles or polygons.
 
@@ -78,4 +78,3 @@ Be creative!
 (c) 2015 Dr. Kristian Rother and Magdalena Rother
 
 Distributed under the conditions of the Creative Commons Attribution Share-alike License 4.0
-

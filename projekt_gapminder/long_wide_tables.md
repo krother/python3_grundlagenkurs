@@ -47,7 +47,7 @@ Prüfe mit `fert.columns`, ob die Umwandlung erfolgreich war.
 
 ## Langes und breites Tabellenformat
 
-![](long_vs_wide.png)
+![](../images/long_vs_wide.png)
 
 ### Schritt 3
 

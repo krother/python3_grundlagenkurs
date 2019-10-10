@@ -1,7 +1,7 @@
 
 # Das Rucksack-Problem
 
-![Einbrecher](burglar.png)
+![Einbrecher](images/burglar.png)
 
 Ein Einbrecher ist in eine Villa eingebrochen. Dort findet er so viele Wertgegenstände vor, dass er nicht alle in seinen Rucksack packen kann. Schreibe ein Programm, das eine optimale Auswahl trifft.
 

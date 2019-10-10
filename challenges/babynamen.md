@@ -1,7 +1,7 @@
 
 # Babynamen in den USA
 
-![Babynamen](baby.png)
+![Babynamen](images/baby.png)
 
 Die US-Meldebehörden haben die Namen aller seit 1880 geborenen US-Staatsbürger registriert. Der Datensatz ist öffentlich unter [http://www.ssa.gov/oact/babynames/limits.html
 ](http://www.ssa.gov/oact/babynames/limits.html) zugänglich. Aus Datenschutzgründen sind nur Namen, die mindestens 5 Mal verwendet wurden, im Datensatz aufgeführt.
@@ -76,7 +76,7 @@ Erstelle eine Liste mit den Jahreszahlen **`[1880, 1881, 1882 ... 2015]`**.
 
 ## Aufgabe 11
 
-Erstelle eine Liste von Dateinamen **['yob1880.txt', 'yob1881.txt' … 'yob2015.txt']**. 
+Erstelle eine Liste von Dateinamen **['yob1880.txt', 'yob1881.txt' … 'yob2015.txt']**.
 
 ----
 
@@ -113,4 +113,3 @@ Folgende Promis könnten interessant sein:
 | Tyrion          | Figur aus 'Game of Thrones' |
 | Daenerys        | Figur aus 'Game of Thrones' |
 | Khaleesi        | Beruf aus 'Game of Thrones' |
-

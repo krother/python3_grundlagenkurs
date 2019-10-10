@@ -23,7 +23,7 @@ In diesem Kapitel werden wir unsere Ergebnisse in eine **Datei schreiben**. Nich
 
 Bilde Paare aus Python-Anweisungen und deren Bedeutungen.
 
-![file exercise](../exercises/files.png)
+![file exercise](../images/files.png)
 
 
 ### Aufgabe 2

@@ -20,7 +20,7 @@ Dictionaries eignen sich gut zum Suchen und Nachschlagen.
 
 ### Aufgabe 1
 
-![Dictionary](dict.png)
+![Dictionary](../images/dict.png)
 
 **Suche englische Wörter, die mit Suchen zu tun haben.**
 
@@ -28,14 +28,14 @@ Dictionaries eignen sich gut zum Suchen und Nachschlagen.
 
 Finde heraus, was jeder der Ausdrücke mit dem Dictionary in der Mitte anstellt.
 
-![dict exercise](../exercises/dicts.png)
+![dict exercise](../images/dicts.png)
 
 
 ### Aufgabe 3
 
 Dieses Flussdiagramm zeigt schematisch ein Programm zum Zählen von Anfangsbuchstaben:
 
-![Flussdiagramm](zaehlen.png)
+![Flussdiagramm](../images/zaehlen.png)
 
 Nimm an, das folgende Datei verarbeitet wird:
 
@@ -148,7 +148,7 @@ Plotte einige Liniendiagramme, um zu sehen, ob einige Buchstaben mit der Zeit h�
 
 Bilde Paare von Datentypen und Werten.
 
-![datatype exercise](../exercises/datatypes.png)
+![datatype exercise](../images/datatypes.png)
 
 ## Quizfragen zu Dictionaries
 

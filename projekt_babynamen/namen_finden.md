@@ -85,7 +85,7 @@ Als nächstes werden wir einige Namen in einer Liste sammeln. Das ist eine gute 
 
 Finde in IPython heraus, was die Ausdrücke mit der Liste in der Mitte anstellen.
 
-![Übung zu Listen](../exercises/lists.png)
+![Übung zu Listen](../images/lists.png)
 
 
 ### Aufgabe 8
@@ -113,7 +113,7 @@ Sammle Namen, die mit `'M'` anfangen und auf `'m'` enden in einer Liste. Gib die
 
 ### Aufgabe 10
 
-![Balkendiagramm](star_bars.png)
+![Balkendiagramm](../images/star_bars.png)
 
 Führe dieses Programm aus:
 
@@ -154,14 +154,14 @@ Schreibe ein Programm, welches den prozentualen Anteil der 10 häufigsten Namen 
 
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
-![list funcs exercise2](../exercises/list_funcs2.png)
+![list funcs exercise2](../images/list_funcs2.png)
 
 
 ### Aufgabe 14
 
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
-![list funcs exercise1](../exercises/list_funcs1.png)
+![list funcs exercise1](../images/list_funcs1.png)
 
 ## Texteditoren
 

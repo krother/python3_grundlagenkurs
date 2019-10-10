@@ -3,13 +3,13 @@
 
 ## Problem description
 
-*“I have a big collection of photographs, and would like to search them. I have written a up keywords for each photograph in text files, e.g. *'flower'*, *'beach'*, *'mountain'* etc. Now I need a program that can find all photographs for a given keyword. 
+*“I have a big collection of photographs, and would like to search them. I have written a up keywords for each photograph in text files, e.g. *'flower'*, *'beach'*, *'mountain'* etc. Now I need a program that can find all photographs for a given keyword.
 
 The program should create a big picture that shows thumbnail images 100 pixels wide, like in the image below.”*
 
 Rick Closeview , hobby photographer
 
-![Thumbnail matrix](thumbnail_matrix.png)
+![Thumbnail matrix](../images/thumbnail_matrix.png)
 
 ## Instructions
 
@@ -26,7 +26,7 @@ Identify key functions your program needs to have. Decide what should be the inp
 
 ### 3. Get the Graphics
 
-The file `sample_photos.zip` contains a few example photographs. It also contains a file `pics.txt` in each subfolder. This is the input information for the program. 
+The file `sample_photos.zip` contains a few example photographs. It also contains a file `pics.txt` in each subfolder. This is the input information for the program.
 
 ### 4. Explore Python libraries
 

@@ -19,15 +19,13 @@
 
 Um beim Machine Learning gut zu sein, sind drei Fähigkeiten nötig:
 
-![Venn Diagram of Data Science](images/venn_diagram.png)
+![Venn Diagram of Data Science](../images/venn_diagram.png)
 
 *Bildquelle: [Data Science Venn Diagram von Drew Conway, CC-BY-NC](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)*
 
 ## Was für Verfahren gibt es?
 
 Das Feld entwickelt sich seit einigen Jahren rasant. Schneller als ich irgend etwas darüber schreiben kann. Einige Verfahren sind jedoch seit vielen Jahren Dauerbrenner. Hier ist ein grober Überblick:
-
-![Überblick Machine Learning-Verfahren](images/ML_overview.png)
 
 * [Grundlagen](core_concepts.md)
 * [Klassifikation](classification.md)

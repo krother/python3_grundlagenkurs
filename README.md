@@ -1,17 +1,19 @@
 
 # Python 3 Grundlagenkurs
+<img src="images/two_pythons.png" align="right" width="300">
 
-Dies ist ein Python-Kurs für Einsteiger ohne Programmiererfahrung. Ich habe das Material vor allem in Präsenzkursen an der FU Berlin verwendet.
+Dies ist ein Python-Kurs für Einsteiger. Der Kurs besteht vor allem aus Übungsaufgaben.
+Ich habe die Aufgaben vor allem in Präsenzkursen an der FU Berlin verwendet.
 
 ## Für wen sind die Übungen geeignet?
 
 Du gehörst zur Zielgruppe, wenn:
 
 * Du überhaupt noch nie programmiert hast.
-* Du bereits mit einer anderen Programmiersprache wie R, MATLAB oder C gearbeitet hast.
-* Du selbst einen Python-Kurs leiten möchtest.
+* Du bereits erste Erfahrungen mit einer anderen Programmiersprache wie R, MATLAB oder C hast.
+* Du Übungsaufgaben für Deinen eigenen Python-Kurs suchst.
 
-Das Material besteht vor allem aus praktischen Übungen. Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer, eine Lerngruppe oder zumindest ein gutes Grundlagenbuch brauchen.
+Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer, eine Lerngruppe oder zumindest ein gutes Grundlagenbuch brauchen.
 
 Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/thinkCSpy/html/).
 
@@ -21,12 +23,12 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 * [Python Installieren](installation.md)
 * [Dein erstes Programm](hallo.md)
-* [Python als Taschenrechner](python_shell.md)
+* [Python als Taschenrechner](taschenrechner.md)
 * [Pythagoras](pythagoras.md)
 
 ## Teil 2: Schildkrötengrafik
 
-* [Schildkrötengrafik](programme.md)
+* [Schildkrötengrafik](schildkroete.md)
 * [Blumenmuster](if.md)
 * [Das Impostor Syndrome](impostor.md)
 
@@ -34,9 +36,9 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ## Teil 3: Diagramme
 
-* [Daten plotten](plotten1.md)
+* [Daten plotten](daten_plotten.md)
 * [Funktionen plotten](funktionen_plotten.md)
-* [Ansehnliche Diagramme](plotten3.md)
+* [Ansehnliche Diagramme](gute_diagramme.md)
 
 ## Teil 4: Text
 
@@ -109,7 +111,6 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 * [Links](appendix/links.md)
 * [Hinweise für Lehrkräfte](appendix/teaching.md)
 * [Hintergrundinformationen zu Python 3](appendix/hintergrundinfos.md)
-* [Danksagungen](appendix/danksagungen.md)
 
 ----
 

@@ -68,7 +68,7 @@ Setze vor Einlesen einer Datei eine Variable mit der Anzahl auf `0`. Falls Du De
 
 ### Aufgabe 8
 
-![Liniendiagramm](big_bang_facts.png)
+![Liniendiagramm](../images/big_bang_facts.png)
 
 Führe folgendes Programm zum Zeichnen eines Liniendiagramms aus:
 
