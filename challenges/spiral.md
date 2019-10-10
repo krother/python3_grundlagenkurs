@@ -1,5 +1,5 @@
 
-# Coding Challenge: Spiral
+# Spiral
 
 ### The Challenge
 
@@ -38,4 +38,3 @@ If you have no idea where to start, try the following Python script:
 * draw the **Fibonacci spiral** instead
 
 ![Spiral with width and color](images/spiral2.svg)
-
