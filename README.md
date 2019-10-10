@@ -80,13 +80,12 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 ## Teil 8: Titanic
 
 * [Panik auf der Titanic](projekt_titanic/README.md)
-* [Machine Learning Verfahren](machine_learning/README.md)
+* [Machine Learning Kurzübersicht](ml_glossar.md)
 
 ----
 
 ## Teil 9: Songtexte
 
-* [Das Songtexte-Projekt](projekt_lyrics/README.md)
 * [Songs herunterladen](projekt_lyrics/songs_herunterladen.md)
 * [Songtexte extrahieren](projekt_lyrics/text_extrahieren.md)
 * [Klassifikation nach dem *Naive Bayes*-Verfahren](projekt_lyrics/vorhersage.md)
