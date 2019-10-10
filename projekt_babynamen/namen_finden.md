@@ -172,3 +172,12 @@ Für einige der Aufgaben ist ein **Texteditor** sinnvoll.
 * **PyCharm** - eine professionelle auf Python spezialisierte Entwicklungsumgebung, die zum Entwickeln großer Projekte sehr gut geeignet ist. Du wirst 90% der Funktionen eine lange Zeit lang nicht brauchen, aber es ist ein sehr schönes Programm.
 * **Notepad++** - ein sehr nützlicher Editor für Windows. *Bitte verwende auf keinen Fall Notepad, um Python zu programmieren. Du tust Dir keinen Gefallen damit. Du solltest stattdessen lieber versuchen, mit einer Nagelfeile aus dem Gefängnis auszubrechen.*
 * **vim** - ein konsolenbasierter Texteditor für Unix. Dies ist das Werkzeug der Wahl für Systemadministratoren und alle Entwickler, die sich oft auf anderen Rechnern einloggen müssen, um dort zu arbeiten.
+
+## Records
+
+* store other data structures
+* challenge: store the names of your family members
+* challenge: store your name, address, age
+
+## semantic error
+* reinitialize empty list
