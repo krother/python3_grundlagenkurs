@@ -19,24 +19,24 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ## Teil 1: Erste Schritte in Python
 
-* [Python Installieren](erste_schritte/installation.md)
-* [Dein erstes Programm](erste_schritte/hallo.md)
-* [Python als Taschenrechner](erste_schritte/python_shell.md)
-* [Pythagoras](erste_schritte/pythagoras.md)
+* [Python Installieren](installation.md)
+* [Dein erstes Programm](hallo.md)
+* [Python als Taschenrechner](python_shell.md)
+* [Pythagoras](pythagoras.md)
 
 ## Teil 2: Schildkrötengrafik
 
-* [Schildkrötengrafik](erste_schritte/programme.md)
-* [Blumenmuster](erste_schritte/if.md)
+* [Schildkrötengrafik](programme.md)
+* [Blumenmuster](if.md)
 * [Das Impostor Syndrome](impostor.md)
 
 ----
 
 ## Teil 3: Diagramme
 
-* [Daten plotten](erste_schritte/plotten1.md)
-* [Funktionen plotten](erste_schritte/funktionen_plotten.md)
-* [Ansehnliche Diagramme](erste_schritte/plotten3.md)
+* [Daten plotten](plotten1.md)
+* [Funktionen plotten](funktionen_plotten.md)
+* [Ansehnliche Diagramme](plotten3.md)
 
 ## Teil 4: Text
 
@@ -48,13 +48,13 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ## Teil 5: Mini-Spiele
 
-* [Zahlenraten](erste_schritte/zahlenraten.md)
-* [Unendliche Weiten](erste_schritte/space.md)
-* [Zusammenfassung: Datentypen](erste_schritte/datentypen.md)
+* [Zahlenraten](zahlenraten.md)
+* [Unendliche Weiten](space.md)
+* [Zusammenfassung: Datentypen](datentypen.md)
 
 ----
 
-## Teil 5: Babynamen
+## Teil 6: Babynamen
 
 * [Babys auszählen](projekt_babynamen/babys_auszaehlen.md)
 * [Namen finden](projekt_babynamen/namen_finden.md)
@@ -64,27 +64,25 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ----
 
-## Kapitel 4: Gapminder
+## Teil 7: Gapminder
 
 * [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md)
 * [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
 * [Histogramme plotten](projekt_gapminder/histogramm.md)
 * [Animierter Scatterplot](projekt_gapminder/long_wide_tables.md)
-* [Lineare Regression](projekt_gapminder/regression.md)
 * [pandas Kurzreferenz](projekt_gapminder/cheatsheet.md)
-* [Gapminder](challenges/gapminder.md)
 * [Weltkarte](challenges/weltkarte.md)
 
 ----
 
-## Kapitel 5: Titanic
+## Teil 8: Titanic
 
 * [Panik auf der Titanic](projekt_titanic/README.md)
 * [Machine Learning Verfahren](machine_learning/README.md)
 
 ----
 
-## Kapitel 6: Songtexte
+## Teil 9: Songtexte
 
 * [Das Songtexte-Projekt](projekt_lyrics/README.md)
 * [Songs herunterladen](projekt_lyrics/songs_herunterladen.md)
@@ -93,15 +91,15 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ----
 
-## Kapitel 7: Strassenverzeichnis
+## Teil 10: Strassenverzeichnis
 
 * [Webseite mit Strassennamen](projekt_website/website.md)
 
 ----
 
-## Kapitel 8: Spiele Programmieren
+## Teil 11: Spiele Programmieren
 
-* [Flucht aus dem Labyrinth](erste_schritte/labyrinth.md)
+* [Flucht aus dem Labyrinth](labyrinth.md)
 
 ----
 

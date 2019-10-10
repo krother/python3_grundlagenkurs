@@ -38,3 +38,11 @@ Die genaue Installation hängt von Deinem Betriebssystem ab. Bitte lies Dir die 
 ## Brauche ich sonst noch etwas?
 
 Eine Referenz der Python-Befehle ist sehr hilfreich. Zum Beispiel die auf [www.academis.eu](http://www.academis.eu/blog/tags/python_reference).
+
+## Shortcuts
+
+Welche Tastenkombinationen:
+
+* einzelnen Befehl ausführen
+* ganzes Skript ausführen
+* neues Skript erstellen?

@@ -199,3 +199,22 @@ Welche `print`-Anweisungen sind korrekt?
 * `print(str(9) + "neun")`
 * `print(9 + 9)`
 * `print(neun)`
+
+----
+Data types
+* what happens if you store a value in a variable that already has another type
+* what happens if you combine values having different type?
+* challenge: add 7, 7.0  and "7"
+
+
+Look up things
+* help tutorial, reference, instant help, cheat sheet, StackOverflow
+* find out how to calculate a cosine using 3 different methods
+* challenge: calculate a cosine
+
+## Laufzeitfehler
+
+* where does the error occur?
+* what type of error is it?
+* --> why does it occur
+* challenge: produce 3 main types from the code example: indexerror, value error, name error

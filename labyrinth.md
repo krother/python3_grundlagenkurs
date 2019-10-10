@@ -8,9 +8,9 @@
 | 💼 | Ein Spiel mit Grafik programmieren |
 | 🔀 | Callbacks verwenden |
 | ⚙ | Klassen definieren |
+| ⚙ | Einen Konstruktor `__init__()` schreiben |
 | 💡 | Die Bibliothek `arcade` verwenden |
 | 🔧 | Programme über die Kommandozeile ausführen |
-| 🐞 | Breakpoints setzen |
 
 ----
 
