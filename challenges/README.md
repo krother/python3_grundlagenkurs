@@ -53,11 +53,13 @@
 |-----------|---------------|
 | [Sortieralgorithmen](sortieralgorithmen.md) | ⭐ |
 | [Problem des Josephus](josephus.md) | ⭐⭐ |
+| [Baum abschreiten](tree_traversal.md) | ⭐⭐ |
 | [Graph abschreiten](graph_traversal.md) | ⭐⭐⭐ |
 | [Magisches Quadrat](magisches_quadrat.md) | ⭐⭐⭐ |
 | [Problem des Handlungsreisenden](tsp.md) | ⭐⭐⭐ |
 | [König](kings.md) | ⭐⭐⭐⭐ |
 | [Rucksack-Problem](backpack_problem.md) | ⭐⭐⭐⭐ |
+| [Blockchain](blockchain.md) | ⭐⭐⭐⭐ |
 
 ## Webentwicklung
 
@@ -81,7 +83,6 @@
 |-----------|---------------|
 | [Punkte beim Tennis](tennis.md) | ⭐⭐ |
 | [Dekorator-Metaklassen](metaclass.md) | ⭐⭐⭐⭐⭐ |
-
 
 
 ## Coding Katas
