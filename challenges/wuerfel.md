@@ -1,7 +1,7 @@
 
 # Würfeln
 
-Schreibe ein Programm, das zwei Würfel wirft.
+**🎯 Schreibe ein Programm, das zwei Würfel wirft.**
 
 ![double dice](images/double_dice.png)
 
@@ -15,7 +15,7 @@ Implementiere folgende Schritte:
 
 ## Hinweise
 
-* für die Grafik kannst Du `pygame` verwenden
+* für die Grafik kannst Du `arcade` verwenden
 * die Funktion `time.sleep(x)` wartet `x` Sekunden
 * verwende folgendes Bild für die Würfel:
 

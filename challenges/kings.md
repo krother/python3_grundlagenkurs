@@ -1,6 +1,7 @@
 
-
 # König
+
+**🎯 Implementiere eine optimale Strategie für folgendes Spiel:**
 
 ## Spielregeln
 
@@ -9,8 +10,8 @@
 * Es sind nur Züge um ein Feld nach links, oben und links oben erlaubt
 *  Wer den letzten Zug macht gewinnt
 
-Implementiere eine optimale Strategie.
-
 ## Hinweise
 
+* Probiere das Spiel zunächst ohne Computer aus
+* Löse das Spiel zunächst für ein Schachbrett der Größen 2x2, 2x3, 3x2, 3x3 usw.
 * Informiere Dich über **Dynamische Programmierung**

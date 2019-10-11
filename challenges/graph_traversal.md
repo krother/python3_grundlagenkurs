@@ -1,8 +1,22 @@
 
 # Graphen abschreiten
 
-* implementiere den **ungerichteten, zyklischen Graphen** auf [StackOverflow](https://stackoverflow.com/questions/23924010/find-cheapest-cycle-in-an-undirected-weighted-graph).
-* schreibe eine Funktion, die den Graphen vollständig abschreitet und jeden Knowten genau einmal ausgibt.
+**🎯 Finde den Weg aus dem Labyrinth.**
+
+    maze = """
+    ############
+    #     # ##S#
+    ### #      #
+    ### ###### #
+    ###   # ## #
+    # ## ## ## #
+    #    #     #
+    #X##########""".strip().split('\n')
+
+    x, y = (10, 1)
+    target = (1, 7)
+
+Schreibe eine Funktion, die das Labyrinth (den Graphen) abschreitet, bis der Ausgang (`X`) erreicht ist.
 
 ## Hinweise
 

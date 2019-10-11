@@ -1,16 +1,13 @@
 # Blog
 
-Das Projekt besteht darin, eine eigene Webseite zu entwickeln und im Netz zu veröffentlichen. Das [Django Girls Tutorial](https://djangogirls.org/resources/) bietet eine ausgezeichnete Anleitung.
+**🎯 Erstelle eine eigene Webseite und veröffentliche sie im Netz.**
 
-### Ziel:
+## Hinweise:
 
-Die Webseite ist über einen Browser erreichbar.
+* Das [Django Girls Tutorial](https://djangogirls.org/resources/) bietet eine ausgezeichnete Anleitung für Anfänger.
+* Wenn Du schon erste Erfahrungen mit Webservern hast, kannst Du auch mit dem **Flask Mega-Tutorial** oder **How to build your own Django Website** starten.
+* zum Veröffentlichen kannst Du **Pythonanywhere** oder **Heroku** ausprobieren. Es kostet nichts.
 
 ### Themen:
 
 Server-Programmierung, HTML, Deployment
-
-### Python-Bibliotheken:
-
-Django oder Bottle
-

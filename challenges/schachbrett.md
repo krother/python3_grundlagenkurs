@@ -1,9 +1,7 @@
 
 # Schachbrett
 
-## Aufgabe
-
-Schreibe ein Programm, das ein Schachbrett mit 8 * 8 Feldern ausgibt:
+**🎯 Schreibe ein Programm, das ein Schachbrett mit 8 * 8 Feldern ausgibt:**
 
     #_#_#_#_
     _#_#_#_#

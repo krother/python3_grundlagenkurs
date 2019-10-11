@@ -1,11 +1,7 @@
 
-# Dekoratoren als Funktionen verwenden
+# Dekoratoren mit Metaklassen
 
-**Dies ist eine aufgabe für fortgeschrittene Python-Nutzer.**
-
-## Aufgabe
-
-Gegeben ist folgender Code:
+**🎯 Implementiere den Dekorator `add_two`, so dass folgender Code:**
 
     @add_two
     def double(a):
@@ -14,12 +10,12 @@ Gegeben ist folgender Code:
     print(double(20))
     print(add_two(40))
 
-Implementiere den Dekorator `add_two`, so dass die Ausgabe ist:
+**ausgibt:**
 
     42
     42
 
-Verändere den obigen Code nicht!
+Verändere den Code oben nicht!
 
 ## Beschreibung
 

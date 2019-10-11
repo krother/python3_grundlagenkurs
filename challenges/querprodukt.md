@@ -1,7 +1,7 @@
 
 # Querprodukt
 
-Berechne das Querprodukt einer Zahl.
+**🎯 Berechne das Querprodukt einer Zahl.**
 
 Beim Querprodukt werden sämtliche Ziffern miteinander multipliziert.
 

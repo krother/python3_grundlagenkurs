@@ -1,6 +1,8 @@
 
 # Sortieralgorithmen
 
+**🎯 Probiere mehrere Sortieralgorithmen aus.**
+
 Sortieralgorithmen gehören zu den wichtigsten Algorithmen überhaupt. In dieser Übung kannst Du Dir ein Grundverständnis einiger Verfahren erarbeiten.
 
 **Für diese Übung brauchst Du keine Computer**

@@ -1,7 +1,7 @@
 
 # Fakultät
 
-Berechne die Fakultät der Zahl 10:
+**🎯 Berechne die Fakultät der Zahl 10:**
 
     1 * 2 * 3 * 4 ... * 10
 

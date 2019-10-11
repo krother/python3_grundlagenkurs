@@ -1,80 +1,68 @@
 
-# Create a Postcard
+# Postkarte
 
-Write a program that creates a postcard for the city of your choice.
+**🎯 Schreibe ein Programm, das eine Postkarte aus Deiner Lieblingsstadt zusammensetzt.**
 
-![Welcome to Poznan](images/poznan.png)
+![Willkommen in Poznan](images/poznan.png)
 
-## 1. Install Pillow
+## Schritt 1: Bildmaterial
 
-    `pip install pillow`
+Beschaffe 2-4 Bilder, die Du zu einer Postkarte zusammensetzen möchtest.
 
-(it is already installed with Anaconda)
+## Schritt 2: Installiere Pillow
 
-## 2. Learn to know PIL
+    pip install pillow
 
-### Exercise 2.1
+(mit Anaconda ist Pillow bereits installiert)
 
-Run the program `example01.py`. What does it do?
+## Schritt 3: Lerne Pillow kennen
 
-### Exercise 2.2
+Führe folgendes Programm aus:
 
-Change the numbers in the program, so that you create a square-shaped image.
+    from PIL import Image
 
-## 3. Drawing shapes
+    im = Image.open('bild1.png')
+    small = im.resize((320, 240))
+    result = small.rotate(180)
+    result.save('bild2.png')
 
-### Exercise 3.1
+Ändere die Zahlen so, dass Du ein quadratisches Bild erzeugst.
 
-Run the program `example02.py`. What does it do?
+## Schritt 4: Formen zeichnen
 
-### Exercise 3.2
+Was tut folgender Code?
 
-Add a broad horizontal bar to an image of your favourite city.
+    from PIL import Image, ImageDraw
 
-### Exercise 3.3
+    white = Image.new('RGB', (320, 240), 'white')
 
-**for fast students**
+    d = ImageDraw.Draw(white)
+    d.rectangle((10, 10, 80, 40), 'orange')
+    d.ellipse((100,100,180,140), 'red')
+    d.polygon((50,200, 90, 200, 70, 170), 'yellow')
 
-Draw a 8-pointed star on an image of your favourite city.
+    white.save('shapes.png')
 
-**Hint:** You can compose such a star from squares, triangles or polygons.
+## Schritt 5: Text zeichnen
 
+Füge etwas Text hinzu:
 
-## 4. Drawing text
+    from PIL import ImageFont
 
-### Exercise 4.1
+    font =  ImageFont.load_default()
+    d.text((150, 150), 'Poznan', fill=('purple'), font=arial)
 
-Run the program `example03.py`. What does it do?
+Wenn Du TTF-Schriftarten auf Deinem System findest, wird es wesentlich hübscher.
 
-### Exercise 4.2
+    font = ImageFont.truetype('arial.ttf', 40)
 
-Write the text *"Welcome to (your city)"* to the shape from exercise 3.2.
+## Schritt 6: Das Bild zusammenfügen
 
+Du kannst Bilder mit Pillow einfügen:
 
-## 5. Composing images
+  bild1.paste(bild2, (0, 0))
+  bild1.save('postkarte.png')
 
-### Exercise 5.1
-
-Run the program `example04.py`. What does it do?
-
-### Exercise 5.2
-
-Create a postcard composed of four smaller pictures, the horizontal bar and some text on it.
-
-
-## 6. Applying filters
-
-### Exercise 6.1
-
-Run the program `example05.py`. What does it do?
-
-### Exercise 6.2
-
-Be creative!
-
-
-## License
-
-(c) 2015 Dr. Kristian Rother and Magdalena Rother
-
-Distributed under the conditions of the Creative Commons Attribution Share-alike License 4.0
+* Setze die kleineren Bilder zu einem großen zusammen.
+* Füge einen breiten Streifen als Texthintergrund hinzu.
+* Schreibe Text auf den Streifen.

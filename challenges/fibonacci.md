@@ -1,7 +1,7 @@
 
 # Fibonacci-Serie
 
-Schreibe ein Programm, das die Zahlen der Fibonacci-Serie berechnet.
+**🎯 Schreibe ein Programm, das die Zahlen der Fibonacci-Serie berechnet.**
 
 Die ersten Zahlen sind:
 

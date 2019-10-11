@@ -1,7 +1,9 @@
 
 # Zufallsdaten
 
-Schreibe eine Funktion, die zufällige Datensätze mit Personen erzeugt. Jeder Datensatz enthält:
+**🎯 Schreibe eine Funktion, die zufällige Personendaten erzeugt.**
+
+Jeder Datensatz enthält:
 
 * ein Geschlecht (W oder M) zu je gleichen Teilen
 * ein Alter (18-65), gleichverteilt

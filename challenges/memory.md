@@ -1,9 +1,9 @@
 
 # Memory
 
-Schreibe ein einfaches Memory-Spiel, bei dem ein Spieler Kartenpaare per per Maus oder Tastatur aufdeckt.
+**🎯 Schreibe ein Memory-Spiel, bei dem ein Spieler Kartenpaare per Maus oder Tastatur aufdeckt.**
 
 ## Hinweise
 
-* die Bibliothek `pygame` erlaubt es, Grafiken einzubinden
-* Bilder gibt es z.B. unter [https://opengameart.org/](https://opengameart.org/).
+* die Bibliothek `arcade` erlaubt es, Grafiken einzubinden und Nutzereingaben abzufangen.
+* Bilder gibt es auf [unsplash.com](https://unsplash.com)  und [opengameart.org](https://opengameart.org/).

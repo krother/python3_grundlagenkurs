@@ -1,7 +1,7 @@
 
 # Weihnachtsbaum
 
-Schreibe ein Programm, das folgendes Bild ausgibt:
+**🎯 Schreibe ein Programm, das folgendes Bild ausgibt:**
 
          *
         ***

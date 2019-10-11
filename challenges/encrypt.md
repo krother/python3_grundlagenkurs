@@ -1,24 +1,24 @@
 
 # Verschlüsselung
 
-Implementiere einen einfachen Verschlüsselungsalgorithmus.
+**🎯 Implementiere einen einfachen Verschlüsselungsalgorithmus.**
 
-### Schritt 1: Nachricht im Klartext
+## Schritt 1: Nachricht im Klartext
 
 Speichere die zu verschlüsselnde Nachricht als String:
 
     s = "STRENG_GEHEIME_NACHRICHT"
 
-### Schritt 2: Als Tabelle darstellen
+## Schritt 2: Als Tabelle darstellen
 
-Brich den String in mehrere gleich lange Zeilen um:
+Brich den String in mehrere gleich lange Zeilen mit einer vorgegebenen Länge um. Fülle Leerstellen am Ende auf:
 
     STRENG
     _GEHEI
     ME_NAC
     HRICHT
 
-### Schritt 3: Schlüssel anwenden
+## Schritt 3: Schlüssel anwenden
 
 Verwende einen Schlüssel, der die Spalten in eine neue Reihenfolge umsortiert. Mit dem Schlüssel `215403` erhälst Du:
 
@@ -27,16 +27,14 @@ Verwende einen Schlüssel, der die Spalten in eine neue Reihenfolge umsortiert. 
     _ECAMN
     IRTHHC
 
-### Schritt 4: Spalten aufschreiben
+## Schritt 4: Spalten aufschreiben
 
 Füge die Spalten nacheinander zu einem neuen String zusammen. Dies ist die fertig chiffrierte Nachricht:
 
     RE_ITGERGICTNEAHS_MHEHNC
 
-### Schritt 5: Dechiffrieren
+## Zusatzaufgaben:
 
-Verwende den Schlüssel, um den gesamten Prozeß umzukehren und die Nachricht wieder in Klartext zu überführen.
-
-#### Achtung:
-
-Natürlich ist diese Art von Chiffrieralgorithmus eher leicht zu knacken. Den Code von jemand anderem ist natürlich auch eine gute (etwas schwierigere) Übung.
+* Lasse Dir den Text geben, den jemand anders verschlüsselt hat.
+* Entschlüssele die Nachricht mit dem Schlüssel.
+* Knacke den Code ohne Schlüssel!

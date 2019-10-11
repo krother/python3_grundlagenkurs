@@ -1,7 +1,9 @@
 
 # Rekursive Grafiken
 
-Schreibe ein Programm, das mit dem Parameter `n=1` eine Grundform aus vier Linien zeichnet:
+**🎯 Schreibe ein Programm, das die Koch-Kurve zeichnet.**
+
+Zeichne mit dem Parameter `n=1` eine Grundform aus vier Linien:
 
 ![n=1](images/snowflake1.png)
 
@@ -18,7 +20,6 @@ Und mit `n=5`:
 
 * ohne **Rekursion** kommst Du nicht besonders weit
 * verwende zum Zeichnen `turtle` oder `pillow`
-* die *"Schneeflocke"* in der Grafik ist auch als *"Koch-Kurve"* bekannt
 
 ## Zusatzaufgabe
 

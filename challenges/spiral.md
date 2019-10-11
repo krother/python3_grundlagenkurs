@@ -1,40 +1,32 @@
 
-# Spiral
+# Spirale
 
-### The Challenge
-
-Write a program, that draws a spiral:
+**🎯 Schreibe ein Programm, das eine Spirale zeichnet:**
 
 ![spiral](images/spiral1.svg)
 
-When your program draws a spiral with at least 3 loops, you have mastered this challenge.
+Sobald das Programm eine Spirale mit mindestens drei Umdrehungen produziert, hast Du es geschafft.
 
+## Hinweise
 
-### What you can practise in this coding challenge
+* Lässt sich eine Spirale aus kurzen Linien zusammensetzen?
+* Ist es einfacher, innen oder außen zu beginnen?
+* Du kannst zum Zeichnen die Module `turtle` oder `Pillow` verwenden.
 
-* loops
-* The **Pillow** library in Python
-* The **turtle** module in Python
+## Starthilfe
 
-### Hints
-
-* It is sufficient to draw the spiral as a series of short lines
-* Where is it easier to start (inside or outside)?
-* Both the Python modules `Pillow` and `turtle` are up to the task
-
-### Getting started
-
-If you have no idea where to start, try the following Python script:
+Wenn Du keine Idee hast, wie Du anfangen kannst, probiere folgenden Python-Code aus:
 
     from turtle import forward, left
-    forward(50)
-    left(90)
-    forward(50)
 
-### Optional goals
+    forward(50)
+    left(45)
+    forward(40)
 
-* the line width grows thicker from the inside to the outside
-* there is a color gradient along the spiral
-* draw the **Fibonacci spiral** instead
+## Zusatzaufgaben
+
+* die Linie wird von innen nach außen dicker
+* entlang der Spirale ist ein Farbverlauf sichtbar
+* zeichne eine Fibonacci-Spirale
 
 ![Spiral with width and color](images/spiral2.svg)

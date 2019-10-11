@@ -1,11 +1,13 @@
 
 # Anagramme
 
-Schreibe ein Wort mit 3-6 Buchstaben in eine Stringvariable, z.B. 
+**🎯 Generiere sämtliche Anagramme eines Wortes mit 3-6 Buchstaben.**
 
-    wort = "ROT"
+Beispielsweise hat der String:
 
-Generiere sämtliche Permutationen der Buchstaben, und gib die so entstehenden Anagramme aus:
+    ROT
+
+Die Anagramme (Permutationen der Buchstaben):
 
     TOR
     ORT
@@ -13,12 +15,11 @@ Generiere sämtliche Permutationen der Buchstaben, und gib die so entstehenden A
     RTO
     OTR
 
-Für die Berechnung eignet sich die Funktion `itertools.permutations`.
-
-## Zusatzaufgabe
-
-Beschaffe Dir ein Wörterverzeichnis. Versuche gezielt Anagramme zu finden, die echte Wörter sind.
-
 ## Hinweise
 
-Wenn Du den Algorithmus zum Generieren der Anagramme selbst schreiben möchtest, kannst Du Dich über **dynamische Programmierung** informieren.
+* Bei der Berechnung hilft die Funktion `itertools.permutations()`.
+
+## Zusatzaufgaben
+
+* Beschaffe Dir ein Wörterverzeichnis. Finde Anagramme, die echte Wörter sind.
+* Implementiere den Algorithmus zum Generieren der Anagramme selbst. Informiere Dich über **dynamische Programmierung** informieren.

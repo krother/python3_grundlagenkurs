@@ -1,7 +1,7 @@
 
 # Tennis
 
-Schreibe eine Klasse `TennisSpiel`, die den Spielstand bei einer Runde Tennis ermittelt.
+**🎯 Schreibe eine Klasse `TennisSpiel`, die den Spielstand bei einer Runde Tennis ermittelt.**
 
 * Der Spielstand soll von der Methode `get_score()` ls String berechnet werden
 * Der Schiedsrichter ruft entweder `punkt('spieler1')` oder  `punkt('spieler2')` auf

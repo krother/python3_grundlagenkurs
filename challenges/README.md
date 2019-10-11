@@ -7,23 +7,24 @@
 |-----------|---------------|
 | [Weihnachtsbaum](weihnachtsbaum.md) | ⭐ |
 | [Pyramide](pyramide.md) | ⭐ |
-| [Fakultät](fakultaet.md) | ⭐ |
-| [Schachbrett](schachbrett.md) | ⭐ |
-| [Querprodukt](querprodukt.md) | ⭐⭐ |
+| [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
+| [Tic-Tac-Toe](tictac.md) | ⭐⭐ |
+| [Schachbrett](schachbrett.md) | ⭐⭐ |
 | [Palindrome](palindrome.md) | ⭐⭐ |
-| [Fibonacci](fibonacci.md) | ⭐⭐ |
 | [Anagramme](anagramme.md) | ⭐⭐ |
-| [Fizz-Buzz-Test](fizzbuzz.md) | ⭐⭐ |
 | [Römische Zahlen](roman.md) | ⭐⭐⭐ |
-| [Einkaufszettel](shopping_bill.md) | ⭐⭐⭐ |
-| [Geburtstagsproblem](geburtstage.md) | ⭐⭐ |
-| [Problem des Josephus](josephus.md) | ⭐⭐⭐ |
 | [Verschlüsselung](encrypt.md) | ⭐⭐⭐ |
 | [Minesweeper](minesweeper.md) | ⭐⭐⭐ |
-| [Alaeddin und die Wunderlampe](alaeddin.md) | ⭐⭐⭐ |
-| [Babynamen in den USA](babynamen.md) | ⭐⭐⭐⭐ |
-| [Punkte beim Tennis](tennis.md) | ⭐⭐⭐ |
 
+## Mathematik
+
+| Challenge | Schwierigkeit |
+|-----------|---------------|
+| [Fakultät](fakultaet.md) | ⭐ |
+| [größter gemeinsamer Teiler](ggt.md) | ⭐ |
+| [Fibonacci](fibonacci.md) | ⭐⭐ |
+| [Querprodukt](querprodukt.md) | ⭐⭐ |
+| [Geburtstagsproblem](geburtstage.md) | ⭐⭐ |
 
 ## Grafik
 
@@ -31,34 +32,31 @@
 |-----------|---------------|
 | [Spirale](spiral.md) | ⭐ |
 | [Postkarte](postcard.md) | ⭐⭐ |
-| [Thumbnails](thumbnails/README.md) | ⭐⭐⭐ |
 | [Rekursive Grafiken](recursive_graph.md) | ⭐⭐⭐ |
-| [Würfeln](wuerfel.md) | ⭐⭐⭐ |
 | [Weltkarte nach Ländern einfärben](weltkarte.md) | ⭐⭐⭐ |
 | [Kurzfilm drehen](movie/README.md) | ⭐⭐⭐⭐ |
 
-
-## Daten
+## Datenanalyse
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Babynamengenerator](babynamengenerator.md) | | ⭐⭐ |
-| [Zufallsdaten](random.md) | ⭐⭐ |
-| [Benford-Analyse](benford.md) | ⭐⭐⭐ |
-| [Filmbewertungen](moviedb.md) | ⭐⭐⭐ |
+| [Babynamengenerator](babynamengenerator.md) | ⭐ |
+| [Zufallsdaten](random.md) | ⭐ |
+| [Benford-Analyse](benford.md) | ⭐⭐ |
+| [Filmbewertungen](moviedb.md) | ⭐⭐ |
+| [Babynamen in den USA](babynamen.md) | ⭐⭐ |
 | [Letzte Buchstaben](letzte_buchstaben.md) | ⭐⭐⭐ |
-
 
 ## Algorithmen
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [größter gemeinsamer Teiler](ggt.md) | ⭐ |
-| [Sortieren](sortieralgorithmen.md) | ⭐⭐ |
+| [Sortieralgorithmen](sortieralgorithmen.md) | ⭐ |
+| [Problem des Josephus](josephus.md) | ⭐⭐ |
 | [Graph abschreiten](graph_traversal.md) | ⭐⭐⭐ |
+| [Magisches Quadrat](magisches_quadrat.md) | ⭐⭐⭐ |
 | [Problem des Handlungsreisenden](tsp.md) | ⭐⭐⭐ |
-| [Magisches Quadrat](magisches_quadrat.md) | ⭐⭐⭐⭐ |
-| [König (dynamische Programmierung)](kings.md) | ⭐⭐⭐⭐ |
+| [König](kings.md) | ⭐⭐⭐⭐ |
 | [Rucksack-Problem](backpack_problem.md) | ⭐⭐⭐⭐ |
 
 ## Webentwicklung
@@ -68,20 +66,22 @@
 | [Ping Pong](pingpong.md) | ⭐⭐ |
 | [Google-Suche](google.md) | ⭐⭐⭐ |
 | [Webseiten herunterladen](webrecherche.md) | ⭐⭐⭐ |
-| [Blog](blog.md) | Erstelle eine Blog-Webseite mit Django | ⭐⭐⭐⭐ |
-
-
-## Python Best Practices
-
-| Challenge | Schwierigkeit |
-|-----------|---------------|
-| [Dekorator-Metaklassen](metaclass.md) | ⭐⭐⭐⭐ |
+| [Blog](blog.md) | ⭐⭐⭐⭐ |
 
 ## Spiele
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
+| [Würfeln](wuerfel.md) | ⭐⭐ |
 | [Memory](memory.md) | ⭐⭐⭐ |
+
+## Python für Fortgeschrittene
+
+| Challenge | Schwierigkeit |
+|-----------|---------------|
+| [Punkte beim Tennis](tennis.md) | ⭐⭐ |
+| [Dekorator-Metaklassen](metaclass.md) | ⭐⭐⭐⭐⭐ |
+
 
 
 ## Coding Katas

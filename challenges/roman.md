@@ -1,9 +1,11 @@
 
 # Römische Zahlen
 
-Schreibe eine Funktion `roman2arabic()`, die eine römische in eine arabische Zahl umwandelt.
+**🎯 Schreibe eine Funktion `roman2arabic()`, die eine römische in eine arabische Zahl umwandelt.**
 
-Der folgende Code zum Testen könnte beim Prüfen der Ergebnisse behilflich sein:
+## Tests
+
+Der folgende Code hilft beim Prüfen der Ergebnisse:
 
     def test_roman(self):
         assert roman2arabic("I") == 1
@@ -22,4 +24,4 @@ Der folgende Code zum Testen könnte beim Prüfen der Ergebnisse behilflich sein
 
 ## Zusatzaufgabe
 
-* schreibe eine Funktion, die aus arabischen Zahlen römische berechnet
+* schreibe eine Funktion, die arabische Zahlen in römische umwandelt
