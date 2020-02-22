@@ -74,6 +74,7 @@
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
+| [Zahlenraten](zahlenraten.md) | ⭐ |
 | [Würfeln](wuerfel.md) | ⭐⭐ |
 | [Memory](memory.md) | ⭐⭐⭐ |
 

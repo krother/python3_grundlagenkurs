@@ -3,7 +3,7 @@
 
 **🎯 Schreibe eine Klasse `TennisSpiel`, die den Spielstand bei einer Runde Tennis ermittelt.**
 
-* Der Spielstand soll von der Methode `get_score()` ls String berechnet werden
+* Der Spielstand soll von der Methode `get_score()` als String berechnet werden
 * Der Schiedsrichter ruft entweder `punkt('spieler1')` oder  `punkt('spieler2')` auf
 
 Verwende folgende Grundstruktur:
@@ -11,11 +11,11 @@ Verwende folgende Grundstruktur:
     class TennisSpiel:
 
         def __init__(self):
-            self.punktestand = {'player1': 0, 'player2': 0}
+            self.punkte = {'player1': 0, 'player2': 0}
 
         def punkt(self, spieler):
             """mit 'spieler1' oder 'spieler2' aufgerufen"""
-            self.scores[player] += 1
+            self.punkte[spieler] += 1
 
         def get_score(self):
             ...
