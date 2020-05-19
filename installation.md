@@ -8,9 +8,6 @@
 | 🔧 | Anaconda installieren
 | 🔧 | Spyder starten |
 | 🔧 | die Python-Kommandozeile verwenden |
-| 🔧 | Befehle eingeben |
-| 🔧 | Befehle ausführen |
-| 🐞 | Tippfehler suchen |
 
 ----
 
@@ -25,7 +22,7 @@ Damit ist Anaconda hervorragend zur Datenanalyse und für wissenschaftliche Anwe
 
 Da Anaconda auf allen gängigen Betriebssystemen läuft, kannst Du die Aufgaben unter Linux, Windows oder MacOS bearbeiten.
 
-Die genaue Installation hängt von Deinem Betriebssystem ab. Bitte lies Dir die Anweisungen im entsprechenden Abschnitt durch.
+Die genaue Installation hängt von Deinem Betriebssystem ab. Bitte lies Dir die Anweisungen im entsprechenden Abschnitt der Webseite durch.
 
 ## Installation unter Windows
 
@@ -39,10 +36,11 @@ Die genaue Installation hängt von Deinem Betriebssystem ab. Bitte lies Dir die 
 
 Eine Referenz der Python-Befehle ist sehr hilfreich. Zum Beispiel die auf [www.academis.eu](http://www.academis.eu/blog/tags/python_reference).
 
-## Shortcuts
+## Aufgabe 1: Shortcuts
 
-Welche Tastenkombinationen:
+Mit welchen Tastenkombinationen kannst Du:
 
-* einzelnen Befehl ausführen
-* ganzes Skript ausführen
-* neues Skript erstellen?
+* einzelnen Befehl ausführen?
+* ein ganzes Skript ausführen?
+* eine neue Skriptdatei erstellen?
+* die aktuelle Datei speichern?

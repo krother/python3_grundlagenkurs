@@ -26,3 +26,22 @@ imposter syndrome --> process buggy
 * being resilient does not necessarily help
 * check: unsolvable problems, halting problem --> challenge
 * what symptoms do you observe?
+
+
+----
+
+### Wenn die Methode versagt
+
+Ganz oft wird der Code-Debug-Zyklus aber versagen. Dieser Fall ist viel interessanter. Folgendes kann passsieren:
+
+* Du probierst viele Möglichkeiten aus. Nichts davon funktioniert. Du wiederholst den Zyklus viele Male, ohne nennenswerte Fortschritte zu erzielen.
+* Du quälst Dir einzelne Programmzeilen mühsam aus den Fingern. Eine Runde im Zyklus dauert sehr lange.
+* Du grübelst ewig über Deinen Code nach. Du gelangst zu keinem klaren Ergebnis. Der Zyklus kommt zum Stillstand.
+
+Was kannst Du in diesem Falle tun?
+
+### Was machen erfahrene Programmierer?
+
+Auch erfahrene Programmierer verwenden den Code-Debug-Zyklus, und bringen mitunter Erstaunliches zustande. Aber erfahrene Programmierer kennen mehr als eine Methode, Programme zu schreiben. Wenn eine nicht funktioniert, schalten sie zu einer anderen Methode um.
+
+Der **Code-Debug-Zyklus** ist eine *Improvisationstechnik*. Diese Methode funktioniert nur bei Programmieraufgaben, bei denen Du die Grundlagen halbwegs sicher beherrschst. Es ist eine gute Methode zum Üben, Wiederholen und Festigen von Grundlagen, aber eine schlechte zum Lösen von wirklich schwierigen Aufgaben (was immer das von Deinem Standpunkt aus ist).

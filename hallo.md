@@ -5,10 +5,11 @@
 | Bereich | Thema |
 |---------|-------|
 | 💼 | Ein *"Hallo, Welt"*-Programm schreiben |
-| ⚙ | Text in einer Variablen speichern |
 | 💡 | Den Datentyp *String* verwenden |
 | 💡 | Die Funktionen `print()` und `input()` aufrufen |
-| 🔧 | Python-Befehle verändern |
+| ⚙ | Text in einer Variablen speichern |
+| 🔧 | Befehle eingeben |
+| 🔧 | Befehle verändern |
 | 🐞 | Syntaxfehler erkennen |
 
 ----
@@ -17,7 +18,7 @@
 
 Wir müssen dem Computer irgendwie erklären, was er tun soll. Die Programmiersprache Python kann **Befehle** oder **Anweisungen** aus einer Textdatei lesen, verstehen und ausführen. Diese Textdatei nennen wir ein Programm.
 
-Kleine Programme bestehen aus einer einzigen Datei, in der die Befehle einer nach dem anderen ausgeführt werden. Große Programme können aus Hunderten Dateien bestehen, und Python springt beim Ausführen zwischen diesen wild umher. In Kapitel 1-9 beschäftigen wir uns aber erst einmal mit ganz einfachen Programmen.
+Kleine Programme bestehen aus einer einzigen Datei, in der die Befehle einer nach dem anderen ausgeführt werden.
 
 ### Aufgabe 1
 
@@ -56,13 +57,13 @@ Eine **Funktion** ist ein vordefiniertes Unterprogramm. Funktionen rufst Du auf,
 
 ### String
 
-**String** (kurz `str`) ist ein **Datentyp**. Strings erlauben uns, Text in Python-Programmen zu verwenden, in Variablen zu speichern, auszugeben usw. Strings erkennst Du an einfachen `'abc'` oder doppelten  `"abc"` Anführungszeichen.
+**String** (kurz `str`) ist ein **Datentyp**. Strings erlauben Dir, Text in Python-Programmen zu verwenden, in Variablen zu speichern, auszugeben usw. Strings erkennst Du an einfachen `'abc'` oder doppelten  `"abc"` Anführungszeichen.
 
 ----
 
-## Wir machen das Programm kaputt!
+## Mache das Programm kaputt!
 
-Beim Programmieren ist es unvermeidlich, dass Du Fehler machst. Fehler können logische Denkfehler sein, oder einfache Vertipper. Eine der wichtigsten Fähigkeiten beim Programmieren ist, in einem fehlerhaften Programm die Ursache zu finden und zu beheben. Das werden wir üben, indem wir das Programm absichtlich kaputt machen und schauen, was passiert.
+Beim Programmieren ist es unvermeidlich, dass Du Fehler machst. Fehler können einfache Vertipper sein oder komplizierte logische Denkfehler. Eine der wichtigsten Fähigkeiten beim Programmieren ist, in einem fehlerhaften Programm die Ursache zu finden und zu beheben. Das kannst Du üben, indem Du das Programm absichtlich kaputt machst und schaust, was passiert.
 
 ### Aufgabe 2
 
@@ -80,15 +81,17 @@ Probiere folgende Programme mit Fehlern aus und versuche, die Fehlermeldung zu v
     name = input("Wie heit Du? ")
     print("Hallo", name)
 
-### Syntax Error
+----
+
+### 🐞 Syntax Error
 
 Die Fehlermeldung `SyntaxError` bedeutet, dass Python einen Befehl überhaupt nicht versteht, weil er grammatisch falsch geschrieben ist. Es wird kein Code ausgeführt. Die Fehlermeldung gibt uns manchmal Hinweise darauf, was das Problem ist, aber oft nicht. Der wichtigste Hinweis ist die **Zeilennummer** in der Fehlermeldung, weil der Fehler immer in dieser Zeile oder darüber zu finden ist.
 
+Ein guter Editor zeigt Dir Syntaxfehler an. In Spyder erscheinen diese nach wenigen Sekunden in der Leiste links neben dem Code.
+
+----
+
 ### Aufgabe 3
-
-Schreibe 5 Möglichkeiten auf, einen `SyntaxError` zu erzeugen.
-
-### Aufgabe 4
 
 Welche `input`-Befehle funktionieren?
 
@@ -97,7 +100,7 @@ Welche `input`-Befehle funktionieren?
 * `name = input(gib Deinen Namen ein)`
 * `name = input()`
 
-### Aufgabe 5
+### Aufgabe 4
 
 Welche `print`-Befehle funktionieren?
 
@@ -107,55 +110,29 @@ Welche `print`-Befehle funktionieren?
 * `print("Hallo name")`
 * `print(name)`
 
-----
+### Aufgabe 5
 
-## Wie schreibt man Programme?
-
-Du hast in diesem Kapitel bereits mehrere wichtige Programmiertechniken kennen gelernt:
-
-* Befehle eintippen
-* Programmfehler ansehen und reparieren
-* Code verändern und schauen was passiert
-
-Du kannst mit diesen Techniken Programme nach der folgenden Methode, dem **Code-Debug-Zyklus**, entwickeln:
-
-    1. Editiere den Programmcode
-    2. Führe das Programm aus
-    3. Wenn noch nicht alles funktioniert, zurück zu 1.
-
-
-Als Anfänger kannst Du mit dem Code-Debug-Zyklus bereits erfolgreich ganz kleine Programme schreiben.
-
-### Wenn die Methode versagt
-
-Ganz oft wird der Code-Debug-Zyklus aber versagen. Dieser Fall ist viel interessanter. Folgendes kann passsieren:
-
-* Du probierst viele Möglichkeiten aus. Nichts davon funktioniert. Du wiederholst den Zyklus viele Male, ohne nennenswerte Fortschritte zu erzielen.
-* Du quälst Dir einzelne Programmzeilen mühsam aus den Fingern. Eine Runde im Zyklus dauert sehr lange.
-* Du grübelst ewig über Deinen Code nach. Du gelangst zu keinem klaren Ergebnis. Der Zyklus kommt zum Stillstand.
-
-Was kannst Du in diesem Falle tun?
-
-### Was machen erfahrene Programmierer?
-
-Auch erfahrene Programmierer verwenden den Code-Debug-Zyklus, und bringen mitunter Erstaunliches zustande. Aber erfahrene Programmierer kennen mehr als eine Methode, Programme zu schreiben. Wenn eine nicht funktioniert, schalten sie zu einer anderen Methode um.
-
-Der **Code-Debug-Zyklus** ist eine *Improvisationstechnik*. Diese Methode funktioniert nur bei Programmieraufgaben, bei denen Du die Grundlagen halbwegs sicher beherrschst. Es ist eine gute Methode zum Üben, Wiederholen und Festigen von Grundlagen, aber eine schlechte zum Lösen von wirklich schwierigen Aufgaben (was immer das von Deinem Standpunkt aus ist).
-
+Schreibe 3 Möglichkeiten auf, eine Fehlermeldung zu erzeugen.
 
 ### Aufgabe 6
 
 Schreibe ein Programm, das nach Deinem Vor- und Nachnamen fragt und beides ausgibt.
 
-### Aufgabe 7
+----
 
-Baue kleine Fehler in das Programm ein und versuche, nacheinander folgende Fehlermeldungen zu erzeugen:
+## Wie schreibt man Programme?
 
-    SyntaxError
-    NameError
-    ValueError
-    TypeError
+Du hast in diesem Kapitel bereits mehrere Programmiertechniken kennen gelernt:
 
-## Syntaxfehler erkennen
+* Befehle eintippen
+* Befehle verändern
+* nach Programmfehlern suchen
+* das Programm ausführen und schauen was passiert
 
-syntax highlighting
+Du kannst diese Techniken zu einem einfachen Schema kombinieren:
+
+    1. Editiere das Programm
+    2. Führe das Programm aus
+    3. Wenn es noch nicht funktioniert, zurück zu 1.
+
+Wahrscheinlich bist Du schon von alleine darau gekommen. Diese Methode, der **Code-Debug-Zyklus**, ist für kleine Programme gut geeignet. Ich schreibe diese Methode trotzdem auf, damit Du sie später von anderen Programmiertechniken unterscheiden kannst.

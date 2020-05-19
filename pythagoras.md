@@ -40,20 +40,43 @@ Jedes Programm besteht aus drei Teilen: **Eingabe, Vearbeitung und Ausgabe**. Um
 
 Sammle weitere Geräte/Möglichkeiten, die ein Programm für die Ein- und Ausgabe verwenden könnte (auch wenn Du sie noch nicht in Python ansprechen kannst).
 
-### Aufgabe 3:
+### Aufgabe 3: Absolute Zahlen
 
 Ändere den Verarbeitungsteil, so dass die positive Differenz beider Zahlen berechnet wird. Verwende dazu die Funktion `abs()`:
 
-    print('abs(-1.23)')
+    :::python
+    print(abs(-1.23))
 
 ### Aufgabe 4: Das Modul math
 
-Nun
+Nun werden wir anspruchsvollere Berechnungen durchführen.
+Dazu brauchst Du das modul `math`. Es enthält nützliche *Konstanten* und *Funktionen*.
+Hier ist als Beispiel eine Kreisberechnung:
 
     import math
 
-    print(math.pi)
+    radius = 5.0
+    inhalt = math.pi * math.pi(radius)
+    print("Flächeninhalt: ", inhalt)
 
-### Aufgabe 5
+Finde über die [Dokumentation des math Moduls](https://docs.python.org/3/library/math.html) heraus, was es für Funktionen gibt. Probiere mindestens eine davon aus.
 
-* challenge: write a program 3 separate parts: enter name, craft welcoming message, output
+----
+
+### Aufgabe 5: Runden
+
+Verwende die Funktion `round()`, um das Ergebnis aus Ausgabe 4 auf zwei Nachkommastellen zu runden.
+
+**Hinweis:** Die Funktion `round()` ist nicht Bestandteil der `math`-Bibliothek.
+
+----
+
+### Aufgabe 6: Pythagoras
+
+Schreibe ein Programm, das die Hypotenuse eines rechtwinkligen Dreiecks berechnet.
+
+Teile das Programm in Eingabe, Verarbeitung und Ausgabe auf:
+
+* Lies im Eingabeteil die Länge der zwei Katheten ein
+* Verwende zur Berechnung die Funktion `math.sqrt()`
+* Gib das Ergebnis auf den Bildschirm aus

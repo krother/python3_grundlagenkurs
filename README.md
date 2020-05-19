@@ -1,5 +1,6 @@
 
 # Python 3 Grundlagenkurs
+
 <img src="images/two_pythons.png" align="right" width="300">
 
 Dies ist ein Python-Kurs für Einsteiger. Der Kurs besteht vor allem aus Übungsaufgaben.
