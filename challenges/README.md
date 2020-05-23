@@ -5,7 +5,6 @@
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Weihnachtsbaum](weihnachtsbaum.md) | ⭐ |
 | [Pyramide](pyramide.md) | ⭐ |
 | [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
 | [Tic-Tac-Toe](tictac.md) | ⭐⭐ |
