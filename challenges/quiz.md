@@ -8,6 +8,8 @@ Je nach Eingabe wird **RICHTIG** oder **FALSCH** ausgegeben.
 
 ### Beispielausgabe:
 
+    :::python
+
     Frage 1:
 
     Wie heisst der Gehilfe von Oma Duck?
