@@ -88,19 +88,13 @@
 
 ## Coding Katas
 
-A **Coding Kata** is a programming exercise that you can perform to build and maintain your coding skills. Probably you already know **"Hello World"**, the simplest Kata possible.
+Eine **Coding Kata** ist eine Programmierübung, mit der Du Deine Fähigkeiten verbessern kannst. Du hast wahrscheinlich schon ein **"Hello World"**-Programm gesehen. Dies ist die einfachste mögliche Kata.
 
-Here are a few places to find them:
+Weitere Katas findest Du hier:
 
-* [www.codewars.com](http://www.codewars.com/) – Plenty of small tasks in 7+ languages. Results are checked online
-* [codility.com](https://codility.com/) – Commercial website with free katas for learning
-* [rosalind.info/problems/locations/](http://rosalind.info/problems/locations/) – Katas for bioinformaticians.
-* [projecteuler.net](http://projecteuler.net) – Mathematical problems that require programming to solve.
-* [regexone.com/](http://regexone.com/) – Learning regular expressions in 16+ lessons.
-* [Regex Golf](https://regex.alf.nu/) – Very hard regular expression problems.
-
-## Conclusions
-
-You can repeat Coding Katas once in a while. Try different languages, programming paradigms or automated tests to crank up the difficulty. Like running in sports, I consider doing Coding Katas a basic exercise to improve and to maintain your fitness as a programmer.
-
-I wish you good coding.
+* [www.codewars.com](http://www.codewars.com/) – Viele kleine Aufgaben in 7+ languages. Die Ergebnisse werden automatisch geprüft.
+* [rosalind.info/problems/locations/](http://rosalind.info/problems/locations/) – Katas für Bioinformatiker.
+* [projecteuler.net](http://projecteuler.net) – Mathematische Probleme, die sich mit einem Programm lösen lassen.
+* [regexone.com/](http://regexone.com/) – 16 Lektionen zu regulären Ausdrücken.
+* [Regex Golf](https://regex.alf.nu/) – schwierige Aufgaben zu regulären Ausdrücken.
+* [PostgreSQL Exercises](https://pgexercises.com/) – SQL-Übungen
