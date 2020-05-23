@@ -1,30 +1,23 @@
 
-# Create a Movie
+# Drehe einen Kurzfilm
 
 ## Material:
 
- * Your favourite image(s)
+ * Dein Lieblingsbild
  * Python + Pillow
- * `MEncoder` or another program to create movies from a set of images.
- * see the [Flower Assembly Movie](https://youtu.be/FE6_nx-MKc8) to get an idea how the result could look like.
+ * `MEncoder` oder ein ähnliches Programm, das mehrere Bilder zu einem Film zusammenschneidet
 
-## Task
+ Ein Beispiel wie das Ergebnis aussehen könnte gibt es auf Youtube: [Flower Assembly Movie](https://youtu.be/FE6_nx-MKc8)
 
-Write a program using the PIL library that creates a set of `.png` images. Generate the images and generate a movie from that using a non-Python tool (e.g. MEncoder). Remember that a movie typically has 25 frames per second.
+## Aufgabe
 
-## Hints
+Schreibe ein Programm, das eine Serie von `.png`-Bildern erzeugt.
+Verwende ein Hilfsprogramm wie MEncoder, um daraus den Film zu erzeugen.
 
-* start with a very simple movie to make sure the assembly is working
-* the [Flower Assembly Movie](https://youtu.be/FE6_nx-MKc8) was created by slowly disassembling the picture and playing the frames backwards
+Bedenke dass ein Film etwa 25 Frames pro Sekunde benötigt.
+tool (z.B.) MEncoder).
 
-## Creating a movie from frames on Windows
+## Hinweise
 
-MEncoder requires files with the frames to have names like frame_000123.png so that they have the right order in the final movie.
-
-1. Collect all frame images in one directory
-2. copy Mencoder into that directory.
-3. open a console (`Start -> Execute -> cmd`)
-4. switch with `cd <directory_name>` to that directory
-5. type
-
-    mencoder "mf://*.png" -mf fps=25 -o output.avi -ovc lavc -lavcopts vcodec=mpeg4
+* beginne mit einem sehr einfachen Film (z.B. einem Quadrat, das über den Bildschirm wandert)
+* für den [Flower Assembly Movie](https://youtu.be/FE6_nx-MKc8) wurde das Bild in Quadrate zerlegt, diese schrittweise auseinander bewegt und die Frames rückwärts abgespielt.
