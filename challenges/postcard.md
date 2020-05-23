@@ -54,14 +54,16 @@ Füge etwas Text hinzu:
 
 Wenn Du TTF-Schriftarten auf Deinem System findest, wird es wesentlich hübscher.
 
+    :::python
     font = ImageFont.truetype('arial.ttf', 40)
 
 ## Schritt 6: Das Bild zusammenfügen
 
 Du kannst Bilder mit Pillow einfügen:
 
-  bild1.paste(bild2, (0, 0))
-  bild1.save('postkarte.png')
+    :::python
+    bild1.paste(bild2, (0, 0))
+    bild1.save('postkarte.png')
 
 * Setze die kleineren Bilder zu einem großen zusammen.
 * Füge einen breiten Streifen als Texthintergrund hinzu.
