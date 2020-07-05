@@ -34,13 +34,15 @@ Die genaue Installation hängt von Deinem Betriebssystem ab. Bitte lies Dir die 
 
 ## Brauche ich sonst noch etwas?
 
-Eine Referenz der Python-Befehle ist sehr hilfreich. Zum Beispiel die auf [www.academis.eu](http://www.academis.eu/blog/tags/python_reference).
+Eine Referenz der Python-Befehle ist sehr hilfreich. Zum Beispiel die auf [www.academis.eu/blog/tags/python_reference](http://www.academis.eu/blog/tags/python_reference).
 
-## Aufgabe 1: Shortcuts
+## Aufgabe 1: Tastenkombinationen
+
+Suche nach Tastenkombinationen, die das Programmieren beschleunigen.
 
 Mit welchen Tastenkombinationen kannst Du:
 
-* einzelnen Befehl ausführen?
-* ein ganzes Skript ausführen?
-* eine neue Skriptdatei erstellen?
+* eine neue Datei erstellen?
 * die aktuelle Datei speichern?
+* einzelnen Befehl ausführen?
+* ein ganzes Python-Skript ausführen?

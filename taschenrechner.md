@@ -20,12 +20,14 @@ Es gibt mehrere Möglichkeiten, Python zu verwenden. Im Editor **Anaconda Spyder
 
 In diesem Kapitel werden wir die Python-Shell als Taschenrechner verwenden. Du solltest folgende Eingabeaufforderung sehen:
 
-    In [1]
+    :::python3
+    In [1]:
 
-### Aufgabe 1
+### Aufgabe 1: Grundrechenarten
 
 Führe einige Berechnungen in Python durch, indem Du die fehlenden Zeichen in die Lücken einsetzt:
 
+    :::python3
     In [1]: 1 + ___
     Out[1]: 3
 
@@ -43,23 +45,26 @@ Führe einige Berechnungen in Python durch, indem Du die fehlenden Zeichen in di
 
 Gib die Befehle ein und beobachte was passiert. Gib den ersten Teil (`In [1]` etc.) **nicht** ein, dieser erscheint automatisch.
 
+----
 
-### Aufgabe 2
+### Aufgabe 2: Divisionen
 
 Was ist der Unterschied zwischen folgenden Anweisungen?
 
-    10 / 3
-    10.0 / 3
-    10.0 / 3.0
-    10 // 3
-    round(10 / 3, 2)
-    abs(-10 / 3)
+    :::python3
+    10 / 4
+    10.0 / 4
+    10.0 / 4.0
+    10 // 4
+    10 * 0.25
 
+----
 
-### Aufgabe 3
+### Aufgabe 3: Weitere Operatoren
 
 Welche Operationen ergeben 8?
 
+    :::python3
     0 + 8
     4 - -4
     65 // 8
@@ -69,14 +74,96 @@ Welche Operationen ergeben 8?
 
 ----
 
+### Aufgabe 4: Variablen
+
+Um Zahlen und Rechenergebnisse für spätere Berechnungen aufzuheben, kannst Du sie in **Variablen** speichern.
+
+Ergänze die Lücken:
+
+    :::python3
+    In [1]: aepfel = 25
+    In [2]: bananen = 7
+    In [3]: kirschen = 5
+    In [4]: aepfel
+    Out[4]: ______
+    In [5]: bananen + 1
+    Out[5]: ______
+    In [6]: 3 * kirschen
+    Out[6]: ______
+
+----
+
+### Aufgabe 5
+
+Ändere den Inhalt der Variablen aus Aufgabe 4, so dass das Ergebnis stimmt:
+
+    :::python3
+    In [7]: aepfel = aepfel + 1
+    In [8]: aepfel
+    Out[8]: _____
+
+    In [9]: obst = _____ + _____ + _____
+    In [10]: obst
+    Out[10]: 38
+
+Setze die korrekten Werte und Variablennamen ein.
+
+----
+
+### Aufgabe 6: Zuweisungen
+
+Welche Zuweisungen an Variablen sind korrekt?
+
+    :::python3
+    a = 1 * 2
+    2 = 1 + 1
+    5 + 6 = y
+    sieben = 3 * 4
+
+----
+
+### Aufgabe 7: Typumwandlungen
+
+Welche `print`-Anweisungen funktionieren?
+
+    :::python3
+    print("9" + "9")
+    print "neun"
+    print(str(9) + "neun")
+    print(9 + 9)
+    print(9 + int("9"))
+    print(neun)
+    print(float("9") + int(9.0))
+
+----
+
+### Aufgabe 8: Debugging
+
+Das folgende Programm soll den Umfang eines Kreises berechnen.
+Es enthält drei Fehler.
+Finde und behebe sie.
+
+    :::python3
+    pi = 3.14159
+    radius = float(input('Gib den Radius ein: '))
+    umfang = 2 * pi * r
+
+    print('Der Umfang des Kreises ist ' + umfang)    
+    ergebnis = 7
+    print(ergebnis)    
+
+----
+
 ## Neue Befehle und Begriffe
 
-### Zahlen in Python
+### Datentypen in Python
 
-Es gibt zwei Arten Zahlen in Python:
+Es gibt zwei Datentypen für Zahlen in Python:
 
 * **integer** – ganze Zahlen mit beliebiger Länge
 * **float** – Fließkommazahlen mit einer Genauigkeit von 16 Ziffern
+
+Auch **string** ist ein Datentyp.
 
 ### Operatoren
 
@@ -92,127 +179,12 @@ Die Rechenzeichen zwischen den Zahlen nennt man **Operatoren**. Python kennt sie
 | `%`      | Modulo (Rest der Division) |
 | `**`      | Potenz |
 
-----
+### Typumwandlungen
 
-## Variablen
+Die Funktionen `int()`, `float()` und `str()` wandeln Datentypen ineinander um.
+Eine Umwandlung in einen String ist immer möglich, die Umwandlung in eine Zahl nur wenn der String auch eine Zahl enthält.
 
-### Aufgabe 4
-
-Um Zahlen und Rechenergebnisse für spätere Berechnungen aufzuheben, können wir sie in **Variablen** speichern.
-
-Ergänze die Lücken:
-
-    In [1]: aepfel = 25
-    In [2]: bananen = 7
-    In [3]: kirschen = 5
-    In [4]: aepfel
-    Out[4]: ______
-    In [5]: bananen + 1
-    Out[5]: ______
-    In [6]: 3 * kirschen
-    Out[6]: ______
-
-### Aufgabe 5
-
-Ändere den Inhalt der Variablen:
-
-    In [7]: aepfel = aepfel + 1
-    In [8]: aepfel
-    Out[8]: _____
-
-    In [9]: obst = _____ + _____ + _____
-    In [10]: obst
-    Out[10]: 38
-
-Setze die korrekten Werte und Variablennamen ein.
-
-### Aufgabe 6
-
-Probiere aus, ob folgende Variablennamen in Python erlaubt sind:
-
-    YODA
-    darth vader
-    luke99
-    2000imperator
-    obi_wan_kenobi
-    darth.maul
-
-
-### Aufgabe 7
-
-Welche Zuweisungen an Variablen sind korrekt?
-
-    a = 1 * 2
-    2 = 1 + 1
-    5 + 6 = y
-    sieben = 3 * 4
-
-----
-
-## Mathematische Funktionen
-
-### Aufgabe 8
-
-Führe folgende Befehle aus:
-
-    abs(-8)
-    round(4/3, 2)
-
-### Aufgabe 9
-
-Führe folgende Befehle aus:
-
-    import math
-
-    math.log(16, 2)
-    math.sin(math.pi / 2)
-
-Welche Aussagen sind korrekt?
-
-* Das Ergebnis des Logarithmus ist `2`
-* Die Funktion `sin()` arbeitet mit Winkeln im Bogenmaß
-* Das
-* Die math-Bibliothek enthält auch eine Funktion `sqrt()` zum Wurzeln ziehen.
-
-### Import
-
-Python kennt jede Menge Bibliotheken (Module), mit denen sich zusätzliche Funktionen einbinden lassen. Die `import`-Anweisung bindet eine Bibliothek ein, so dass Du sie verwenden kannst.
-
-Jede Bibliothek muß nur einmal importiert werden. Danach ist sie so lange aktiv, bis Du Python neu startest.
-
-### Das Modul `math`
-
-Die Bibliothek `math` ist eine Sammlung häufig benutzter Funktionen wie trigonometrische Funktionen, Logarithmen, Wurzeln und viele mehr. Sie enthält auch einige Konstanten wie `pi` und die Eulersche Zahl `e`.
-
-Eine Übersicht zum Modul `math` findest Du auf [docs.python.org/3/library/math.html](https://docs.python.org/3/library/math.html)
-
-----
-
-## Typumwandlungen
-
-### Aufgabe 10
-
-Welche `print`-Anweisungen sind korrekt?
-
-* `print("9" + "9")`
-* `print "neun"`
-* `print(str(9) + "neun")`
-* `print(9 + 9)`
-* `print(neun)`
-
-----
-Data types
-* what happens if you store a value in a variable that already has another type
-* what happens if you combine values having different type?
-* challenge: add 7, 7.0  and "7"
-
-
-Look up things
-* help tutorial, reference, instant help, cheat sheet, StackOverflow
-* find out how to calculate a cosine using 3 different methods
-* challenge: calculate a cosine
-
-## Laufzeitfehler
+### Laufzeitfehler
 
 * where does the error occur?
 * what type of error is it?

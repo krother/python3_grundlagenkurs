@@ -24,8 +24,9 @@ Kleine Programme bestehen aus einer einzigen Datei, in der die Befehle einer nac
 
 Es ist Zeit, ein erstes Programm zu schreiben:
 
-Öffne **Spyder** und erstelle eine neue Datei mit `Strg-N`. Schreibe hinein:
+Erstelle in **Spyder** eine neue Datei mit `Strg-N`. Schreibe hinein:
 
+    :::python3
     name = input("Wie heißt Du? ")
     print("Hallo", name)
 
@@ -38,34 +39,9 @@ Was tut das Programm?
 
 ----
 
-## Neue Befehle und Begriffe
-
-| Begriff | Kurzbeschreibung |
-|---------|------------------|
-| `input` | eine Funktion, die Text von der Tastatur einliest |
-| `name` | eine Variable, die Text zwischenspeichert |
-| `print` | eine Funktion, die Text auf den Bildschirm ausgibt |
-| `"Hallo"` | ein String (Text), der direkt ausgegeben wird |
-
-### Funktionen
-
-Eine **Funktion** ist ein vordefiniertes Unterprogramm. Funktionen rufst Du auf, indem Du den Namen der Funktion eingibst, gefolgt von runden Klammern. Manche Funktionen erfordern **Parameter** in den Klammern wie `print('Hallo')`, andere nicht. In diesem Übungsbuch lernst Du die 25 wichtigsten Python-Funktionen  kennen. Du lernst auch, Deine eigenen Funktionen zu schreiben.
-
-### Variablen
-
-**Variablen** sind Speicherplätze für Daten. Jede Variable hat einen Namen, über den Du die Daten später wiederfindest. In Python erstellst Du Variablen mit dem Gleichheitszeichen `=`. Dabei steht der Name der Variablen links, und rechts das, was in der Variablen gespeichert wird.
-
-### String
-
-**String** (kurz `str`) ist ein **Datentyp**. Strings erlauben Dir, Text in Python-Programmen zu verwenden, in Variablen zu speichern, auszugeben usw. Strings erkennst Du an einfachen `'abc'` oder doppelten  `"abc"` Anführungszeichen.
-
-----
-
-## Mache das Programm kaputt!
+### Aufgabe 2: Mache das Programm kaputt!
 
 Beim Programmieren ist es unvermeidlich, dass Du Fehler machst. Fehler können einfache Vertipper sein oder komplizierte logische Denkfehler. Eine der wichtigsten Fähigkeiten beim Programmieren ist, in einem fehlerhaften Programm die Ursache zu finden und zu beheben. Das kannst Du üben, indem Du das Programm absichtlich kaputt machst und schaust, was passiert.
-
-### Aufgabe 2
 
 Probiere folgende Programme mit Fehlern aus und versuche, die Fehlermeldung zu verstehen:
 
@@ -91,18 +67,22 @@ Ein guter Editor zeigt Dir Syntaxfehler an. In Spyder erscheinen diese nach weni
 
 ----
 
-### Aufgabe 3
+### Aufgabe 3: input
 
-Welche `input`-Befehle funktionieren?
+Welche der folgenden `input`-Befehle funktionieren?
+Probiere sie aus.
 
 * `name input("gib Deinen Namen ein: ")`
 * `name = input("gib eine Zahl ein: ")`
 * `name = input(gib Deinen Namen ein)`
 * `name = input()`
 
-### Aufgabe 4
+----
 
-Welche `print`-Befehle funktionieren?
+### Aufgabe 4: print
+
+Welche der folgenden `print`-Befehle funktionieren?
+Probiere sie aus.
 
 * `print "Hallo"`
 * `print("Hallo", name, name)`
@@ -110,29 +90,84 @@ Welche `print`-Befehle funktionieren?
 * `print("Hallo name")`
 * `print(name)`
 
-### Aufgabe 5
+----
 
-Schreibe 3 Möglichkeiten auf, eine Fehlermeldung zu erzeugen.
+### Aufgabe 5: Variablennamen
 
-### Aufgabe 6
+Probiere aus, welche der folgenden Variablennamen in Python erlaubt sind:
+
+    :::python3
+    YODA = 'jedi'
+    darth vader = 'sith'
+    luke99 = 'jedi' = 'sith'
+    2000imperator = 'sith'
+    obi_wan_kenobi = 'jedi'
+    darth.maul = 'sith'
+
+----
+
+### Aufgabe 6: Debugging
+
+Das folgende Programm sollte ein stück eines Liedes von Bob Marley ausgeben.
+Es enthält drei Fehler.
+Finde und repariere sie.
+
+    :::python3
+    refrain1 = "Don't worry about a thing"
+    refrain2 = 'Cause every little thing gonna be all right"
+    text = 'refrain1 + refrain2'
+
+    print(refrain1, refrain2
+    print(text)
+
+----
+
+### Aufgabe 7
 
 Schreibe ein Programm, das nach Deinem Vor- und Nachnamen fragt und beides ausgibt.
 
 ----
 
-## Wie schreibt man Programme?
+## Neue Befehle und Begriffe
+
+| Begriff | Kurzbeschreibung |
+|---------|------------------|
+| `input` | eine Funktion, die Text von der Tastatur einliest |
+| `name` | eine Variable, die Text zwischenspeichert |
+| `print` | eine Funktion, die Text auf den Bildschirm ausgibt |
+| `"Hallo"` | ein String (Text), der direkt ausgegeben wird |
+
+### Funktionen
+
+Eine **Funktion** ist ein vordefiniertes Unterprogramm. Funktionen rufst Du auf, indem Du den Namen der Funktion eingibst, gefolgt von runden Klammern. Manche Funktionen erfordern **Parameter** in den Klammern wie `print('Hallo')`, andere nicht.
+Am Ende dieses Einsteigerkurses solltest Du die 25 wichtigsten Python-Funktionen kennen.
+Du lernst hier auch, Deine eigenen Funktionen zu schreiben.
+
+### Variablen
+
+**Variablen** sind Speicherplätze für Daten. Jede Variable hat einen Namen, über den Du die Daten später wiederfindest. In Python erstellst Du Variablen mit dem Gleichheitszeichen `=`. Dabei steht der Name der Variablen links, und rechts das, was in der Variablen gespeichert wird.
+
+### String
+
+**String** (kurz `str`) ist ein **Datentyp**. Strings erlauben Dir, Text in Python-Programmen zu verwenden, in Variablen zu speichern, auszugeben usw. Strings erkennst Du an einfachen `'abc'` oder doppelten  `"abc"` Anführungszeichen.
+
+### Wie schreibt man Programme?
 
 Du hast in diesem Kapitel bereits mehrere Programmiertechniken kennen gelernt:
 
 * Befehle eintippen
 * Befehle verändern
 * nach Programmfehlern suchen
-* das Programm ausführen und schauen was passiert
+* ein Programm ausführen und schauen was passiert
 
 Du kannst diese Techniken zu einem einfachen Schema kombinieren:
 
+    :::bash
     1. Editiere das Programm
     2. Führe das Programm aus
     3. Wenn es noch nicht funktioniert, zurück zu 1.
 
-Wahrscheinlich bist Du schon von alleine darau gekommen. Diese Methode, der **Code-Debug-Zyklus**, ist für kleine Programme gut geeignet. Ich schreibe diese Methode trotzdem auf, damit Du sie später von anderen Programmiertechniken unterscheiden kannst.
+Wahrscheinlich bist Du schon von alleine darau gekommen.
+
+Diese Methode, der **Code-Debug-Zyklus**, ist für kleine Programme gut geeignet.
+Ich erwähne diese Methode, damit Du sie später von anderen Programmiertechniken unterscheiden kannst.

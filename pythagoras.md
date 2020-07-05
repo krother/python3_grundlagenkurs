@@ -40,6 +40,16 @@ Jedes Programm besteht aus drei Teilen: **Eingabe, Vearbeitung und Ausgabe**. Um
 
 Sammle weitere Geräte/Möglichkeiten, die ein Programm für die Ein- und Ausgabe verwenden könnte (auch wenn Du sie noch nicht in Python ansprechen kannst).
 
+----
+
+### Aufgabe 3: Mathematische Funktionen
+
+Führe folgende Befehle aus:
+
+    abs(-8)
+    round(4/3, 2)
+
+
 ### Aufgabe 3: Absolute Zahlen
 
 Ändere den Verarbeitungsteil, so dass die positive Differenz beider Zahlen berechnet wird. Verwende dazu die Funktion `abs()`:
@@ -80,3 +90,42 @@ Teile das Programm in Eingabe, Verarbeitung und Ausgabe auf:
 * Lies im Eingabeteil die Länge der zwei Katheten ein
 * Verwende zur Berechnung die Funktion `math.sqrt()`
 * Gib das Ergebnis auf den Bildschirm aus
+
+
+---------------------------------------
+
+### Aufgabe 8
+
+Führe folgende Befehle aus:
+
+    import math
+
+    math.log(16, 2)
+    math.sin(math.pi / 2)
+
+Welche Aussagen sind korrekt?
+
+* Das Ergebnis des Logarithmus ist `2`
+* Die Funktion `sin()` arbeitet mit Winkeln im Bogenmaß
+* Das
+* Die math-Bibliothek enthält auch eine Funktion `sqrt()` zum Wurzeln ziehen.
+
+### Import
+
+Python kennt jede Menge Bibliotheken (Module), mit denen sich zusätzliche Funktionen einbinden lassen. Die `import`-Anweisung bindet eine Bibliothek ein, so dass Du sie verwenden kannst.
+
+Jede Bibliothek muß nur einmal importiert werden. Danach ist sie so lange aktiv, bis Du Python neu startest.
+
+### Das Modul `math`
+
+Die Bibliothek `math` ist eine Sammlung häufig benutzter Funktionen wie trigonometrische Funktionen, Logarithmen, Wurzeln und viele mehr. Sie enthält auch einige Konstanten wie `pi` und die Eulersche Zahl `e`.
+
+Eine Übersicht zum Modul `math` findest Du auf [docs.python.org/3/library/math.html](https://docs.python.org/3/library/math.html)
+
+----
+
+
+Look up things
+* help tutorial, reference, instant help, cheat sheet, StackOverflow
+* find out how to calculate a cosine using 3 different methods
+* challenge: calculate a cosine
