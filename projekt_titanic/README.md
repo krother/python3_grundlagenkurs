@@ -20,6 +20,7 @@ Sammelt Ideen, was für *Merkmale von Passagieren* die Überlebenschancen auf de
 
 Importiere:
 
+    :::python3
     import pandas as pd
     import pylab as plt
     import numpy as np
@@ -36,6 +37,7 @@ Du findest eine Dokumentation der Daten auf [www.kaggle.com/c/titanic](https://w
 
 Erstelle ein Histogramm nach dem Alter nach Überleben gruppiert:
 
+    :::python3
     df.groupby('Survived')['Age'].hist(alpha=0.5)
 
 ----
@@ -44,6 +46,7 @@ Erstelle ein Histogramm nach dem Alter nach Überleben gruppiert:
 
 Erstelle ein Balkendiagramm mit den Häufigkeiten gruppiert nach Passagierklasse nach Überleben:
 
+    :::python3
     g = df.groupby(['Survived', 'Pclass'])
     g = g['Name'].count()
     g = g.unstack()
@@ -63,6 +66,7 @@ Gruppiere als drittes Kriterium zusätzlich nach Geschlecht.
 
 Jetzt plotten wir alles gegen alles!
 
+    :::python3
     pd.scatter_matrix(df, figsize=(15,15))
 
 **Anmerkung:** Da die meisten der Daten *kategorisch* sind, kann man im Diagramm nicht so viel sehen. Die Darstellung ist aber oft so praktisch, daß ich sie Euch nicht vorenthalten wollte.
@@ -74,6 +78,7 @@ Färbe die Überlebenden blau ein und die Ertrunkenen rot. Schreibe dazu eine Fu
 
 Damit können wir eine Spalte mit Farbangaben erstellen:
 
+    :::python3
     col = df['Survived'].apply(make_color)
 
 Und diese als zusätzlichen Parameter `c=col` in der Funktion `scatter_matrix` angeben.
@@ -95,6 +100,7 @@ Wähle alle Spalten außer `"Survived"` für den Paarplot aus.
 
 Wandle beide DataFrames in NumPy Arrays um:
 
+    :::python3
     X = X.values
     y = y.values
 
@@ -104,18 +110,21 @@ Wandle beide DataFrames in NumPy Arrays um:
 
 Teile den Datensatz in Trainings- und Testdaten auf:
 
+    :::python3
     from sklearn.model_selection import train_test_split
 
     Xtrain, ytrain, Xtest, ytest = train_test_split(X, y, random_state=0)
 
 Nun erstellen wir eines der einfachsten möglichen maschinellen Lernmodelle nach dem k-nächste-Nachbarn-Verfahren:
 
+    :::python3
     from sklearn.neighbors import KNeighborsClassifier
 
     m = KNeighborsClassifier(n_neighbors=1)
 
 und trainieren das Modell mit unseren Trainingsdaten:
 
+    :::python3
     m.fit(Xtrain, ytrain)
 
 ----
@@ -124,6 +133,7 @@ und trainieren das Modell mit unseren Trainingsdaten:
 
 Berechne die Genauigkeit des Modells für die Trainingsdaten:
 
+    :::python3
     print(m.score(Xtrain, ytrain))
 
 
@@ -139,6 +149,7 @@ Ist dies ein gutes Modell?
 
 Erstelle Datensätze für weitere Passagiere:
 
+    :::python3
     import numpy as np
 
     leo = np.array([[22, 3]])
@@ -146,6 +157,7 @@ Erstelle Datensätze für weitere Passagiere:
 
 und erstelle eine Vorhersage für diese:
 
+    :::python3
     print(m.predict(leo))
     print(m.predict(kate))
 
@@ -155,10 +167,11 @@ und erstelle eine Vorhersage für diese:
 
 Wiederhole den Modellbau, indem Du mehr Daten berücksichtigst. Nimm 2-3 zusätzliche Spalten auf. Verbessert sich an der Qualität der Vorhersage etwas?
 
-#### 11.1 Dummy-Variablen
+#### 12.1 Dummy-Variablen
 
 Um die *kategorischen* Merkmale `"Sex"` oder `"Embarked"` mit aufzunehmen, benötigst Du folgende Funktion:
 
+    :::python3
     pd.get_dummies(df['Sex'])
 
 baue die Dummy-Variablen in Deinen Datensatz ein, bevor Du ihn in Trainings- und Testdaten aufteilst.
@@ -180,7 +193,7 @@ Verschaffe Dir einen Überblick über die Funktionsweise eines der folgenden Mod
 
 Als Quelle dienen Wikipedia und [scikit-learn.org](http://scikit-learn.org)
 
-Wende eines dieser Modelle auf den Datensatz an, indem Du die Klasse 
+Wende eines dieser Modelle auf den Datensatz an, indem Du die Klasse
 `KNeighborsClassifier` durch die aus der Tabelle ersetzt. Gib keine Parameter an, sondern verwende die Standardeinstellungen.
 
 Welche Genauigkeit erreicht Ihr?
@@ -189,6 +202,7 @@ Welche Genauigkeit erreicht Ihr?
 
 Schaue Dir die berechneten Koeffizienten von `LogisticRegression` an:
 
+    :::python3
     for lab, coef in zip(labels, m.coef_[0]):
         print("{:10s}\t{:8.3f}".format(lab, coef))
 
@@ -200,6 +214,7 @@ Vergleiche die Parameter `max_depth=2`, `max_depth=3` und `max_depth=10`. Wie wi
 
 Skaliere die Eingabedaten für das neuronale Netzwerk:
 
+    :::python3
     from sklearn.preprocessing import MinMaxScaler
 
     scaler = MinMaxScaler()

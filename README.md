@@ -30,6 +30,7 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 * [Schildkrötengrafik](schildkroete.md)
 * [Zahlenraten](zahlenraten.md)
 * [Funktionen plotten](funktionen_plotten.md)
+* [Reguläre Ausdrücke](regex.md)
 
 ----
 
@@ -57,7 +58,7 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 ## Teil 4: Maschinelles Lernen
 
 * [Panik auf der Titanic](projekt_titanic/README.md)
-* [Songtexte klassifizieren](projekt_lyrics/README.md)
+* [Songtexte klassifizieren](projekt_lyrics.md)
 * [Machine Learning Kurzübersicht](ml_glossar.md)
 
 ----
