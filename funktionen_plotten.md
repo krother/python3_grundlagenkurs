@@ -18,16 +18,21 @@
 
 In diesem Kapitel verwenden wir die Bibliothek `matplotlib`, um  einfache Diagramme zu erzeugen und Funktionen zu plotten.
 
+----
+
 ### Aufgabe 1
 
 Führe folgendes Programm aus:
 
+    :::python3
     from matplotlib import pyplot as plt
 
     x = [1, 2, 3, 4, 5]
     y = [2, 5, 7, -3, 9]
 
     plt.plot(x, y)
+
+----
 
 ### Aufgabe 2
 
@@ -37,10 +42,13 @@ Ersetze `plot` nacheinander durch folgende Funktionen:
 * `scatter(x, y)`
 * `pie(x)`
 
+----
+
 ### Aufgabe 3
 
 Folgendes Programm enthält einen Fehler. Finde und behebe ihn.
 
+    :::python3
     from matplotlib import pyplot as plt
 
     plt.scatter([4, 2, 4], [4, 4, 2, 2])
@@ -52,18 +60,23 @@ Bisher wurde in unseren Programmen jede Anweisung genau ein Mal ausgeführt. In 
 
 ![Schleife](../images/schleife_python.png)
 
+----
+
 ### Aufgabe 4
 
 Was tut das folgende Programm?
 
+    :::python3
     for zahl in range(1, 7):
         print(zahl)
 
+----
 
 ### Aufgabe 5
 
 Erkläre, warum die `for`-Anweisung besser als der folgende Ansatz ist:
 
+    :::python3
     print(1)
     print(2)
     print(3)
@@ -71,10 +84,13 @@ Erkläre, warum die `for`-Anweisung besser als der folgende Ansatz ist:
     print(5)
     print(6)
 
+----
+
 ### Aufgabe 6
 
 Erkläre den Unterschied zwischen folgenden zwei Programmen:
 
+    :::python3
     fakultaet = 1
     for i in range(10):
         fakultaet = fakultaet * i
@@ -82,16 +98,20 @@ Erkläre den Unterschied zwischen folgenden zwei Programmen:
 
 und
 
+    :::python3
     fakultaet = 1
     for i in range(10):
         fakultaet = fakultaet * i
     print(fakultaet)
 
 
+----
+
 ### Aufgabe 7
 
 Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
 
+    :::bash
     1
     4
     9
@@ -100,12 +120,14 @@ Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
     36
     49
 
+----
 
 ### Aufgabe 8
 
 Nun haben wir alle Bestandteile, die wir benötigen, um eine *Parabel* zu zeichnen.
 Fülle die Lücken im Programm:
 
+    :::python3
     from ____ ____ pyplot as ____
 
     x = ____
@@ -117,10 +139,13 @@ Fülle die Lücken im Programm:
 
     plt.____(x, y)
 
+----
+
 ### Aufgabe 9
 
 Schreibe ein Programm, das eine Sinusfunktion zeichnet. Verwende die Funktion:
 
+    :::python3
     import math
 
     rad = 3.14159

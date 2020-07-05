@@ -28,32 +28,12 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 * [Pythagoras](pythagoras.md)
 * [Schere-Stein-Papier](if.md)
 * [Schildkrötengrafik](schildkroete.md)
-
-----
-
-## Teil 2: Diagramme
-
-* [Daten plotten](daten_plotten.md)
-* [Funktionen plotten](funktionen_plotten.md)
-* [Ansehnliche Diagramme](gute_diagramme.md)
-
-## Teil 3: Text
-
-* [Chiffre](chiffre.md)
-* [Wörter Zählen](challenges/alaeddin.md)
-* [Häufigste Wörter](haeufigste_woerter.md)
-
-----
-
-## Teil 4: Mini-Spiele
-
 * [Zahlenraten](zahlenraten.md)
-* [Unendliche Weiten](space.md)
-* [Zusammenfassung: Datentypen](datentypen.md)
+* [Funktionen plotten](funktionen_plotten.md)
 
 ----
 
-## Teil 5: Datenanalyse – Babynamen
+## Teil 2: Datenanalyse – Babynamen
 
 * [Babys auszählen](projekt_babynamen/babys_auszaehlen.md)
 * [Namen finden](projekt_babynamen/namen_finden.md)
@@ -63,7 +43,7 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 
 ----
 
-## Teil 6: Datenanalyse – Gapminder
+## Teil 3: Datenanalyse mit pandas – Gapminder
 
 * [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md)
 * [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
@@ -74,28 +54,21 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 
 ----
 
-## Teil 7: Maschinelles Lernen – Titanic
+## Teil 4: Maschinelles Lernen
 
 * [Panik auf der Titanic](projekt_titanic/README.md)
+* [Songtexte klassifizieren](projekt_lyrics/README.md)
 * [Machine Learning Kurzübersicht](ml_glossar.md)
 
 ----
 
-## Teil 8: Maschinelles Lernen – Songtexte
-
-* [Songs herunterladen](projekt_lyrics/songs_herunterladen.md)
-* [Songtexte extrahieren](projekt_lyrics/text_extrahieren.md)
-* [Klassifikation nach dem *Naive Bayes*-Verfahren](projekt_lyrics/vorhersage.md)
-
-----
-
-## Teil 9: Webentwicklung – Strassenverzeichnis
+## Teil 5: Webentwicklung – Strassenverzeichnis
 
 * [Webseite mit Strassennamen](projekt_website/website.md)
 
 ----
 
-## Teil 10: Spiele Programmieren
+## Teil 6: Spiele Programmieren
 
 * [Flucht aus dem Labyrinth](labyrinth.md)
 
@@ -104,6 +77,10 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 ## Allgemeine Programmiertips
 
 * [Das Impostor Syndrome](impostor.md)
+
+## Wiederholungsübungen
+
+* [Datentypen](datentypen.md)
 
 ----
 
