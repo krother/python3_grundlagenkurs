@@ -8,40 +8,36 @@ Ich habe die Aufgaben vor allem in Präsenzkursen an der FU Berlin verwendet.
 
 ## Für wen sind die Übungen geeignet?
 
-Du gehörst zur Zielgruppe, wenn:
+Dieser Kurs ist für Dich geeignet, wenn
 
 * Du überhaupt noch nie programmiert hast.
 * Du bereits erste Erfahrungen mit einer anderen Programmiersprache wie R, MATLAB oder C hast.
-* Du Übungsaufgaben für Deinen eigenen Python-Kurs suchst.
+* Du Lehrer bist und Übungsaufgaben für Deinen eigenen Python-Kurs suchst.
 
-Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer, eine Lerngruppe oder zumindest ein gutes Grundlagenbuch brauchen.
+Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer oder eine Lerngruppe brauchen.
 
-Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/thinkCSpy/html/).
+Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://greenteapress.com/wp/think-python-2e/).
 
 ----
 
-## Teil 1: Erste Schritte in Python
+## Teil 1: Erste Schritte
 
 * [Python Installieren](installation.md)
 * [Dein erstes Programm](hallo.md)
 * [Python als Taschenrechner](taschenrechner.md)
 * [Pythagoras](pythagoras.md)
-
-## Teil 2: Schildkrötengrafik
-
 * [Schildkrötengrafik](schildkroete.md)
-* [Blumenmuster](if.md)
-* [Das Impostor Syndrome](impostor.md)
+* [Schere-Stein-Papier](if.md)
 
 ----
 
-## Teil 3: Diagramme
+## Teil 2: Diagramme
 
 * [Daten plotten](daten_plotten.md)
 * [Funktionen plotten](funktionen_plotten.md)
 * [Ansehnliche Diagramme](gute_diagramme.md)
 
-## Teil 4: Text
+## Teil 3: Text
 
 * [Chiffre](chiffre.md)
 * [Wörter Zählen](challenges/alaeddin.md)
@@ -49,7 +45,7 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ----
 
-## Teil 5: Mini-Spiele
+## Teil 4: Mini-Spiele
 
 * [Zahlenraten](zahlenraten.md)
 * [Unendliche Weiten](space.md)
@@ -57,7 +53,7 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ----
 
-## Teil 6: Babynamen
+## Teil 5: Datenanalyse – Babynamen
 
 * [Babys auszählen](projekt_babynamen/babys_auszaehlen.md)
 * [Namen finden](projekt_babynamen/namen_finden.md)
@@ -67,7 +63,7 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ----
 
-## Teil 7: Gapminder
+## Teil 6: Datenanalyse – Gapminder
 
 * [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md)
 * [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
@@ -78,14 +74,14 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ----
 
-## Teil 8: Titanic
+## Teil 7: Maschinelles Lernen – Titanic
 
 * [Panik auf der Titanic](projekt_titanic/README.md)
 * [Machine Learning Kurzübersicht](ml_glossar.md)
 
 ----
 
-## Teil 9: Songtexte
+## Teil 8: Maschinelles Lernen – Songtexte
 
 * [Songs herunterladen](projekt_lyrics/songs_herunterladen.md)
 * [Songtexte extrahieren](projekt_lyrics/text_extrahieren.md)
@@ -93,15 +89,21 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [How to Think Like a Comp
 
 ----
 
-## Teil 10: Strassenverzeichnis
+## Teil 9: Webentwicklung – Strassenverzeichnis
 
 * [Webseite mit Strassennamen](projekt_website/website.md)
 
 ----
 
-## Teil 11: Spiele Programmieren
+## Teil 10: Spiele Programmieren
 
 * [Flucht aus dem Labyrinth](labyrinth.md)
+
+----
+
+## Allgemeine Programmiertips
+
+* [Das Impostor Syndrome](impostor.md)
 
 ----
 
