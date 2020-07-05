@@ -7,6 +7,7 @@
 
 ## Tutorials und Übungen
 
+* [Python Tutorial von Axel Pratzner](https://www.python-lernen.de/)
 * [Data Carpentry](https://www.youtube.com/watch?v=Ws34Ho-1aDs)
 * [Data Cleaning](https://github.com/kjam/data-cleaning-101)
 * [Dask](https://www.youtube.com/watch?v=gRRocTAtZm8)
