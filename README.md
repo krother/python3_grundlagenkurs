@@ -26,8 +26,8 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 * [Dein erstes Programm](hallo.md)
 * [Python als Taschenrechner](taschenrechner.md)
 * [Pythagoras](pythagoras.md)
-* [Schildkrötengrafik](schildkroete.md)
 * [Schere-Stein-Papier](if.md)
+* [Schildkrötengrafik](schildkroete.md)
 
 ----
 
