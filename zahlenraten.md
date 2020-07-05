@@ -12,13 +12,16 @@
 
 ----
 
-Schreibe ein Programm, das eine Zufallszahl zwischen 1 und 100 auswürfelt:
+In diesem Kapitel schreibst Du ein Programm, das eine Zufallszahl zwischen 1 und 100 auswürfelt:
 
+    :::python3
     import random
 
     zahl = random.randint(1, 100)
 
-Der Spieles soll diese Zahl raten. Das Programm gibt Hinweise, ob die geratene Zahl zu groß, zu klein oder ein Treffer ist. Der Spieler kann beliebig oft raten, bis die richtige Zahl getroffen wurde.
+Der Spieler soll diese Zahl raten. Das Programm gibt Hinweise, ob die geratene Zahl zu groß, zu klein oder ein Treffer ist. Der Spieler kann beliebig oft raten, bis die richtige Zahl getroffen wurde.
+
+----
 
 ### Aufgabe 1
 
@@ -29,17 +32,26 @@ Ordne die Ausdrücke so zu, daß die gezeigten `while`-Schleifen die angegebene 
 
 ![while exercise](../images/while.png)
 
+----
 
 ### Aufgabe 2
 
 Welche dieser `while`-Anweisungen sind korrekt?
 
-* `while a = 1:`
-* `while b == 1`
-* `while a + 7:`
-* `while len(c) > 10:`
-* `while a and (b-2 == c):`
-* `while s.find('c') >= 0:`
+    :::python3
+    while a = 1:
+
+    while b == 1
+
+    while a + 7:
+
+    while len(c) > 10:
+
+    while a and (b-2 == c):
+
+    while s.find('c') >= 0:
+
+----
 
 ### Aufgabe 3
 
@@ -51,10 +63,13 @@ Welche Aussagen sind korrekt?
 * Das Semikolon am Ende der Zeile mit `while` ist optional.
 * Der Code-Block nach einer `while`-Anweisung wird mindestens ein Mal ausgeführt.
 
+----
+
 ### Aufgabe 4
 
 Die folgende `for`-Schleife sucht in den Daten nach dem Wert `33`. Ersetze sie durch eine `while`-Schleife.
 
+    :::python3
     data = [5, 7, 33, 12, 4, 3, 18]
 
     gefunden = False
@@ -64,11 +79,13 @@ Die folgende `for`-Schleife sucht in den Daten nach dem Wert `33`. Ersetze sie d
 
     print("Der Wert 33 wurde gefunden: {}".format(gefunden))
 
+----
 
 ### Aufgabe 5
 
 Die folgende `while`-Schleife zählt Werte größer 10. Ersetze sie durch eine `for`-Schleife.
 
+    :::python3
     data = [4, 7, 11, 1, 3,  15]
 
     i, j = 0,0
@@ -79,61 +96,69 @@ Die folgende `while`-Schleife zählt Werte größer 10. Ersetze sie durch eine `
 
     print("Anzahl Werte größer 10: {}".format(j))
 
+----
+
 ### Aufgabe 6
 
-Welche der folgenden `while`-Schleifen endet von alleine?
+Welche der folgenden `while`-Schleifen enden von alleine?
 
-#### Beispiel 6.1
+#### Aufgabe 6.1
 
+    :::python3
     count = 0
     while count > 0:
         print count
         count += 1
 
-#### Beispiel 6.2
+#### Aufgabe 6.2
 
+    :::python3
     text = "a"
     while "z" not in text:
         text += "a"
 
-#### Beispiel 6.3
+#### Aufgabe 6.3
 
+    :::python3
     a = 7
     b = 135
     while a != b:
         a += (a - b) / 10.0
         b -= (a - b) / 10.0
 
-#### Beispiel 6.4
+#### Aufgabe 6.4
 
+    :::python3
     n = 0
     while n * 5 != n ** 2:
         n += 2
 
-### Aufgabe 6.5
+#### Aufgabe 6.5
 
-Wird die folgende `while`-Schleife von alleine enden?
-
+    :::python3
     data = [1, 2, 7, 8]
     while data[-1] > 2:
         data.pop()
 
-### Aufgabe 6.6
+#### Aufgabe 6.6
 
-Wird die folgende `while`-Schleife von alleine enden?
-
+    :::python3
     data = [2, 3, 15]
     while data[0] < 100:
         data = data[1:]
 
+----
 
 ### Aufgabe 7
 
 Würfle eine Zufallszahl aus:
 
+    :::python3
     import random
 
 Schlage in der Dokumentation des Moduls `random` nach, wie Du eine ganzzahlige Zufallszahl generieren kannst.
+
+----
 
 ### Aufgabe 8
 
