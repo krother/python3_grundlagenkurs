@@ -18,12 +18,13 @@ In diesem Kapitel werden wir unsere Daten aus einer **Textdatei** einlesen und d
 
 Am Ende des Kapitels werden wir ein Balkendiagramm zeichnen.
 
-## Textdateien einlesen
+----
 
 ### Aufgabe 1
 
 Erstelle in einem Texteditor eine Datei namens `bigbang.txt`. Fülle sie mit folgenden Daten:
 
+    :::bash
     Emily,F,12562
     Amy,F,2178
     Penny,F,342
@@ -36,11 +37,13 @@ Erstelle in einem Texteditor eine Datei namens `bigbang.txt`. Fülle sie mit fol
 
 (Dies sind die gleichen Daten wie im vorigen Kapitel.)
 
+----
 
-### Aufgabe 2
+### Aufgabe 2: Datei lessen
 
 Bringe das Programm zum Lesen der Datei zum Laufen, indem Du `close`, `line`, `"bigbang.txt"` und `print` in die Lücken einsetzt.
 
+    :::python3
     f = open(___)
     for ____ in f:
         ____(line)
@@ -52,11 +55,13 @@ Je nachdem was für einen Editor Du verwendest, mußt Du eventuell den komplette
 
 Ersetze unter Windows die **Backslashes durch normale Slashes (`/`)**
 
+----
 
 ### Aufgabe 3
 
 Erweitere das Programm so, dass es die Anzahl der Babys wie im letzten Kapitel aufsummiert.
 
+----
 
 ## Aufgabe 4
 
@@ -64,11 +69,14 @@ Für die folgenden Übungen benötigst Du den offiziellen Babynamen-Datensatz vo
 
 Entpacke die heruntergeladene Datei.
 
+----
+
 ### Aufgabe 5
 
 Schreibe ein Programm, das die Datei `yob2015.txt` einliest.
 Berechne die Gesamtzahl der Babys für das Jahr 2015 berechnet und gebe sie aus. Vergleiche das Ergebnis mit dem für das Jahr 1915.
 
+----
 
 ### Aufgabe 6
 
@@ -76,22 +84,21 @@ Schreibe ein Programm, das die Datei `yob2015.txt` einliest. Finde alle Zeilen, 
 
 ----
 
-## Methoden von Listen
+### Aufgabe 7: Methoden von Listen
 
 Als nächstes werden wir einige Namen in einer Liste sammeln. Das ist eine gute Gelegenheit, diesen wichtigen Datentyp etwas näher kennen zu lernen.
-
-
-### Aufgabe 7
 
 Finde in IPython heraus, was die Ausdrücke mit der Liste in der Mitte anstellen.
 
 ![Übung zu Listen](../images/lists.png)
 
+----
 
 ### Aufgabe 8
 
 Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden, in einer Liste. Leider enthält das Programm **vier Fehler**. Finde und korrigiere diese.
 
+    :::python3
     häufige = []
 
     for line in open('names/yob2015.txt'):
@@ -103,20 +110,21 @@ Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden, in 
 
     print(haeufige)
 
+----
 
 ### Aufgabe 9
 
 Sammle Namen, die mit `'M'` anfangen und auf `'m'` enden in einer Liste. Gib die Liste sortiert aus.
 
+----
 
-## Balkendiagramm
-
-### Aufgabe 10
+### Aufgabe 10: Balkendiagramm
 
 ![Balkendiagramm](../images/star_bars.png)
 
 Führe dieses Programm aus:
 
+    :::python3
     from matplotlib import pyplot as plt
 
     plt.figure()
@@ -134,12 +142,11 @@ Führe dieses Programm aus:
 
     plt.savefig('starwars.png')
 
-
+----
 
 ### Aufgabe 11
 
 Plotte die ersten fünf Namen, die mit *'M'* beginnen und enden in einem Balkendiagramm.
-
 
 ----
 
@@ -156,12 +163,15 @@ Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. V
 
 ![list funcs exercise2](../images/list_funcs2.png)
 
+----
 
 ### Aufgabe 14
 
 Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
 
 ![list funcs exercise1](../images/list_funcs1.png)
+
+----
 
 ## Texteditoren
 
@@ -172,12 +182,3 @@ Für einige der Aufgaben ist ein **Texteditor** sinnvoll.
 * **PyCharm** - eine professionelle auf Python spezialisierte Entwicklungsumgebung, die zum Entwickeln großer Projekte sehr gut geeignet ist. Du wirst 90% der Funktionen eine lange Zeit lang nicht brauchen, aber es ist ein sehr schönes Programm.
 * **Notepad++** - ein sehr nützlicher Editor für Windows. *Bitte verwende auf keinen Fall Notepad, um Python zu programmieren. Du tust Dir keinen Gefallen damit. Du solltest stattdessen lieber versuchen, mit einer Nagelfeile aus dem Gefängnis auszubrechen.*
 * **vim** - ein konsolenbasierter Texteditor für Unix. Dies ist das Werkzeug der Wahl für Systemadministratoren und alle Entwickler, die sich oft auf anderen Rechnern einloggen müssen, um dort zu arbeiten.
-
-## Records
-
-* store other data structures
-* challenge: store the names of your family members
-* challenge: store your name, address, age
-
-## semantic error
-* reinitialize empty list

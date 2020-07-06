@@ -23,6 +23,7 @@ Die US-Meldebehörden haben die Namen aller seit 1880 geborenen US-Staatsbürger
 
 In diesem Kapitel werden wir einen größeren String auseinandernehmen. Dies kommt beim Analysieren von Daten immer wieder vor. Zum Üben verwenden wir folgenden mehrzeiligen String (die Daten sind ein Auszug aus dem US-Geburtenregister):
 
+    :::python3
     bigbang = """Emily,F,12562
     Amy,F,2178
     Penny,F,342
@@ -39,6 +40,7 @@ Wir werden ausrechnen, wie viele Babys die Tabelle insgesamt enthält.
 
 Wenn alle Zahlen in einer Liste wären, wäre es einfach:
 
+    :::python3
     bigbang_zahlen = [
         12562, 2178, 342, 129,
         384, 208, 164, 82, 41
@@ -48,9 +50,8 @@ Schreibe ein Programm, das diese Zahlen aufsummiert.
 
 ----
 
-## Methoden von Strings
 
-### Aufgabe 2
+### Aufgabe 2: Methoden von Strings
 
 Um statt Zahlen den Text in `bigbang` zu verarbeiten, müssen wir den Datentyp **String** etwas besser kennen lernen.
 
@@ -58,6 +59,7 @@ Finde heraus, was die Ausdrücke mit dem String in der Mitte tun.
 
 ![string exercise](../exercises/strings.png)
 
+----
 
 ### Aufgabe 3
 
@@ -70,12 +72,15 @@ Mit welcher der Methoden kannst du einen String wie die Variable `bigbang` in ei
 
 Speichere den zerlegten String in einer Variablen.
 
+----
+
 ### Aufgabe 4
 
 Wie viele unterschiedliche Jungennamen mit `'S'` gibt es im bigbang-Datensatz?
 
 **Sortiere** die folgenden Programmzeilen und **rücke sie korrekt ein**:
 
+    :::python3
     jungs = 0
 
     print(jungs)
@@ -86,6 +91,7 @@ Wie viele unterschiedliche Jungennamen mit `'S'` gibt es im bigbang-Datensatz?
 
     jungs += 1
 
+----
 
 ### Aufgabe 5
 
@@ -93,6 +99,7 @@ Um an die Anzahl heranzukommen, müssen wir die Zeilen an den Kommata aufteilen.
 
 Schreibe ein Programm, das alle Anzahlen aus dem String `bigbang` ausgibt.
 
+----
 
 ### Aufgabe 6
 
@@ -102,6 +109,7 @@ Wenn Du statt einer Liste von Zahlen Strings aufsummieren möchtest, erhälst Du
 
 Python enthält viele Funktionen zur **Umwandlung von Datentypen**. Setze die folgenden Teile in den Code ein, so dass alle Befehle korrekt ausgeführt werden: `alter`, `int(alter)`, `name`, `str(geboren)`, `1980`
 
+    :::python3
     name = 'Sheldon Cooper'
     geboren = _____
     ____ = '38'
@@ -111,16 +119,19 @@ Python enthält viele Funktionen zur **Umwandlung von Datentypen**. Setze die fo
     print(text)
     print(jahr)
 
+----
 
 ### Aufgabe 7
 
 Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle funktionieren.
 
+    :::python3
     9 + 9
     9 + '9'
     '9' + '9'
     9 * '9'
 
+----
 
 ### Aufgabe 8
 

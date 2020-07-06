@@ -14,10 +14,10 @@
 
 ----
 
-In diesem Kapitel werden wir unsere Ergebnisse in eine **Datei schreiben**. Nicht nur das, wir möchten sie auch **als Tabelle formatieren**.
+In diesem Kapitel werden wir unsere Ergebnisse in eine **Datei schreiben**.
+Nicht nur das, wir möchten sie auch **als Tabelle formatieren**.
 
-
-## Dateien Schreiben
+----
 
 ### Aufgabe 1
 
@@ -25,11 +25,13 @@ Bilde Paare aus Python-Anweisungen und deren Bedeutungen.
 
 ![file exercise](../images/files.png)
 
+----
 
-### Aufgabe 2
+### Aufgabe 2: Datei Schreiben
 
 Führe das folende Programm aus. Erkläre was passiert.
 
+    :::python3
     namen = ['Adam', 'Bob', 'Charlie']
 
     with open('jungs.txt', 'w') as f:
@@ -44,16 +46,19 @@ Welche Aussagen sind korrekt?
 * Am Ende des <code>with</code>-Blocks wird die Datei automatisch geschlossen
 * An jeden Namen wird der Buchstabe 'n' angehängt
 
+----
 
 ### Aufgabe 3
 
 Lösche das `+ '\n'` aus dem Programm und führe es noch einmal aus. Was passiert?
 
+----
 
-## Tabellen
+### Aufgabe 4: Tabellen
 
 Daten treten häufig in Form von Tabellen auf. Da eine Liste andere Listen enthalten kann, können wir diese **verschachtelte Listen** als einfaches Tabellenformat nutzen:
 
+    :::python3
     # Name, Babys Kalifornien, Babys New York
     tab = [
       ["Emily", 2269, 881],
@@ -64,12 +69,12 @@ Daten treten häufig in Form von Tabellen auf. Da eine Liste andere Listen entha
 
 Technisch ist an verschachtelten Listen nichts besonderes. Man muss allerdings die richtigen eckigen Klammern für die Indizierung finden, z.B. für die zweite Spalte der dritten Zeile:
 
+    :::python3
     print(tab[2][1])
 
+Gib alle Vornamen aus der obigen Tabelle mit einer `for`-Schleife aus.
 
-### Aufgabe 4
-
-Gib alle Namen aus der obigen Tabelle mit einer `for`-Schleife aus.
+----
 
 ### Aufgabe 5
 
@@ -77,6 +82,7 @@ Um Tabellen und andere Daten hübsch auszugeben, benötigen wir **String-Formati
 
 Probiere folgende Ausdrücke in der Python Shell aus:
 
+    :::python3
     "{}".format("Hallo")
     "{} {}".format("Hallo", "Welt")
     "{:10}".format("Hallo")
@@ -95,27 +101,26 @@ Welche Aussagen sind korrekt?
 * `{:4.1f}` ist ein Platzhalter für eine Fließkommazahl mit vier Stellen vor und einer nach dem Komma
 * Die geschweiften Klammern werden mit ausgegeben
 
+----
 
 ### Aufgabe 6
 
 Gib die Tabelle aus Aufgabe 3 formatiert aus.
 
+----
 
 ### Aufgabe 7
 
 Schreibe die formatierte Tabelle in eine Datei.
 
-
-## Hilfsfunktionen zum Arbeiten mit Listen
-
-In Python gibt es zahlreiche Funktionen, die eine die Arbeit mit Listen erleichtern. Neben `len()` und `range()` sind vor allem die Funktionen `enumerate()`, `sum()` und `zip()` sind in der Praxis unentbehrlich.
-
+----
 
 ### Aufgabe 8
 
 Das folgende Programm soll Namen und dazugehörige Anzahlen paarweise ausgeben.
 Leider enthält das Programm **drei Defekte**. Finde und behebe diese.
 
+    :::python3
     namen = ["Emma", "Olivia" "Sophia", "Isabella",
              "Ava", "Mia", "Emily"]
 
@@ -129,11 +134,13 @@ Leider enthält das Programm **drei Defekte**. Finde und behebe diese.
     for name, anzahl in zip(namen, anzahlen):
         print("{:10s} {:6d}".format(namen, anzahl))
 
+----
 
 ### Aufgabe 9
 
 Vereinfache das folgende Programm:
 
+    :::python3
     anzahlen = [356, 412, 127, 8, 32]
 
     gesamt = 0
@@ -144,11 +151,13 @@ Vereinfache das folgende Programm:
 
 Die Funktion `sum(x)` akzeptiert eine Liste mit Zahlen als Argument.
 
+----
 
 ### Aufgabe 10
 
 Vereinfache das folgende Programm:
 
+    :::python3
     namen = ['Lilly', 'Lily', 'Leila', 'Lilja', 'Lillie']
     anzahlen = [356, 412, 127, 8, 32]
 
@@ -163,6 +172,7 @@ Vereinfache das folgende Programm:
 
 Die Funktion `zip(x, y)` führt zwei (oder mehr) Listen elementweise zusammen. Verwende eine `for`-Schleife oder `list()`, um das Ergebnis als Liste zu erhalten.
 
+----
 
 ### Aufgabe 11
 
@@ -177,6 +187,7 @@ Vereinfache das folgende Programm:
 
 Die Funktion `enumerate(x)` generiert einen Zähler zu einer Liste. Eine übliche Schreibweise ist `for i, elem in enumerate(x)`
 
+----
 
 ### Aufgabe 12
 
@@ -185,7 +196,6 @@ Sortiere die Tabelle nach der zweiten Spalte. Verwende folgenden Codeschnipsel:
     from operator import itemgetter
 
     tab.sort(key=itemgetter(spaltennr))
-
 
 #### Anmerkung:
 

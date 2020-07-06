@@ -1,20 +1,19 @@
 
-# Python 3 Grundlagenkurs
+# Python 3 Grundlagen
 
 <img src="images/two_pythons.png" align="right" width="300">
 
-Dies ist ein Python-Kurs für Einsteiger. Der Kurs besteht vor allem aus Übungsaufgaben.
-Ich habe die Aufgaben vor allem in Präsenzkursen an der FU Berlin verwendet.
+Dies ist eine Sammlung von Python-Übungsaufgaben für Einsteiger.
 
 ## Für wen sind die Übungen geeignet?
 
-Dieser Kurs ist für Dich geeignet, wenn
+Diese Aufgaben sind für Dich geeignet, wenn
 
 * Du überhaupt noch nie programmiert hast.
 * Du bereits erste Erfahrungen mit einer anderen Programmiersprache wie R, MATLAB oder C hast.
 * Du Lehrer bist und Übungsaufgaben für Deinen eigenen Python-Kurs suchst.
 
-Wenn Du noch nie programmiert hast, wirst Du vielleicht einen Trainer oder eine Lerngruppe brauchen.
+Wenn Du noch nie programmiert hast, wirst Du ein Buch, einen Trainer oder eine Lerngruppe brauchen.
 
 Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://greenteapress.com/wp/think-python-2e/).
 
@@ -30,6 +29,7 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 * [Schildkrötengrafik](schildkroete.md)
 * [Zahlenraten](zahlenraten.md)
 * [Funktionen plotten](funktionen_plotten.md)
+* [Dictionaries](chiffre.md)
 * [Reguläre Ausdrücke](regex.md)
 
 ----
