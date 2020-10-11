@@ -9,7 +9,6 @@ Wir möchten anhand der Angaben über einen Passagier auf der Titanic vorhersage
 
 ## Aufgaben
 
-
 ### 1. Hypothesen
 
 Sammelt Ideen, was für *Merkmale von Passagieren* die Überlebenschancen auf der Titanic steigern und welche nicht, bevor Ihr das Modell baut.
@@ -24,6 +23,8 @@ Importiere:
     import pandas as pd
     import pylab as plt
     import numpy as np
+
+----
 
 ### 3. Daten laden
 
@@ -72,7 +73,7 @@ Jetzt plotten wir alles gegen alles!
 **Anmerkung:** Da die meisten der Daten *kategorisch* sind, kann man im Diagramm nicht so viel sehen. Die Darstellung ist aber oft so praktisch, daß ich sie Euch nicht vorenthalten wollte.
 
 
-### 7.1 Einfärben
+#### 7.1 Einfärben
 
 Färbe die Überlebenden blau ein und die Ertrunkenen rot. Schreibe dazu eine Funktion `make_col(x)`, die je nach x einen anderen Farbcode `(R, G, B)` zurück liefert.
 
@@ -84,7 +85,7 @@ Damit können wir eine Spalte mit Farbangaben erstellen:
 Und diese als zusätzlichen Parameter `c=col` in der Funktion `scatter_matrix` angeben.
 
 
-### 7.2 Auswählen von Spalten
+#### 7.2 Auswählen von Spalten
 
 Wähle alle Spalten außer `"Survived"` für den Paarplot aus.
 
@@ -167,7 +168,7 @@ und erstelle eine Vorhersage für diese:
 
 Wiederhole den Modellbau, indem Du mehr Daten berücksichtigst. Nimm 2-3 zusätzliche Spalten auf. Verbessert sich an der Qualität der Vorhersage etwas?
 
-#### 12.1 Dummy-Variablen
+### 13 Dummy-Variablen
 
 Um die *kategorischen* Merkmale `"Sex"` oder `"Embarked"` mit aufzunehmen, benötigst Du folgende Funktion:
 
@@ -180,7 +181,7 @@ Wie verändert sich die Genauigkeit des Modells?
 
 ----
 
-### 13. Weitere Modelle
+### 14. Weitere Modelle
 
 Verschaffe Dir einen Überblick über die Funktionsweise eines der folgenden Modelle zur Klassifikation:
 
@@ -189,7 +190,6 @@ Verschaffe Dir einen Überblick über die Funktionsweise eines der folgenden Mod
 | logistische Regression | sklearn.linear_model.LogisticRegression |
 | Random Forest | sklearn.ensemble.RandomForestClassifier |
 | Support Vector Machine | sklearn.svm.SVC |
-| neuronale Netze | sklearn.neural_network.MLPClassifier |
 
 Als Quelle dienen Wikipedia und [scikit-learn.org](http://scikit-learn.org)
 
@@ -198,7 +198,9 @@ Wende eines dieser Modelle auf den Datensatz an, indem Du die Klasse
 
 Welche Genauigkeit erreicht Ihr?
 
-### 13.1 Koeffizienten bei der logistischen Regression
+----
+
+### 15. Koeffizienten bei der logistischen Regression
 
 Schaue Dir die berechneten Koeffizienten von `LogisticRegression` an:
 
@@ -206,13 +208,17 @@ Schaue Dir die berechneten Koeffizienten von `LogisticRegression` an:
     for lab, coef in zip(labels, m.coef_[0]):
         print("{:10s}\t{:8.3f}".format(lab, coef))
 
-### 13.2 Maximale Tiefe beim Random Forest
+----
+
+### 16. Maximale Tiefe beim Random Forest
 
 Vergleiche die Parameter `max_depth=2`, `max_depth=3` und `max_depth=10`. Wie wirken sich die Einstellungen auf die Vorhersagequalität aus?
 
-### 13.3 Skalieren
+----
 
-Skaliere die Eingabedaten für das neuronale Netzwerk:
+### 17. Skaliere
+
+Skaliere die Eingabedaten der logistischen Regression:
 
     :::python3
     from sklearn.preprocessing import MinMaxScaler
@@ -222,15 +228,10 @@ Skaliere die Eingabedaten für das neuronale Netzwerk:
     Xtrain = scaler.transform(Xtrain)
     Xtest = scaler.transform(Xtest)
 
-
-### 13.4 Iterationen beim neuronalen Netzwerk
-
-Setze den Parameter `hidden_layer_sizes` auf 100. Was ändert sich?
-
-Erhöhe den Parameter `max_iter`. Was ändert sich?
+Trainiere das Modell mit dem skalierten `Xtrain`
 
 ----
 
-### 14. Zusatzaufgabe: Die Vorhersage einschicken
+### 18. Die Vorhersage einschicken
 
 Sende eine Vorhersage auf [kaggle.com](http://www.kaggle.com) ein und schaue wie erfolgreich Dein Modell ist.
