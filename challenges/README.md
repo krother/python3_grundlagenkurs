@@ -5,20 +5,37 @@
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
+| [Dein erstes Programm](hallo.md) | ⭐ |
 | [Pyramide](pyramide.md) | ⭐ |
 | [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
 | [Tic-Tac-Toe](tictac.md) | ⭐⭐ |
 | [Schachbrett](schachbrett.md) | ⭐⭐ |
 | [Palindrome](palindrome.md) | ⭐⭐ |
 | [Anagramme](anagramme.md) | ⭐⭐ |
+| [Reguläre Ausdrücke](regex.md) | ⭐⭐ |
 | [Römische Zahlen](roman.md) | ⭐⭐⭐ |
 | [Verschlüsselung](encrypt.md) | ⭐⭐⭐ |
 | [Minesweeper](minesweeper.md) | ⭐⭐⭐ |
+
+## Datenstrukturen
+
+| Challenge | Schwierigkeit |
+|-----------|---------------|
+| [Strings](strings.md) | ⭐ |
+| [Listen](listen.md) | ⭐ |
+| [Babys auszählen](projekt_babynamen/babys_auszaehlen.md) | ⭐ |
+| [Namen finden](projekt_babynamen/namen_finden.md) | ⭐⭐ |
+| [Eine Zeitreihe erstellen](projekt_babynamen/zeitreihe.md) | ⭐⭐ |
+| [Tabellen ausgeben](projekt_babynamen/tabelle_ausgeben.md) | ⭐⭐ |
+| [Dictionaries](dictionaries.md) | ⭐⭐ |
+| [Anfangsbuchstaben zählen](projekt_babynamen/zaehlen.md) | ⭐⭐ |
 
 ## Mathematik
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
+| [Python als Taschenrechner](taschenrechner.md) | ⭐ |
+| [Pythagoras](pythagoras.md) | ⭐ |
 | [Fakultät](fakultaet.md) | ⭐ |
 | [größter gemeinsamer Teiler](ggt.md) | ⭐ |
 | [Fibonacci](fibonacci.md) | ⭐⭐ |
@@ -29,6 +46,7 @@
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
+| [Schildkrötengrafik](schildkroete.md) | ⭐ |
 | [Spirale](spiral.md) | ⭐ |
 | [Postkarte](postcard.md) | ⭐⭐ |
 | [Rekursive Grafiken](recursive_graph.md) | ⭐⭐⭐ |
@@ -39,6 +57,7 @@
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
+| [Funktionen plotten](funktionen_plotten.md) | ⭐ |
 | [Babynamengenerator](babynamengenerator.md) | ⭐ |
 | [Zufallsdaten](random.md) | ⭐ |
 | [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md) | ⭐ |
@@ -54,7 +73,7 @@
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Panik auf der Titanic](projekt_titanic/README.md) | ⭐⭐ |
+| [Panik auf der Titanic](projekt_titanic/README.md) | ⭐⭐⭐ |
 | [Songtexte klassifizieren](projekt_lyrics.md)  | ⭐⭐⭐⭐ |
 
 
@@ -100,17 +119,3 @@
 |-----------|---------------|
 | [Punkte beim Tennis](tennis.md) | ⭐⭐ |
 | [Dekorator-Metaklassen](metaclass.md) | ⭐⭐⭐⭐⭐ |
-
-
-## Coding Katas
-
-Eine **Coding Kata** ist eine Programmierübung, mit der Du Deine Fähigkeiten verbessern kannst. Du hast wahrscheinlich schon ein **"Hello World"**-Programm gesehen. Dies ist die einfachste mögliche Kata.
-
-Weitere Katas findest Du hier:
-
-* [www.codewars.com](http://www.codewars.com/) – Viele kleine Aufgaben in 7+ languages. Die Ergebnisse werden automatisch geprüft.
-* [rosalind.info/problems/locations/](http://rosalind.info/problems/locations/) – Katas für Bioinformatiker.
-* [projecteuler.net](http://projecteuler.net) – Mathematische Probleme, die sich mit einem Programm lösen lassen.
-* [regexone.com/](http://regexone.com/) – 16 Lektionen zu regulären Ausdrücken.
-* [Regex Golf](https://regex.alf.nu/) – schwierige Aufgaben zu regulären Ausdrücken.
-* [PostgreSQL Exercises](https://pgexercises.com/) – SQL-Übungen

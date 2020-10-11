@@ -3,6 +3,15 @@
 
 **🎯 Schreibe ein einfaches Ratespiel.**
 
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Ein Ratespiel schreiben |
+| 🔀 | Eine Event-Schleife entwerfen |
+| 💡 | Das Modul `random` verwenden |
+| 💡 | Schleifen mit `while` schreiben |
+| 🔧 | Beispielausgabe als Programmierhilfe |
+| 🐞 | Endlosschleifen erkennen |
+
  Der Spieler versucht eine Zahl zu erraten, die sich der Computer ausgedacht hat.
 
 1. Das Programm *"erwürfelt"* eine Zahl zwischen 1 und 100.
@@ -10,6 +19,8 @@
 3. Der Spieler gibt eine Zahl ein.
 4. Das Programm sagt, ob die geratene Zahl zu groß oder zu klein war.
 5. Wiederhole ab `3.`, bis die richtige Zahl getroffen wurde.
+
+----
 
 ### Beispielausgabe:
 
@@ -33,3 +44,14 @@
 
     Bitte gib eine Zahl ein (1-100): 13
     Treffer!
+
+----
+
+### Hinweise
+
+Du benötigst das Modul `random`:
+
+    :::python3
+    import random
+
+Schlage in der Dokumentation des Moduls `random` nach, wie Du eine ganzzahlige Zufallszahl generieren kannst.

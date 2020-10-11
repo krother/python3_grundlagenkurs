@@ -1,32 +1,9 @@
 
-# Zahlenraten
+# While-Schleifen
 
-| Bereich | Thema |
-|---------|-------|
-| 💼 | Ein Ratespiel schreiben |
-| 🔀 | Eine Event-Schleife entwerfen |
-| 💡 | Das Modul `random` verwenden |
-| 💡 | Schleifen mit `while` schreiben |
-| 🔧 | Beispielausgabe als Programmierhilfe |
-| 🐞 | Endlosschleifen erkennen |
-
-----
-
-In diesem Kapitel schreibst Du ein Programm, das eine Zufallszahl zwischen 1 und 100 auswürfelt:
-
-    :::python3
-    import random
-
-    zahl = random.randint(1, 100)
-
-Der Spieler soll diese Zahl raten. Das Programm gibt Hinweise, ob die geratene Zahl zu groß, zu klein oder ein Treffer ist. Der Spieler kann beliebig oft raten, bis die richtige Zahl getroffen wurde.
-
-----
+In diesem Kapitel lernst Du eine neue Möglichkeit, den *Ablauf* eines Programms (den **Kontrolfluß**) zu steuern: Die bedingte Schleife mit `while`.
 
 ### Aufgabe 1
-
-Um das Ratespiel bei einem Treffer zu beenden, benötigen wir eine neue Möglichkeit, den *Ablauf* eines Programms (den **Kontrolfluß**) steuern zu können: Die bedingte Schleife mit `while`.
-
 
 Ordne die Ausdrücke so zu, daß die gezeigten `while`-Schleifen die angegebene Anzahl von Durchläufen vollführen.
 
@@ -146,43 +123,3 @@ Welche der folgenden `while`-Schleifen enden von alleine?
     data = [2, 3, 15]
     while data[0] < 100:
         data = data[1:]
-
-----
-
-### Aufgabe 7
-
-Würfle eine Zufallszahl aus:
-
-    :::python3
-    import random
-
-Schlage in der Dokumentation des Moduls `random` nach, wie Du eine ganzzahlige Zufallszahl generieren kannst.
-
-----
-
-### Aufgabe 8
-
-Schreibe das Zahlenratespiel.
-
-Beispielausgabe:
-
-    Ich habe mir eine Zahl ausgedacht.
-    Rate die Zahl.
-
-    Bitte gib eine Zahl ein (1-100): 33
-    Die Zahl ist zu gross.
-
-    Bitte gib eine Zahl ein (1-100): 22
-    Die Zahl ist zu gross.
-
-    Bitte gib eine Zahl ein (1-100): 11
-    Die Zahl ist zu klein.
-
-    Bitte gib eine Zahl ein (1-100): 14
-    Die Zahl ist zu gross.
-
-    Bitte gib eine Zahl ein (1-100): 12
-    Die Zahl ist zu klein.
-
-    Bitte gib eine Zahl ein (1-100): 13
-    Treffer!

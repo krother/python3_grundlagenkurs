@@ -45,6 +45,12 @@ Auf [Regex101](https://regex101.com/) kannst Du den regulären Ausdruck testen.
 
 Schneide den Songtext aus. Dies geht recht gut mit Hilfe von `text.find()`.
 
+---
+
+### Aufgabe 5
+
+Auf [Regex Golf](https://regex.alf.nu/) findest Du schwierige Aufgaben zu regulären Ausdrücken.
+
 ----
 
 ### Bildquellen (links oben nach rechts unten):
