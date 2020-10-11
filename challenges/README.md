@@ -41,10 +41,22 @@
 |-----------|---------------|
 | [Babynamengenerator](babynamengenerator.md) | ⭐ |
 | [Zufallsdaten](random.md) | ⭐ |
+| [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md) | ⭐ |
+| [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md) | ⭐ |
+| [Histogramme plotten](projekt_gapminder/histogramm.md) | ⭐ |
+| [Animierter Scatterplot](projekt_gapminder/long_wide_tables.md) | ⭐⭐ |
 | [Benford-Analyse](benford.md) | ⭐⭐ |
 | [Filmbewertungen](moviedb.md) | ⭐⭐ |
 | [Babynamen in den USA](babynamen.md) | ⭐⭐ |
 | [Letzte Buchstaben](letzte_buchstaben.md) | ⭐⭐⭐ |
+
+## Maschinelles Lernen
+
+| Challenge | Schwierigkeit |
+|-----------|---------------|
+| [Panik auf der Titanic](projekt_titanic/README.md) | ⭐⭐ |
+| [Songtexte klassifizieren](projekt_lyrics.md)  | ⭐⭐⭐⭐ |
+
 
 ## Algorithmen
 
@@ -67,13 +79,16 @@
 | [Ping Pong](pingpong.md) | ⭐⭐ |
 | [Google-Suche](google.md) | ⭐⭐⭐ |
 | [Webseiten herunterladen](webrecherche.md) | ⭐⭐⭐ |
+| [Strassenverzeichnis](strassenverzeichnis/website.md) | ⭐⭐⭐ |
 | [Blog](blog.md) | ⭐⭐⭐⭐ |
+
 
 ## Spiele
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
 | [Zahlenraten](zahlenraten.md) | ⭐ |
+| [Schere-Stein-Papier](schere_stein_papier.md) | ⭐ |
 | [Quiz](quiz.md) | ⭐ |
 | [Würfeln](wuerfel.md) | ⭐⭐ |
 | [Flucht aus dem Labyrinth](labyrinth.md) | ⭐⭐ |

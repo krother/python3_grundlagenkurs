@@ -14,8 +14,7 @@
 
 ----
 
-Mit den bisherigen Python-Befehlen kannst Du bereits einige unterschiedliche Programme schreiben.
-Es fehlt Dir allerdings noch eine wichtiges Strukturelement: Im Programm *Entscheidungen zu treffen*.
+Ein wichtiges Strukturelement in Programmen ist das *Treffen von Entscheidungen*.
 
 In Python gibt es für Entscheidungen (Verzweigungen) die `if`-Anweisung. Darum geht es in diesem Kapitel.
 
@@ -93,7 +92,7 @@ Welche der folgenden `if`-Anweisungen sind syntaktisch korrekt?
     if a != 3
 
     if (a and b) or (c and d):
-    
+
 ----
 
 ### Aufgabe 6: Ausdrücke

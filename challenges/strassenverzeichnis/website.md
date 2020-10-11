@@ -9,6 +9,7 @@ In diesem Tutorial kannst Du eine eigene dynamische HTML-Seite erstellen und auf
 
 Installiere das Python-Modul `flask` mit `pip`:
 
+    :::bash
     pip install flask
 
 ## 2. Eine minimale Webseite starten
@@ -17,6 +18,7 @@ Erstelle ein Python-Programm `server.py`, und baue das Hello-World-Beispiel aus 
 
 Füge folgende Zeile zum Programm hinzu (funktioniert mit Anaconda besser als die in der Dokumentation angegebene Methode):
 
+    :::python3
     app.run()
 
 Starte das Programm. Finde heraus, unter welcher HTTP-Adresse der Server läuft. Setze diese Adresse im Browser ein und prüfe, ob Dein Server erreichbar ist.
@@ -30,6 +32,7 @@ Wir werden den Server im Verlauf des Tutorials noch sehr oft starten müssen. St
 
 Die Flask-Funktionen können HTML-Code zurückgeben. Dies geht z.B. als String mit dreifachen Anführungszeichen. Folgender HTML-Code erzeugt eine Überschrift:
 
+    :::html
     <h1>Unser Strassenverzeichnis</h1>
 
 Mehr zu HTML-Elementen erfährst Du auf [Selfhtml.org](https://selfhtml.org/).
@@ -51,6 +54,7 @@ Erstelle auf der Startseite einen Hyperlink, der auf die Unterseite verweist.
 
 Dazu muss die Funktion `hello()` folgenden HTML-Code zurückgeben:
 
+    :::html
     <a href="/zuhause">Meine Strasse anzeigen</a>
 
 Starte den Server neu und prüfe, ob der Link funktioniert.
@@ -61,6 +65,7 @@ Es wird schnell beschwerlich, eine ganze HTML-Seite in unser Python-Skript zu kl
 
 Erstelle eine Datei `templates/hello.html`, in die Du den folgenden HTML-Code einfügst:
 
+    :::html
     <html>
       <head><title>Unser Strassenverzeichnis</title></head>
       <body>
@@ -77,16 +82,19 @@ Starte dann den Server neu und stelle sicher, dass der Inhalt des Templates ange
 
 Wir können aus den Python-Funktionen Daten an ein Template schicken, indem wir ein Dictionary zurückgeben:
 
+    :::python3
     return {'text': "Hallo" }
 
 In den HTML-Templates kannst Du diese Variablen folgendermassen ansprechen:
 
-    \{\{ !text \}\}
+    :::html
+    {{ !text }}
 
 ## 8. Dynamische URLs
 
 Du kannst in den URLs Platzhalter verwenden, deren Inhalt als Variable verfügbar ist. Schreibe eine Funktion, die einen Strassennamen in der URL erhält:
 
+    :::python3
     @app.route('/strasse/<strassenname>')
     def strasse_anzeigen(strassenname):
         ...
@@ -108,6 +116,7 @@ Wähle einige Strassen aus der Datei aus und stelle diese auf der Webseite als T
 
 Erstelle ein Formular mit Flask. Baue ein Formular ein, in dem Du einen Strassennamen in ein Eingabefeld eingibst und über einen Knopf das Formular abschickst. Der HTML-Code sollte etwa folgendes enthalten:
 
+    :::html
     <form action="/suchen">
       <input name="suchtext"></input>
       <input type="submit" value="Strasse suchen"></input>
@@ -115,6 +124,7 @@ Erstelle ein Formular mit Flask. Baue ein Formular ein, in dem Du einen Strassen
 
 Die URL `/suchen` kann nun auf den Inhalt des Textfeldes mit dem Namen `suchtext` zugreifen:
 
+    :::python3
     from flask import request
 
     # in der aufgerufenen Funktion
@@ -127,12 +137,14 @@ Verbinde die das Suchergebnis so mit den Daten, dass z.B. eine Tabelle angezeigt
 ## 12. CSS-Stylesheets einbinden
 Nun legen wir Typographie und Farben fest. Lege dazu eine Datei `static/style.css` an. In die Datei schreibst Du Anweisungen, die z.B. die Hintergrundfarbe für das `<body>`-Tag setzen.
 
+    :::css
     body {
         background-color: lightblue;
     }
 
 Im Header-Teil des HTML-Templates mußt Du das CSS-Stylesheet einbinden:
 
+    :::html
     <link rel="stylesheet" href="/static/style.css">
 
 ## 13. Bootstrap
@@ -159,7 +171,8 @@ Dazu musst Du mit der Python-Bibliothek `folium` eine Karte zeichnen und im Verz
 
 Dies kannst Du in einem Template einbinden:
 
-    {\% 'karte.html' \%}
+    :::html
+    {% 'karte.html' %}
 
 
 

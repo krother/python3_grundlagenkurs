@@ -25,7 +25,6 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 * [Dein erstes Programm](hallo.md)
 * [Python als Taschenrechner](taschenrechner.md)
 * [Pythagoras](pythagoras.md)
-* [Schere-Stein-Papier](if.md)
 * [Schildkrötengrafik](schildkroete.md)
 * [Zahlenraten](zahlenraten.md)
 * [Funktionen plotten](funktionen_plotten.md)
@@ -43,35 +42,6 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 * [Anfangsbuchstaben zählen](projekt_babynamen/zaehlen.md)
 
 ----
-
-## Teil 3: Datenanalyse mit pandas – Gapminder
-
-* [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md)
-* [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md)
-* [Histogramme plotten](projekt_gapminder/histogramm.md)
-* [Animierter Scatterplot](projekt_gapminder/long_wide_tables.md)
-* [pandas Kurzreferenz](projekt_gapminder/cheatsheet.md)
-* [Weltkarte](challenges/weltkarte.md)
-
-----
-
-## Teil 4: Maschinelles Lernen
-
-* [Panik auf der Titanic](projekt_titanic/README.md)
-* [Songtexte klassifizieren](projekt_lyrics.md)
-* [Machine Learning Kurzübersicht](ml_glossar.md)
-
-----
-
-## Teil 5: Webentwicklung – Strassenverzeichnis
-
-* [Webseite mit Strassennamen](projekt_website/website.md)
-
-----
-
-## Allgemeine Programmiertips
-
-* [Das Impostor Syndrome](impostor.md)
 
 ## Wiederholungsübungen
 

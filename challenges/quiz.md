@@ -8,7 +8,7 @@ Je nach Eingabe wird **RICHTIG** oder **FALSCH** ausgegeben.
 
 ### Beispielausgabe:
 
-    :::python
+    :::bash
 
     Frage 1:
 
