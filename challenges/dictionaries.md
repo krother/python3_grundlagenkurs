@@ -1,12 +1,5 @@
 
-# Dictionaries
-
-## In diesem Kapitel lernst Du:
-
-| Bereich | Thema |
-|---------|-------|
-| 💡 | Dictionaries definieren |
-| 💡 | Dictionaries indizieren |
+# Grundlagen: Dictionaries
 
 In diesem Kapitel lernst Du einen neuen Datentyp kennen: das **Dictionary**.
 Dictionaries eignen sich gut zum Suchen und Nachschlagen.
@@ -15,22 +8,13 @@ Dictionaries eignen sich gut zum Suchen und Nachschlagen.
 
 ### Aufgabe 1
 
-**Finde 5 englische Begriffe, die mit Suchen zu tun haben.**
-
-![Dictionary](images/dict.png)
-
-
-----
-
-### Aufgabe 2
-
 Finde heraus, was jeder der Ausdrücke mit dem Dictionary in der Mitte anstellt.
 
 ![dict exercise](images/dicts.png)
 
 ----
 
-### Aufgabe 3
+### Aufgabe 2
 
 Was haben folgende Anweisungen zum Ergebnis?
 
@@ -40,7 +24,7 @@ Was haben folgende Anweisungen zum Ergebnis?
 
 ----
 
-### Aufgabe 4
+### Aufgabe 3
 
 Was haben folgende Anweisungen zum Ergebnis?
 
@@ -50,7 +34,7 @@ Was haben folgende Anweisungen zum Ergebnis?
 
 ----
 
-### Aufgabe 5
+### Aufgabe 4
 
 Was haben folgende Anweisungen zum Ergebnis?
 
@@ -60,7 +44,7 @@ Was haben folgende Anweisungen zum Ergebnis?
 
 ----
 
-### Aufgabe 6
+### Aufgabe 5
 
 Was haben folgende Anweisungen zum Ergebnis?
 
@@ -70,7 +54,7 @@ Was haben folgende Anweisungen zum Ergebnis?
 
 ----
 
-### Aufgabe 7
+### Aufgabe 6
 
 Was haben folgende Anweisungen zum Ergebnis?
 
