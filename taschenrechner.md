@@ -183,10 +183,3 @@ Die Rechenzeichen zwischen den Zahlen nennt man **Operatoren**. Python kennt sie
 
 Die Funktionen `int()`, `float()` und `str()` wandeln Datentypen ineinander um.
 Eine Umwandlung in einen String ist immer möglich, die Umwandlung in eine Zahl nur wenn der String auch eine Zahl enthält.
-
-### Laufzeitfehler
-
-* where does the error occur?
-* what type of error is it?
-* --> why does it occur
-* challenge: produce 3 main types from the code example: indexerror, value error, name error

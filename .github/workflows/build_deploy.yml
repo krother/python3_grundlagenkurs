@@ -1,4 +1,3 @@
-# adapted from https://github.com/peaceiris/actions-gh-pages/blob/master/README.md#%EF%B8%8F-static-site-generators-with-nodejs and https://github.com/appleboy/scp-action/blob/master/README.md#example
 
 name: deploy python basics
 
