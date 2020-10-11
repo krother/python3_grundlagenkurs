@@ -5,6 +5,13 @@
 * [Plotten mit pandas](http://pandas.pydata.org/pandas-docs/stable/visualization.html)
 * [Matplotlab Gallery](http://matplotlib.org/gallery.html)
 
+## Interaktive Programmierübungen
+
+* [www.codewars.com](http://www.codewars.com/) – Viele kleine Aufgaben in 7+ Sprachen. Die Ergebnisse werden automatisch geprüft.
+* [rosalind.info/problems/locations/](http://rosalind.info/problems/locations/) – Katas für Bioinformatiker.
+* [projecteuler.net](http://projecteuler.net) – Mathematische Probleme, die sich mit einem Programm lösen lassen.
+* [PostgreSQL Exercises](https://pgexercises.com/) – SQL-Übungen
+
 ## Tutorials und Übungen
 
 * [Python Tutorial von Axel Pratzner](https://www.python-lernen.de/)

@@ -3,7 +3,6 @@
 
 ## Webseiten
 
-* [How to Think Like a Computer Scientist](http://greenteapress.com/thinkpython/thinkCSpy/html/)
 * [Python - Einführung in die Programmierung](https://www.luis.uni-hannover.de/python.html) - Kursmaterial der Leibnitz Universität
 * [Tuxcademy Tutorial auf Deutsch](https://www.tuxcademy.org/download/de/pyth/pyth-de-manual.pdf)
 * [Offizielle Python-Dokumentation](http://www.python.org/doc)
@@ -14,7 +13,7 @@
 
 ## Bücher
 
-* [How to think like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - ein systematisches, wissenschaftliches Tutorial von **Allen B. Downey** (deutsche Übersetzung ist käuflich)
+* [Think Python](http://greenteapress.com/thinkpython2/html/index.html) - ein systematisches, wissenschaftliches Tutorial von **Allen B. Downey** (deutsche Übersetzung ist käuflich)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) - von Al Sweigart
 * [Datenanalyse mit Python](https://www.dpunkt.de/book_details.php?masterid=5497) - **Wes McKinney**, Übersetzung von Christian Tismer and Kristian Rother.
 * [Einführung in Data Science](http://www.oreilly.de/buecher/12447/9783960090212-einf%C3%BChrung-in-data-science.html) - **Joel Grus**, Übersetzung von Kristian Rother

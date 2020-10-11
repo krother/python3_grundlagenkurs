@@ -1,60 +1,27 @@
 
-# Python 3 Grundlagen
+# Python Aufgaben
 
-<img src="images/two_pythons.png" align="right" width="300">
+Dies ist eine Sammlung von Python-Übungsaufgaben für
 
-Dies ist eine Sammlung von Python-Übungsaufgaben für Einsteiger.
+* Lehrer, die Aufgaben für ihren Python-Kurs suchen
+* Lernende, die ihre Python-Fähigkeiten weiter entwickeln möchten
+* Fortgeschrittene mit Python-Grundkenntnisse
+* Einsteiger die ein Lehrbuch oder einen Kurs studieren
 
-## Für wen sind die Übungen geeignet?
-
-Diese Aufgaben sind für Dich geeignet, wenn
-
-* Du überhaupt noch nie programmiert hast.
-* Du bereits erste Erfahrungen mit einer anderen Programmiersprache wie R, MATLAB oder C hast.
-* Du Lehrer bist und Übungsaufgaben für Deinen eigenen Python-Kurs suchst.
-
-Wenn Du noch nie programmiert hast, wirst Du ein Buch, einen Trainer oder eine Lerngruppe brauchen.
-
-Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://greenteapress.com/wp/think-python-2e/).
+Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](http://greenteapress.com/thinkpython2/html/index.html).
 
 ----
 
-## Teil 1: Erste Schritte
+### Vorbereitung
 
-* [Python Installieren](installation.md)
-* [Dein erstes Programm](hallo.md)
-* [Python als Taschenrechner](taschenrechner.md)
-* [Pythagoras](pythagoras.md)
-* [Schildkrötengrafik](schildkroete.md)
-* [Zahlenraten](zahlenraten.md)
-* [Funktionen plotten](funktionen_plotten.md)
-* [Dictionaries](chiffre.md)
-* [Reguläre Ausdrücke](regex.md)
+* [Python Installieren](appendix/installation.md)
 
-----
-
-## Teil 2: Datenanalyse – Babynamen
-
-* [Babys auszählen](projekt_babynamen/babys_auszaehlen.md)
-* [Namen finden](projekt_babynamen/namen_finden.md)
-* [Eine Zeitreihe erstellen](projekt_babynamen/zeitreihe.md)
-* [Tabellen ausgeben](projekt_babynamen/tabelle_ausgeben.md)
-* [Anfangsbuchstaben zählen](projekt_babynamen/zaehlen.md)
-
-----
-
-## Wiederholungsübungen
-
-* [Datentypen](datentypen.md)
-
-----
 
 ### Anhang
 
-* [Empfohlene Bücher und Webseiten](appendix/literatur.md)
+* [Weitere Bücher und Webseiten](appendix/literatur.md)
 * [Links](appendix/links.md)
 * [Hinweise für Lehrkräfte](appendix/teaching.md)
-* [Hintergrundinformationen zu Python 3](appendix/hintergrundinfos.md)
 
 ----
 

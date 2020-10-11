@@ -1,9 +1,19 @@
 
 # Hinweise für Lehrkräfte
 
+## Zielsetzung
+
 Diese Materialien sollen Lernenden dabei helfen, Programme bis zu 100 Zeilen Länge zu schreiben. Es geht also vor allem um praktische Programmierfähigkeiten. Es geht ausdrücklich nicht darum, Softwareentwickler auszubilden oder Grundlagen der Informatik zu vermitteln.
 
-Jedes der Kapitel bietet Stoff für eine Lektion von etwa 45' Länge.
+Jedes der Kapitel bietet Stoff für eine oder mehrere Lektion von etwa 45' Länge.
+
+## Wie verwende ich das Material?
+
+Die einzelnen Challenges folgen keiner bestimmten Reihenfolge. Im Laufe der Jahre habe ich festgestellt, dass es viel sinnvoller ist, frei kombinierbare Übungen zu haben und aus diesen auszuwählen.
+
+Wenn ich stärker vernetzte Unterrichtseinheiten anbieten möchte, wähle ich eines der größeren Projekte dafür aus.
+
+## Themenblöcke
 
 Im Lauf der Jahre beobachte ich bei Anfängern immer wiederkehrende Startschwierigkeiten. Diese Schwierigkeiten drehen sich alle um das Thema *"Wie geht Programmieren?"*. Deshalb bin ich zu der Einsicht gelangt, den Stoff in folgende Themenblöcke aufzuteilen:
 
