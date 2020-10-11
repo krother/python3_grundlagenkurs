@@ -76,6 +76,7 @@
 | [Zahlenraten](zahlenraten.md) | ⭐ |
 | [Quiz](quiz.md) | ⭐ |
 | [Würfeln](wuerfel.md) | ⭐⭐ |
+| [Flucht aus dem Labyrinth](labyrinth.md) | ⭐⭐ |
 | [Memory](memory.md) | ⭐⭐⭐ |
 
 ## Python für Fortgeschrittene

@@ -69,12 +69,6 @@ Ich empfehle als Begleitbuch das kostenlos verfügbare [Think Python](https://gr
 
 ----
 
-## Teil 6: Spiele Programmieren
-
-* [Flucht aus dem Labyrinth](labyrinth.md)
-
-----
-
 ## Allgemeine Programmiertips
 
 * [Das Impostor Syndrome](impostor.md)
