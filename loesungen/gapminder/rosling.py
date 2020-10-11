@@ -16,10 +16,10 @@ print(fert.shape, life.shape, pop.shape)
 
 # Spaltennamen in Integer-Zahlen umwandeln
 ncol = [int(x) for x in fert.columns]
-fert.set_axis(axis=1, labels=ncol)
+fert.set_axis(axis=1, labels=ncol, inplace=True)
 
 ncol = [int(x) for x in kontinente.columns]
-kontinente.set_axis(axis=1, labels=ncol)
+kontinente.set_axis(axis=1, labels=ncol, inplace=True)
 
 # in langes Format überführen
 sfert = fert.stack()
@@ -28,7 +28,7 @@ spop = pop.stack()
 skont = kontinente.stack()
 
 # neues DataFrame erstellen
-d = {'fertility': sfert, 'lifeexp': slife, 
+d = {'fertility': sfert, 'lifeexp': slife,
      'population': spop, 'kontinent': skont}
 df2 = pd.DataFrame(data=d)
 
@@ -45,9 +45,9 @@ for jahr in range(1960, 2011):
     dd['farbe'][dd['kontinent'] == 'North America'] = 'peachpuff'
     dd['farbe'][dd['kontinent'] == 'South America'] = 'darkslateblue'
     dd['farbe'][dd['kontinent'] == 'Oceania'] = 'violet'
-    
+
     pop = list(dd['population'] / 1000000)
-    dd.plot.scatter(x='lifeexp', y='fertility', s=pop, c=dd['farbe'])
+    dd.plot.scatter(x=dd['lifeexp'], y=dd['fertility'], s=pop, c=dd['farbe'])
     plt.axis((40.0, 90.0, 0.0, 8.0))
     plt.title('{}'.format(jahr))
     plt.savefig('bilder/d{}.png'.format(jahr))
