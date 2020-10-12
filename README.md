@@ -162,7 +162,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 ## Anhang
 
-* [Weitere Bücher und Webseiten](appendix/literatur.md)
+* [Bücher und Webseiten](appendix/literatur.md)
 * [Links](appendix/links.md)
 * [Hinweise für Lehrkräfte](appendix/teaching.md)
 
@@ -170,7 +170,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 ## Lizenz
 
-© 2015 Dr. Kristian Rother (krother@academis.eu)
+© 2020 Dr. Kristian Rother (krother@academis.eu)
 
 mit Einzelbeiträgen von Allegra Via, Kaja Milanowska und Anna Philips
 

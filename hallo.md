@@ -1,10 +1,10 @@
 # Dein erstes Programm
 
+| 💼 | Ein *"Hallo, Welt"*-Programm schreiben |
 ## In diesem Kapitel lernst Du:
 
 | Bereich | Thema |
 |---------|-------|
-| 💼 | Ein *"Hallo, Welt"*-Programm schreiben |
 | 💡 | Den Datentyp *String* verwenden |
 | 💡 | Die Funktionen `print()` und `input()` aufrufen |
 | ⚙ | Text in einer Variablen speichern |
@@ -22,20 +22,17 @@ Kleine Programme bestehen aus einer einzigen Datei, in der die Befehle einer nac
 
 ### Aufgabe 1
 
-Es ist Zeit, ein erstes Programm zu schreiben:
+Schreibe Dein erstes Programm.
+Dazu brauchst Du eine **Programmierumgebung** (IDLE, Spyder, VSCode, Jupyter oder eine andere).
 
-Erstelle in **Spyder** eine neue Datei mit `Strg-N`. Schreibe hinein:
+Erstelle eine neue Datei mit folgendem Inhalt:
 
     :::python3
     name = input("Wie heißt Du? ")
     print("Hallo", name)
 
-Speichere die Datei anschließend unter dem Namen `hallo.py` ab.
-
-Nun kannst Du das Programm ausführen.
-In **Spyder** drückst Du dazu den *"Play"*-Knopf oder `F5`.
-
-Was tut das Programm?
+Führe das Programm aus.
+Was passiert?
 
 ----
 
@@ -51,11 +48,11 @@ Probiere folgende Programme mit Fehlern aus und versuche, die Fehlermeldung zu v
     name = input("Wie heißt Du? "
     print("Hallo", name)
 
-    name = input("Wie heißt Du? )
-    print("Hallo", name)
+    name = input("Wie heißt Du? ")
+    print(Hallo , name)
 
-    name = input("Wie heit Du? ")
-    print("Hallo", name)
+    x = input("Wie heißt Du? ")
+    print("Hallo", x)
 
 ----
 
@@ -113,12 +110,12 @@ Es enthält drei Fehler.
 Finde und repariere sie.
 
     :::python3
-    refrain1 = "Don't worry about a thing"
-    refrain2 = 'Cause every little thing gonna be all right"
-    text = 'refrain1 + refrain2'
+    teil1 = "Don't worry about a thing"
+    teil2 = "Cause every little thing"
+    teil3 = gonna be all right
 
-    print(refrain1, refrain2
-    print(text)
+    text = "teil1 + teil2 + teil3"
+    print(text
 
 ----
 
