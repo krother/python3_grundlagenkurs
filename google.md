@@ -7,10 +7,14 @@
 
 Lade die Webseite `www.google.de` mit Python herunter.
 
+----
+
 ### Aufgabe 2
 
 Inspiziere die HTML-Seite in einem Texteditor.
 Finde das Formular mit dem Suchfeld.
+
+----
 
 ### Aufgabe 3
 
@@ -18,6 +22,7 @@ Führe eine Google-Suche aus Python durch. Recherchiere, wie Du ein Formular üb
 
 Gib die Suchergebnisse auf dem Bildschirm aus.
 
+----
 
 ## Hinweise:
 
