@@ -186,17 +186,3 @@ Vereinfache das folgende Programm:
         i += 1
 
 Die Funktion `enumerate(x)` generiert einen Zähler zu einer Liste. Eine übliche Schreibweise ist `for i, elem in enumerate(x)`
-
-----
-
-### Aufgabe 12
-
-Sortiere die Tabelle nach der zweiten Spalte. Verwende folgenden Codeschnipsel:
-
-    from operator import itemgetter
-
-    tab.sort(key=itemgetter(spaltennr))
-
-#### Anmerkung:
-
-Spätestens an dieser Stelle werden verschachtelte Listen etwas schwerfällig. Mit den Bibliotheken `numpy` und `pandas` werden diese Sachen leichter.

@@ -9,16 +9,22 @@
 
 Beschaffe 2-4 Bilder, die Du zu einer Postkarte zusammensetzen möchtest.
 
+----
+
 ## Schritt 2: Installiere Pillow
 
+    :::bash
     pip install pillow
 
 (mit Anaconda ist Pillow bereits installiert)
+
+----
 
 ## Schritt 3: Lerne Pillow kennen
 
 Führe folgendes Programm aus:
 
+    :::python3
     from PIL import Image
 
     im = Image.open('bild1.png')
@@ -28,10 +34,13 @@ Führe folgendes Programm aus:
 
 Ändere die Zahlen so, dass Du ein quadratisches Bild erzeugst.
 
+----
+
 ## Schritt 4: Formen zeichnen
 
 Was tut folgender Code?
 
+    :::python3
     from PIL import Image, ImageDraw
 
     white = Image.new('RGB', (320, 240), 'white')
@@ -43,10 +52,13 @@ Was tut folgender Code?
 
     white.save('shapes.png')
 
+----
+
 ## Schritt 5: Text zeichnen
 
 Füge etwas Text hinzu:
 
+    :::python3
     from PIL import ImageFont
 
     font =  ImageFont.load_default()
@@ -54,14 +66,16 @@ Füge etwas Text hinzu:
 
 Wenn Du TTF-Schriftarten auf Deinem System findest, wird es wesentlich hübscher.
 
-    :::python
+    :::python3
     font = ImageFont.truetype('arial.ttf', 40)
+
+----
 
 ## Schritt 6: Das Bild zusammenfügen
 
 Du kannst Bilder mit Pillow einfügen:
 
-    :::python
+    :::python3
     bild1.paste(bild2, (0, 0))
     bild1.save('postkarte.png')
 

@@ -14,12 +14,11 @@
 
 ----
 
-## Wörter zählen
+Finde heraus, welche Wörter in der Geschichte *"Alaeddin und die Wunderlampe"* am häufigsten auftreten. Dazu benötigst Du unterschiedliche Datentypen, um Dinge zu zählen und zu sortieren.
 
-In dieser Aufgabe sollst Du herausfinden, welche Wörter in der Geschichte *"Alaeddin und die Wunderlampe"* am häufigsten auftreten. Dazu benötigen wir unterschiedliche Datentypen, um Dinge zu zählen und zu sortieren.
+Schreibe ein Programm, das die Wörter in der Datei [alaeddin.txt](https://raw.githubusercontent.com/krother/python3_grundlagenkurs/master/alaeddin.txt) zählt und die häufigsten 100 ausgibt.
 
-Schreibe ein Programm, das die Wörter in der Datei [alaeddin.txt](https://raw.githubusercontent.com/krother/python3_grundlagenkurs/master/challenges/alaeddin.txt) zählt und die häufigsten 100 ausgibt.
-
+----
 
 ## Hinweise
 

@@ -7,16 +7,19 @@ Gib alle Lebewesen in folgenden Binärbäumen ohne Klammern aus.
 
 ## Einfach
 
+    :::python3
     baum1 = ["Blauwal", "Delfin"]
 
 ## Mittel
 
+    :::python3
     baum2 = [['Schimpanse', 'Mensch'],
               'Ratte'
             ]
 
 ## Schwer
 
+    :::python3
     baum3 = [
               ['Rose', 'Bananenbaum'],
               [

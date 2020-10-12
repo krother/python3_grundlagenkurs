@@ -5,7 +5,7 @@
 
 Du hast ein Tic-Tac-Toe-Spielfeld als verschachtelte Liste:
 
-
+    :::python3
     ttt = [['X', 'O', 'X'],
            ['.', 'X', 'O'],
            ['X', 'O', 'O']]

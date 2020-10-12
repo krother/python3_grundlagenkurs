@@ -5,6 +5,7 @@
 
 ## Beispiel:
 
+    :::python3
     assert ggt(6, 3) == 3
     assert ggt(12, 8) == 4
     assert ggt(42, 12) == 6

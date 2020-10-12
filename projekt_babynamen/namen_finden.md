@@ -178,7 +178,7 @@ Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. V
 Für einige der Aufgaben ist ein **Texteditor** sinnvoll.
 
 * **Idle** - ein minimalistischer Editor für Python, der Teil der Standard-Distribution ist
-* **Sublime Text 2** - ein sehr mächtiger Texteditor mit konfigurierbaren Sonderfunktionen.
+* **VSCode** - ein sehr mächtiger Texteditor mit konfigurierbaren Sonderfunktionen.
 * **PyCharm** - eine professionelle auf Python spezialisierte Entwicklungsumgebung, die zum Entwickeln großer Projekte sehr gut geeignet ist. Du wirst 90% der Funktionen eine lange Zeit lang nicht brauchen, aber es ist ein sehr schönes Programm.
 * **Notepad++** - ein sehr nützlicher Editor für Windows. *Bitte verwende auf keinen Fall Notepad, um Python zu programmieren. Du tust Dir keinen Gefallen damit. Du solltest stattdessen lieber versuchen, mit einer Nagelfeile aus dem Gefängnis auszubrechen.*
 * **vim** - ein konsolenbasierter Texteditor für Unix. Dies ist das Werkzeug der Wahl für Systemadministratoren und alle Entwickler, die sich oft auf anderen Rechnern einloggen müssen, um dort zu arbeiten.

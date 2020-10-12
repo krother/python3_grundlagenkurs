@@ -16,29 +16,12 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 |-----------|---------------|
 | [Python Installieren](installation.md) | ⭐ |
 | [Dein erstes Programm](hallo.md) | ⭐ |
-| [Pyramide](pyramide.md) | ⭐ |
+| [Schere-Stein-Papier](schere_stein_papier.md) | ⭐ |
+| [Quadratzahlen](for.md) | ⭐ |
+| [while-Schleifen](while.md) | ⭐ |
 | [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
-| [Tic-Tac-Toe](tictac.md) | ⭐⭐ |
-| [Schachbrett](schachbrett.md) | ⭐⭐ |
-| [Palindrome](palindrome.md) | ⭐⭐ |
-| [Anagramme](anagramme.md) | ⭐⭐ |
-| [Reguläre Ausdrücke](regex.md) | ⭐⭐ |
-| [Römische Zahlen](roman.md) | ⭐⭐⭐ |
-| [Verschlüsselung](encrypt.md) | ⭐⭐⭐ |
-| [Minesweeper](minesweeper.md) | ⭐⭐⭐ |
 
-## Datenstrukturen
-
-| Challenge | Schwierigkeit |
-|-----------|---------------|
-| [Strings](strings.md) | ⭐ |
-| [Listen](listen.md) | ⭐ |
-| [Babys auszählen](projekt_babynamen/babys_auszaehlen.md) | ⭐ |
-| [Namen finden](projekt_babynamen/namen_finden.md) | ⭐⭐ |
-| [Eine Zeitreihe erstellen](projekt_babynamen/zeitreihe.md) | ⭐⭐ |
-| [Tabellen ausgeben](projekt_babynamen/tabelle_ausgeben.md) | ⭐⭐ |
-| [Dictionaries](dictionaries.md) | ⭐⭐ |
-| [Anfangsbuchstaben zählen](projekt_babynamen/zaehlen.md) | ⭐⭐ |
+----
 
 ## Mathematik
 
@@ -52,6 +35,40 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Querprodukt](querprodukt.md) | ⭐⭐ |
 | [Geburtstagsproblem](geburtstage.md) | ⭐⭐ |
 
+----
+
+## Textverarbeitung
+
+| Challenge | Schwierigkeit |
+|-----------|---------------|
+| [Strings](strings.md) | ⭐ |
+| [Pyramide](pyramide.md) | ⭐ |
+| [Schachbrett](schachbrett.md) | ⭐⭐ |
+| [Palindrome](palindrome.md) | ⭐⭐ |
+| [Anagramme](anagramme.md) | ⭐⭐ |
+| [Wörter zählen](alaeddin.md) | ⭐⭐ |
+| [Reguläre Ausdrücke](regex.md) | ⭐⭐ |
+| [Römische Zahlen](roman.md) | ⭐⭐⭐ |
+| [Verschlüsselung](encrypt.md) | ⭐⭐⭐ |
+
+----
+
+## Datenstrukturen
+
+| Challenge | Schwierigkeit |
+|-----------|---------------|
+| [Listen](listen.md) | ⭐ |
+| [Tic-Tac-Toe](tictac.md) | ⭐⭐ |
+| [Minesweeper](minesweeper.md) | ⭐⭐⭐ |
+| [Babys auszählen](projekt_babynamen/babys_auszaehlen.md) | ⭐ |
+| [Namen finden](projekt_babynamen/namen_finden.md) | ⭐⭐ |
+| [Eine Zeitreihe erstellen](projekt_babynamen/zeitreihe.md) | ⭐⭐ |
+| [Tabellen ausgeben](projekt_babynamen/tabelle_ausgeben.md) | ⭐⭐ |
+| [Dictionaries](dictionaries.md) | ⭐⭐ |
+| [Anfangsbuchstaben zählen](projekt_babynamen/zaehlen.md) | ⭐⭐ |
+
+----
+
 ## Grafik
 
 | Challenge | Schwierigkeit |
@@ -62,6 +79,8 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Rekursive Grafiken](recursive_graph.md) | ⭐⭐⭐ |
 | [Weltkarte nach Ländern einfärben](weltkarte.md) | ⭐⭐⭐ |
 | [Kurzfilm drehen](movie/README.md) | ⭐⭐⭐⭐ |
+
+----
 
 ## Datenanalyse
 
@@ -79,6 +98,8 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Babynamen in den USA](babynamen.md) | ⭐⭐ |
 | [Letzte Buchstaben](letzte_buchstaben.md) | ⭐⭐⭐ |
 
+----
+
 ## Maschinelles Lernen
 
 | Challenge | Schwierigkeit |
@@ -86,6 +107,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Panik auf der Titanic](projekt_titanic/README.md) | ⭐⭐⭐ |
 | [Songtexte klassifizieren](projekt_lyrics.md)  | ⭐⭐⭐⭐ |
 
+----
 
 ## Algorithmen
 
@@ -101,6 +123,8 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Rucksack-Problem](backpack_problem.md) | ⭐⭐⭐⭐ |
 | [Blockchain](blockchain.md) | ⭐⭐⭐⭐ |
 
+----
+
 ## Webentwicklung
 
 | Challenge | Schwierigkeit |
@@ -111,17 +135,19 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Strassenverzeichnis](strassenverzeichnis/website.md) | ⭐⭐⭐ |
 | [Blog](blog.md) | ⭐⭐⭐⭐ |
 
+----
 
 ## Spiele
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
 | [Zahlenraten](zahlenraten.md) | ⭐ |
-| [Schere-Stein-Papier](schere_stein_papier.md) | ⭐ |
 | [Quiz](quiz.md) | ⭐ |
 | [Würfeln](wuerfel.md) | ⭐⭐ |
 | [Flucht aus dem Labyrinth](labyrinth.md) | ⭐⭐ |
 | [Memory](memory.md) | ⭐⭐⭐ |
+
+----
 
 ## Python für Fortgeschrittene
 
@@ -130,6 +156,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Punkte beim Tennis](tennis.md) | ⭐⭐ |
 | [Dekorator-Metaklassen](metaclass.md) | ⭐⭐⭐⭐⭐ |
 
+----
 
 ## Anhang
 

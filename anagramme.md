@@ -5,10 +5,12 @@
 
 Beispielsweise hat der String:
 
+    :::text
     ROT
 
 Die Anagramme (Permutationen der Buchstaben):
 
+    :::text
     TOR
     ORT
     TRO

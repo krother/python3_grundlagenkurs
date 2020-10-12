@@ -7,6 +7,7 @@
 
 In einem Kloster befinden sich 1 Meuchler und folgende 9 Mönche:
 
+    :::python3
     moenche = [
            "Adalbertus", "Bonifacius", "Commodus",
            "Dominicus", "Emarius", "Franziskus",

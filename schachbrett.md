@@ -3,6 +3,7 @@
 
 **🎯 Schreibe ein Programm, das ein Schachbrett mit 8 * 8 Feldern ausgibt:**
 
+    :::text
     #_#_#_#_
     _#_#_#_#
     #_#_#_#_
