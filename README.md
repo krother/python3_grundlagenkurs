@@ -105,6 +105,8 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | Challenge | Schwierigkeit |
 |-----------|---------------|
 | [Panik auf der Titanic](projekt_titanic/README.md) | ⭐⭐⭐ |
+| [Schiffe Clustern](schiffe/README.md)  | ⭐⭐⭐ |
+| [Ziffern erkennen](mnist.md)  | ⭐⭐⭐⭐ |
 | [Songtexte klassifizieren](projekt_lyrics.md)  | ⭐⭐⭐⭐ |
 
 ----

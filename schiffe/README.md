@@ -1,7 +1,7 @@
 
 # Schiffe
 
-![Schiffe](schiffe.png)
+![Schiffe](../images/schiffe.png)
 
 *Schiffe: Wikimedia Commons; Delphine Ménard (notafish) CC BY SA 2.0*
 
@@ -19,7 +19,7 @@ Lies die Datei mit den größten Schiffen der Welt (`schiffe.csv`) mit `pandas` 
 
 [Quelle: Wikipedia](https://de.wikipedia.org/wiki/Liste_der_gr%C3%B6%C3%9Ften_Schiffe_der_Welt)
 
-#### Lösungsbuchstabe 1: 
+#### Lösungsbuchstabe 1:
 
 *Welches Schiff hat einen Tiefgang unter 3 Metern? (vorletzter Buchstabe des Schiffsnamens)*
 
@@ -114,7 +114,7 @@ Setze in die Lücken ein: `fit`, `kmeans`, `n_clusters`, `sklearn`, `X`
 
 ### Aufgabe 9
 
-Skaliere die Daten auf Werte zwischen 0 und 1. Wie das geht findest Du auf [http://scikit-learn.org](http://scikit-learn.org) im Abschnitt 
+Skaliere die Daten auf Werte zwischen 0 und 1. Wie das geht findest Du auf [http://scikit-learn.org](http://scikit-learn.org) im Abschnitt
 
     4.3. Preprocessing data
 
