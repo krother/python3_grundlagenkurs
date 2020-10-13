@@ -5,8 +5,6 @@
 
 In diesem Abschnitt lernst Du die `for`-Anweisung kennen, mit der Du einen oder mehrere Befehle wiederholen kannst.
 
-![Schleife](../images/schleife_python.png)
-
 ----
 
 ### Aufgabe 1

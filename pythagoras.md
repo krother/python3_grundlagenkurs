@@ -26,34 +26,19 @@ Mit Den Funktionen `input()`, `print()` und `int()` kannst Du ein interaktives R
 
     print(f'Die Summe der Zahlen lautet: summe')
 
-
-### Aufgabe 2: Eingabe-Verarbeitung-Ausgabe
-
-![Eingabe-Verarbeitung-Ausgabe](../images/IPO.png)
-
-Jedes Programm besteht aus drei Teilen: **Eingabe, Vearbeitung und Ausgabe**. Um sinnvoll Programme zu schreiben, mußt Du Dir mindestens über diese drei Teile im Klaren sein. Es hilft oft, sich aufzuschreiben, worin die Eingabe, Verarbeitung und Ausgabe genau besteht. Im obigen Beispiel sind die drei Teile als Absätze gut erkennbar:
-
-| Programmteil | Beschreibung |
-|--------------|--------------|
-| Eingabe      | liest zwei Zahlen von der Tastatur ein |
-| Verarbeitung | addiert beide Zahlen |
-| Ausgabe      | gibt die Summe auf dem Bildschirm aus |
-
-Sammle weitere Geräte/Möglichkeiten, die ein Programm für die Ein- und Ausgabe verwenden könnte (auch wenn Du sie noch nicht in Python ansprechen kannst).
-
 ----
 
-### Aufgabe 3: Absolute Zahlen
+### Aufgabe 2: Absolute Zahlen
 
 Ändere den Verarbeitungsteil, so dass die positive Differenz beider Zahlen berechnet wird. Verwende dazu die Funktion `abs()`:
 
     :::python3
     print(abs(-1.23))
 
-### Aufgabe 4: Das Modul math
+### Aufgabe 3: Das Modul math
 
 Nun werden wir anspruchsvollere Berechnungen durchführen.
-Dazu brauchst Du das modul `math`. Es enthält nützliche *Konstanten* und *Funktionen*.
+Dazu brauchst Du das Modul `math`. Es enthält nützliche *Konstanten* und *Funktionen*.
 Hier ist als Beispiel eine Kreisberechnung:
 
     :::python3
@@ -67,7 +52,7 @@ Finde über die [Dokumentation des math Moduls](https://docs.python.org/3/librar
 
 ----
 
-### Aufgabe 5: Runden
+### Aufgabe 4: Runden
 
 Verwende die Funktion `round()`, um das Ergebnis aus Aufgabe 4 auf zwei Nachkommastellen zu runden.
 
@@ -75,7 +60,7 @@ Verwende die Funktion `round()`, um das Ergebnis aus Aufgabe 4 auf zwei Nachkomm
 
 ----
 
-### Aufgabe 6: Pythagoras
+### Aufgabe 5: Pythagoras
 
 Schreibe ein Programm, das die Hypotenuse eines rechtwinkligen Dreiecks berechnet.
 
@@ -87,7 +72,7 @@ Teile das Programm in Eingabe, Verarbeitung und Ausgabe auf:
 
 ----
 
-### Aufgabe 7
+### Aufgabe 6
 
 Führe folgende Befehle aus:
 
@@ -101,11 +86,4 @@ Führe folgende Befehle aus:
 
 * Das Ergebnis des Logarithmus ist `2`
 * Die Funktion `sin()` arbeitet mit Winkeln im Bogenmaß
-* Das
-* Die math-Bibliothek enthält auch eine Funktion `sqrt()` zum Wurzeln ziehen.
-
-## Das Modul `math`
-
-Die Bibliothek `math` ist eine Sammlung häufig benutzter Funktionen wie trigonometrische Funktionen, Logarithmen, Wurzeln und viele mehr. Sie enthält auch einige Konstanten wie `pi` und die Eulersche Zahl `e`.
-
-Eine Übersicht zum Modul `math` findest Du auf [docs.python.org/3/library/math.html](https://docs.python.org/3/library/math.html)
+* Das Modul math enthält auch eine Funktion `sqrt()` zum Wurzeln ziehen.

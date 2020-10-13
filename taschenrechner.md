@@ -16,9 +16,7 @@
 
 ## Arithmetik
 
-Es gibt mehrere Möglichkeiten, Python zu verwenden. Im Editor **Anaconda Spyder** findest Du rechts unten die interaktive *Python-Shell*.
-
-In diesem Kapitel werden wir die Python-Shell als Taschenrechner verwenden. Du solltest folgende Eingabeaufforderung sehen:
+In diesem Kapitel werden wir die Python-Kommandozeile als Taschenrechner verwenden. Du solltest folgende Eingabeaufforderung sehen:
 
     :::python3
     In [1]:
@@ -151,35 +149,3 @@ Finde und behebe sie.
     print('Der Umfang des Kreises ist ' + umfang)    
     ergebnis = 7
     print(ergebnis)    
-
-----
-
-## Neue Befehle und Begriffe
-
-### Datentypen in Python
-
-Es gibt zwei Datentypen für Zahlen in Python:
-
-* **integer** – ganze Zahlen mit beliebiger Länge
-* **float** – Fließkommazahlen mit einer Genauigkeit von 16 Ziffern
-
-Auch **string** ist ein Datentyp.
-
-### Operatoren
-
-Die Rechenzeichen zwischen den Zahlen nennt man **Operatoren**. Python kennt sieben arithmetische Operatoren:
-
-| Operator | Beschreibung |
-|----------|--------------|
-| `+`      | Addition |
-| `-`      | Subtraktion |
-| `*`      | Multiplikation |
-| `/`      | Division |
-| `//`      | Division mit Abrunden |
-| `%`      | Modulo (Rest der Division) |
-| `**`      | Potenz |
-
-### Typumwandlungen
-
-Die Funktionen `int()`, `float()` und `str()` wandeln Datentypen ineinander um.
-Eine Umwandlung in einen String ist immer möglich, die Umwandlung in eine Zahl nur wenn der String auch eine Zahl enthält.
