@@ -8,8 +8,8 @@ In diesem Kapitel wirst Du Text (**Strings**) in Variablen speichern.
 Probiere die folgenden Anweisungen aus, um Textvariablen oder **Strings** zu erzeugen:
 
     :::python3
-    vorname = 'Emily'
-    nachname = "Smith"
+    vorname = "Ada"
+    nachname = "Lovelace"
     name = vorname + " " + nachname
     print(name)
 
@@ -19,6 +19,7 @@ Probiere die folgenden Anweisungen aus, um Textvariablen oder **Strings** zu erz
 
 Was ergeben die folgenden Ausdrücke?
 
+    :::python3
     name[0]
     name[3]
     name[-1]
@@ -29,18 +30,28 @@ Was ergeben die folgenden Ausdrücke?
 
 ----
 
-### Aufgabe 4
+### Aufgabe 3
 
 Gegeben ist ein chiffriertes Wort:
 
+    :::python3
     name = "CSAIPRALKAINACZEYLVOST"
 
 Gib jeden zweiten Buchstaben des Wortes (beginnend beim 2.) aus.
 
 ----
 
-### Aufgabe 5
+### Aufgabe 4
 
 Erkläre die folgende Anweisung:
 
-    print("Emily\nSmith\n2000")
+    :::python3
+    print("Ada\nLovelace\n1843")
+
+----
+
+### Aufgabe 5: Methoden von Strings
+
+Finde heraus, was die Ausdrücke mit dem String in der Mitte tun.
+
+![string exercise](../exercises/strings.png)

@@ -50,31 +50,20 @@ Schreibe ein Programm, das diese Zahlen aufsummiert.
 
 ----
 
-
-### Aufgabe 2: Methoden von Strings
-
-Um statt Zahlen den Text in `bigbang` zu verarbeiten, müssen wir den Datentyp **String** etwas besser kennen lernen.
-
-Finde heraus, was die Ausdrücke mit dem String in der Mitte tun.
-
-![string exercise](../exercises/strings.png)
-
-----
-
-### Aufgabe 3
+### Aufgabe 2
 
 Mit welcher der Methoden kannst du einen String wie die Variable `bigbang` in einzelne Zeilen zerlegen?
 
-* `bigbang.replace(x, y)`
-* `bigbang.split(x)`
+* `bigbang.replace("\n", " ")`
+* `bigbang.split("\n")`
 * `bigbang.strip()`
-* `bigbang.count(x)`
+* `bigbang.count("\n")`
 
 Speichere den zerlegten String in einer Variablen.
 
 ----
 
-### Aufgabe 4
+### Aufgabe 3
 
 Wie viele unterschiedliche Jungennamen mit `'S'` gibt es im bigbang-Datensatz?
 
@@ -93,7 +82,7 @@ Wie viele unterschiedliche Jungennamen mit `'S'` gibt es im bigbang-Datensatz?
 
 ----
 
-### Aufgabe 5
+### Aufgabe 4
 
 Um an die Anzahl heranzukommen, müssen wir die Zeilen an den Kommata aufteilen. Verwende dazu widerum die Funktion `split()`. Diesmal mußt Du als Argument in den Klammern aber ein Komma angeben, damit eine Zeile in Spalten geteilt wird.
 
@@ -101,7 +90,7 @@ Schreibe ein Programm, das alle Anzahlen aus dem String `bigbang` ausgibt.
 
 ----
 
-### Aufgabe 6
+### Aufgabe 5
 
 Nun haben wir es fast geschafft. Ein Detail fehlt aber noch: **Typumwandlungen**.
 
@@ -121,7 +110,7 @@ Python enthält viele Funktionen zur **Umwandlung von Datentypen**. Setze die fo
 
 ----
 
-### Aufgabe 7
+### Aufgabe 6
 
 Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle funktionieren.
 
