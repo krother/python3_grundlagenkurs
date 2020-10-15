@@ -146,6 +146,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Zahlenraten](zahlenraten.md) | ⭐ |
 | [Quiz](quiz.md) | ⭐ |
 | [Würfeln](wuerfel.md) | ⭐⭐ |
+| [Die Suche nach dem Drachenei](textadventure.md) | ⭐⭐ |
 | [Flucht aus dem Labyrinth](labyrinth.md) | ⭐⭐ |
 | [Memory](memory/memory.md) | ⭐⭐⭐ |
 
