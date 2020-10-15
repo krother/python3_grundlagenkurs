@@ -147,7 +147,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Quiz](quiz.md) | ⭐ |
 | [Würfeln](wuerfel.md) | ⭐⭐ |
 | [Flucht aus dem Labyrinth](labyrinth.md) | ⭐⭐ |
-| [Memory](memory.md) | ⭐⭐⭐ |
+| [Memory](memory/memory.md) | ⭐⭐⭐ |
 
 ----
 
