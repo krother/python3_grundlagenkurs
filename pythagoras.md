@@ -56,7 +56,11 @@ Finde über die [Dokumentation des math Moduls](https://docs.python.org/3/librar
 
 Verwende die Funktion `round()`, um das Ergebnis aus Aufgabe 4 auf zwei Nachkommastellen zu runden.
 
-**Hinweis:** Die Funktion `round()` ist nicht Bestandteil der `math`-Bibliothek.
+Beispiel:
+
+    :::python3
+    print(round(1.234, 2))
+
 
 ----
 
@@ -69,21 +73,3 @@ Teile das Programm in Eingabe, Verarbeitung und Ausgabe auf:
 * Lies im Eingabeteil die Länge der zwei Katheten ein
 * Verwende zur Berechnung die Funktion `math.sqrt()`
 * Gib das Ergebnis auf den Bildschirm aus
-
-----
-
-### Aufgabe 6
-
-Führe folgende Befehle aus:
-
-    :::python3
-    import math
-
-    math.log(16, 2)
-    math.sin(math.pi / 2)
-
-**Welche Aussagen sind korrekt?**
-
-* Das Ergebnis des Logarithmus ist `2`
-* Die Funktion `sin()` arbeitet mit Winkeln im Bogenmaß
-* Das Modul math enthält auch eine Funktion `sqrt()` zum Wurzeln ziehen.
