@@ -15,12 +15,12 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | Challenge | Schwierigkeit |
 |-----------|---------------|
 | [Python Installieren](installation.md) | ⭐ |
+| [Python als Taschenrechner](taschenrechner.md) | ⭐ |
 | [Dein erstes Programm](hallo.md) | ⭐ |
 | [Schere-Stein-Papier](schere_stein_papier.md) | ⭐ |
 | [Quadratzahlen](for.md) | ⭐ |
-| [while-Schleifen](while.md) | ⭐ |
 | [Typumwandlungen](typumwandlungen.md) | ⭐ |
-| [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
+| [while-Schleifen](while.md) | ⭐ |
 
 ----
 
@@ -28,12 +28,11 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Python als Taschenrechner](taschenrechner.md) | ⭐ |
 | [Pythagoras](pythagoras.md) | ⭐ |
 | [Fakultät](fakultaet.md) | ⭐ |
-| [größter gemeinsamer Teiler](ggt.md) | ⭐ |
 | [Fibonacci](fibonacci.md) | ⭐⭐ |
 | [Querprodukt](querprodukt.md) | ⭐⭐ |
+| [größter gemeinsamer Teiler](ggt.md) | ⭐⭐ |
 | [Geburtstagsproblem](geburtstage.md) | ⭐⭐ |
 
 ----
@@ -78,7 +77,6 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Spirale](spiral.md) | ⭐ |
 | [Postkarte](postcard.md) | ⭐⭐ |
 | [Rekursive Grafiken](recursive_graph.md) | ⭐⭐⭐ |
-| [Weltkarte nach Ländern einfärben](weltkarte.md) | ⭐⭐⭐ |
 | [Kurzfilm drehen](movie/README.md) | ⭐⭐⭐⭐ |
 
 ----
@@ -116,6 +114,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
+| [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
 | [Sortieralgorithmen](sortieralgorithmen.md) | ⭐ |
 | [Problem des Josephus](josephus.md) | ⭐⭐ |
 | [Baum abschreiten](tree_traversal.md) | ⭐⭐ |
