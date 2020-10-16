@@ -7,10 +7,6 @@
 |---------|-------|
 | 💼 | Mit Zahlen rechnen |
 | ⚙ | Arithmetische Operatoren verwenden |
-| ⚙ | Datentypen unterscheiden |
-| 💡 | Die Datentypen `int` und `float` verwenden |
-| 💡 | Datentypen ineinander umwandeln |
-| 🐞 | Laufzeitfehler erkennen |
 
 ----
 
@@ -117,35 +113,3 @@ Welche Zuweisungen an Variablen sind korrekt?
     2 = 1 + 1
     5 + 6 = y
     sieben = 3 * 4
-
-----
-
-### Aufgabe 7: Typumwandlungen
-
-Welche `print`-Anweisungen funktionieren?
-
-    :::python3
-    print("9" + "9")
-    print "neun"
-    print(str(9) + "neun")
-    print(9 + 9)
-    print(9 + int("9"))
-    print(neun)
-    print(float("9") + int(9.0))
-
-----
-
-### Aufgabe 8: Debugging
-
-Das folgende Programm soll den Umfang eines Kreises berechnen.
-Es enthält drei Fehler.
-Finde und behebe sie.
-
-    :::python3
-    pi = 3.14159
-    radius = float(input('Gib den Radius ein: '))
-    umfang = 2 * pi * r
-
-    print('Der Umfang des Kreises ist ' + umfang)    
-    ergebnis = 7
-    print(ergebnis)    
