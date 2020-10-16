@@ -69,11 +69,21 @@ Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
 
 ### Aufgabe 5
 
-Welche der folgenden Befehle sind in Python ausführbar?
+Probiere folgende Schleifen aus.
+Erkläre was passiert.
 
-* `for char in "ABCD": print(char)`
-* `for i in range(10): print(i)`
-* `for k in 7.65: print(k)`
-* `for number in [4, 6, 8]: print(number)`
-* `for x, y in [(1,2), (3,4), (5,6)]: print(x, y)`
-* `for (i=0; i<10; i++): print(i)`
+    :::python3
+    for buchstabe in "ABCD":
+        print(buchstabe)
+
+    for i in range(10):
+        print(i)
+
+    for k in 123:
+        print(k)
+
+    for zahl in [4, 9, 16, 25]:
+        print(zahl)
+
+    for x, y in [(1,2), (3,4), (5,6)]:
+        print(x, y)
