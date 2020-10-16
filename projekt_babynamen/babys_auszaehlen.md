@@ -92,36 +92,4 @@ Schreibe ein Programm, das alle Anzahlen aus dem String `bigbang` ausgibt.
 
 ### Aufgabe 5
 
-Nun haben wir es fast geschafft. Ein Detail fehlt aber noch: **Typumwandlungen**.
-
-Wenn Du statt einer Liste von Zahlen Strings aufsummieren möchtest, erhälst Du ein seltsames Ergebnis oder eine Fehlermeldung. Wir müssen die Strings zunächst in **int** oder **float** umwandeln.
-
-Python enthält viele Funktionen zur **Umwandlung von Datentypen**. Setze die folgenden Teile in den Code ein, so dass alle Befehle korrekt ausgeführt werden: `alter`, `int(alter)`, `name`, `str(geboren)`, `1980`
-
-    :::python3
-    name = 'Sheldon Cooper'
-    geboren = _____
-    ____ = '38'
-
-    text = ____ + ' kam im Jahr ' + _____ + ' zur Welt.'
-    jahr = geboren + _____
-    print(text)
-    print(jahr)
-
-----
-
-### Aufgabe 6
-
-Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle funktionieren.
-
-    :::python3
-    9 + 9
-    9 + '9'
-    '9' + '9'
-    9 * '9'
-
-----
-
-### Aufgabe 8
-
 Schreibe ein Programm, das die Anzahl Babys in der Variable `bigbang` zusammenzählt und die Summe ausgibt.

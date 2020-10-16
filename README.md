@@ -19,6 +19,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Schere-Stein-Papier](schere_stein_papier.md) | ⭐ |
 | [Quadratzahlen](for.md) | ⭐ |
 | [while-Schleifen](while.md) | ⭐ |
+| [Typumwandlungen](typumwandlungen.md) | ⭐ |
 | [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
 
 ----
@@ -147,6 +148,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Quiz](quiz.md) | ⭐ |
 | [Würfeln](wuerfel.md) | ⭐⭐ |
 | [Die Suche nach dem Drachenei](textadventure.md) | ⭐⭐ |
+| [Drachenei mit Grafik](grafikadventure.md) | ⭐⭐ |
 | [Flucht aus dem Labyrinth](labyrinth.md) | ⭐⭐ |
 | [Memory](memory/memory.md) | ⭐⭐⭐ |
 
