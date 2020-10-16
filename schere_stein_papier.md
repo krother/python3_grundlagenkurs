@@ -43,21 +43,7 @@ Erweitere das Programmm so, dass es auch funktioniert, wenn der Spieler *Papier*
 
 ----
 
-### Aufgabe 3: Alterskontrolle
-
-Das folgende Programm soll eine Alterskontrolle durchführen.
-Finde bis zu 3 Fehler:
-
-    :::python3
-    alter = int(input("gib Dein Alter ein"))
-    if alter < 18
-        print("Du bist alt genug um zu programmieren.")
-    else alter > 18:
-        print("Du bist volljährig und alt genug um zu programmieren.")
-
-----
-
-### Aufgabe 4: Debugging
+### Aufgabe 3: Debugging
 
 Repariere je einen Fehler in folgenden if-Anweisungen:
 
@@ -76,7 +62,7 @@ Repariere je einen Fehler in folgenden if-Anweisungen:
 
 ----
 
-### Aufgabe 5: Ausdrücke
+### Aufgabe 4: Ausdrücke
 
 Welche Vergleichsausdrücke in diesen if-Anweisungen ergeben `wahr`:
 
@@ -94,7 +80,7 @@ Welche Vergleichsausdrücke in diesen if-Anweisungen ergeben `wahr`:
     if a * b == 12 and b * c == 28:
         print("wahr")
 
-    if a and b * c == 28:
+    if a + b * c >= 28:
         print("wahr")
 
     if a + b == "7":
@@ -102,7 +88,7 @@ Welche Vergleichsausdrücke in diesen if-Anweisungen ergeben `wahr`:
 
 ----
 
-### Aufgabe 6: Zustandsvariablen
+### Aufgabe 5: Zustandsvariablen
 
 Das folgende Programm speichert einen Vergleichsausdruck in einer Variablen vom Typ `bool`.
 Vervollständige den Code:
@@ -117,7 +103,7 @@ Vervollständige den Code:
 
 ----
 
-### Aufgabe 7: Verschachtelte if-Anweisungen
+### Aufgabe 6: Verschachtelte if-Anweisungen
 
 Ergänze das folgende Programm, so dass es alle Fälle abdeckt:
 
@@ -137,7 +123,7 @@ Ergänze das folgende Programm, so dass es alle Fälle abdeckt:
 
 ----
 
-### Aufgabe 8: Schere-Stein-Papier
+### Aufgabe 7: Schere-Stein-Papier
 
 Vollende das Schere-Stein-Papier-Spiel.
 
