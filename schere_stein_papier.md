@@ -25,7 +25,7 @@ Setze die Begriffe `elif`, `else` und `if` in das folgende Programm ein, so dass
     :::python3
     import random
 
-    spieler = input("Bitte gib S, T oder P (für [S]chere, S[T]ein und [P]apier ein")
+    spieler = input("Bitte gib S, T oder P (für [S]chere, S[T]ein und [P]apier ein ")
     computer = random.choice('STP')
 
     ____ spieler == 'S' and computer == 'P':
@@ -33,7 +33,7 @@ Setze die Begriffe `elif`, `else` und `if` in das folgende Programm ein, so dass
     ____ spieler == 'S' and computer == 'T':
         print("Spieler gewinnt")
     ____:
-        print("noch nicht implementiert")
+        print("unentschieden")
 
 ----
 
@@ -46,7 +46,7 @@ Erweitere das Programmm so, dass es auch funktioniert, wenn der Spieler *Papier*
 ### Aufgabe 3: Alterskontrolle
 
 Das folgende Programm soll eine Alterskontrolle durchführen.
-Finde 3 Fehler:
+Finde bis zu 3 Fehler:
 
     :::python3
     alter = int(input("gib Dein Alter ein"))
@@ -76,28 +76,9 @@ Repariere je einen Fehler in folgenden if-Anweisungen:
 
 ----
 
-### Aufgabe 5: Syntax
+### Aufgabe 5: Ausdrücke
 
-Welche der folgenden `if`-Anweisungen sind syntaktisch korrekt?
-
-    :::python3
-    if a and b:
-
-    if len(s) == 23:
-
-    if a but not b < 3:
-
-    if a ** 2 >= 49:
-
-    if a != 3
-
-    if (a and b) or (c and d):
-
-----
-
-### Aufgabe 6: Ausdrücke
-
-Welche Vergleichsausdrücke in diesen if-Anweisungen ergeben `True`:
+Welche Vergleichsausdrücke in diesen if-Anweisungen ergeben `wahr`:
 
     :::python3
     a = 3
@@ -105,33 +86,30 @@ Welche Vergleichsausdrücke in diesen if-Anweisungen ergeben `True`:
     c = 7
 
     if a + b < c:
-        print('True')
+        print("wahr")
 
     if a + b == 5 + 2:
-        print('True')
+        print("wahr")
 
     if a * b == 12 and b * c == 28:
-        print('True')
+        print("wahr")
 
-    if a == (3 and b) == 4:
-        print('True')
+    if a and b * c == 28:
+        print("wahr")
 
-    if s and b * c == 28:
-        print('True')
-
-    if a + b == '7':
-        print('True')
+    if a + b == "7":
+        print("wahr")
 
 ----
 
-### Aufgabe 7: Zustandsvariablen
+### Aufgabe 6: Zustandsvariablen
 
 Das folgende Programm speichert einen Vergleichsausdruck in einer Variablen vom Typ `bool`.
 Vervollständige den Code:
 
     :::python3
-    spieler_gewinnt = (spieler == 'S' and computer == ...) \
-                   or (spieler == 'P' and ...)
+    spieler_gewinnt = (spieler == "S" and computer == "P") \
+                   or (spieler == "P" and ...) \
                    or (...)
 
     if spieler_gewinnt:
@@ -139,36 +117,34 @@ Vervollständige den Code:
 
 ----
 
-### Aufgabe 8: Verschachtelte if-Anweisungen
+### Aufgabe 7: Verschachtelte if-Anweisungen
 
-Vereinfache das folgende Programm, so dass weniger Einrückungen und Methodenaufrufe nötig sind:
+Ergänze das folgende Programm, so dass es alle Fälle abdeckt:
 
     :::python3
-    spieler_gewinnt = False
-    computer_gewinnt = False
+    gewinnt = 'unentschieden'
 
-    if spieler == 'S':
-        if computer == 'P'
-            spieler_gewinnt = True
-        elif computer == 'T'
-            computer_gewinnt = True
+    if spieler == "S":
+        if computer == "P":
+            gewinnt = "Spieler"
+        elif computer == "T":
+            gewinnt = "Computer"
 
-    elif spieler == 'P':
-        if computer == 'T'
-            spieler_gewinnt = True
-        elif computer == 'S'
-            computer_gewinnt = True
+    elif spieler == "P":
+        ...
+
+    print("Der Gewinner ist:", gewinnt)
 
 ----
 
-### Aufgabe 9: Schere-Stein-Papier
+### Aufgabe 8: Schere-Stein-Papier
 
 Vollende das Schere-Stein-Papier-Spiel.
 
-Optionale Ziele:
+#### Optionale Ziele:
 
 * berücksichtige Unentschieden als Möglichkeit
 * sowohl Gross- als auch Kleinbuchstaben sind als Eingabe möglich
 * verwende einen einzigen `if..elif..else` Block
 * erweitere das Spiel durch [Eidechse und Spock](https://en.wikipedia.org/wiki/Rock_paper_scissors#Additional_weapons)
-* verwende Zustandsvariablen, so dass nur eine einzige `if`-Anweisung (ohne `elif` oder `else`)
+* verwende Zustandsvariablen, so dass nur eine einzige `if`-Anweisung (ohne `elif` oder `else`) übrig bleibt
