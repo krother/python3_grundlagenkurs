@@ -3,19 +3,13 @@
 
 **🎯 Schreibe ein Programm, das eine Spirale zeichnet:**
 
-![spiral](images/spiral1.svg)
+## Aufgabe 1: Spirale mit Ecken
 
-Sobald das Programm eine Spirale mit mindestens drei Umdrehungen produziert, hast Du es geschafft.
+Zeichne eine Spirale mit rechten Winkeln:
 
-## Hinweise
+![](images/square_spiral.svg)
 
-* Lässt sich eine Spirale aus kurzen Linien zusammensetzen?
-* Ist es einfacher, innen oder außen zu beginnen?
-* Du kannst zum Zeichnen die Module `turtle` oder `Pillow` verwenden.
-
-## Starthilfe
-
-Wenn Du keine Idee hast, wie Du anfangen kannst, probiere folgenden Python-Code aus:
+Folgender Python-Code dient als Starthilfe:
 
     from turtle import forward, left
 
@@ -23,10 +17,24 @@ Wenn Du keine Idee hast, wie Du anfangen kannst, probiere folgenden Python-Code 
     left(45)
     forward(40)
 
-## Zusatzaufgaben
+----
+
+## Aufgabe 2: runde Spirale
+
+Produziere eine Spirale mit mindestens drei Umdrehungen produziert.
+
+![spiral](images/spiral1.svg)
+
+### Hinweise
+
+* eine Spirale lässt sich aus kurzen Linien zusammensetzen
+* es ist einfacher, innen zu beginnen
+
+----
+
+## Aufgabe 3: zusätzliche Herausforderungen
 
 * die Linie wird von innen nach außen dicker
 * entlang der Spirale ist ein Farbverlauf sichtbar
-* zeichne eine Fibonacci-Spirale
 
 ![Spiral with width and color](images/spiral2.svg)

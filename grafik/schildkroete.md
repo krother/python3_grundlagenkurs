@@ -95,11 +95,3 @@ Zeichne vier Quadrate:
 Zeichne konzentrische Quadrate. Du kannst mit `turtle.up()` und `turtle.down()` das Zeichnen aus- und anschalten.
 
 ![](images/concentric.svg)
-
-----
-
-### Aufgabe 9
-
-Zeichne eine Spirale.
-
-![](images/square_spiral.svg)
