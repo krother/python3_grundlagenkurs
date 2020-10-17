@@ -14,13 +14,13 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Python Installieren](installation.md) | ⭐ |
-| [Python als Taschenrechner](taschenrechner.md) | ⭐ |
-| [Dein erstes Programm](hallo.md) | ⭐ |
-| [Schere-Stein-Papier](schere_stein_papier.md) | ⭐ |
-| [Quadratzahlen](for.md) | ⭐ |
-| [Typumwandlungen](typumwandlungen.md) | ⭐ |
-| [while-Schleifen](while.md) | ⭐ |
+| [Python Installieren](erste_schritte/installation.md) | ⭐ |
+| [Python als Taschenrechner](erste_schritte/taschenrechner.md) | ⭐ |
+| [Hallo Welt](erste_schritte/hallo.md) | ⭐ |
+| [Schere-Stein-Papier](erste_schritte/schere_stein_papier.md) | ⭐ |
+| [Quadratzahlen](erste_schritte/for.md) | ⭐ |
+| [Typumwandlungen](erste_schritte/typumwandlungen.md) | ⭐ |
+| [while-Schleifen](erste_schritte/while.md) | ⭐ |
 
 ----
 
