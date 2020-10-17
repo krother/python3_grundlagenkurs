@@ -156,8 +156,8 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Punkte beim Tennis](tennis.md) | ⭐⭐ |
-| [Dekorator-Metaklassen](metaclass.md) | ⭐⭐⭐⭐⭐ |
+| [Punkte beim Tennis](advanced/tennis.md) | ⭐⭐ |
+| [Dekorator-Metaklassen](advanced/metaclass.md) | ⭐⭐⭐⭐⭐ |
 
 ----
 
