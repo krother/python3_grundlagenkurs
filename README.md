@@ -143,12 +143,12 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Zahlenraten](zahlenraten.md) | ⭐ |
-| [Quiz](quiz.md) | ⭐ |
-| [Würfeln](wuerfel.md) | ⭐⭐ |
-| [Die Suche nach dem Drachenei](textadventure.md) | ⭐⭐ |
-| [Flucht aus dem Labyrinth](labyrinth.md) | ⭐⭐ |
-| [Memory](memory/memory.md) | ⭐⭐⭐ |
+| [Zahlenraten](spiele/zahlenraten.md) | ⭐ |
+| [Quiz](spiele/quiz.md) | ⭐ |
+| [Würfeln](spiele/wuerfel.md) | ⭐⭐ |
+| [Die Suche nach dem Drachenei](spiele/textadventure.md) | ⭐⭐ |
+| [Flucht aus dem Labyrinth](spiele/labyrinth.md) | ⭐⭐ |
+| [Memory](spiele/memory/memory.md) | ⭐⭐⭐ |
 
 ----
 
