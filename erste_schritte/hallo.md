@@ -1,4 +1,4 @@
-# Dein erstes Programm
+# Hallo Welt
 
 **🎯 Schreibe ein "Hallo, Welt"-Programm**
 

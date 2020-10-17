@@ -73,11 +73,11 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Schildkrötengrafik](schildkroete.md) | ⭐ |
-| [Spirale](spiral.md) | ⭐ |
-| [Postkarte](postcard.md) | ⭐⭐ |
-| [Rekursive Grafiken](recursive_graph.md) | ⭐⭐⭐ |
-| [Kurzfilm drehen](movie/README.md) | ⭐⭐⭐⭐ |
+| [Schildkrötengrafik](grafik/schildkroete.md) | ⭐ |
+| [Spirale](grafik/spiral.md) | ⭐ |
+| [Postkarte](grafik/postcard.md) | ⭐⭐ |
+| [Rekursive Grafiken](grafik/recursive_graph.md) | ⭐⭐⭐ |
+| [Kurzfilm drehen](grafik/movie/README.md) | ⭐⭐⭐⭐ |
 
 ----
 
