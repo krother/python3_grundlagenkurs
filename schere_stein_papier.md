@@ -18,7 +18,24 @@ Ein wichtiges Strukturelement in Programmen ist das *Treffen von Entscheidungen*
 
 In Python gibt es für Entscheidungen (Verzweigungen) die `if`-Anweisung. Darum geht es in diesem Kapitel.
 
-### Aufgabe 1
+----
+
+### Aufgabe 1: Entscheidung
+
+Mit der `if`-Anweisung kannst Du im Programm Entscheidungen treffen.
+
+Teste das folgende Programm mit unterschiedlichen Eingaben:
+
+    :::python3
+    spieler = input("Bitte gib S, T oder P (für [S]chere, S[T]ein und [P]apier ein ")
+    computer = "P"
+
+    if spieler == computer:
+        print("Unentschieden")
+
+----
+
+### Aufgabe 2: Alternative Entscheidungen
 
 Setze die Begriffe `elif`, `else` und `if` in das folgende Programm ein, so dass es läuft:
 
@@ -33,17 +50,17 @@ Setze die Begriffe `elif`, `else` und `if` in das folgende Programm ein, so dass
     ____ spieler == 'S' and computer == 'T':
         print("Spieler gewinnt")
     ____:
-        print("unentschieden")
+        print("Unentschieden")
 
 ----
 
-### Aufgabe 2: Papier
+### Aufgabe 3: Papier
 
 Erweitere das Programmm so, dass es auch funktioniert, wenn der Spieler *Papier* wählt.
 
 ----
 
-### Aufgabe 3: Debugging
+### Aufgabe 4: Debugging
 
 Repariere je einen Fehler in folgenden if-Anweisungen:
 
@@ -62,7 +79,7 @@ Repariere je einen Fehler in folgenden if-Anweisungen:
 
 ----
 
-### Aufgabe 4: Ausdrücke
+### Aufgabe 5: Ausdrücke
 
 Welche Vergleichsausdrücke in diesen if-Anweisungen ergeben `wahr`:
 
@@ -88,7 +105,7 @@ Welche Vergleichsausdrücke in diesen if-Anweisungen ergeben `wahr`:
 
 ----
 
-### Aufgabe 5: Zustandsvariablen
+### Aufgabe 6: Zustandsvariablen
 
 Das folgende Programm speichert einen Vergleichsausdruck in einer Variablen vom Typ `bool`.
 Vervollständige den Code:
@@ -103,7 +120,7 @@ Vervollständige den Code:
 
 ----
 
-### Aufgabe 6: Verschachtelte if-Anweisungen
+### Aufgabe 7: Verschachtelte if-Anweisungen
 
 Ergänze das folgende Programm, so dass es alle Fälle abdeckt:
 
@@ -123,7 +140,7 @@ Ergänze das folgende Programm, so dass es alle Fälle abdeckt:
 
 ----
 
-### Aufgabe 7: Schere-Stein-Papier
+### Aufgabe 8: Schere-Stein-Papier
 
 Vollende das Schere-Stein-Papier-Spiel.
 
