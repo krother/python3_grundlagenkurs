@@ -54,7 +54,7 @@ Finde über die [Dokumentation des math Moduls](https://docs.python.org/3/librar
 
 ### Aufgabe 4: Runden
 
-Verwende die Funktion `round()`, um das Ergebnis aus Aufgabe 4 auf zwei Nachkommastellen zu runden.
+Verwende die Funktion `round()`, um das Ergebnis aus Aufgabe 3 auf zwei Nachkommastellen zu runden.
 
 Beispiel:
 
