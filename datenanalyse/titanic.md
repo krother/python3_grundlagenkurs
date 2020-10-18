@@ -188,6 +188,7 @@ Um die *kategorischen* Merkmale `"Sex"` oder `"Embarked"` mit aufzunehmen, benö
 
 baue eine der Dummy-Variablen in Deinen Datensatz ein, bevor Du ihn in Trainings- und Testdaten aufteilst:
 
+    :::python3
     df['female'] = dummies['female']
 
 Wie verändert sich die Genauigkeit des Modells?
