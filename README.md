@@ -91,7 +91,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Panik auf der Titanic](datenanalyse/projekt_titanic/README.md) | ⭐⭐⭐ |
+| [Wer überlebt auf der Titanic?](datenanalyse/projekt_titanic/README.md) | ⭐⭐⭐ |
 | [Schiffe Clustern](datenanalyse/schiffe/README.md)  | ⭐⭐⭐ |
 | [Ziffern erkennen](datenanalyse/mnist.md)  | ⭐⭐⭐⭐ |
 | [Songtexte klassifizieren](datenanalyse/projekt_lyrics.md)  | ⭐⭐⭐⭐ |

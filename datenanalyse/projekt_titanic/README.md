@@ -1,49 +1,47 @@
 
-# Wer überlebt auf der Titanic
+# Wer überlebt auf der Titanic?
 
-## Ziel
+**🎯 Sage anhand der Angaben über einen Passagier auf der Titanic vorher, ob dieser das Unglück überlebt.**
 
-Wir möchten anhand der Angaben über einen Passagier auf der Titanic vorhersagen ob dieser das Unglück überlebt oder nicht.
-
-----
-
-## Aufgaben
-
-### 1. Hypothesen
-
-Sammelt Ideen, was für *Merkmale von Passagieren* die Überlebenschancen auf der Titanic steigern und welche nicht, bevor Ihr das Modell baut.
+![](../images/titanic.png)
 
 ----
 
-### 2. Vorbereitung
+### Aufgabe 1: Hypothesen
 
-Importiere:
+Sammle Ideen, was für *Merkmale von Passagieren* die Überlebenschancen auf der Titanic steigern und welche nicht, bevor du das Modell baust.
+
+----
+
+### Aufgabe 2: Vorbereitung
+
+Importiere einige Bibliotheken:
 
     :::python3
     import pandas as pd
-    import pylab as plt
+    import matplotlib.pyplot as plt
     import numpy as np
 
 ----
 
-### 3. Daten laden
+###  Aufgabe 3: Daten laden
 
-Verwende `pandas`, um die Datei `train.csv` zu laden.
+Verwende `pandas`, um die Datei [`train.csv`](/static/content/python_basics_DE/titanic/train.csv) zu laden.
 
 Du findest eine Dokumentation der Daten auf [www.kaggle.com/c/titanic](https://www.kaggle.com/c/titanic).
 
 ----
 
-### 4. Histogramm
+### Aufgabe 4: Histogramm
 
-Erstelle ein Histogramm nach dem Alter nach Überleben gruppiert:
+Erstelle ein Histogramm nach dem Alter und nach Überleben gruppiert:
 
     :::python3
     df.groupby('Survived')['Age'].hist(alpha=0.5)
 
 ----
 
-### 5. Balkendiagramm
+### Aufgabe 5: Balkendiagramm
 
 Erstelle ein Balkendiagramm mit den Häufigkeiten gruppiert nach Passagierklasse nach Überleben:
 
@@ -57,23 +55,24 @@ Erstelle ein Balkendiagramm mit den Häufigkeiten gruppiert nach Passagierklasse
 
 ----
 
-### 6. Noch ein Balkendiagramm
+### Aufgabe 6: Noch ein Balkendiagramm
 
 Gruppiere als drittes Kriterium zusätzlich nach Geschlecht.
 
 ----
 
-### 7. Paarplot
+### Aufgabe 7: Paarplot
 
 Jetzt plotten wir alles gegen alles!
 
     :::python3
     pd.scatter_matrix(df, figsize=(15,15))
 
-**Anmerkung:** Da die meisten der Daten *kategorisch* sind, kann man im Diagramm nicht so viel sehen. Die Darstellung ist aber oft so praktisch, daß ich sie Euch nicht vorenthalten wollte.
+**Anmerkung:** Da die meisten der Daten *kategorisch* sind, kann man im Diagramm nicht so viel sehen. Die Darstellung ist aber oft so praktisch, daß ich sie hier nicht vorenthalten wollte.
 
+----
 
-#### 7.1 Einfärben
+### Aufgabe 8: Einfärben
 
 Färbe die Überlebenden blau ein und die Ertrunkenen rot. Schreibe dazu eine Funktion `make_col(x)`, die je nach x einen anderen Farbcode `(R, G, B)` zurück liefert.
 
@@ -84,30 +83,37 @@ Damit können wir eine Spalte mit Farbangaben erstellen:
 
 Und diese als zusätzlichen Parameter `c=col` in der Funktion `scatter_matrix` angeben.
 
+----
 
-#### 7.2 Auswählen von Spalten
+### Aufgabe 9: Auswählen von Spalten
 
 Wähle alle Spalten außer `"Survived"` für den Paarplot aus.
 
-
 ----
 
-### 8. Datenaufbereitung
+### Aufgabe 10: Datenaufbereitung
 
-* Lösche die Spalten `"Name"` und `"Cabin"` aus dem Datensatz.
-* Lösche alle Zeilen mit Lücken mit `dropna()`
-* Speichere die Spalten `"Pclass"` und `"Age"` in einem DataFrame `X`.
-* Speichere die Spalte `"Survived"` in einer Variable `y`.
-
-Wandle beide DataFrames in NumPy Arrays um:
+Lösche die Spalten `"Name"` und `"Cabin"` aus dem Datensatz.
 
     :::python3
-    X = X.values
-    y = y.values
+    del df['Name']
+    ...
+
+Fülle die fehlenden Werte in der Spalte `"Age"` mit
+
+    :::python3
+    df.fillna(df['Age'].median(), inplace=True)
 
 ----
 
-### 9. Ein Modell erstellen
+### Aufgabe 11: Unabhängige und abhängige Variablen
+
+* Speichere die *unabhängigen Variablen*, die Spalten `"Pclass"` und `"Age"`, in einem DataFrame `X`.
+* Speichere die *abhängige Variable*, die Spalte `"Survived"`, in einer Variable `y`.
+
+----
+
+### Aufgabe 12: Trainings- und Testdaten
 
 Teile den Datensatz in Trainings- und Testdaten auf:
 
@@ -116,37 +122,40 @@ Teile den Datensatz in Trainings- und Testdaten auf:
 
     Xtrain, ytrain, Xtest, ytest = train_test_split(X, y, random_state=0)
 
-Nun erstellen wir eines der einfachsten möglichen maschinellen Lernmodelle nach dem k-nächste-Nachbarn-Verfahren:
+**Überlege, warum diese Aufteilung wichtig ist.**
+
+----
+
+### Aufgabe 13: Ein Modell trainieren
+
+Nun erstelle eines der einfachsten möglichen maschinellen Lernmodelle nach dem k-nächste-Nachbarn-Verfahren:
 
     :::python3
     from sklearn.neighbors import KNeighborsClassifier
 
     m = KNeighborsClassifier(n_neighbors=1)
 
-und trainieren das Modell mit unseren Trainingsdaten:
+und trainiere das Modell mit den Trainingsdaten:
 
     :::python3
     m.fit(Xtrain, ytrain)
 
 ----
 
-### 10. Das Modell auswerten
+### Aufgabe 14: Das Modell auswerten
 
 Berechne die Genauigkeit des Modells für die Trainingsdaten:
 
     :::python3
     print(m.score(Xtrain, ytrain))
 
-
 Berechne die Genauigkeit auch für die Testdaten. Vergleiche die Zahlen und erkläre die Unterschiede.
 
-#### Frage
-
-Ist dies ein gutes Modell?
+**Ist dies ein gutes Modell?**
 
 ----
 
-### 11. Vorhersage
+### Aufgabe 15: Vorhersage
 
 Erstelle Datensätze für weitere Passagiere:
 
@@ -164,24 +173,28 @@ und erstelle eine Vorhersage für diese:
 
 ----
 
-### 12. Mehr Daten!!!
+### Aufgabe 16: Mehr Daten
 
 Wiederhole den Modellbau, indem Du mehr Daten berücksichtigst. Nimm 2-3 zusätzliche Spalten auf. Verbessert sich an der Qualität der Vorhersage etwas?
 
-### 13 Dummy-Variablen
+----
+
+### Aufgabe 17: Dummy-Variablen
 
 Um die *kategorischen* Merkmale `"Sex"` oder `"Embarked"` mit aufzunehmen, benötigst Du folgende Funktion:
 
     :::python3
-    pd.get_dummies(df['Sex'])
+    dummies = pd.get_dummies(df['Sex'])
 
-baue die Dummy-Variablen in Deinen Datensatz ein, bevor Du ihn in Trainings- und Testdaten aufteilst.
+baue eine der Dummy-Variablen in Deinen Datensatz ein, bevor Du ihn in Trainings- und Testdaten aufteilst:
+
+    df['female'] = dummies['female']
 
 Wie verändert sich die Genauigkeit des Modells?
 
 ----
 
-### 14. Weitere Modelle
+### Aufgabe 18: Weitere Modelle
 
 Verschaffe Dir einen Überblick über die Funktionsweise eines der folgenden Modelle zur Klassifikation:
 
@@ -196,27 +209,21 @@ Als Quelle dienen Wikipedia und [scikit-learn.org](http://scikit-learn.org)
 Wende eines dieser Modelle auf den Datensatz an, indem Du die Klasse
 `KNeighborsClassifier` durch die aus der Tabelle ersetzt. Gib keine Parameter an, sondern verwende die Standardeinstellungen.
 
-Welche Genauigkeit erreicht Ihr?
+Welche Genauigkeit erreichst du?
 
 ----
 
-### 15. Koeffizienten bei der logistischen Regression
+### Aufgabee 19: Koeffizienten bei der logistischen Regression
 
 Schaue Dir die berechneten Koeffizienten von `LogisticRegression` an:
 
     :::python3
-    for lab, coef in zip(labels, m.coef_[0]):
+    for label, coef in zip(X.columns, m.coef_):
         print("{:10s}\t{:8.3f}".format(lab, coef))
 
 ----
 
-### 16. Maximale Tiefe beim Random Forest
-
-Vergleiche die Parameter `max_depth=2`, `max_depth=3` und `max_depth=10`. Wie wirken sich die Einstellungen auf die Vorhersagequalität aus?
-
-----
-
-### 17. Skaliere
+### Aufgabe 20: Skaliere
 
 Skaliere die Eingabedaten der logistischen Regression:
 
@@ -228,10 +235,17 @@ Skaliere die Eingabedaten der logistischen Regression:
     Xtrain = scaler.transform(Xtrain)
     Xtest = scaler.transform(Xtest)
 
-Trainiere das Modell mit dem skalierten `Xtrain`
+Trainiere das Modell mit dem skalierten `Xtrain`.
 
 ----
 
-### 18. Die Vorhersage einschicken
+### Aufgabe 21: Maximale Tiefe beim Random Forest
+
+Vergleiche die Parameter `max_depth=2`, `max_depth=3` und `max_depth=10` beim Random-Forest-Modell. Wie wirken sich die Einstellungen auf die Vorhersagequalität aus?
+
+
+----
+
+### Aufgabe 22: Die Vorhersage einschicken
 
 Sende eine Vorhersage auf [kaggle.com](http://www.kaggle.com) ein und schaue wie erfolgreich Dein Modell ist.
