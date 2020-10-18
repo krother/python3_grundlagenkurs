@@ -67,3 +67,29 @@ Was tut das folgende Programm?
     filme = ["Star Wars", "Star Trek", "Ratatouille"]
     for f in filme:
         print(f)
+
+----
+
+### Aufgabe 6: Methoden von Listen
+
+Als nächstes werden wir einige Namen in einer Liste sammeln. Das ist eine gute Gelegenheit, diesen wichtigen Datentyp etwas näher kennen zu lernen.
+
+Finde in IPython heraus, was die Ausdrücke mit der Liste in der Mitte anstellen.
+
+![Übung zu Listen](../images/lists.png)
+
+----
+
+### Aufgabe 7
+
+Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
+
+![list funcs exercise2](../images/list_funcs2.png)
+
+----
+
+### Aufgabe 8
+
+Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
+
+![list funcs exercise1](../images/list_funcs1.png)

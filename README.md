@@ -21,19 +21,7 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Quadratzahlen](erste_schritte/for.md) | ⭐ |
 | [Typumwandlungen](erste_schritte/typumwandlungen.md) | ⭐ |
 | [while-Schleifen](erste_schritte/while.md) | ⭐ |
-
-----
-
-## Mathematik
-
-| Challenge | Schwierigkeit |
-|-----------|---------------|
-| [Pythagoras](pythagoras.md) | ⭐ |
-| [Fakultät](fakultaet.md) | ⭐ |
-| [Fibonacci](fibonacci.md) | ⭐⭐ |
-| [Querprodukt](querprodukt.md) | ⭐⭐ |
-| [größter gemeinsamer Teiler](ggt.md) | ⭐⭐ |
-| [Geburtstagsproblem](geburtstage.md) | ⭐⭐ |
+| [Eigene Funktionen schreiben](erste_schritte/funktionen.md) | ⭐ |
 
 ----
 
@@ -41,15 +29,15 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Strings](strings.md) | ⭐ |
-| [Pyramide](pyramide.md) | ⭐ |
-| [Schachbrett](schachbrett.md) | ⭐⭐ |
-| [Palindrome](palindrome.md) | ⭐⭐ |
-| [Anagramme](anagramme.md) | ⭐⭐ |
-| [Wörter zählen](alaeddin.md) | ⭐⭐ |
-| [Reguläre Ausdrücke](regex.md) | ⭐⭐ |
-| [Römische Zahlen](roman.md) | ⭐⭐⭐ |
-| [Verschlüsselung](encrypt.md) | ⭐⭐⭐ |
+| [Strings](strings/strings.md) | ⭐ |
+| [Pyramide](strings/pyramide.md) | ⭐ |
+| [Schachbrett](strings/schachbrett.md) | ⭐⭐ |
+| [Palindrome](strings/palindrome.md) | ⭐⭐ |
+| [Anagramme](strings/anagramme.md) | ⭐⭐ |
+| [Wörter zählen](strings/alaeddin.md) | ⭐⭐ |
+| [Reguläre Ausdrücke](strings/regex.md) | ⭐⭐ |
+| [Römische Zahlen](strings/roman.md) | ⭐⭐⭐ |
+| [Verschlüsselung](strings/encrypt.md) | ⭐⭐⭐ |
 
 ----
 
@@ -57,15 +45,15 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Listen](listen.md) | ⭐ |
-| [Tic-Tac-Toe](tictac.md) | ⭐⭐ |
-| [Minesweeper](minesweeper.md) | ⭐⭐⭐ |
-| [Babys auszählen](projekt_babynamen/babys_auszaehlen.md) | ⭐ |
-| [Namen finden](projekt_babynamen/namen_finden.md) | ⭐⭐ |
-| [Eine Zeitreihe erstellen](projekt_babynamen/zeitreihe.md) | ⭐⭐ |
-| [Tabellen ausgeben](projekt_babynamen/tabelle_ausgeben.md) | ⭐⭐ |
-| [Dictionaries](dictionaries.md) | ⭐⭐ |
-| [Anfangsbuchstaben zählen](projekt_babynamen/zaehlen.md) | ⭐⭐ |
+| [Listen](datenstrukturen/listen.md) | ⭐ |
+| [Tic-Tac-Toe](datenstrukturen/tictac.md) | ⭐⭐ |
+| [Minesweeper](datenstrukturen/minesweeper.md) | ⭐⭐⭐ |
+| [Babys auszählen](datenstrukturen/babys_auszaehlen.md) | ⭐ |
+| [Namen finden](datenstrukturen/namen_finden.md) | ⭐⭐ |
+| [Eine Zeitreihe erstellen](datenstrukturen/zeitreihe.md) | ⭐⭐ |
+| [Tabellen ausgeben](datenstrukturen/tabelle_ausgeben.md) | ⭐⭐ |
+| [Dictionaries](datenstrukturen/dictionaries.md) | ⭐⭐ |
+| [Anfangsbuchstaben zählen](datenstrukturen/zaehlen.md) | ⭐⭐ |
 
 ----
 
@@ -85,17 +73,17 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Funktionen plotten](funktionen_plotten.md) | ⭐ |
-| [Babynamengenerator](babynamengenerator.md) | ⭐ |
-| [Zufallsdaten](random.md) | ⭐ |
-| [Einstieg in pandas](projekt_gapminder/pandas_grundlagen.md) | ⭐ |
-| [Balkendiagramme plotten](projekt_gapminder/balkendiagramm.md) | ⭐ |
-| [Histogramme plotten](projekt_gapminder/histogramm.md) | ⭐ |
-| [Animierter Scatterplot](projekt_gapminder/long_wide_tables.md) | ⭐⭐ |
-| [Benford-Analyse](benford.md) | ⭐⭐ |
-| [Filmbewertungen](moviedb.md) | ⭐⭐ |
-| [Babynamen in den USA](babynamen.md) | ⭐⭐ |
-| [Letzte Buchstaben](letzte_buchstaben.md) | ⭐⭐⭐ |
+| [Funktionen plotten](datenanalyse/funktionen_plotten.md) | ⭐ |
+| [Babynamengenerator](datenanalyse/babynamengenerator.md) | ⭐ |
+| [Zufallsdaten](datenanalyse/random.md) | ⭐ |
+| [Einstieg in pandas](datenanalyse/projekt_gapminder/pandas_grundlagen.md) | ⭐ |
+| [Balkendiagramme plotten](datenanalyse/projekt_gapminder/balkendiagramm.md) | ⭐ |
+| [Histogramme plotten](datenanalyse/projekt_gapminder/histogramm.md) | ⭐ |
+| [Animierter Scatterplot](datenanalyse/projekt_gapminder/long_wide_tables.md) | ⭐⭐ |
+| [Benford-Analyse](datenanalyse/benford.md) | ⭐⭐ |
+| [Filmbewertungen](datenanalyse/moviedb.md) | ⭐⭐ |
+| [Babynamen in den USA](datenanalyse/babynamen.md) | ⭐⭐ |
+| [Letzte Buchstaben](datenanalyse/letzte_buchstaben.md) | ⭐⭐⭐ |
 
 ----
 
@@ -103,10 +91,23 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Panik auf der Titanic](projekt_titanic/README.md) | ⭐⭐⭐ |
-| [Schiffe Clustern](schiffe/README.md)  | ⭐⭐⭐ |
-| [Ziffern erkennen](mnist.md)  | ⭐⭐⭐⭐ |
-| [Songtexte klassifizieren](projekt_lyrics.md)  | ⭐⭐⭐⭐ |
+| [Panik auf der Titanic](datenanalyse/projekt_titanic/README.md) | ⭐⭐⭐ |
+| [Schiffe Clustern](datenanalyse/schiffe/README.md)  | ⭐⭐⭐ |
+| [Ziffern erkennen](datenanalyse/mnist.md)  | ⭐⭐⭐⭐ |
+| [Songtexte klassifizieren](datenanalyse/projekt_lyrics.md)  | ⭐⭐⭐⭐ |
+
+----
+
+## Mathematik
+
+| Challenge | Schwierigkeit |
+|-----------|---------------|
+| [Pythagoras](mathe/pythagoras.md) | ⭐ |
+| [Fakultät](mathe/fakultaet.md) | ⭐ |
+| [Fibonacci](mathe/fibonacci.md) | ⭐⭐ |
+| [Querprodukt](mathe/querprodukt.md) | ⭐⭐ |
+| [größter gemeinsamer Teiler](mathe/ggt.md) | ⭐⭐ |
+| [Geburtstagsproblem](mathe/geburtstage.md) | ⭐⭐ |
 
 ----
 
@@ -114,16 +115,16 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Fizz-Buzz-Test](fizzbuzz.md) | ⭐ |
-| [Sortieralgorithmen](sortieralgorithmen.md) | ⭐ |
-| [Problem des Josephus](josephus.md) | ⭐⭐ |
-| [Baum abschreiten](tree_traversal.md) | ⭐⭐ |
-| [Graph abschreiten](graph_traversal.md) | ⭐⭐⭐ |
-| [Magisches Quadrat](magisches_quadrat.md) | ⭐⭐⭐ |
-| [Problem des Handlungsreisenden](tsp.md) | ⭐⭐⭐ |
-| [König](kings.md) | ⭐⭐⭐⭐ |
-| [Rucksack-Problem](backpack_problem.md) | ⭐⭐⭐⭐ |
-| [Blockchain](blockchain.md) | ⭐⭐⭐⭐ |
+| [Fizz-Buzz-Test](algorithmen/fizzbuzz.md) | ⭐ |
+| [Sortieralgorithmen](algorithmen/sortieralgorithmen.md) | ⭐ |
+| [Problem des Josephus](algorithmen/josephus.md) | ⭐⭐ |
+| [Baum abschreiten](algorithmen/tree_traversal.md) | ⭐⭐ |
+| [Graph abschreiten](algorithmen/graph_traversal.md) | ⭐⭐⭐ |
+| [Magisches Quadrat](algorithmen/magisches_quadrat.md) | ⭐⭐⭐ |
+| [Problem des Handlungsreisenden](algorithmen/tsp.md) | ⭐⭐⭐ |
+| [König](algorithmen/kings.md) | ⭐⭐⭐⭐ |
+| [Rucksack-Problem](algorithmen/backpack_problem.md) | ⭐⭐⭐⭐ |
+| [Blockchain](algorithmen/blockchain.md) | ⭐⭐⭐⭐ |
 
 ----
 
@@ -131,11 +132,11 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Ping Pong](pingpong.md) | ⭐⭐ |
-| [Google-Suche](google.md) | ⭐⭐⭐ |
-| [Webseiten herunterladen](webrecherche.md) | ⭐⭐⭐ |
-| [Strassenverzeichnis](strassenverzeichnis/website.md) | ⭐⭐⭐ |
-| [Blog](blog.md) | ⭐⭐⭐⭐ |
+| [Ping Pong](web/pingpong.md) | ⭐⭐ |
+| [Google-Suche](web/google.md) | ⭐⭐⭐ |
+| [Webseiten herunterladen](web/webrecherche.md) | ⭐⭐⭐ |
+| [Strassenverzeichnis](web/strassenverzeichnis/website.md) | ⭐⭐⭐ |
+| [Blog](web/blog.md) | ⭐⭐⭐⭐ |
 
 ----
 

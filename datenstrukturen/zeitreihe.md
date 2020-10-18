@@ -119,9 +119,3 @@ Passe das Programm so an, dass es die Häufigkeit Deines Namens ausgibt.
 Probiere prominente Namen aus und plotte deren Zeitreihe (Tips: *Madonna, Luke Skywalker, Harley Davidson, Tyrion Lannister, Khaleesi, Sheldon*)
 
 Du kannst die Funktion `plot()` mehrmals aufrufen und so mehrere Linien im gleichen Diagramm erzeugen.
-
-----
-
-### Aufgabe 11
-
-Normalisiere die Daten, indem Du die Häufigkeit mit der Gesamtzahl der Geburten dieses Jahrgangs ins Verhältnis setzt.

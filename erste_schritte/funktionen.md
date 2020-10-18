@@ -1,5 +1,5 @@
 
-# Funktionen selbst schreiben
+# Eigene Funktionen schreiben
 
 ### Aufgabe 1
 

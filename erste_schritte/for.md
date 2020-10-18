@@ -9,6 +9,19 @@ In diesem Abschnitt lernst Du die `for`-Anweisung kennen, mit der Du einen oder 
 
 ### Aufgabe 1
 
+Führe das folgende Programm aus. Was passiert?
+
+    :::python3
+    import time
+
+    for i in range(5):
+        print("Du kannst schon super programmieren!")
+        time.sleep(5)
+
+----
+
+### Aufgabe 2
+
 Was tut das folgende Programm?
 
     :::python3
@@ -17,7 +30,7 @@ Was tut das folgende Programm?
 
 ----
 
-### Aufgabe 2
+### Aufgabe 3
 
 Erkläre, warum die `for`-Anweisung besser als der folgende Ansatz ist:
 
@@ -31,7 +44,7 @@ Erkläre, warum die `for`-Anweisung besser als der folgende Ansatz ist:
 
 ----
 
-### Aufgabe 3
+### Aufgabe 4
 
 Erkläre den Unterschied zwischen folgenden zwei Programmen:
 
@@ -52,7 +65,7 @@ und
 
 ----
 
-### Aufgabe 4
+### Aufgabe 5
 
 Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
 
@@ -67,7 +80,7 @@ Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
 
 ----
 
-### Aufgabe 5
+### Aufgabe 6
 
 Probiere folgende Schleifen aus.
 Erkläre was passiert.

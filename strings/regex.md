@@ -31,7 +31,7 @@ Führe folgendes Codebeispiel aus:
 
 ### Aufgabe 3
 
-Besuche die Seite [www.regexone.com](http://www.regexone.com) und führe einige der Übungen aus.
+Besuche die Seite [www.regexone.com](http://www.regexone.com) und führe einige der Übungen durch.
 
 ----
 
@@ -39,17 +39,15 @@ Besuche die Seite [www.regexone.com](http://www.regexone.com) und führe einige 
 
 Schreibe ein Programm, das E-Mail-Adressen in Text erkennt.
 
-Verwende die Funktion `re.findall` und erstelle ein entsprechendes Suchmuster.
+Verwende die Funktion `re.findall()` und erstelle ein entsprechendes Suchmuster.
 
 Auf [Regex101](https://regex101.com/) kannst Du den regulären Ausdruck testen.
-
-Schneide den Songtext aus. Dies geht recht gut mit Hilfe von `text.find()`.
 
 ---
 
 ### Aufgabe 5
 
-Auf [Regex Golf](https://regex.alf.nu/) findest Du schwierige Aufgaben zu regulären Ausdrücken.
+Auf [Regex Golf](https://regex.alf.nu/) findest Du schwierigere Aufgaben zu regulären Ausdrücken.
 
 ----
 

@@ -62,3 +62,32 @@ Was haben folgende Anweisungen zum Ergebnis?
     d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
     d.setdefault('cat', 'Stubentiger')
     print(d['cat'])
+
+----
+
+### Aufgabe 7:
+
+Im folgenden Programm kannst Du von Stadt zu Stadt reisen.
+Leider enthält es 3 Fehler. Finde und repariere sie.
+
+    :::python3
+    staedte = {
+        "New York": ["Tokyo", "Paris", "London"],
+        "Poznan": ["London", "Berlin"],
+        "London": ["New York", "Poznan"]
+        "Berlin": ["Tokyo", "Poznan"],
+        "Tokyo": ["New York", "Berlin"],
+        "Paris": ["Katmandu"]
+        }
+
+    standort = "Paris"
+
+    print "\nDeine Aufgabe: fliege nach Katmandu\n"
+
+    while standort not in staedte or standort == 'Katmandu':
+        print(f"Du bist in {standort}")
+
+    print("Es gibt Flüge nach ", staedte[standort])
+    standort = input("Wohin möchtest du fliegen?")
+
+    print("Du hast dein Ziel erreicht")

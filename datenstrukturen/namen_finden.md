@@ -84,17 +84,7 @@ Schreibe ein Programm, das die Datei `yob2015.txt` einliest. Finde alle Zeilen, 
 
 ----
 
-### Aufgabe 7: Methoden von Listen
-
-Als nächstes werden wir einige Namen in einer Liste sammeln. Das ist eine gute Gelegenheit, diesen wichtigen Datentyp etwas näher kennen zu lernen.
-
-Finde in IPython heraus, was die Ausdrücke mit der Liste in der Mitte anstellen.
-
-![Übung zu Listen](../images/lists.png)
-
-----
-
-### Aufgabe 8
+### Aufgabe 7
 
 Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden, in einer Liste. Leider enthält das Programm **vier Fehler**. Finde und korrigiere diese.
 
@@ -112,13 +102,13 @@ Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden, in 
 
 ----
 
-### Aufgabe 9
+### Aufgabe 8
 
 Sammle Namen, die mit `'M'` anfangen und auf `'m'` enden in einer Liste. Gib die Liste sortiert aus.
 
 ----
 
-### Aufgabe 10: Balkendiagramm
+### Aufgabe 9: Balkendiagramm
 
 ![Balkendiagramm](../images/star_bars.png)
 
@@ -144,41 +134,6 @@ Führe dieses Programm aus:
 
 ----
 
-### Aufgabe 11
+### Aufgabe 10
 
 Plotte die ersten fünf Namen, die mit *'M'* beginnen und enden in einem Balkendiagramm.
-
-----
-
-## Zusatzaufgaben
-
-### Aufgabe 12
-
-Schreibe ein Programm, welches den prozentualen Anteil der 10 häufigsten Namen für das Jahr 2015 berechnet und ausgibt.
-
-
-### Aufgabe 13
-
-Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
-
-![list funcs exercise2](../images/list_funcs2.png)
-
-----
-
-### Aufgabe 14
-
-Verwende die angegebenen Ausdrücke, um die Liste wie angegeben zu verändern. Verwende jeden Ausdruck genau einmal.
-
-![list funcs exercise1](../images/list_funcs1.png)
-
-----
-
-## Texteditoren
-
-Für einige der Aufgaben ist ein **Texteditor** sinnvoll.
-
-* **Idle** - ein minimalistischer Editor für Python, der Teil der Standard-Distribution ist
-* **VSCode** - ein sehr mächtiger Texteditor mit konfigurierbaren Sonderfunktionen.
-* **PyCharm** - eine professionelle auf Python spezialisierte Entwicklungsumgebung, die zum Entwickeln großer Projekte sehr gut geeignet ist. Du wirst 90% der Funktionen eine lange Zeit lang nicht brauchen, aber es ist ein sehr schönes Programm.
-* **Notepad++** - ein sehr nützlicher Editor für Windows. *Bitte verwende auf keinen Fall Notepad, um Python zu programmieren. Du tust Dir keinen Gefallen damit. Du solltest stattdessen lieber versuchen, mit einer Nagelfeile aus dem Gefängnis auszubrechen.*
-* **vim** - ein konsolenbasierter Texteditor für Unix. Dies ist das Werkzeug der Wahl für Systemadministratoren und alle Entwickler, die sich oft auf anderen Rechnern einloggen müssen, um dort zu arbeiten.
