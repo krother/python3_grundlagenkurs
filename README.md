@@ -57,47 +57,6 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 ----
 
-## Grafik
-
-| Challenge | Schwierigkeit |
-|-----------|---------------|
-| [Schildkrötengrafik](grafik/schildkroete.md) | ⭐ |
-| [Spirale](grafik/spiral.md) | ⭐ |
-| [Postkarte](grafik/postcard.md) | ⭐⭐ |
-| [Rekursive Grafiken](grafik/recursive_graph.md) | ⭐⭐⭐ |
-| [Kurzfilm drehen](grafik/movie/README.md) | ⭐⭐⭐⭐ |
-
-----
-
-## Datenanalyse
-
-| Challenge | Schwierigkeit |
-|-----------|---------------|
-| [Funktionen plotten](datenanalyse/funktionen_plotten.md) | ⭐ |
-| [Babynamengenerator](datenanalyse/babynamengenerator.md) | ⭐ |
-| [Zufallsdaten](datenanalyse/random.md) | ⭐ |
-| [Einstieg in pandas](datenanalyse/projekt_gapminder/pandas_grundlagen.md) | ⭐ |
-| [Balkendiagramme plotten](datenanalyse/projekt_gapminder/balkendiagramm.md) | ⭐ |
-| [Histogramme plotten](datenanalyse/projekt_gapminder/histogramm.md) | ⭐ |
-| [Animierter Scatterplot](datenanalyse/projekt_gapminder/long_wide_tables.md) | ⭐⭐ |
-| [Benford-Analyse](datenanalyse/benford.md) | ⭐⭐ |
-| [Filmbewertungen](datenanalyse/moviedb.md) | ⭐⭐ |
-| [Babynamen in den USA](datenanalyse/babynamen.md) | ⭐⭐ |
-| [Letzte Buchstaben](datenanalyse/letzte_buchstaben.md) | ⭐⭐⭐ |
-
-----
-
-## Maschinelles Lernen
-
-| Challenge | Schwierigkeit |
-|-----------|---------------|
-| [Wer überlebt auf der Titanic?](datenanalyse/titanic.md) | ⭐⭐⭐ |
-| [Schiffe Clustern](datenanalyse/schiffe/README.md)  | ⭐⭐⭐ |
-| [Ziffern erkennen](datenanalyse/mnist.md)  | ⭐⭐⭐⭐ |
-| [Songtexte klassifizieren](datenanalyse/projekt_lyrics.md)  | ⭐⭐⭐⭐ |
-
-----
-
 ## Mathematik
 
 | Challenge | Schwierigkeit |
@@ -137,19 +96,6 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Webseiten herunterladen](web/webrecherche.md) | ⭐⭐⭐ |
 | [Strassenverzeichnis](web/strassenverzeichnis/website.md) | ⭐⭐⭐ |
 | [Blog](web/blog.md) | ⭐⭐⭐⭐ |
-
-----
-
-## Spiele
-
-| Challenge | Schwierigkeit |
-|-----------|---------------|
-| [Zahlenraten](spiele/zahlenraten.md) | ⭐ |
-| [Quiz](spiele/quiz.md) | ⭐ |
-| [Würfeln](spiele/wuerfel.md) | ⭐⭐ |
-| [Die Suche nach dem Drachenei](spiele/textadventure.md) | ⭐⭐ |
-| [Flucht aus dem Labyrinth](spiele/labyrinth.md) | ⭐⭐ |
-| [Memory](spiele/memory/memory.md) | ⭐⭐⭐ |
 
 ----
 
