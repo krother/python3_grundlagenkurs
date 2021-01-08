@@ -1,7 +1,15 @@
 
 # Schere-Stein-Papier
 
-## In diesem Kapitel lernst Du:
+**🎯 Schreibe ein Schere-Stein-Papier-Spiel.**
+
+![](../images/Rock-paper-scissors_de.svg)
+
+[Bild von Enzoklop, CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=27958795)
+
+----
+
+### In diesem Kapitel lernst Du:
 
 | Bereich | Thema |
 |---------|-------|

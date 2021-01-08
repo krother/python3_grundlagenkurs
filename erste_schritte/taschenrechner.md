@@ -1,25 +1,43 @@
 
 # Python als Taschenrechner
 
-## In diesem Kapitel lernst Du:
+**🎯 Verwende Python für einfache Berechnungen.**
+
+![](../images/taschenrechner.png)
+
+*[Foto von Charles Deluvio auf Unsplash](https://unsplash.com/@charlesdeluvio)*
+
+----
+
+### In diesem Kapitel lernst Du:
 
 | Bereich | Thema |
 |---------|-------|
 | 💼 | Mit Zahlen rechnen |
+| 💡 | Den Datentyp *Integer* verwenden |
 | ⚙ | Arithmetische Operatoren verwenden |
+| ⚙ | Zahlen in Variablen speichern  |
+| ⚙ | Variablen verändern |
+| 🔧 | den Variablen-Explorer verwenden |
 
 ----
 
 ## Arithmetik
 
-In diesem Kapitel werden wir die Python-Kommandozeile als Taschenrechner verwenden. Du solltest folgende Eingabeaufforderung sehen:
+In diesem Kapitel werden wir die Python-Kommandozeile als Taschenrechner verwenden.
+Du solltest folgende Eingabeaufforderung sehen (im Konsolenfenster rechts unten):
 
     :::python3
     In [1]:
 
+Falls dort statt der 1 schon eine andere Zahl steht, macht das nichts.
+
+----
+
 ### Aufgabe 1: Grundrechenarten
 
-Führe einige Berechnungen in Python durch, indem Du die fehlenden Zeichen in die Lücken einsetzt:
+Führe einige Berechnungen in Python durch.
+Setze die fehlenden Zeichen in die Lücken ein:
 
     :::python3
     In [1]: 1 + ___
@@ -37,7 +55,9 @@ Führe einige Berechnungen in Python durch, indem Du die fehlenden Zeichen in di
     In [5]: ___ ** 2
     Out[5]: 81
 
-Gib die Befehle ein und beobachte was passiert. Gib den ersten Teil (`In [1]` etc.) **nicht** ein, dieser erscheint automatisch.
+Gib die Befehle in die Konsole ein ein und beobachte was passiert.
+
+Den ersten Teil (`In [1]` etc.) solltest Du **nicht** eingeben, der erscheint automatisch.
 
 ----
 
@@ -52,6 +72,8 @@ Was ist der Unterschied zwischen folgenden Anweisungen?
     10 // 4
     10 * 0.25
 
+Gib sie in der Konsole ein und untersuche das Ergebnis.
+
 ----
 
 ### Aufgabe 3: Weitere Operatoren
@@ -64,7 +86,9 @@ Welche Operationen ergeben 8?
     65 // 8
     17 % 9
     2 * 4
-    64 ** 0.5    
+    64 ** 0.5
+
+Gib die Anweisungen ein und untersuche das Ergebnis.
 
 ----
 
@@ -87,9 +111,10 @@ Ergänze die Lücken:
 
 ----
 
-### Aufgabe 5
+### Aufgabe 5: Variablen verändern
 
-Ändere den Inhalt der Variablen aus Aufgabe 4, so dass das Ergebnis stimmt:
+Die erste Anwisung verändert den Inhalt einer Variablen aus Aufgabe 4.
+Setze Werte und Variablen ein, so dass das Ergebnis stimmt:
 
     :::python3
     In [7]: aepfel = aepfel + 1
@@ -100,7 +125,7 @@ Ergänze die Lücken:
     In [10]: obst
     Out[10]: 38
 
-Setze die korrekten Werte und Variablennamen ein.
+Du kannst im **Variablen-Explorer** in Spyder (rechts oben) den Inhalt der Variablen direkt sehen.
 
 ----
 
@@ -113,3 +138,26 @@ Welche Zuweisungen an Variablen sind korrekt?
     2 = 1 + 1
     5 + 6 = y
     sieben = 3 * 4
+
+----
+
+### Aufgabe 7: Kaninchen
+
+Im April hast Du 10 Kaninchen:
+
+    :::python3
+    kaninchen = 10
+
+Die Kaninchen vermehren sich ständig.
+Jeden Monat kommen 20% neue Kaninchen dazu, so dass Du im Mai schon 12 hast.
+
+**Wie viele Kaninchen sind es im Dezember?**
+
+Es sterben keine Kaninchen, und es gibt auch keine halben Kaninchen.
+Verwende Python um die Aufgabe zu lösen.
+
+----
+
+### Aufgabe 8: Operatoren
+
+:::quiz operator_quiz.json

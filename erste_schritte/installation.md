@@ -1,7 +1,10 @@
 
 # Python installieren
 
-## In diesem Kapitel lernst Du:
+![](../images/schlangen.jpg)
+
+----
+### In diesem Kapitel lernst Du:
 
 | Bereich | Thema |
 |---------|-------|
@@ -20,6 +23,7 @@ In diesem Kurs verwenden wir [**Python 3**](https://www.python.org).
 Die Python-Distribution [**Anaconda**](https://www.anaconda.com/products/individual) enthält Python 3 und viele Zusatzpakete.
 Damit ist Anaconda hervorragend zur Datenanalyse und für wissenschaftliche Anwendungen geeignet.
 
+----
 
 ### Aufgabe 1: Anaconda installieren
 
@@ -55,7 +59,7 @@ Er enthält viele Zusatzfunktionen, die bei der Fehlersuche helfen.
 
 ----
 
-## Aufgabe 3: Die Spyder-Oberfläche kennen lernen
+### Aufgabe 3: Die Spyder-Oberfläche kennen lernen
 
 Wenn alles geklappt hat, sollte Dein Bildschirm etwa so aussehen:
 
@@ -63,15 +67,17 @@ Wenn alles geklappt hat, sollte Dein Bildschirm etwa so aussehen:
 
 :::quiz spyder_quiz.json
 
-## Aufgabe 4: Eine Python-Anweisung ausführen
+----
 
-Tippe folgende Rechnung in das **Editorfenster**:
+### Aufgabe 4: Eine Python-Anweisung ausführen
+
+Tippe folgende Berechnung in das **Editorfenster**:
 
     :::python3
-    1 + 1
+    print(1 + 1)
 
 Führe die Anweisung mit dem **Programm ausführen**-Knopf aus.
 
-Du solltest das Ergebnis in der **Konsole** sehen.
+Du solltest das Rechenergebnis in der **Konsole** sehen.
 
 **Wenn Du es bis hier geschafft hast, geht es jetzt richtig los!**

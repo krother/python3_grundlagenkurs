@@ -15,18 +15,18 @@
 
 ----
 
-### Aufgabe 1
+### Aufgabe 1:  Dein erstes Programm
 
 Schreibe Dein erstes Programm.
-Dazu brauchst Du eine **Programmierumgebung** (IDLE, Spyder, VSCode, Jupyter oder eine andere).
 
-Erstelle eine neue Datei mit folgendem Inhalt:
+Erstelle eine neue Datei im **Editorfenster** und tippe folgende Anweisungen ein:
 
     :::python3
     name = input("Wie heißt Du? ")
     print("Hallo", name)
 
-Führe das Programm aus.
+Führe das Programm aus über die Schaltfläche **"Ausführen"** oder **F5** aus.
+
 Was passiert?
 
 ----
@@ -35,7 +35,7 @@ Was passiert?
 
 Beim Programmieren ist es unvermeidlich, dass Du Fehler machst. Fehler können einfache Vertipper sein oder komplizierte logische Denkfehler. Eine der wichtigsten Fähigkeiten beim Programmieren ist, in einem fehlerhaften Programm die Ursache zu finden und zu beheben. Das kannst Du üben, indem Du das Programm absichtlich kaputt machst und schaust, was passiert.
 
-Probiere folgende Programme mit Fehlern aus und versuche, die Fehlermeldung zu verstehen:
+Probiere nacheinander folgende Programme mit Fehlern aus und versuche, die Fehlermeldung zu verstehen:
 
     name = input("Wie heißt Du? ")
     pront("Hallo", name)
@@ -48,6 +48,8 @@ Probiere folgende Programme mit Fehlern aus und versuche, die Fehlermeldung zu v
 
     x = input("Wie heißt Du? ")
     print("Hallo", x)
+
+Was hilft Dir, den Fehler zu erkennen?
 
 ----
 
@@ -94,6 +96,7 @@ Probiere aus, welche der folgenden Variablennamen in Python erlaubt sind:
 
 Das folgende Programm soll ein Lied von Bob Marley ausgeben.
 Es enthält drei Fehler.
+
 Finde und repariere sie.
 
     :::python3

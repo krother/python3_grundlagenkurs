@@ -3,7 +3,21 @@
 
 **🎯 Berechne eine Serie von Quadratzahlen.**
 
-In diesem Abschnitt lernst Du die `for`-Anweisung kennen, mit der Du einen oder mehrere Befehle wiederholen kannst.
+![](../images/quadrate.jpg)
+
+*[Foto von travelnow.or.crylater auf Unsplash](https://unsplash.com/@travelnow_or_crylater?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+
+----
+
+## In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| ⚙ | `for`-Schleifen verwenden |
+| ⚙ | Anweisungen einrücken |
+| 💡 | Die Funktion `range()` |
+| 💡 | Das Modul `time` |
+| 🐞 | Laufzeitfehler erkennen |
 
 ----
 
@@ -92,11 +106,13 @@ Erkläre was passiert.
     for i in range(10):
         print(i)
 
-    for k in 123:
-        print(k)
-
     for zahl in [4, 9, 16, 25]:
         print(zahl)
 
     for x, y in [(1,2), (3,4), (5,6)]:
         print(x, y)
+
+    kaninchen = 10
+    for i in range(9):
+         kaninchen = kaninchen + kaninchen // 5
+         print(kaninchen)
