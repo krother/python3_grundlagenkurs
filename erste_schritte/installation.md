@@ -4,6 +4,7 @@
 ![](../images/schlangen.jpg)
 
 ----
+
 ### In diesem Kapitel lernst Du:
 
 | Bereich | Thema |

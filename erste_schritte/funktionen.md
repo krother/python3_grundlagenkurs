@@ -1,7 +1,20 @@
 
-# Eigene Funktionen schreiben
+# Eigene Funktionen
 
-### Aufgabe 1
+**🎯 Schreibe eigene Funktionen**
+
+### In diesem Kapitel lernst Du:
+
+| Bereich | Thema |
+|---------|-------|
+| 💼 | Mittelwert und Standardabweichung berechnen |
+| ⚙ | Funktionen definieren |
+| ⚙ | Funktionsparameter |
+| ⚙ | Rückgabewerte von Funktionen mit `return` |
+| 🔀 | Rekursion |
+
+----
+### Aufgabe 1: Summenfunktion
 
 Schreibe eine Funktion, die eine Summe berechnet. Vervollständige das Programm, indem Du in die Lücken einsetzt: `anzahlen`, `daten`, `def`, `return`, `summe_berechnen', `+=`
 
@@ -15,8 +28,9 @@ Schreibe eine Funktion, die eine Summe berechnet. Vervollständige das Programm,
     summe = ____(____)
     print(summe)
 
+----
 
-### Aufgabe 2
+### Aufgabe 2: Prozente
 
 Schreibe eine Funktion, die aus einer Liste von Zahlen und einer gegebenen Grundgesamtheit einen prozentualen Anteil berechnet. Verwende den folgenden Aufbau:
 
@@ -32,43 +46,30 @@ Schreibe eine Funktion, die aus einer Liste von Zahlen und einer gegebenen Grund
     if prozent == 10:
         print("Test erfolgreich!")
 
+----
 
-### Aufgabe 3
+### Aufgabe 3: Mittelwert
 
-Erstelle eine neue Datei `bigbang_anzahl.txt` mit folgendem Inhalt:
+Schreibe eine Funktion, die den Mittelwert aus folgenden Zahlen ermittelt:
 
-    12562
-    2178
-    342
-    129
-    384
-    208
-    164
-    82
-    41
-
-Berechne die durchschnittliche Anzahl aus der Datei. Schreibe Dir dazu (mindestens) zwei Funktionen:
-
-    def datei_lesen(dateiname):
-        ...
-
+    :::python3
     def durchschnitt(daten):
         ...
 
-Finde selbst heraus, was die Funktionen mit `return` zurückliefen sollen.
+    daten = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
 
-**TIP:** Du kannst auch zuerst das Programm ohne Funktionen schreiben und danach die Funktionen aus dem Code ausgliedern.
+Finde selbst heraus, was die Funktionen mit `return` zurückliefen sollte.
 
+----
 
-### Aufgabe 4
+### Aufgabe 4: Standardabweichung
 
-Folgendes Programm berechnet die Standardabweichung aus der Datei `bigbang_anzahl.txt`. Wir möchten die Berechnung verallgemeinern. Packe den Code zur Berechnung der Standardabweichung in eine Funktion.
+Folgendes Programm berechnet die Standardabweichung aus einer Liste von Zahlen.
+Do möchtest die Berechnung verallgemeinern. Packe den Code zur Berechnung der Standardabweichung in eine Funktion.
 
     import math
 
-    daten = []
-    for line in open('bigbang_anzahl.txt'):
-        daten.append(int(line.strip()))
+    daten = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
 
     avg = durchschnitt(daten)
 
@@ -78,9 +79,11 @@ Folgendes Programm berechnet die Standardabweichung aus der Datei `bigbang_anzah
     varianz = stdsum / len(daten)
     stabw = math.sqrt(varianz)
 
-    print("Standardabweichung: {:8.2f}".format(stabw))
+    print(f"Standardabweichung: {stabw:8.2f}")
 
-### Aufgabe 5
+----
+
+### Aufgabe 5: Optionale Parameter
 
 Erkläre das Programm `parameter.py`:
 
@@ -95,8 +98,9 @@ Erkläre das Programm `parameter.py`:
     print(addition(b=4))
     print(addition(b=4, c=5))
 
+----
 
-### Aufgabe 6
+### Aufgabe 6: Rekursion
 
 Erkläre das Programm `fakultaet.py`:
 
@@ -109,4 +113,4 @@ Erkläre das Programm `fakultaet.py`:
 
     x = int(input('Bitte gib eine Zahl ein: '))
     y = fakultaet(x)
-    print ("Das Ergebnis ist:\n{}! = {}}".format(x, y))
+    print (f"Das Ergebnis ist:\n{x}! = {y}}")

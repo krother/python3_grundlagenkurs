@@ -2,7 +2,7 @@
 
 **🎯 Schreibe ein "Hallo, Welt"-Programm**
 
-## In diesem Kapitel lernst Du:
+### In diesem Kapitel lernst Du:
 
 | Bereich | Thema |
 |---------|-------|

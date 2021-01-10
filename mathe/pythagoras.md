@@ -1,7 +1,7 @@
 
 # Pythagoras
 
-## In diesem Kapitel lernst Du:
+### In diesem Kapitel lernst Du:
 
 | Bereich | Thema |
 |---------|-------|
@@ -10,7 +10,6 @@
 | ⚙ | Ein Modul importieren |
 | 💡 | Die Funktion `abs()` und `round()` aufrufen |
 | 🔧 | Funktionen in der Dokumentation nachschlagen |
-| 🐞 | Fehlermeldungen lesen |
 
 ----
 
