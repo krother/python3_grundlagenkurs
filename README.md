@@ -17,11 +17,36 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Python Installieren](erste_schritte/installation.md) | ⭐ |
 | [Python als Taschenrechner](erste_schritte/taschenrechner.md) | ⭐ |
 | [Hallo Welt](erste_schritte/hallo.md) | ⭐ |
+| [Ada Lovelace](erste_schritte/typumwandlungen.md) | ⭐ |
 | [Schere-Stein-Papier](erste_schritte/schere_stein_papier.md) | ⭐ |
 | [Quadratzahlen](erste_schritte/for.md) | ⭐ |
-| [Ada Lovelace](erste_schritte/typumwandlungen.md) | ⭐ |
-| [while-Schleifen](erste_schritte/while.md) | ⭐ |
+| [Diashow](erste_schritte/diashow.md) | ⭐ |
+
+----
+
+## Datenstrukturen
+
+| Kapitel | Schwierigkeit |
+|-----------|---------------|
+| [Strings](strings/strings.md) | ⭐ |
+| [Listen](datenstrukturen/listen.md) | ⭐ |
+| [Bedingte Schleifen](erste_schritte/while.md) | ⭐ |
+| [Dictionaries](datenstrukturen/dictionaries.md) | ⭐⭐ |
 | [Eigene Funktionen schreiben](erste_schritte/funktionen.md) | ⭐ |
+
+----
+
+## Tabellen lesen und auswerten
+
+| Challenge | Schwierigkeit |
+|-----------|---------------|
+| [Tic-Tac-Toe](datenstrukturen/tictac.md) | ⭐⭐ |
+| [Minesweeper](datenstrukturen/minesweeper.md) | ⭐⭐⭐ |
+| [Babys auszählen](datenstrukturen/babys_auszaehlen.md) | ⭐ |
+| [Namen finden](datenstrukturen/namen_finden.md) | ⭐⭐ |
+| [Eine Zeitreihe erstellen](datenstrukturen/zeitreihe.md) | ⭐⭐ |
+| [Tabellen ausgeben](datenstrukturen/tabelle_ausgeben.md) | ⭐⭐ |
+| [Anfangsbuchstaben zählen](datenstrukturen/zaehlen.md) | ⭐⭐ |
 
 ----
 
@@ -29,7 +54,6 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Strings](strings/strings.md) | ⭐ |
 | [Pyramide](strings/pyramide.md) | ⭐ |
 | [Schachbrett](strings/schachbrett.md) | ⭐⭐ |
 | [Palindrome](strings/palindrome.md) | ⭐⭐ |
@@ -38,22 +62,6 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Reguläre Ausdrücke](strings/regex.md) | ⭐⭐ |
 | [Römische Zahlen](strings/roman.md) | ⭐⭐⭐ |
 | [Verschlüsselung](strings/encrypt.md) | ⭐⭐⭐ |
-
-----
-
-## Datenstrukturen
-
-| Challenge | Schwierigkeit |
-|-----------|---------------|
-| [Listen](datenstrukturen/listen.md) | ⭐ |
-| [Tic-Tac-Toe](datenstrukturen/tictac.md) | ⭐⭐ |
-| [Minesweeper](datenstrukturen/minesweeper.md) | ⭐⭐⭐ |
-| [Babys auszählen](datenstrukturen/babys_auszaehlen.md) | ⭐ |
-| [Namen finden](datenstrukturen/namen_finden.md) | ⭐⭐ |
-| [Eine Zeitreihe erstellen](datenstrukturen/zeitreihe.md) | ⭐⭐ |
-| [Tabellen ausgeben](datenstrukturen/tabelle_ausgeben.md) | ⭐⭐ |
-| [Dictionaries](datenstrukturen/dictionaries.md) | ⭐⭐ |
-| [Anfangsbuchstaben zählen](datenstrukturen/zaehlen.md) | ⭐⭐ |
 
 ----
 

@@ -9,7 +9,7 @@ Du kannst diese Bilder verwenden:
 
 Alle Bilder sind 256x256 Pixel groß und im Abstand von 300 Pixeln plaziert.
 
-Hier kannst Du die [Einzelbilder als Zip-Datei](/static/content/python_basics_DE/memory.zip) herunterladen.
+Hier kannst Du die [Einzelbilder als Zip-Datei](/static/content/python_basics_DE/10bilder.zip) herunterladen.
 
 ## Hinweise
 
