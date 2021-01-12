@@ -65,7 +65,7 @@ Finde selbst heraus, was die Funktionen mit `return` zurückliefen sollte.
 ### Aufgabe 4: Standardabweichung
 
 Folgendes Programm berechnet die Standardabweichung aus einer Liste von Zahlen.
-Do möchtest die Berechnung verallgemeinern. Packe den Code zur Berechnung der Standardabweichung in eine Funktion.
+Du möchtest die Berechnung verallgemeinern. Platziere den Code zur Berechnung der Standardabweichung in eine Funktion.
 
     import math
 
