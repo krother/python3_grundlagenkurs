@@ -31,12 +31,13 @@ Bilde Paare aus Python-Anweisungen und deren Bedeutungen.
 
 Führe das folende Programm aus. Erkläre was passiert.
 
-    :::python3
-    namen = ['Adam', 'Bob', 'Charlie']
+```python
+namen = ['Adam', 'Bob', 'Charlie']
 
-    with open('jungs.txt', 'w') as f:
-        for name in namen:
-            f.write(name + '\n')
+with open('jungs.txt', 'w') as f:
+    for name in namen:
+        f.write(name + '\n')
+```
 
 Welche Aussagen sind korrekt?
 
@@ -58,19 +59,21 @@ Lösche das `+ '\n'` aus dem Programm und führe es noch einmal aus. Was passier
 
 Daten treten häufig in Form von Tabellen auf. Da eine Liste andere Listen enthalten kann, können wir diese **verschachtelte Listen** als einfaches Tabellenformat nutzen:
 
-    :::python3
-    # Name, Babys Kalifornien, Babys New York
-    tab = [
-      ["Emily", 2269, 881],
-      ["Amy", 542, 179],
-      ["Penny", 54, 12],
-      ["Bernadette", 21, 11]
-    ]
+```python
+# Name, Babys Kalifornien, Babys New York
+tab = [
+  ["Emily", 2269, 881],
+  ["Amy", 542, 179],
+  ["Penny", 54, 12],
+  ["Bernadette", 21, 11]
+]
+```
 
 Technisch ist an verschachtelten Listen nichts besonderes. Man muss allerdings die richtigen eckigen Klammern für die Indizierung finden, z.B. für die zweite Spalte der dritten Zeile:
 
-    :::python3
-    print(tab[2][1])
+```python
+print(tab[2][1])
+```
 
 Gib alle Vornamen aus der obigen Tabelle mit einer `for`-Schleife aus.
 
@@ -82,14 +85,15 @@ Um Tabellen und andere Daten hübsch auszugeben, benötigen wir **String-Formati
 
 Probiere folgende Ausdrücke in der Python Shell aus:
 
-    :::python3
-    "{}".format("Hallo")
-    "{} {}".format("Hallo", "Welt")
-    "{:10}".format("Hallo")
-    "{:>10}".format("Hallo")
-    "{:5d}".format(42)
-    "{:4.1f}".format(3.14159)
-    "Ergebnis: {:6.3f}".format(3.14159)
+```python
+"{}".format("Hallo")
+"{} {}".format("Hallo", "Welt")
+"{:10}".format("Hallo")
+"{:>10}".format("Hallo")
+"{:5d}".format(42)
+"{:4.1f}".format(3.14159)
+"Ergebnis: {:6.3f}".format(3.14159)
+```
 
 Welche Aussagen sind korrekt?
 
@@ -120,19 +124,20 @@ Schreibe die formatierte Tabelle in eine Datei.
 Das folgende Programm soll Namen und dazugehörige Anzahlen paarweise ausgeben.
 Leider enthält das Programm **drei Defekte**. Finde und behebe diese.
 
-    :::python3
-    namen = ["Emma", "Olivia" "Sophia", "Isabella",
-             "Ava", "Mia", "Emily"]
+```python
+namen = ["Emma", "Olivia" "Sophia", "Isabella",
+         "Ava", "Mia", "Emily"]
 
-    anzahlen [20799, 19674, 18490, 16950,
-               15586, 13442, 12562]
+anzahlen [20799, 19674, 18490, 16950,
+           15586, 13442, 12562]
 
-    if len(namen) == len(anzahlen):
-       print("Achtung: die Listen sind unterschiedlich lang!")
-       print(len(namen), len(anzahlen))
+if len(namen) == len(anzahlen):
+   print("Achtung: die Listen sind unterschiedlich lang!")
+   print(len(namen), len(anzahlen))
 
-    for name, anzahl in zip(namen, anzahlen):
-        print("{:10s} {:6d}".format(namen, anzahl))
+for name, anzahl in zip(namen, anzahlen):
+    print("{:10s} {:6d}".format(namen, anzahl))
+```
 
 ----
 
@@ -140,14 +145,15 @@ Leider enthält das Programm **drei Defekte**. Finde und behebe diese.
 
 Vereinfache das folgende Programm:
 
-    :::python3
-    anzahlen = [356, 412, 127, 8, 32]
+```python
+anzahlen = [356, 412, 127, 8, 32]
 
-    gesamt = 0
-    for anz in anzahlen:
-        gesamt += anz
-    print(gesamt)
+gesamt = 0
+for anz in anzahlen:
+    gesamt += anz
+print(gesamt)
 
+```
 
 Die Funktion `sum(x)` akzeptiert eine Liste mit Zahlen als Argument.
 
@@ -157,18 +163,19 @@ Die Funktion `sum(x)` akzeptiert eine Liste mit Zahlen als Argument.
 
 Vereinfache das folgende Programm:
 
-    :::python3
-    namen = ['Lilly', 'Lily', 'Leila', 'Lilja', 'Lillie']
-    anzahlen = [356, 412, 127, 8, 32]
+```python
+namen = ['Lilly', 'Lily', 'Leila', 'Lilja', 'Lillie']
+anzahlen = [356, 412, 127, 8, 32]
 
-    tabelle = []
-    i = 0
-    while i < len(namen):
-        row = (namen[i], anzahlen[i])
-        tabelle.append(row)
-        i += 1
-    print(tabelle)
+tabelle = []
+i = 0
+while i < len(namen):
+    row = (namen[i], anzahlen[i])
+    tabelle.append(row)
+    i += 1
+print(tabelle)
 
+```
 
 Die Funktion `zip(x, y)` führt zwei (oder mehr) Listen elementweise zusammen. Verwende eine `for`-Schleife oder `list()`, um das Ergebnis als Liste zu erhalten.
 

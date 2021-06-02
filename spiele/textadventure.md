@@ -38,28 +38,29 @@ Das Spiel ist vollständig textbasiert.
 
 ## Beispielausgabe
 
-    :::text
-    Finde das Drachenei
-    ===================
+```text
+Finde das Drachenei
+===================
 
-    Du befindest Dich in Deiner Heimatstadt.
-    Ein kleine Handelsstadt am Rande der Wüste.
+Du befindest Dich in Deiner Heimatstadt.
+Ein kleine Handelsstadt am Rande der Wüste.
 
-    Wege führen zu: Wüste, Wald
+Wege führen zu: Wüste, Wald
 
-    Wohin möchtest Du gehen? Wüste
-
-
-    Du befindest Dich in der Wüste. Die Sonne brennt unbarmherzig.
-
-    Wege führen zu: Heimatstadt, Lichtung, Wald
-
-    Wohin möchtest Du gehen? Lichtung
+Wohin möchtest Du gehen? Wüste
 
 
-    Auf einer verborgenen Lichtung entdeckst Du das Drachenei.
+Du befindest Dich in der Wüste. Die Sonne brennt unbarmherzig.
 
-    Deine Suche war erfolgreich!
+Wege führen zu: Heimatstadt, Lichtung, Wald
+
+Wohin möchtest Du gehen? Lichtung
+
+
+Auf einer verborgenen Lichtung entdeckst Du das Drachenei.
+
+Deine Suche war erfolgreich!
+```
 
 ----
 
@@ -78,22 +79,24 @@ Das Spiel ist vollständig textbasiert.
 Schreibe in das Programm eine Willkommensnachricht.
 Hierfür eignet sich eine mehrzeilige Ausgabe:
 
-    :::python3
-    print("""
-    Finde das Drachenei
-    ===================
+```python
+print("""
+Finde das Drachenei
+===================
 
-    Du begibst dich auf die Suche.
-    """)
+Du begibst dich auf die Suche.
+""")
+```
 
 Gib am Ende eine Erfolgsmeldung aus:
 
-    :::python3
-    print("""
-    Auf einer verborgenen Lichtung entdeckst Du das Drachenei.
+```python
+print("""
+Auf einer verborgenen Lichtung entdeckst Du das Drachenei.
 
-    Deine Suche war erfolgreich!
-    """)
+Deine Suche war erfolgreich!
+""")
+```
 
 Weiteren Code wirst Du später zwischen diesen beiden Anweisungen einsetzen.
 
@@ -114,16 +117,18 @@ Für eine unbekannte Anzahl Wiederholungen eignet sich die `while`-Schleife.
 Definiere zuerst eine Zustandsvariable, die den aktuellen Raum enthält.
 In Python verwenden wir den Namen des Raumes direkt:
 
-    :::python3
-    raum = "Heimatstadt"
+```python
+raum = "Heimatstadt"
+```
 
 Sobald du den Raum *"Drachenei"* erreichtst, endet das Spiel.
 Du kannst dies direkt in der `while`-Schleife umsetzen:
 
-    :::python3
-    while raum != "Lichtung":
-        print(f"Du befindest dich in {raum}")
-        raum = input("Wohin möchtest Du gehen? ")
+```python
+while raum != "Lichtung":
+    print(f"Du befindest dich in {raum}")
+    raum = input("Wohin möchtest Du gehen? ")
+```
 
 Die `input()`-Anweisung ist ein Platzhalter, damit das Programm nicht in einer Endlosschleife hängen bleibt.
 
@@ -139,12 +144,13 @@ Du siehst also nicht, wo du dich befindest.
 Gib stimmungsvolle Beschreibungstexte zu einigen Räumen aus.
 Füge `if`-Anweisungen wie folgende zur Hauptschleife hinzu:
 
-    :::python3
-    if raum == "Heimatstadt":
-        print("""
-        Du befindest Dich in Deiner Heimatstadt.
-        Ein kleine Handelsstadt am Rande der Wüste.
-        """)
+```python
+if raum == "Heimatstadt":
+    print("""
+    Du befindest Dich in Deiner Heimatstadt.
+    Ein kleine Handelsstadt am Rande der Wüste.
+    """)
+```
 
 Diese `if`-Blöcke ersetzen die `print()`-Anweisung aus dem vorigen Schritt.
 
@@ -160,19 +166,21 @@ Das Programm würde schnell unübersichtlich.
 
 Eine bessere Alternative ist, die **Daten zu strukturieren**. Dazu verwenden wir ein **Dictionary**, das die Beschreibungen aller Räume enthält:
 
-    :::python3
-    beschreibungen = {
-        "Heimatstadt": """Du befindest Dich in Deiner Heimatstadt...""",
-        "Eiswüste": """...""",
-    }
+```python
+beschreibungen = {
+    "Heimatstadt": """Du befindest Dich in Deiner Heimatstadt...""",
+    "Eiswüste": """...""",
+}
+```
 
 Definiere dieses Dictionary am Anfang des Programms.
 Nun kannst du alle `if`-Anweisungen durch einen einzigen Zugriff auf das Dictionary ersetzen.
 Als Schlüssel dient die Variable `raum`.
 Schreibe innerhalb der `while`-Schleife:
 
-    :::python3
-    print(beschreibungen[raum])
+```python
+print(beschreibungen[raum])
+```
 
 Und wirf die `if`-Anweisungen aus Schritt 4 weg.
 
@@ -187,12 +195,13 @@ Wenn Du also einen falschen Raum eingibst (oder Dich vertippst), bricht das Prog
 Führe eine Kontrolle der Eingabe durch, um das zu unterbinden.
 Verwende folgenden Code, der die Eingabe mit den Schlüsseln des Beschreibungs-Dictionaries vergleicht:
 
-    :::python3
-    ziel = input("Wohin möchtest Du gehen? ")
-    if ziel in beschreibungen:
-        raum = ziel
-    else:
-        print("Stop! Dorthin führt kein Weg.")
+```python
+ziel = input("Wohin möchtest Du gehen? ")
+if ziel in beschreibungen:
+    raum = ziel
+else:
+    print("Stop! Dorthin führt kein Weg.")
+```
 
 Finde heraus, an welcher Stelle des Programms diese Zeile eingesetzt werden muss.
 
@@ -210,31 +219,35 @@ Etwas spannender wird es, wenn du bestimmte Räume miteinander verbindest.
 Dazu brauchen wir eine zweite Datenstruktur, auch diesmal ein Dictionary.
 Jeder Eintrag zeigt von einem Startraum zu einem oder mehreren Zielräumen:
 
-    :::python3
-    pfade = {
-        "Heimatstadt": ["Wüste", "Wald"],
-        "Wald": ["Heimatstadt", "Eiswüste"],
-        ...
-    }
+```python
+pfade = {
+    "Heimatstadt": ["Wüste", "Wald"],
+    "Wald": ["Heimatstadt", "Eiswüste"],
+    ...
+}
+```
 
 Damit ein Weg in beide Richtungen begehbar ist, benötigst du auch zwei Einträge.
 Lässt du einen weg, kannst du auch *Einbahnstrassen* erstellen.
 
 Die Pfade für den aktuellen Raum kannst du mit folgender Zeile anzeigen:
 
-    :::python3
-    print(pfade[raum])
+```python
+print(pfade[raum])
+```
 
 oder etwas eleganter mit:
 
-    :::python3
-    print(", ".join(pfade[raum]))
+```python
+print(", ".join(pfade[raum]))
+```
 
 Möchtest du auch die Plausibilitätskontrolle erweitern, so dass nur die aktuellen Pfade begehbar sind, benötigst du folgende Zeile:
 
-    :::python3
-    if ziel in pfade[raum]:
-        ...
+```python
+if ziel in pfade[raum]:
+    ...
+```
 
 **Compiliere das Programm und stelle sicher, dass es läuft.**
 
@@ -245,47 +258,51 @@ Möchtest du auch die Plausibilitätskontrolle erweitern, so dass nur die aktuel
 Ein spannedes Adventure sollte einige Puzzles enthalten.
 Ein Puzzle könnte so aussehen:
 
-    :::text
-    Wohin möchtest Du gehen? Wald
+```text
+Wohin möchtest Du gehen? Wald
 
-    Im Wald ist ein Bär!!! Hier kannst Du nicht hin.
+Im Wald ist ein Bär!!! Hier kannst Du nicht hin.
 
-    ...
+...
 
-    Wohin möchtest Du gehen? Imkerei
+Wohin möchtest Du gehen? Imkerei
 
-    Beim Imker kaufst Du einen Topf Honig.
+Beim Imker kaufst Du einen Topf Honig.
 
-    ...
+...
 
-    Wohin möchtest Du gehen? Wald
+Wohin möchtest Du gehen? Wald
 
-    Du gibst dem Bären den Honig und er zieht zufrieden schleckend davon.
+Du gibst dem Bären den Honig und er zieht zufrieden schleckend davon.
+```
 
 Wie kannst du ein Puzzle programmieren?
 
 Erstens brauchst du eine **Zustandsvariable**, die du **vor der Hauptschleife** definierst, z.B.:
 
-    :::python3
-    honig = False
+```python
+honig = False
+```
 
 Zweitens musst du **in der Hauptschleife** abfragen, ob sich der Zustand ändert, z.B.:
 
-    :::python3
-    if raum == "Imkerei" and not honig:
-        print("Beim Imker kaufst Du einen Topf Honig.")
-        honig = True
+```python
+if raum == "Imkerei" and not honig:
+    print("Beim Imker kaufst Du einen Topf Honig.")
+    honig = True
+```
 
 Drittens musst du den Zustand **in der Hauptschleife** auswerten, um Aktionen zu ermöglichen oder zu blocken:
 
-    :::python3
-    if ziel == "Wald":
-        if honig:
-            print("Du gibst dem Bären den Honig und er zieht zufrieden schleckend davon.")
-            honig = False  # kann nur 1x verwendet werden
-        else:
-            print("Im Wald ist ein Bär!!! Hier kannst Du nicht hin.")
-            ziel = raum   # Spieler bleibt am gleichen Ort
+```python
+if ziel == "Wald":
+    if honig:
+        print("Du gibst dem Bären den Honig und er zieht zufrieden schleckend davon.")
+        honig = False  # kann nur 1x verwendet werden
+    else:
+        print("Im Wald ist ein Bär!!! Hier kannst Du nicht hin.")
+        ziel = raum   # Spieler bleibt am gleichen Ort
+```
 
 ----
 

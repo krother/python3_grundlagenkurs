@@ -7,35 +7,39 @@
 
 Speichere die zu verschlüsselnde Nachricht als String:
 
-    :::python3
-    s = "STRENG_GEHEIME_NACHRICHT"
+```python
+s = "STRENG_GEHEIME_NACHRICHT"
+```
 
 ## Schritt 2: Als Tabelle darstellen
 
 Brich den String in mehrere gleich lange Zeilen mit einer vorgegebenen Länge um. Fülle Leerstellen am Ende auf:
 
-    :::text
-    STRENG
-    _GEHEI
-    ME_NAC
-    HRICHT
+```text
+STRENG
+_GEHEI
+ME_NAC
+HRICHT
+```
 
 ## Schritt 3: Schlüssel anwenden
 
 Verwende einen Schlüssel, der die Spalten in eine neue Reihenfolge umsortiert. Mit dem Schlüssel `215403` erhälst Du:
 
-    :::text
-    RTGNSE
-    EGIE_H
-    _ECAMN
-    IRTHHC
+```text
+RTGNSE
+EGIE_H
+_ECAMN
+IRTHHC
+```
 
 ## Schritt 4: Spalten aufschreiben
 
 Füge die Spalten nacheinander zu einem neuen String zusammen. Dies ist die fertig chiffrierte Nachricht:
 
-    :::text
-    RE_ITGERGICTNEAHS_MHEHNC
+```text
+RE_ITGERGICTNEAHS_MHEHNC
+```
 
 ## Zusatzaufgaben:
 

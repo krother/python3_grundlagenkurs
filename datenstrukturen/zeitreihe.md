@@ -22,11 +22,12 @@ In diesem Kapitel werden wir untersuchen, wie sich die Häufigkeit einiger Namen
 
 Verwende die Funktion `range()`, um Listen von Zahlen zu generieren. Du kannst die Ausgabe von `range()` mit der Funktion `list()` in eine Liste überführen:
 
-    :::python3
-    list(range(10))
-    list(range(10, 20))
-    list(range(10, 100, 10))
-    list(range(20, 0, -2))
+```python
+list(range(10))
+list(range(10, 20))
+list(range(10, 100, 10))
+list(range(20, 0, -2))
+```
 
 Erstelle eine Liste mit den Jahreszahlen **`[1880, 1881, 1882, ... 2015]`**.
 
@@ -36,8 +37,9 @@ Erstelle eine Liste mit den Jahreszahlen **`[1880, 1881, 1882, ... 2015]`**.
 
 Erstelle eine Liste von Dateinamen, die so aussieht:
 
-    :::python3
-    ['yob1880.txt', 'yob1881.txt', ... 'yob2015.txt']
+```python
+['yob1880.txt', 'yob1881.txt', ... 'yob2015.txt']
+```
 
 ----
 
@@ -47,15 +49,16 @@ Das folgende Programm berechnet die Gesamtzahl der Geburten der vergangenen 130 
 
 Im Programm verstecken sich mehrere *semantische Fehler*. Führe das Programm aus. Inspiziere die Ausgabe. Finde und repariere den Fehler.
 
-    :::python3
-    for jahr in range(1890, 2015, 1):
-        summe = 0
-        filename = 'names/yob{}.txt'.format(jahr)
-        for zeile in open(filename):
-            spalten = zeile.strip().split(',')
-        summe += sum(int(spalten[2]))
+```python
+for jahr in range(1890, 2015, 1):
+    summe = 0
+    filename = 'names/yob{}.txt'.format(jahr)
+    for zeile in open(filename):
+        spalten = zeile.strip().split(',')
+    summe += sum(int(spalten[2]))
 
-    print("\nErgebnis: {} Geburten insgesamt".format(summe))
+print("\nErgebnis: {} Geburten insgesamt".format(summe))
+```
 
 ----
 
@@ -91,20 +94,21 @@ Setze vor Einlesen einer Datei eine Variable mit der Anzahl auf `0`. Falls Du De
 
 Führe folgendes Programm zum Zeichnen eines Liniendiagramms aus:
 
-    :::python3
-    from matplotlib import pyplot as plt
+```python
+from matplotlib import pyplot as plt
 
-    plt.figure()
+plt.figure()
 
-    x = list(range(1, 11))
-    y = [8.31, 10.03, 14.22, 13.21, 15.82,
-         18.68, 19.96, 19.05, 20.36, 18.99]
+x = list(range(1, 11))
+y = [8.31, 10.03, 14.22, 13.21, 15.82,
+     18.68, 19.96, 19.05, 20.36, 18.99]
 
-    plt.plot(x, y, 'b-')
+plt.plot(x, y, 'b-')
 
-    plt.title('Big Bang Facts (Quelle: Wikipedia)')
-    plt.xlabel('Staffel')
-    plt.ylabel('Zuschauer (Mio)')
+plt.title('Big Bang Facts (Quelle: Wikipedia)')
+plt.xlabel('Staffel')
+plt.ylabel('Zuschauer (Mio)')
+```
 
 ----
 

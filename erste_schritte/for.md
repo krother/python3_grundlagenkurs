@@ -25,12 +25,13 @@
 
 Führe das folgende Programm aus. Was passiert?
 
-    :::python3
-    import time
+```python
+import time
 
-    for i in range(5):
-        print("Du kannst schon super programmieren!")
-        time.sleep(5)
+for i in range(5):
+    print("Du kannst schon super programmieren!")
+    time.sleep(5)
+```
 
 ----
 
@@ -38,9 +39,10 @@ Führe das folgende Programm aus. Was passiert?
 
 Was tut das folgende Programm?
 
-    :::python3
-    for zahl in range(1, 7):
-        print(zahl)
+```python
+for zahl in range(1, 7):
+    print(zahl)
+```
 
 ----
 
@@ -48,13 +50,14 @@ Was tut das folgende Programm?
 
 Erkläre, warum die `for`-Anweisung besser als der folgende Ansatz ist:
 
-    :::python3
-    print(1)
-    print(2)
-    print(3)
-    print(4)
-    print(5)
-    print(6)
+```python
+print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(6)
+```
 
 ----
 
@@ -62,20 +65,22 @@ Erkläre, warum die `for`-Anweisung besser als der folgende Ansatz ist:
 
 Erkläre den Unterschied zwischen folgenden zwei Programmen:
 
-    :::python3
-    x = 1
-    for i in range(10):
-        x = x * 2
-        print(x)
+```python
+x = 1
+for i in range(10):
+    x = x * 2
+    print(x)
+```
 
 und
 
-    :::python3
-    x = 1
-    for i in range(10):
-        x = x * 2
-    print(x)
+```python
+x = 1
+for i in range(10):
+    x = x * 2
+print(x)
 
+```
 
 ----
 
@@ -83,14 +88,15 @@ und
 
 Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
 
-    :::bash
-    1
-    4
-    9
-    16
-    25
-    36
-    49
+```bash
+1
+4
+9
+16
+25
+36
+49
+```
 
 ----
 
@@ -99,20 +105,22 @@ Schreibe eine Schleife mit `for`, welche folgende Ausgabe produziert:
 Probiere folgende Schleifen aus.
 Erkläre was passiert.
 
-    :::python3
-    for buchstabe in "ABCD":
-        print(buchstabe)
+```python
+for buchstabe in "ABCD":
+    print(buchstabe)
 
-    for i in range(10):
-        print(i)
+for i in range(10):
+    print(i)
 
-    for zahl in [4, 9, 16, 25]:
-        print(zahl)
+for zahl in [4, 9, 16, 25]:
+    print(zahl)
 
-    for x, y in [(1,2), (3,4), (5,6)]:
-        print(x, y)
+for x, y in [(1,2), (3,4), (5,6)]:
+    print(x, y)
 
-    kaninchen = 10
-    for i in range(9):
-         kaninchen = kaninchen + kaninchen // 5
-         print(kaninchen)
+kaninchen = 10
+for i in range(9):
+     kaninchen = kaninchen + kaninchen // 5
+     print(kaninchen)
+```
+

@@ -13,12 +13,13 @@ Listen sind eine einfache Abfolge von Elementen. Allerdings zählt Python anders
 
 Probiere einige Befehle zum Erstellen von Listen aus:
 
-    :::python3
-    zahlen = [1, 2, 4, 8, 16, 32]
-    zahlen = zahlen + [64, 128, 256]
+```python
+zahlen = [1, 2, 4, 8, 16, 32]
+zahlen = zahlen + [64, 128, 256]
 
-    filme = ["Star Wars", "Star Trek", "Ratatouille"]
-    filme += ["Arrival"]
+filme = ["Star Wars", "Star Trek", "Ratatouille"]
+filme += ["Arrival"]
+```
 
 ----
 
@@ -26,11 +27,12 @@ Probiere einige Befehle zum Erstellen von Listen aus:
 
 Was ergeben folgende Anweisungen?
 
-    :::python3
-    zahlen[4]
-    filme[0]
-    filme[-1]
-    zahlen[-3]
+```python
+zahlen[4]
+filme[0]
+filme[-1]
+zahlen[-3]
+```
 
 ----
 
@@ -38,11 +40,12 @@ Was ergeben folgende Anweisungen?
 
 Was ergeben folgende Anweisungen?
 
-    :::python3
-    filme[2:]
-    filme[:2]
-    zahlen[2:-2]
-    zahlen[::2]
+```python
+filme[2:]
+filme[:2]
+zahlen[2:-2]
+zahlen[::2]
+```
 
 ----
 
@@ -63,10 +66,11 @@ Welche Anweisungen sind korrekt?
 
 Was tut das folgende Programm?
 
-    :::python3
-    filme = ["Star Wars", "Star Trek", "Ratatouille"]
-    for f in filme:
-        print(f)
+```python
+filme = ["Star Wars", "Star Trek", "Ratatouille"]
+for f in filme:
+    print(f)
+```
 
 ----
 

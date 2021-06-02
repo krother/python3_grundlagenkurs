@@ -51,7 +51,8 @@
 
 Du benötigst das Modul `random`:
 
-    :::python3
-    import random
+```python
+import random
+```
 
 Schlage in der Dokumentation des Moduls `random` nach, wie Du eine ganzzahlige Zufallszahl generieren kannst.

@@ -52,11 +52,12 @@ Schreibe eine Funktion, die aus einer Liste von Zahlen und einer gegebenen Grund
 
 Schreibe eine Funktion, die den Mittelwert aus folgenden Zahlen ermittelt:
 
-    :::python3
-    def durchschnitt(daten):
-        ...
+```python
+def durchschnitt(daten):
+    ...
 
-    daten = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
+daten = [12562, 2178, 342, 129, 384, 208, 164, 82, 41]
+```
 
 Finde selbst heraus, was die Funktionen mit `return` zurückliefen sollte.
 

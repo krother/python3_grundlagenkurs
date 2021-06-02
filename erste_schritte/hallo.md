@@ -21,9 +21,10 @@ Schreibe Dein erstes Programm.
 
 Erstelle eine neue Datei im **Editorfenster** und tippe folgende Anweisungen ein:
 
-    :::python3
-    name = input("Wie heißt Du? ")
-    print("Hallo", name)
+```python
+name = input("Wie heißt Du? ")
+print("Hallo", name)
+```
 
 Führe das Programm aus über die Schaltfläche **"Ausführen"** oder **F5** aus.
 
@@ -82,13 +83,14 @@ Probiere sie aus.
 
 Probiere aus, welche der folgenden Variablennamen in Python erlaubt sind:
 
-    :::python3
-    YODA = 'jedi'
-    darth vader = 'sith'
-    luke99 = 'jedi' = 'sith'
-    2000imperator = 'sith'
-    obi_wan_kenobi = 'jedi'
-    darth.maul = 'sith'
+```python
+YODA = 'jedi'
+darth vader = 'sith'
+luke99 = 'jedi' = 'sith'
+2000imperator = 'sith'
+obi_wan_kenobi = 'jedi'
+darth.maul = 'sith'
+```
 
 ----
 
@@ -99,13 +101,14 @@ Es enthält drei Fehler.
 
 Finde und repariere sie.
 
-    :::python3
-    teil1 = "Don't worry about a thing"
-    teil2 = "Cause every little thing"
-    teil3 = gonna be all right
+```python
+teil1 = "Don't worry about a thing"
+teil2 = "Cause every little thing"
+teil3 = gonna be all right
 
-    text = "teil1 + teil2 + teil3"
-    print(text
+text = "teil1 + teil2 + teil3"
+print(text
+```
 
 ----
 

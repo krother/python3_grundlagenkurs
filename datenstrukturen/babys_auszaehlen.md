@@ -23,16 +23,17 @@ Die US-Meldebehörden haben die Namen aller seit 1880 geborenen US-Staatsbürger
 
 In diesem Kapitel werden wir einen größeren String auseinandernehmen. Dies kommt beim Analysieren von Daten immer wieder vor. Zum Üben verwenden wir folgenden mehrzeiligen String (die Daten sind ein Auszug aus dem US-Geburtenregister):
 
-    :::python3
-    bigbang = """Emily,F,12562
-    Amy,F,2178
-    Penny,F,342
-    Bernadette,F,129
-    Leonard,M,384
-    Howard,M,208
-    Sheldon,M,164
-    Stuart,M,82
-    Raj,M,41"""
+```python
+bigbang = """Emily,F,12562
+Amy,F,2178
+Penny,F,342
+Bernadette,F,129
+Leonard,M,384
+Howard,M,208
+Sheldon,M,164
+Stuart,M,82
+Raj,M,41"""
+```
 
 Wir werden ausrechnen, wie viele Babys die Tabelle insgesamt enthält.
 
@@ -40,11 +41,12 @@ Wir werden ausrechnen, wie viele Babys die Tabelle insgesamt enthält.
 
 Wenn alle Zahlen in einer Liste wären, wäre es einfach:
 
-    :::python3
-    bigbang_zahlen = [
-        12562, 2178, 342, 129,
-        384, 208, 164, 82, 41
-    ]
+```python
+bigbang_zahlen = [
+    12562, 2178, 342, 129,
+    384, 208, 164, 82, 41
+]
+```
 
 Schreibe ein Programm, das diese Zahlen aufsummiert.
 
@@ -69,16 +71,17 @@ Wie viele unterschiedliche Jungennamen mit `'S'` gibt es im bigbang-Datensatz?
 
 **Sortiere** die folgenden Programmzeilen und **rücke sie korrekt ein**:
 
-    :::python3
-    jungs = 0
+```python
+jungs = 0
 
-    print(jungs)
+print(jungs)
 
-    if ",M," in zeile and zeile[0] == 'S':
+if ",M," in zeile and zeile[0] == 'S':
 
-    for zeile in bigbang.split():
+for zeile in bigbang.split():
 
-    jungs += 1
+jungs += 1
+```
 
 ----
 
