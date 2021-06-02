@@ -17,10 +17,11 @@ Sammle Ideen, was für *Merkmale von Passagieren* die Überlebenschancen auf der
 
 Importiere einige Bibliotheken:
 
-    :::python3
-    import pandas as pd
-    import matplotlib.pyplot as plt
-    import numpy as np
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+```
 
 ----
 
@@ -36,8 +37,9 @@ Du findest eine Dokumentation der Daten auf [www.kaggle.com/c/titanic](https://w
 
 Erstelle ein Histogramm nach dem Alter und nach Überleben gruppiert:
 
-    :::python3
-    df.groupby('Survived')['Age'].hist(alpha=0.5)
+```python
+df.groupby('Survived')['Age'].hist(alpha=0.5)
+```
 
 ----
 
@@ -45,11 +47,12 @@ Erstelle ein Histogramm nach dem Alter und nach Überleben gruppiert:
 
 Erstelle ein Balkendiagramm mit den Häufigkeiten gruppiert nach Passagierklasse nach Überleben:
 
-    :::python3
-    g = df.groupby(['Survived', 'Pclass'])
-    g = g['Name'].count()
-    g = g.unstack()
-    g.plot().bar()
+```python
+g = df.groupby(['Survived', 'Pclass'])
+g = g['Name'].count()
+g = g.unstack()
+g.plot().bar()
+```
 
 **Wozu dient der Befehl `unstack`?**
 
@@ -65,8 +68,9 @@ Gruppiere als drittes Kriterium zusätzlich nach Geschlecht.
 
 Jetzt plotten wir alles gegen alles!
 
-    :::python3
-    pd.scatter_matrix(df, figsize=(15,15))
+```python
+pd.scatter_matrix(df, figsize=(15,15))
+```
 
 **Anmerkung:** Da die meisten der Daten *kategorisch* sind, kann man im Diagramm nicht so viel sehen. Die Darstellung ist aber oft so praktisch, daß ich sie hier nicht vorenthalten wollte.
 
@@ -78,8 +82,9 @@ Färbe die Überlebenden blau ein und die Ertrunkenen rot. Schreibe dazu eine Fu
 
 Damit können wir eine Spalte mit Farbangaben erstellen:
 
-    :::python3
-    col = df['Survived'].apply(make_color)
+```python
+col = df['Survived'].apply(make_color)
+```
 
 Und diese als zusätzlichen Parameter `c=col` in der Funktion `scatter_matrix` angeben.
 
@@ -95,14 +100,16 @@ Wähle alle Spalten außer `"Survived"` für den Paarplot aus.
 
 Lösche die Spalten `"Name"` und `"Cabin"` aus dem Datensatz.
 
-    :::python3
-    del df['Name']
-    ...
+```python
+del df['Name']
+...
+```
 
 Fülle die fehlenden Werte in der Spalte `"Age"` mit
 
-    :::python3
-    df.fillna(df['Age'].median(), inplace=True)
+```python
+df.fillna(df['Age'].median(), inplace=True)
+```
 
 ----
 
@@ -117,10 +124,11 @@ Fülle die fehlenden Werte in der Spalte `"Age"` mit
 
 Teile den Datensatz in Trainings- und Testdaten auf:
 
-    :::python3
-    from sklearn.model_selection import train_test_split
+```python
+from sklearn.model_selection import train_test_split
 
-    Xtrain, ytrain, Xtest, ytest = train_test_split(X, y, random_state=0)
+Xtrain, ytrain, Xtest, ytest = train_test_split(X, y, random_state=0)
+```
 
 **Überlege, warum diese Aufteilung wichtig ist.**
 
@@ -130,15 +138,17 @@ Teile den Datensatz in Trainings- und Testdaten auf:
 
 Nun erstelle eines der einfachsten möglichen maschinellen Lernmodelle nach dem k-nächste-Nachbarn-Verfahren:
 
-    :::python3
-    from sklearn.neighbors import KNeighborsClassifier
+```python
+from sklearn.neighbors import KNeighborsClassifier
 
-    m = KNeighborsClassifier(n_neighbors=1)
+m = KNeighborsClassifier(n_neighbors=1)
+```
 
 und trainiere das Modell mit den Trainingsdaten:
 
-    :::python3
-    m.fit(Xtrain, ytrain)
+```python
+m.fit(Xtrain, ytrain)
+```
 
 ----
 
@@ -146,8 +156,9 @@ und trainiere das Modell mit den Trainingsdaten:
 
 Berechne die Genauigkeit des Modells für die Trainingsdaten:
 
-    :::python3
-    print(m.score(Xtrain, ytrain))
+```python
+print(m.score(Xtrain, ytrain))
+```
 
 Berechne die Genauigkeit auch für die Testdaten. Vergleiche die Zahlen und erkläre die Unterschiede.
 
@@ -159,17 +170,19 @@ Berechne die Genauigkeit auch für die Testdaten. Vergleiche die Zahlen und erkl
 
 Erstelle Datensätze für weitere Passagiere:
 
-    :::python3
-    import numpy as np
+```python
+import numpy as np
 
-    leo = np.array([[22, 3]])
-    kate = np.array([[25, 1]])
+leo = np.array([[22, 3]])
+kate = np.array([[25, 1]])
+```
 
 und erstelle eine Vorhersage für diese:
 
-    :::python3
-    print(m.predict(leo))
-    print(m.predict(kate))
+```python
+print(m.predict(leo))
+print(m.predict(kate))
+```
 
 ----
 
@@ -183,13 +196,15 @@ Wiederhole den Modellbau, indem Du mehr Daten berücksichtigst. Nimm 2-3 zusätz
 
 Um die *kategorischen* Merkmale `"Sex"` oder `"Embarked"` mit aufzunehmen, benötigst Du folgende Funktion:
 
-    :::python3
-    dummies = pd.get_dummies(df['Sex'])
+```python
+dummies = pd.get_dummies(df['Sex'])
+```
 
 baue eine der Dummy-Variablen in Deinen Datensatz ein, bevor Du ihn in Trainings- und Testdaten aufteilst:
 
-    :::python3
-    df['female'] = dummies['female']
+```python
+df['female'] = dummies['female']
+```
 
 Wie verändert sich die Genauigkeit des Modells?
 
@@ -218,9 +233,10 @@ Welche Genauigkeit erreichst du?
 
 Schaue Dir die berechneten Koeffizienten von `LogisticRegression` an:
 
-    :::python3
-    for label, coef in zip(X.columns, m.coef_):
-        print("{:10s}\t{:8.3f}".format(lab, coef))
+```python
+for label, coef in zip(X.columns, m.coef_):
+    print("{:10s}\t{:8.3f}".format(lab, coef))
+```
 
 ----
 
@@ -228,13 +244,14 @@ Schaue Dir die berechneten Koeffizienten von `LogisticRegression` an:
 
 Skaliere die Eingabedaten der logistischen Regression:
 
-    :::python3
-    from sklearn.preprocessing import MinMaxScaler
+```python
+from sklearn.preprocessing import MinMaxScaler
 
-    scaler = MinMaxScaler()
-    scaler.fit(Xtrain)
-    Xtrain = scaler.transform(Xtrain)
-    Xtest = scaler.transform(Xtest)
+scaler = MinMaxScaler()
+scaler.fit(Xtrain)
+Xtrain = scaler.transform(Xtrain)
+Xtest = scaler.transform(Xtest)
+```
 
 Trainiere das Modell mit dem skalierten `Xtrain`.
 

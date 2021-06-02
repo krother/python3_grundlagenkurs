@@ -7,16 +7,17 @@
 
 Der folgende Code hilft beim Prüfen der Ergebnisse:
 
-    :::python3
-    def test_roman(self):
-        assert roman2arabic("I") == 1
-        assert roman2arabic("XI") == 11
-        assert roman2arabic("IX") == 9
-        assert roman2arabic("CLI") == 151
-        assert roman2arabic("XCIII") == 93
-        assert roman2arabic("CCXCIV") == 294
-        assert roman2arabic("MCM") == 1900
-        assert roman2arabic("MI") == 1001
+```python
+def test_roman(self):
+    assert roman2arabic("I") == 1
+    assert roman2arabic("XI") == 11
+    assert roman2arabic("IX") == 9
+    assert roman2arabic("CLI") == 151
+    assert roman2arabic("XCIII") == 93
+    assert roman2arabic("CCXCIV") == 294
+    assert roman2arabic("MCM") == 1900
+    assert roman2arabic("MI") == 1001
+```
 
 ## Hinweise
 

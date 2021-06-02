@@ -24,13 +24,14 @@ In diesem Kapitel verwenden wir die Bibliothek `matplotlib`, um  einfache Diagra
 
 Führe folgendes Programm aus:
 
-    :::python3
-    from matplotlib import pyplot as plt
+```python
+from matplotlib import pyplot as plt
 
-    x = [1, 2, 3, 4, 5]
-    y = [2, 5, 7, -3, 9]
+x = [1, 2, 3, 4, 5]
+y = [2, 5, 7, -3, 9]
 
-    plt.plot(x, y)
+plt.plot(x, y)
+```
 
 ----
 
@@ -48,10 +49,11 @@ Ersetze `plot` nacheinander durch folgende Funktionen:
 
 Folgendes Programm enthält einen Fehler. Finde und behebe ihn.
 
-    :::python3
-    from matplotlib import pyplot as plt
+```python
+from matplotlib import pyplot as plt
 
-    plt.scatter([4, 2, 4], [4, 4, 2, 2])
+plt.scatter([4, 2, 4], [4, 4, 2, 2])
+```
 
 ----
 
@@ -59,17 +61,18 @@ Folgendes Programm enthält einen Fehler. Finde und behebe ihn.
 
 Fülle die Lücken im Programm, um eine *Parabel* zu zeichnen:
 
-    :::python3
-    from ____ ____ pyplot as ____
+```python
+from ____ ____ pyplot as ____
 
-    x = ____
-    y = []
+x = ____
+y = []
 
-    for i in ____(-10, 10):
-        x.append(i)
-        y.append(____)
+for i in ____(-10, 10):
+    x.append(i)
+    y.append(____)
 
-    plt.____(x, y)
+plt.____(x, y)
+```
 
 ----
 
@@ -77,11 +80,12 @@ Fülle die Lücken im Programm, um eine *Parabel* zu zeichnen:
 
 Schreibe ein Programm, das eine Sinusfunktion zeichnet. Verwende die Funktion:
 
-    :::python3
-    import math
+```python
+import math
 
-    rad = 3.14159
-    math.sin(rad)
+rad = 3.14159
+math.sin(rad)
+```
 
 #### Hinweis:
 

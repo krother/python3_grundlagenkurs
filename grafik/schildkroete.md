@@ -30,16 +30,17 @@ Führe das folgende Programm aus:
 
 Erkläre das folgende Programm:
 
-    :::python3
-    import turtle
+```python
+import turtle
 
-    strecke = 100
-    turtle.forward(strecke)
-    turtle.left(90)
-    strecke = strecke - 50
-    print(strecke)
-    turtle.forward(strecke)
+strecke = 100
+turtle.forward(strecke)
+turtle.left(90)
+strecke = strecke - 50
+print(strecke)
+turtle.forward(strecke)
 
+```
 
 ### Aufgabe 3
 
@@ -61,10 +62,11 @@ Zeichne ein Dreieck:
 
 Zeichne das Haus vom Nikolaus. Eine Wurzel kannst Du mit dem Modul `math` berechnen:
 
-    :::python3
-    import math
+```python
+import math
 
-    vier = math.sqrt(16)
+vier = math.sqrt(16)
+```
 
 ![Das Haus vom Nikolaus](images/nikohaus.svg)
 
@@ -74,9 +76,10 @@ Zeichne das Haus vom Nikolaus. Eine Wurzel kannst Du mit dem Modul `math` berech
 
 Schreibe ein Programm, bei dem der Nutzer die Größe des gezeichneten Quadrats einstellen kann. Du kannst eine Zahl mit folgendem Befehl einlesen:
 
-    :::python3
-    zahl = int(input("Gib eine Zahl ein: "))
-    print(zahl)
+```python
+zahl = int(input("Gib eine Zahl ein: "))
+print(zahl)
+```
 
 ----
 

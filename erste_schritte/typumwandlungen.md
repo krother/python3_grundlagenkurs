@@ -30,15 +30,16 @@ Mit den Funktionen `int()`, `float()` und `str()` lassen sich Zahlen und Strings
 
 Setze die folgenden Teile in den Code ein, so dass alle Befehle korrekt ausgeführt werden: `alter`, `int(alter)`, `name`, `str(geboren)`, `1815`
 
-    :::python3
-    name = "Ada Lovelace"
-    geboren = _____
-    ____ = "37"
+```python
+name = "Ada Lovelace"
+geboren = _____
+____ = "37"
 
-    text = ____ + " kam im Jahr " + _____ + " zur Welt."
-    jahr = geboren + _____
-    print(text)
-    print(jahr)
+text = ____ + " kam im Jahr " + _____ + " zur Welt."
+jahr = geboren + _____
+print(text)
+print(jahr)
+```
 
 ----
 
@@ -46,11 +47,12 @@ Setze die folgenden Teile in den Code ein, so dass alle Befehle korrekt ausgefü
 
 Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle funktionieren.
 
-    :::python3
-    9 + 9
-    9 + '9'
-    '9' + '9'
-    9 * '9'
+```python
+9 + 9
+9 + '9'
+'9' + '9'
+9 * '9'
+```
 
 ----
 
@@ -58,14 +60,15 @@ Ergänze die folgenden Anweisungen durch `int()` oder `str()`, so daß sie alle 
 
 Welche `print`-Anweisungen funktionieren?
 
-    :::python3
-    print("9" + "9")
-    print "neun"
-    print(str(9) + "neun")
-    print(9 + 9)
-    print(9 + int("9"))
-    print(neun)
-    print(float("9") + int(9.0))
+```python
+print("9" + "9")
+print "neun"
+print(str(9) + "neun")
+print(9 + 9)
+print(9 + int("9"))
+print(neun)
+print(float("9") + int(9.0))
+```
 
 ----
 
@@ -75,9 +78,11 @@ Das folgende Programm soll das Alter von Ada in einem einzugebenden Jahr berechn
 Es enthält drei Fehler.
 Finde und behebe sie.
 
-    :::python3
-    geburtsjahr = 1815
-    jahr = input('Welches Jahr schreiben wir? ')
-    alter = geburtsjahr - jahr
+```python
+geburtsjahr = 1815
+jahr = input('Welches Jahr schreiben wir? ')
+alter = geburtsjahr - jahr
 
-    print("Ada Lovelace wäre heute " + alter + "  Jahre alt.")    
+print("Ada Lovelace wäre heute " + alter + "  Jahre alt.")    
+```
+

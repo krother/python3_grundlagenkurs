@@ -3,19 +3,20 @@
 
 **🎯 Finde den Weg aus dem Labyrinth.**
 
-    :::python3
-    maze = """
-    ############
-    #     # ##S#
-    ### #      #
-    ### ###### #
-    ###   # ## #
-    # ## ## ## #
-    #    #     #
-    #X##########""".strip().split('\n')
+```python
+maze = """
+############
+#     # ##S#
+### #      #
+### ###### #
+###   # ## #
+# ## ## ## #
+#    #     #
+#X##########""".strip().split('\n')
 
-    x, y = (10, 1)
-    target = (1, 7)
+x, y = (10, 1)
+target = (1, 7)
+```
 
 Schreibe eine Funktion, die das Labyrinth (den Graphen) abschreitet, bis der Ausgang (`X`) erreicht ist.
 

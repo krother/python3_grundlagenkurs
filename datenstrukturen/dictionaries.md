@@ -18,9 +18,10 @@ Finde heraus, was jeder der Ausdrücke mit dem Dictionary in der Mitte anstellt.
 
 Was haben folgende Anweisungen zum Ergebnis?
 
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
-    print(d['fish'])
+```python
+d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+print(d['fish'])
+```
 
 ----
 
@@ -28,9 +29,10 @@ Was haben folgende Anweisungen zum Ergebnis?
 
 Was haben folgende Anweisungen zum Ergebnis?
 
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
-    print('Hund' in d)
+```python
+d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+print('Hund' in d)
+```
 
 ----
 
@@ -38,9 +40,10 @@ Was haben folgende Anweisungen zum Ergebnis?
 
 Was haben folgende Anweisungen zum Ergebnis?
 
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
-    print(list(d.keys()))
+```python
+d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+print(list(d.keys()))
+```
 
 ----
 
@@ -48,9 +51,10 @@ Was haben folgende Anweisungen zum Ergebnis?
 
 Was haben folgende Anweisungen zum Ergebnis?
 
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
-    print(d.get('Katze', 'unknown'))
+```python
+d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+print(d.get('Katze', 'unknown'))
+```
 
 ----
 
@@ -58,10 +62,11 @@ Was haben folgende Anweisungen zum Ergebnis?
 
 Was haben folgende Anweisungen zum Ergebnis?
 
-    :::python3
-    d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
-    d.setdefault('cat', 'Stubentiger')
-    print(d['cat'])
+```python
+d = {'cat':'Katze', 'dog':'Hund', 'fish':'Fisch'}
+d.setdefault('cat', 'Stubentiger')
+print(d['cat'])
+```
 
 ----
 
@@ -70,24 +75,26 @@ Was haben folgende Anweisungen zum Ergebnis?
 Im folgenden Programm kannst Du von Stadt zu Stadt reisen.
 Leider enthält es 3 Fehler. Finde und repariere sie.
 
-    :::python3
-    staedte = {
-        "New York": ["Tokyo", "Paris", "London"],
-        "Poznan": ["London", "Berlin"],
-        "London": ["New York", "Poznan"]
-        "Berlin": ["Tokyo", "Poznan"],
-        "Tokyo": ["New York", "Berlin"],
-        "Paris": ["Katmandu"]
-        }
+```python
+staedte = {
+    "New York": ["Tokyo", "Paris", "London"],
+    "Poznan": ["London", "Berlin"],
+    "London": ["New York", "Poznan"]
+    "Berlin": ["Tokyo", "Poznan"],
+    "Tokyo": ["New York", "Berlin"],
+    "Paris": ["Katmandu"]
+    }
 
-    standort = "Paris"
+standort = "Paris"
 
-    print "\nDeine Aufgabe: fliege nach Katmandu\n"
+print "\nDeine Aufgabe: fliege nach Katmandu\n"
 
-    while standort not in staedte or standort == 'Katmandu':
-        print(f"Du bist in {standort}")
+while standort not in staedte or standort == 'Katmandu':
+    print(f"Du bist in {standort}")
 
-    print("Es gibt Flüge nach ", staedte[standort])
-    standort = input("Wohin möchtest du fliegen?")
+print("Es gibt Flüge nach ", staedte[standort])
+standort = input("Wohin möchtest du fliegen?")
 
-    print("Du hast dein Ziel erreicht")
+print("Du hast dein Ziel erreicht")
+```
+

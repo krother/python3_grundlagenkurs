@@ -26,8 +26,9 @@ Die Python-Bibliothek [`arcade`](http://arcade.academy/) ist eine Bibliothek zum
 
 Zunächst installiere die Bibliothek mit:
 
-    :::bash
-    pip install arcade
+```bash
+pip install arcade
+```
 
 Auf manchen Systemen sind einige zusätzliche Schritte notwendig. Zur Sicherheit solltest Du das in der [Dokumentation zu `arcade`](http://arcade.academy/) überprüfen.
 
@@ -41,17 +42,19 @@ Die Grundlage für Spiele ist die Klasse `arcade.Window`. Diese musst Du importi
 
 und eine abgeleitete Klasse definieren. Gib der Klasse die Methode `__init__()` mit auf den Weg, in der Du Fenstergröße und -titel definierst:
 
-    :::python3
-    class Labyrinth(arcade.Window):
+```python
+class Labyrinth(arcade.Window):
 
-        def __init__(self):
-            super().__init__(600, 600, "Labyrinth")
+    def __init__(self):
+        super().__init__(600, 600, "Labyrinth")
+```
 
 Nun kannst Du ein `Labyrinth`-Objekt erstellen und laufen lassen:
 
-    :::python3
-    laby = Labyrinth()
-    arcade.run()
+```python
+laby = Labyrinth()
+arcade.run()
+```
 
 Beim Ausführen des Programms solltest Du ein schwarzes Fenster sehen, das bei Programmabbruch verschwindet. Bei einigen Entwicklungsumgebungen (darunter Anaconda Spyder) kann das Fenster im Hintergrund erscheinen. Suche es mit `Alt+Tab`.
 
@@ -65,10 +68,11 @@ Nun müssen wir Grafikelemente laden und anzeigen. Du findest einige in der Date
 
 Lade einzelne Grafikelemente mit `arcade.load_texture()`. Als Parameter sind der Dateiname, die Position und Größe des Grafikelements nötig. Alle Elemente haben die Größe `32 x 32` Pixel:
 
-    :::python3
-    wand = load_texture("tiles.png", 0, 0, 32, 32)
-    boden = load_texture("tiles.png", 0, 32, 32, 32)
-    pac = load_texture("tiles.png", 0, 64, 32, 32)
+```python
+wand = load_texture("tiles.png", 0, 0, 32, 32)
+boden = load_texture("tiles.png", 0, 32, 32, 32)
+pac = load_texture("tiles.png", 0, 64, 32, 32)
+```
 
 Plaziere diese Befehle *vor* der Klassendefinition.
 
@@ -80,10 +84,11 @@ Wenn Du möchtest, kannst Du die Grafiken auch in einer intelligenteren Datenstr
 
 Nun fügen wir der Klasse `Labyrinth` eine Methode `on_draw()` hinzu, die Grafik zeichnet. Diese wird von `arcade` automatisch in regelmäßigen Zeitabständen aufgerufen. Wir müssen nur noch angeben, welches Grafikelement wo auf dem Bildschirm erscheinen soll:
 
-    :::python3
-    def on_draw(self):
-        arcade.start_render()
-        pac.draw(300, 300, 32, 32)
+```python
+def on_draw(self):
+    arcade.start_render()
+    pac.draw(300, 300, 32, 32)
+```
 
 Achte darauf, die Methode so einzurücken, dass sie sich *innerhalb* der Klasse befindet (auf gleicher Höhe mit `__init__()`). Die Funktion `start_render()` sorgt dafür, dass die Grafik nicht flimmert oder ruckelt.
 
@@ -99,9 +104,10 @@ Als nächstes wirst Du die Position der Spielfigur speichern und auf Tastendruck
 
 Speichere zunächst die x/y-Position der Spielfigur als **Zustandsvariable** oder **Attribut** in der Klasse. Die Startposition läßt sich am Besten in der `__init__()`-Methode festlegen, da diese als Erstes aufgerufen wird:
 
-    :::python3
-    self.xpos = 300
-    self.ypos = 300
+```python
+self.xpos = 300
+self.ypos = 300
+```
 
 Wir benötigen den Parameter `self`, um auf den Zustand der Klasse zuzugreifen. Andernfalls vergisst Python die Variable, sobald die Funktion beendet ist (man sagt auch, ihr *Gültigkeitsbereich (scope)* endet).
 
@@ -117,16 +123,18 @@ Wir benötigen den Parameter `self`, um auf den Zustand der Klasse zuzugreifen. 
 
 Für die Tastaturabfrage benötigst Du die Pfeiltasten:
 
-    :::python3
-    from arcade.key import MOTION_UP, MOTION_DOWN, \
-                           MOTION_LEFT, MOTION_RIGHT
+```python
+from arcade.key import MOTION_UP, MOTION_DOWN, \
+                       MOTION_LEFT, MOTION_RIGHT
+```
 
 Die Methode `on_key_press()` wird ebenfalls automatisch aufgerufen, wenn eine Taste gedrückt wird. Je nach Taste kannst Du die Position der Spielfigur verändern:
 
-    :::python3
-    def on_key_press(self, taste, mod):
-        if taste == MOTION_RIGHT:
-            self.xpos += 32
+```python
+def on_key_press(self, taste, mod):
+    if taste == MOTION_RIGHT:
+        self.xpos += 32
+```
 
 Nun sollte sich die Figur nach rechts bewegen!
 
@@ -138,8 +146,9 @@ Die anderen Bewegungsrichtungen bekommst Du selbst hin!
 
 Importiere `ESCAPE` aus dem Modul `arcade.key`. Füge eine zusätzliche Bedingung dazu, die bei Drücken der Escape-Taste folgende Funktion aufruft:
 
-    :::python3
-    arcade.window_commands.close_window()
+```python
+arcade.window_commands.close_window()
+```
 
 Damit sollte das Schließen des Fensters deutlich bequemer werden.
 
@@ -151,25 +160,27 @@ Damit auf dem Bildschirm etwas mehr los ist, brauchen wir ein Spielfeld. Dieses 
 
 Das Spielfeld lässt sich am Besten als String definieren. So lässt es sich leicht editieren. Ein `#` steht für eine Wand, ein `.` für Boden:
 
-    :::python3
-    LABYRINTH = """
-    ##########
-    #........#
-    #.#.####.#
-    #.#......#
-    #.#....#.#
-    #.#....#.#
-    #......#.#
-    #.####.#.#
-    #........#
-    ##########"""
+```python
+LABYRINTH = """
+##########
+#........#
+#.#.####.#
+#.#......#
+#.#....#.#
+#.#....#.#
+#......#.#
+#.####.#.#
+#........#
+##########"""
+```
 
 Wandle das Spielfeld in eine Liste von Listen um. So kannst Du einfacher auf eine bestimmte Zeile und Spalte zugreifen:
 
-    :::python3
-    LEVEL = []
-    for zeile in LABYRINTH.strip().split():
-        LEVEL.append(list(zeile))
+```python
+LEVEL = []
+for zeile in LABYRINTH.strip().split():
+    LEVEL.append(list(zeile))
+```
 
 Füge diesen Code **vor** der Klassendefinition ein.
 
@@ -179,11 +190,12 @@ Füge diesen Code **vor** der Klassendefinition ein.
 
 Um das Spielfeld zu zeichnen musst Du alle Kacheln aus `LEVEL` an der richtigen Stelle zeichnen. Schreibe dazu eine doppelte `for`-Schleife:
 
-    :::python3
-    for y, zeile in enumerate(LEVEL):
-        for x, char in enumerate(zeile):
-            if char == '#':
-                wand.draw(x * 32, y * 32, 32, 32)
+```python
+for y, zeile in enumerate(LEVEL):
+    for x, char in enumerate(zeile):
+        if char == '#':
+            wand.draw(x * 32, y * 32, 32, 32)
+```
 
 Setze diesen Code in die `on_draw()`-Methode ein.
 
@@ -197,8 +209,9 @@ Noch sind weder die Karte noch die  Spielfigur an der richtigen Stelle.
 
 Zentriere das Spielfeld, indem Du zu den Koordinaten der Wände einen festen Betrag addierst:
 
-    :::python3
-    wand.draw(x * 32 + ____, y * 32 + ____, 32, 32)
+```python
+wand.draw(x * 32 + ____, y * 32 + ____, 32, 32)
+```
 
 Setze Zahlen ein, die aus Deiner Sicht gut aussehen.
 
@@ -208,20 +221,23 @@ Setze Zahlen ein, die aus Deiner Sicht gut aussehen.
 
 Für den letzten Schliff setze die Spielfigur auf die Gitterkoordinaten des Spielfeldes. Stelle dazu in `__init__()` die Position auf Gitterkoordinaten um:
 
-    :::python3
-    self.xpos = 5
-    self.ypos = 5
+```python
+self.xpos = 5
+self.ypos = 5
+```
 
 Verwende zum Zeichnen der Spielfigur die gleiche Formel wie für das Spielfeld:
 
-    :::python3
-    pac.draw(self.xpos * 32 + ____, self.ypos * 32 + ____, 32, 32)
+```python
+pac.draw(self.xpos * 32 + ____, self.ypos * 32 + ____, 32, 32)
+```
 
 Achte darauf, beim Bewegen in `on_key_press()` die Koordinaten nicht mehr um `32`, sondern nur noch um `1` zu verändern:
 
-    :::python3
-    if taste == MOTION_RIGHT:
-        self.xpos += 1
+```python
+if taste == MOTION_RIGHT:
+    self.xpos += 1
+```
 
 Dieser Trick macht es übrigens **viel** einfacher, Interaktionen mit der Umgebung zu programmieren.
 
@@ -231,8 +247,9 @@ Dieser Trick macht es übrigens **viel** einfacher, Interaktionen mit der Umgebu
 
 ### Wie kann ich prüfen, welches Grafikelement an der Position der Spielfigur liegt?
 
-    :::python3
-    LEVEL[self.ypos][self.xpos]
+```python
+LEVEL[self.ypos][self.xpos]
+```
 
 ----
 
@@ -251,8 +268,9 @@ Bei den anderen Richtungen ist der Code ähnlich.
 
 ### Wie kann ich etwas auf der Karte platzieren?
 
-    :::python3
-    LEVEL[self.ypos][self.xpos] = '#'
+```python
+LEVEL[self.ypos][self.xpos] = '#'
+```
 
 ----
 
@@ -266,10 +284,11 @@ Ja. Schaue bitte in der Dokumentation von `arcade` nach wie es geht.
 
 Wie bei der Spielfigur, kannst Du Koordinaten in `__init__()` definieren. Da die Bewegung aber auch erfolgen soll, wenn der Spieler grade nichts macht, verwende die Methode `update()`, die ebenfalls automatisch von `arcade` aufgerufen wird:
 
-    :::python3
-    def update(self, delta):
-        # hier Geist bewegen
-        ...
+```python
+def update(self, delta):
+    # hier Geist bewegen
+    ...
+```
 
 ----
 

@@ -3,8 +3,9 @@
 
 **🎯 Berechne die Fakultät der Zahl 10:**
 
-    :::text
-    1 * 2 * 3 * 4 ... * 10
+```text
+1 * 2 * 3 * 4 ... * 10
+```
 
 ## Hinweise
 

@@ -34,12 +34,13 @@ Verwende die Bibliothek **Pillow**, um Bilder in Spyder anzuzeigen.
 
 Erstelle eine neue Programmdatei mit folgenden Anweisungen:
 
-    :::python3
-    from PIL import Image
-    from IPython.display import display
+```python
+from PIL import Image
+from IPython.display import display
 
-    bild = Image.open('rainbow.jpg')
-    display(bild)
+bild = Image.open('rainbow.jpg')
+display(bild)
+```
 
 Speichere das Programm und führe es dann aus.
 Du solltest das Bild rechts unten in der **Ausgabekonsole** sehen.
@@ -48,8 +49,9 @@ Falls Du eine Fehlermeldung siehst, liegt das Bild wahrscheinlich woanders (es m
 
 Falls Du überhaupt nichts siehst (z.B. weil Du einen anderen Editor verwendest), kannst Du statt `display()` auch diesen Befehl ausprobieren:
 
-    :::python3
-    bild.show()
+```python
+bild.show()
+```
 
 ----
 
@@ -61,13 +63,14 @@ Verschiebe den ganzen Ordner `bilder` dorthin, wo Du Deine Python-Programme spei
 
 Definiere eine Variable mit dem Namen des Ordners (im Fachjargon *"Pfad"*):
 
-    :::python3
-    from PIL import Image
-    from IPython.display import display
+```python
+from PIL import Image
+from IPython.display import display
 
-    pfad = 'bilder/'
-    bild = Image.open(pfad + 'flower.jpg')
-    display(bild)
+pfad = 'bilder/'
+bild = Image.open(pfad + 'flower.jpg')
+display(bild)
+```
 
 Der Schrägstrich (*forward slash*) ist sehr wichtig, um Namen von Verzeichnissen und Dateien zu trennen. Python ist sehr pingelig beim Unterscheiden von Schrägstrichen (`/`) und Backslashes (`\`).
 
@@ -79,16 +82,18 @@ Falls Du eine Fehlermeldung siehst, liegen die Bilder wahrscheinlich woanders (d
 
 Erstelle eine Liste mit Namen von Bildern:
 
-    :::python3
-    bilder = ['rainbow.jpg', 'flower.jpg', 'pebbles.jpg']
-    for dateiname in bilder:
-        bild = Image.open(pfad + dateiname)
-        display(bild)
+```python
+bilder = ['rainbow.jpg', 'flower.jpg', 'pebbles.jpg']
+for dateiname in bilder:
+    bild = Image.open(pfad + dateiname)
+    display(bild)
+```
 
 Füge dem Programm folgende Anweisung hinzu:
 
-    :::python3
-    input('drücke <Enter> für das nächste Bild')
+```python
+input('drücke <Enter> für das nächste Bild')
+```
 
 Wo musst Du den Befehl einfügen, damit Du jedes Mal drücken musst, um das nächste Bild zu sehen?
 
@@ -102,16 +107,18 @@ Die Zählvariable soll sich bei jedem Schleifendurchlauf um 1 erhöhen, so dass 
 
 Sortiere die folgenden Befehle in das Programm aus dem letzten Schritt ein:
 
-    :::python3
-    print(titel)
-    i = i + 1
-    i = 0
-    titel = f"Bild Nr. {i}"
+```python
+print(titel)
+i = i + 1
+i = 0
+titel = f"Bild Nr. {i}"
+```
 
 Wenn alles funktioniert, solltest Du unter jedem Bild eine Unterschrift mit der richtigen Nummer sehen, z.B.:
 
-    :::text
-    Bild Nr. 1
+```text
+Bild Nr. 1
+```
 
 ----
 
@@ -135,9 +142,10 @@ Probiere aus, was Du mit folgenden Befehlen erhälst:
 
 Setze die Variable `i` aus der vorigen Aufgabe in die eckige Klammer ein, um zu jedem Bild den passenden Text auszugeben, z.B.:
 
-    :::text
-    Bild Nr. 1
-    bunte Ölschlieren von Daniel Olah
+```text
+Bild Nr. 1
+bunte Ölschlieren von Daniel Olah
+```
 
 ----
 
@@ -146,20 +154,21 @@ Setze die Variable `i` aus der vorigen Aufgabe in die eckige Klammer ein, um zu 
 Die Bibliothek **Pillow** kann noch viel mehr.
 Probiere nacheinander die folgenden Anweisungen aus. Finde heraus was sie tun:
 
-    :::python3
-    x, y = bild.size
-    print(x, y)
+```python
+x, y = bild.size
+print(x, y)
 
-    b = bild.resize((500, 500))
-    display(b)
+b = bild.resize((500, 500))
+display(b)
 
-    b = bild.rotate(45)
-    display(b)
+b = bild.rotate(45)
+display(b)
 
-    b = bild.crop((100, 100, 300, 300))
-    display(b)
+b = bild.crop((100, 100, 300, 300))
+display(b)
 
-    bild.save('neues_bild.png')
+bild.save('neues_bild.png')
+```
 
 Du findest eine sehr, sehr ausführliche Dokumentation von Pillow auf [pillow.readthedocs.io ](https://pillow.readthedocs.io).
 
@@ -171,9 +180,10 @@ Verwende Deine eigenen Bilder und beschrifte sie.
 
 Um die letze Eingabe zu unterdrücken, kannst Du den `input()`-Befehl abwandeln:
 
-    :::python3
-    if i < len(bilder):
-        input('nächstes Bild')
+```python
+if i < len(bilder):
+    input('nächstes Bild')
+```
 
 Führe die fertige Diashow vor.
 

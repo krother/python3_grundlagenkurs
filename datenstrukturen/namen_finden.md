@@ -24,16 +24,17 @@ Am Ende des Kapitels werden wir ein Balkendiagramm zeichnen.
 
 Erstelle in einem Texteditor eine Datei namens `bigbang.txt`. Fülle sie mit folgenden Daten:
 
-    :::bash
-    Emily,F,12562
-    Amy,F,2178
-    Penny,F,342
-    Bernadette,F,129
-    Leonard,M,384
-    Howard,M,208
-    Sheldon,M,164
-    Stuart,M,82
-    Raj,M,41
+```bash
+Emily,F,12562
+Amy,F,2178
+Penny,F,342
+Bernadette,F,129
+Leonard,M,384
+Howard,M,208
+Sheldon,M,164
+Stuart,M,82
+Raj,M,41
+```
 
 (Dies sind die gleichen Daten wie im vorigen Kapitel.)
 
@@ -43,11 +44,12 @@ Erstelle in einem Texteditor eine Datei namens `bigbang.txt`. Fülle sie mit fol
 
 Bringe das Programm zum Lesen der Datei zum Laufen, indem Du `close`, `line`, `"bigbang.txt"` und `print` in die Lücken einsetzt.
 
-    :::python3
-    f = open(___)
-    for ____ in f:
-        ____(line)
-    f.____()
+```python
+f = open(___)
+for ____ in f:
+    ____(line)
+f.____()
+```
 
 #### ACHTUNG:
 
@@ -88,17 +90,18 @@ Schreibe ein Programm, das die Datei `yob2015.txt` einliest. Finde alle Zeilen, 
 
 Das folgende Programm sammelt Namen, die mindestens 10000x verwendet wurden, in einer Liste. Leider enthält das Programm **vier Fehler**. Finde und korrigiere diese.
 
-    :::python3
-    häufige = []
+```python
+häufige = []
 
-    for line in open('names/yob2015.txt'):
-        spalten = line.strip().split(',')
-        name = spalten[1]
-        anzahl = int(spalten[3])
-        if anzahl >= 10000
-            häufige.append(name)
+for line in open('names/yob2015.txt'):
+    spalten = line.strip().split(',')
+    name = spalten[1]
+    anzahl = int(spalten[3])
+    if anzahl >= 10000
+        häufige.append(name)
 
-    print(haeufige)
+print(haeufige)
+```
 
 ----
 
@@ -114,23 +117,24 @@ Sammle Namen, die mit `'M'` anfangen und auf `'m'` enden in einer Liste. Gib die
 
 Führe dieses Programm aus:
 
-    :::python3
-    from matplotlib import pyplot as plt
+```python
+from matplotlib import pyplot as plt
 
-    plt.figure()
+plt.figure()
 
-    x = range(3)
-    y = [115, 11, 259]
-    labels = ["I", "IV", "VII"]
+x = range(3)
+y = [115, 11, 259]
+labels = ["I", "IV", "VII"]
 
-    plt.xticks(x, labels)
-    plt.bar(x, y)
+plt.xticks(x, labels)
+plt.bar(x, y)
 
-    plt.title('Kosten von Star-Wars-Filmen')
-    plt.xlabel('Episode')
-    plt.ylabel('Budget (Mio USD)')
+plt.title('Kosten von Star-Wars-Filmen')
+plt.xlabel('Episode')
+plt.ylabel('Budget (Mio USD)')
 
-    plt.savefig('starwars.png')
+plt.savefig('starwars.png')
+```
 
 ----
 

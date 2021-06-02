@@ -74,8 +74,9 @@ Wenn alles geklappt hat, sollte Dein Bildschirm etwa so aussehen:
 
 Tippe folgende Berechnung in das **Editorfenster**:
 
-    :::python3
-    print(1 + 1)
+```python
+print(1 + 1)
+```
 
 Führe die Anweisung mit dem **Programm ausführen**-Knopf aus.
 

@@ -18,10 +18,11 @@ In den ersten Übungen hast Du vermutlich bereits mehrere Programmiertechniken v
 
 Du kannst diese Techniken zu einem einfachen Schema kombinieren:
 
-    :::bash
-    1. Editiere das Programm
-    2. Führe das Programm aus
-    3. Wenn es noch nicht funktioniert, zurück zu 1.
+```bash
+1. Editiere das Programm
+2. Führe das Programm aus
+3. Wenn es noch nicht funktioniert, zurück zu 1.
+```
 
 Wahrscheinlich bist Du schon von alleine darauf gekommen.
 

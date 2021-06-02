@@ -26,11 +26,12 @@ Dieses Flussdiagramm zeigt schematisch ein Programm zum Zählen von Anfangsbuchs
 
 Nimm an, das folgende Datei verarbeitet wird:
 
-    :::bash
-    Penny,F,342
-    Leonard,M,384
-    Sheldon,M,164
-    Stuart,M,82
+```bash
+Penny,F,342
+Leonard,M,384
+Sheldon,M,164
+Stuart,M,82
+```
 
 Beantworte folgende Fragen:
 
@@ -48,12 +49,13 @@ Schreibe zuerst den Code für die **erste** und die **letzte** Box im Flussdiagr
 
 Im leeren Dictionary kannst Du den Wert für alle Buchstaben auf `0` setzen:
 
-    :::python3
-    data = {
-    	'A': 0,
-    	'B': 0,
-    	...
-    }
+```python
+data = {
+	'A': 0,
+	'B': 0,
+	...
+}
+```
 
 Dies ist nicht die kürzeste Variante, aber am einfachsten zu verstehen.
 
@@ -87,13 +89,15 @@ Kümmere Dich nun um die restlichen Boxen.
 
 Um einen Wert in einem Dictionary zu erhöhen, kannst Du folgendes Muster verwenden:
 
-    :::python3
-    data[schluessel] = data[schluessel] + 1
+```python
+data[schluessel] = data[schluessel] + 1
+```
 
 oder kürzer:
 
-    :::python3
-    data[schluessel] += 1
+```python
+data[schluessel] += 1
+```
 
 Stelle sicher, dass das Programm läuft.
 
@@ -109,10 +113,11 @@ Vereinfache das Programm (das Erstellen des leeren Dictionaries), indem Du die M
 
 Erstelle eine Liste mit den Schlüsseln des Dictionaries und eine zweite mit den entsprechenden Werten. Verwende das Muster:
 
-    :::python3
-    for key in dictionary:
-        print(key, dictionary[key])
+```python
+for key in dictionary:
+    print(key, dictionary[key])
 
+```
 
 Alternativ kannst Du auch mit der Methode `d.items()` alle Schlüssel-Wert-Paare ermitteln.
 
@@ -136,12 +141,13 @@ Sammle die Buchstabenhäufigkeiten für **alle** Jahrgänge im Dictionary.
 
 Das Dictionary enthält dann für jeden Buchstaben eine Liste, z.B.:
 
-    :::python3
-    data = {
-        'A': [100, 103, 107, ..],
-        'B': [73, 32, 22, ..],
-        ..
-    }
+```python
+data = {
+    'A': [100, 103, 107, ..],
+    'B': [73, 32, 22, ..],
+    ..
+}
+```
 
 Normalisiere die Anahl, indem Du durch die Geburtenzahl teilst.
 

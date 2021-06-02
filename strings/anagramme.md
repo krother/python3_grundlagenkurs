@@ -5,17 +5,19 @@
 
 Beispielsweise hat der String:
 
-    :::text
-    ROT
+```text
+ROT
+```
 
 Die Anagramme (Permutationen der Buchstaben):
 
-    :::text
-    TOR
-    ORT
-    TRO
-    RTO
-    OTR
+```text
+TOR
+ORT
+TRO
+RTO
+OTR
+```
 
 ## Hinweise
 

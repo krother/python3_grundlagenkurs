@@ -13,27 +13,30 @@ Sorge dafür, daß Du die Lebenserwartung in einem DataFrame `lifeexp` hast.
 
 Wähle einige Jahrgänge aus. Beim Einlesen aus Excel haben die Daten jedoch *Integer-Zahlen* als Spaltennamen. Daher:
 
-    :::python3
-    lifeexp = lifeexp[[1950, 1975, 2000, 2015]]
+```python
+lifeexp = lifeexp[[1950, 1975, 2000, 2015]]
+```
 
 ### Schritt 3
 
 Zeichne ein Histogramm für das Jahr 2015 mit den Standardeinstellungen.
 
-    :::python3
-    from matplotlib import pyplot as plt
+```python
+from matplotlib import pyplot as plt
 
-    lifeexp[2015].hist()
-    plt.savefig('histo.png')
+lifeexp[2015].hist()
+plt.savefig('histo.png')
+```
 
 ### Schritt 3
 
 Probiere unterschiedliche Werte für die Klassenanzahl aus. Wähle jeweils einen der folgenden Befehle und ersetze den vorher ausgeführten:
 
-    :::python3
-    lifeexp['spaltenname'].hist(bins=5)
-    lifeexp['spaltenname'].hist(bins=10)
-    lifeexp['spaltenname'].hist(bins=20)
+```python
+lifeexp['spaltenname'].hist(bins=5)
+lifeexp['spaltenname'].hist(bins=10)
+lifeexp['spaltenname'].hist(bins=20)
+```
 
 Entscheide Dich für einen aussagekräftigen Wert.
 
@@ -44,18 +47,20 @@ Nun werden wir das Diagramm verschönern.
 
 Beschrifte das Diagramm. Verwende dazu vor dem Abspeichern die Funktionen:
 
-    :::python3
-    plt.title('text')
-    plt.xlabel('text')
-    plt.ylabel('text')
+```python
+plt.title('text')
+plt.xlabel('text')
+plt.ylabel('text')
 
+```
 
 ### Schritt 5
 
 Stelle über die Funktion `plt.axis` den Bildausschnitt ein.
 
-    :::python3
-    plt.axis([0.0, 50.0, 0.0, 10.0)
+```python
+plt.axis([0.0, 50.0, 0.0, 10.0)
+```
 
 Finde passende Zahlen und setze diese in den obigen Befehl ein.
 
@@ -64,11 +69,12 @@ Finde passende Zahlen und setze diese in den obigen Befehl ein.
 
 Probiere nacheinander folgende optionale Parameter der Funktion `hist()` aus:
 
-    :::python3
-    facecolor='green',
-    facecolor='#ff0000',
-    alpha=0.75,
-    histtype='bar',
+```python
+facecolor='green',
+facecolor='#ff0000',
+alpha=0.75,
+histtype='bar',
+```
 
 Die Parameter werden in den Aufruf von `hist()` am Ende angefügt.
 
@@ -76,7 +82,8 @@ Die Parameter werden in den Aufruf von `hist()` am Ende angefügt.
 
 Lege die Auflösung beim Schreiben fest.
 
-    :::python3
-    plt.savefig('histo.png', dpi=150)
+```python
+plt.savefig('histo.png', dpi=150)
+```
 
 Probiere auch, das Diagramm als SVG-Grafik abzuspeichern, indem Du die Endung `.svg` angibst. Welche Vor- und Nachteile haben die Formate PNG und SVG?
