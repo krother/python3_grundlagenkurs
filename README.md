@@ -32,7 +32,8 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 | [Listen](datenstrukturen/listen.md) | ⭐ |
 | [Bedingte Schleifen](erste_schritte/while.md) | ⭐ |
 | [Dictionaries](datenstrukturen/dictionaries.md) | ⭐⭐ |
-| [Eigene Funktionen schreiben](erste_schritte/funktionen.md) | ⭐ |
+| [Tic-Tac-Toe](datenstrukturen/tictac.md) | ⭐ |
+| [Minesweeper](datenstrukturen/minesweeper.md) | ⭐⭐ |
 
 ----
 
@@ -40,13 +41,12 @@ Suche Dir eine Aufgabe aus und fange an zu programmieren!
 
 | Challenge | Schwierigkeit |
 |-----------|---------------|
-| [Tic-Tac-Toe](datenstrukturen/tictac.md) | ⭐⭐ |
-| [Minesweeper](datenstrukturen/minesweeper.md) | ⭐⭐⭐ |
 | [Babys auszählen](datenstrukturen/babys_auszaehlen.md) | ⭐ |
 | [Namen finden](datenstrukturen/namen_finden.md) | ⭐⭐ |
 | [Eine Zeitreihe erstellen](datenstrukturen/zeitreihe.md) | ⭐⭐ |
 | [Tabellen ausgeben](datenstrukturen/tabelle_ausgeben.md) | ⭐⭐ |
 | [Anfangsbuchstaben zählen](datenstrukturen/zaehlen.md) | ⭐⭐ |
+| [Eigene Funktionen schreiben](erste_schritte/funktionen.md) | ⭐⭐ |
 
 ----
 

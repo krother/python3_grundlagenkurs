@@ -158,4 +158,4 @@ Vollende das Schere-Stein-Papier-Spiel.
 * sowohl Gross- als auch Kleinbuchstaben sind als Eingabe möglich
 * verwende einen einzigen `if..elif..else` Block
 * erweitere das Spiel durch [Eidechse und Spock](https://en.wikipedia.org/wiki/Rock_paper_scissors#Additional_weapons)
-* verwende Zustandsvariablen, so dass nur eine einzige `if`-Anweisung (ohne `elif` oder `else`) übrig bleibt
+* verwende Zustandsvariablen, so dass nur eine oder zwei `if`-Anweisungen (ohne `elif` oder `else`) übrig bleiben
